@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://esm.sh https://js.stripe.com https://www.paypal.com https://www.paypalobjects.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://images.weserv.nl https://ir.ozone.ru https://static.tildacdn.com https://*.supabase.co https://www.paypalobjects.com; connect-src 'self' https://*.supabase.co https://esm.sh https://api.stripe.com https://www.paypal.com https://www.sandbox.paypal.com; frame-src https://js.stripe.com https://www.paypal.com https://www.sandbox.paypal.com; base-uri 'self'; form-action 'self'; object-src 'none'" />
+  <title data-i18n="seo.title">Sangam Herbals — Authentic Ayurveda, Worldwide</title>
+  <meta name="description" data-i18n-attr="content" data-i18n="seo.description" content="Authentic Ayurvedic remedies, cosmetics, oils and foods — prepared to classical texts, made in India under Dr. Praveen Rathi, and delivered worldwide." />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.weserv.nl" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css?v=37" />
+</head>
+<body>
+
+  <!-- ░░ HIGH-DEMAND NOTICE ░░ -->
+  <div class="notice" id="site-notice" role="status" hidden>
+    <span class="notice__msg" data-i18n="notice.demand">✦  We’re experiencing high demand — every order is confirmed personally, usually within 24 hours. Thank you for your patience.</span>
+    <button class="notice__x" id="notice-close" type="button" aria-label="Dismiss">×</button>
+  </div>
+
+  <!-- ░░ 00 · THE COLOPHON — region + language gate ░░ -->
+  <div id="sr-status" role="status" aria-live="polite" class="sr-only"></div>
+
+  <div class="gate" id="gate" aria-modal="true" role="dialog" aria-labelledby="gate-title" aria-describedby="gate-desc" hidden>
+    <img class="gate__watermark" src="assets/logo.svg" alt="" aria-hidden="true" />
+    <div class="gate__card" tabindex="-1">
+      <header class="gate__masthead">
+        <img src="assets/logo.png" srcset="assets/logo.png 1x, assets/logo@2x.png 2x" alt="Sangam Herbals" class="gate__logo" width="200" height="119" />
+        <p class="gate__sub mono">Ayurveda · Worldwide</p>
+        <button class="gate__close" id="gate-close" type="button" aria-label="Close" data-i18n-attr="aria-label" data-i18n="gate.close" hidden>
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </header>
+
+      <div class="gate__intro">
+        <h1 class="gate__title" id="gate-title" data-i18n="gate.choose_region">Choose your country and language</h1>
+        <p class="gate__lede" id="gate-desc" data-i18n="gate.subtitle">Authentic Ayurveda, crafted in India — choose your country and language</p>
+        <div class="gx__search">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3-3"/></svg>
+          <input type="search" id="gate-filter" class="gx__search-input" autocomplete="off" spellcheck="false" aria-controls="gate-countries" data-i18n-attr="aria-label,placeholder" data-i18n="gate.filter" aria-label="Search countries" placeholder="Search countries" />
+          <span class="gx__count mono" id="gate-country-count" aria-hidden="true">54</span>
+        </div>
+      </div>
+
+      <!-- Tesla-style flagless newspaper-column country/language list -->
+      <div class="gate__body">
+        <div class="gx__flow" id="gate-countries"></div>
+        <p class="gx__noresult" id="gate-noresult" role="status" hidden data-i18n="gate.no_country">No country matches that search.</p>
+      </div>
+
+      <footer class="gate__bar">
+        <div class="gate__bar-text">
+          <p class="gate__bar-head" id="gate-summary" data-empty="1" aria-live="polite" data-i18n-attr="data-placeholder" data-i18n="gate.select_prompt" data-placeholder="Select your country and language">Select your country and language</p>
+          <p class="gate__bar-sub mono" id="gate-bar-sub"></p>
+        </div>
+        <button class="btn btn--solid gate__go" id="gate-go" disabled>
+          <span class="gate__go-label" id="gate-go-label" data-i18n="gate.continue">Enter store</span>
+          <span class="arr" aria-hidden="true">→</span>
+        </button>
+      </footer>
+    </div>
+  </div>
+
+  <!-- ░░ HEADER ░░ -->
+  <header class="header" id="header" role="banner">
+    <div class="wrap header__inner">
+      <a href="#top" class="brand" aria-label="Sangam Herbals">
+        <img src="assets/logo.png" srcset="assets/logo.png 1x, assets/logo@2x.png 2x" alt="Sangam Herbals" class="brand__logo" width="124" height="74" />
+      </a>
+      <nav class="nav" id="nav" aria-label="Primary">
+        <a href="#learn" data-i18n="nav.learn">Learn</a>
+        <a href="#shop" data-i18n="nav.shop">Shop</a>
+        <a href="#about" data-i18n="nav.heritage">About</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="header__actions">
+        <button class="region-btn mono" id="region-btn" aria-label="Change region and language" data-i18n-attr="aria-label" data-i18n="common.change_region">
+          <span id="region-flag">🌐</span><span id="region-lang" class="region-btn__lang">EN</span>
+        </button>
+        <button class="iconbtn" id="search-btn" aria-label="Search">
+          <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="m20 20-3-3"/></svg>
+        </button>
+        <button class="iconbtn cart-btn" id="cart-btn" aria-label="Cart">
+          <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 7h13l-1.2 9.2A2 2 0 0 1 15.8 18H8.3a2 2 0 0 1-2-1.7L5 4H2"/><circle cx="9" cy="21" r="1"/><circle cx="16" cy="21" r="1"/></svg>
+          <span class="cart-count mono" id="cart-count" hidden>0</span>
+        </button>
+        <button class="iconbtn nav-toggle" id="nav-toggle" aria-label="Menu">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <span class="header__progress" id="scroll-progress" aria-hidden="true"></span>
+  </header>
+
+  <!-- ░░ TRUST BAR — persistent proof strip (every page) ░░ -->
+  <div class="trustbar" id="trust-bar" aria-label="Why shop with us"></div>
+
+  <main id="top">
+
+    <!-- ░░ 01 · HERO ░░ -->
+    <section class="hero">
+      <div class="wrap hero__inner reveal">
+        <div class="hero__col">
+          <p class="hero__kicker" data-i18n="hero.eyebrow">A family Ayurvedic house · Made in India, to classical texts</p>
+          <h1 class="hero__title" data-i18n="hero.title">The tradition, prepared faithfully — and answered for by name.</h1>
+          <p class="hero__lede" data-i18n="hero.subtitle">Authentic Ayurvedic remedies, oils, cosmetics and foods, made in India under the direction of Dr. Praveen Rathi and delivered worldwide. Real herbs, open ingredients, clear labelling — trust you can check before you buy.</p>
+          <p class="hero__credential mono" data-i18n="hero.credential">Dr. Praveen Rathi · Director — formulated and overseen at the source, in India</p>
+          <div class="hero__cta">
+            <a href="#founder" class="link-cta" data-i18n="hero.cta_story">Meet the house <span class="arr">→</span></a>
+            <a href="#shop" class="link-ghost" data-i18n="hero.cta_shop">Browse the catalogue</a>
+          </div>
+          <form class="hero__search hero__search--mini" id="hero-search-form">
+            <input type="search" id="hero-search" aria-label="Search products" data-i18n-attr="placeholder" data-i18n="nav.search" placeholder="Search products" autocomplete="off" />
+            <span class="hero__count mono" id="hero-count" aria-live="polite"></span>
+          </form>
+          <div class="hero__chips" id="hero-chips" hidden></div>
+        </div>
+        <figure class="hero__media">
+          <img src="assets/tree.svg" class="hero__tree" alt="Sangam Herbals" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- ░░ 02 · STATEMENT ░░ -->
+    <section class="argument">
+      <div class="wrap argument__inner reveal">
+        <span class="argument__num mono" data-i18n="argument.kicker">Our principle</span>
+        <p class="argument__line" data-i18n="argument.line">Five thousand years of practice, held to the standards of a continent.</p>
+      </div>
+    </section>
+
+    <!-- ░░ 03 · LEARN — What is Ayurveda ░░ -->
+    <section class="section learn" id="learn">
+      <div class="wrap">
+        <header class="ihead reveal">
+          <span class="ihead__kicker mono" data-i18n="edu.learn_kicker">Ayurveda, explained</span>
+          <h2 class="ihead__title" data-i18n="edu.learn_title">What is Ayurveda?</h2>
+        </header>
+        <div class="learn__grid reveal">
+          <div class="learn__lead">
+            <p class="learn__para" data-i18n="edu.learn_p1">Ayurveda is a traditional system of natural wellbeing that began in India around 5,000 years ago. Its name comes from two Sanskrit words: ayur, meaning life, and veda, meaning knowledge. At its heart is one simple idea: wellbeing comes from keeping the body and mind in balance.</p>
+            <p class="learn__para" data-i18n="edu.learn_p2">Rather than focusing on quick fixes, Ayurveda looks at the whole person and the rhythm of everyday life. It draws on plants, herbs and traditional formulations, alongside simple daily routines for diet, sleep and self-care. Think of it as a time-honoured approach to looking after yourself, gently and consistently.</p>
+          </div>
+          <ul class="principles">
+            <li class="principle"><span class="principle__n mono">01</span><div><h3 class="principle__t" data-i18n="edu.learn_pr1_l">Balance</h3><p class="principle__d" data-i18n="edu.learn_pr1_t">Ayurveda sees wellbeing as a state of balance, and aims to keep the body and mind steady through the seasons and the demands of daily life.</p></div></li>
+            <li class="principle"><span class="principle__n mono">02</span><div><h3 class="principle__t" data-i18n="edu.learn_pr2_l">Whole-person</h3><p class="principle__d" data-i18n="edu.learn_pr2_t">It considers the person as a whole, taking in diet, sleep, activity and mood rather than looking at any one part in isolation.</p></div></li>
+            <li class="principle"><span class="principle__n mono">03</span><div><h3 class="principle__t" data-i18n="edu.learn_pr3_l">Natural ingredients</h3><p class="principle__d" data-i18n="edu.learn_pr3_t">Its preparations are built from plants, herbs, oils and other natural ingredients, made using traditional methods passed down over generations.</p></div></li>
+            <li class="principle"><span class="principle__n mono">04</span><div><h3 class="principle__t" data-i18n="edu.learn_pr4_l">Daily ritual</h3><p class="principle__d" data-i18n="edu.learn_pr4_t">Much of Ayurveda lives in small, repeated daily habits — the simple acts of care that, over time, support a sense of vitality and everyday wellbeing.</p></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 04 · DOSHAS ░░ -->
+    <section class="section doshas bleed" id="doshas">
+      <div class="wrap">
+        <header class="ihead reveal">
+          <span class="ihead__kicker mono" data-i18n="edu.dosha_kicker">Ayurveda basics</span>
+          <h2 class="ihead__title" data-i18n="edu.dosha_title">The three doshas</h2>
+          <p class="ihead__intro" data-i18n="edu.dosha_intro">In Ayurveda, three energies known as doshas — Vata, Pitta and Kapha — are present in everyone in a unique blend, and the aim is simply to keep your own mix in balance.</p>
+        </header>
+        <div class="dosha-grid reveal">
+          <article class="dosha">
+            <span class="dosha__el mono" data-i18n="edu.vata_el">Air &amp; Space</span>
+            <h3 class="dosha__name">Vata</h3>
+            <p class="dosha__essence" data-i18n="edu.vata_essence">The energy of movement</p>
+            <p class="dosha__traits" data-i18n="edu.vata_traits">Vata types tend to be light, quick and creative — lively in mind and body when in balance.</p>
+            <p class="dosha__care"><span class="mono" data-i18n="edu.care_label">Kept in balance</span><span data-i18n="edu.vata_care">In Ayurveda, Vata is traditionally kept steady with warmth, routine and grounding, nourishing foods and oils.</span></p>
+          </article>
+          <article class="dosha">
+            <span class="dosha__el mono" data-i18n="edu.pitta_el">Fire &amp; Water</span>
+            <h3 class="dosha__name">Pitta</h3>
+            <p class="dosha__essence" data-i18n="edu.pitta_essence">The energy of transformation</p>
+            <p class="dosha__traits" data-i18n="edu.pitta_traits">Pitta types tend to be focused, driven and warm, with sharp energy and a strong sense of purpose.</p>
+            <p class="dosha__care"><span class="mono" data-i18n="edu.care_label">Kept in balance</span><span data-i18n="edu.pitta_care">In Ayurveda, Pitta is traditionally kept balanced with cooling foods, calm routines and time spent in nature.</span></p>
+          </article>
+          <article class="dosha">
+            <span class="dosha__el mono" data-i18n="edu.kapha_el">Earth &amp; Water</span>
+            <h3 class="dosha__name">Kapha</h3>
+            <p class="dosha__essence" data-i18n="edu.kapha_essence">The energy of structure</p>
+            <p class="dosha__traits" data-i18n="edu.kapha_traits">Kapha types tend to be calm, steady and grounded, with a settled, easy-going nature.</p>
+            <p class="dosha__care"><span class="mono" data-i18n="edu.care_label">Kept in balance</span><span data-i18n="edu.kapha_care">In Ayurveda, Kapha is traditionally kept lively with movement, warming spices and energising daily rituals.</span></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 05 · ABOUT — Why Sangam (dark band) ░░ -->
+    <section class="about bleed" id="about">
+      <div class="wrap reveal">
+        <span class="ihead__kicker mono" data-i18n="edu.about_kicker">About Sangam Herbals</span>
+        <h2 class="about__title" data-i18n="edu.about_title">A custodian of authentic Ayurveda, made at the source</h2>
+        <div class="about__body">
+          <p data-i18n="edu.about_p1">Sangam Herbals is a family-run Ayurvedic house in India, founded under the direction of Dr. Praveen Rathi. Each formulation is prepared to classical Ayurvedic texts, using real herbs and cold-pressed oils rather than shortcuts or synthetic fillers. The recipes are old; the standards we hold them to are not.</p>
+          <p data-i18n="edu.about_p2">Everything is made in India, at the source of the plants and the tradition itself. From there, our products are openly labelled and delivered worldwide. We believe the best way to earn your trust is to be plain about what we make and how we make it — and to let the products speak for themselves.</p>
+        </div>
+        <div class="about__pillars">
+          <div class="apill"><span class="apill__n mono">01</span><h3 data-i18n="edu.about_pr1_l">Authentic formulas</h3><p data-i18n="edu.about_pr1_t">Recipes are prepared to classical Ayurvedic texts, the way they have been made for generations.</p></div>
+          <div class="apill"><span class="apill__n mono">02</span><h3 data-i18n="edu.about_pr2_l">Real ingredients</h3><p data-i18n="edu.about_pr2_t">We work with genuine herbs and cold-pressed oils, with no synthetic fillers added for convenience.</p></div>
+          <div class="apill"><span class="apill__n mono">03</span><h3 data-i18n="edu.about_pr3_l">Made in India, at the source</h3><p data-i18n="edu.about_pr3_t">Every product is crafted in India, where the plants grow and the tradition began.</p></div>
+          <div class="apill"><span class="apill__n mono">04</span><h3 data-i18n="edu.about_pr4_l">Honest labelling &amp; worldwide delivery</h3><p data-i18n="edu.about_pr4_t">Our range is clearly labelled, with ingredients and usage shown openly, and shipped worldwide.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ FOUNDER'S LETTER — the accountable human (trust) ░░ -->
+    <section class="founder" id="founder"></section>
+
+    <!-- ░░ OUR STANDARDS — how it's made (trust) ░░ -->
+    <section class="section standards-sec" id="standards"></section>
+
+    <!-- ░░ 06 · SHOP BY CONCERN ░░ -->
+    <section class="section concerns" id="concerns">
+      <div class="wrap">
+        <header class="ihead reveal">
+          <span class="ihead__kicker mono" data-i18n="edu.concern_kicker">Find your starting point</span>
+          <h2 class="ihead__title" data-i18n="edu.concern_title">Shop by concern</h2>
+          <p class="ihead__intro" data-i18n="edu.concern_intro">Not sure where to begin? Choose an everyday area you care about, and we'll point you to the products and traditions that fit.</p>
+        </header>
+        <div class="concern-grid reveal">
+          <button class="concern" data-concern="digestion"><h3 class="concern__t" data-i18n="edu.c_digestion_l">Digestion &amp; Gut</h3><p class="concern__d" data-i18n="edu.c_digestion_d">Comfortable digestion and everyday gut balance — classical churnas, carminative spices and gentle blends like Triphala and Avipattikar.</p><span class="concern__go mono"><span data-i18n="edu.explore">Explore</span> <span class="arr">→</span></span></button>
+          <button class="concern" data-concern="immunity"><h3 class="concern__t" data-i18n="edu.c_immunity_l">Immunity &amp; Vitality</h3><p class="concern__d" data-i18n="edu.c_immunity_d">Time-honoured tonics — chyawanprash, Amla, Tulsi and Giloy — traditionally valued in Ayurveda for everyday resilience.</p><span class="concern__go mono"><span data-i18n="edu.explore">Explore</span> <span class="arr">→</span></span></button>
+          <button class="concern" data-concern="energy"><h3 class="concern__t" data-i18n="edu.c_energy_l">Strength &amp; Energy</h3><p class="concern__d" data-i18n="edu.c_energy_d">Rejuvenating rasayana herbs and tonics — Shilajit, Shatavari, Bala and classic strength formulas — for everyday stamina.</p><span class="concern__go mono"><span data-i18n="edu.explore">Explore</span> <span class="arr">→</span></span></button>
+          <button class="concern" data-concern="respiratory"><h3 class="concern__t" data-i18n="edu.c_respiratory_l">Respiratory &amp; Seasonal</h3><p class="concern__d" data-i18n="edu.c_respiratory_d">Throat, chest and seasonal comfort, from Sitopaladi and Mulethi to soothing herbal lozenges.</p><span class="concern__go mono"><span data-i18n="edu.explore">Explore</span> <span class="arr">→</span></span></button>
+          <button class="concern" data-concern="stress"><h3 class="concern__t" data-i18n="edu.c_stress_l">Stress, Sleep &amp; Mind</h3><p class="concern__d" data-i18n="edu.c_stress_d">Calming, grounding blends for focus and restful evenings — Brahmi, Shankhpushpi, Jatamansi and valerian.</p><span class="concern__go mono"><span data-i18n="edu.explore">Explore</span> <span class="arr">→</span></span></button>
+          <button class="concern" data-concern="joints"><h3 class="concern__t" data-i18n="edu.c_joints_l">Joints &amp; Muscles</h3><p class="concern__d" data-i18n="edu.c_joints_d">Support for active bodies and easy movement — Guggul formulas and warming massage oils like Mahanarayan.</p><span class="concern__go mono"><span data-i18n="edu.explore">Explore</span> <span class="arr">→</span></span></button>
+          <button class="concern" data-concern="womens"><h3 class="concern__t" data-i18n="edu.c_womens_l">Women's Wellbeing</h3><p class="concern__d" data-i18n="edu.c_womens_d">Gentle, traditional support for women's everyday balance — Shatavari, Ashoka and classic women's tonics.</p><span class="concern__go mono"><span data-i18n="edu.explore">Explore</span> <span class="arr">→</span></span></button>
+          <button class="concern" data-concern="skin"><h3 class="concern__t" data-i18n="edu.c_skin_l">Skin &amp; Face</h3><p class="concern__d" data-i18n="edu.c_skin_d">Plant-based face and body care plus purifying herbs — cleansers, toners, hydrolats, Neem, Turmeric and Manjistha.</p><span class="concern__go mono"><span data-i18n="edu.explore">Explore</span> <span class="arr">→</span></span></button>
+          <button class="concern" data-concern="hair"><h3 class="concern__t" data-i18n="edu.c_hair_l">Hair &amp; Scalp</h3><p class="concern__d" data-i18n="edu.c_hair_d">Nourishing hair and scalp care — Bhringraj and Amla oils, herbal shampoos and natural henna colour.</p><span class="concern__go mono"><span data-i18n="edu.explore">Explore</span> <span class="arr">→</span></span></button>
+          <button class="concern" data-concern="oral"><h3 class="concern__t" data-i18n="edu.c_oral_l">Oral Care</h3><p class="concern__d" data-i18n="edu.c_oral_d">Natural daily care for teeth, gums and fresh breath — herbal toothpastes and time-tested ingredients like Neem.</p><span class="concern__go mono"><span data-i18n="edu.explore">Explore</span> <span class="arr">→</span></span></button>
+          <button class="concern" data-concern="food"><h3 class="concern__t" data-i18n="edu.c_food_l">Food, Teas &amp; Spices</h3><p class="concern__d" data-i18n="edu.c_food_d">The kitchen side of Ayurveda — authentic spices and masalas, herbal and Indian teas, juices, sweets and more.</p><span class="concern__go mono"><span data-i18n="edu.explore">Explore</span> <span class="arr">→</span></span></button>
+          <button class="concern" data-concern="fragrance"><h3 class="concern__t" data-i18n="edu.c_fragrance_l">Fragrance &amp; Ritual</h3><p class="concern__d" data-i18n="edu.c_fragrance_d">Incense and long-lasting Indian attars to scent your space and everyday ritual.</p><span class="concern__go mono"><span data-i18n="edu.explore">Explore</span> <span class="arr">→</span></span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 07 · KEY HERBS ░░ -->
+    <section class="section herbs" id="herbs">
+      <div class="wrap">
+        <header class="ihead reveal">
+          <span class="ihead__kicker mono" data-i18n="edu.herb_kicker">Ingredient education</span>
+          <h2 class="ihead__title" data-i18n="edu.herb_title">Key Ayurvedic herbs</h2>
+          <p class="ihead__intro" data-i18n="edu.herb_intro">A plain-language guide to the eight herbs you will meet most often across our catalogue, and the role each one has long held in Ayurvedic tradition.</p>
+        </header>
+        <div class="herb-grid reveal">
+          <article class="herb"><div class="herb__img"><img loading="lazy" src="assets/herbs/triphala.jpg" alt=""></div><div class="herb__inner"><h3 class="herb__name">Triphala</h3><p class="herb__sk">Terminalia chebula, T. bellirica, Emblica officinalis</p><p class="herb__what" data-i18n="edu.herb_triphala_what">A classic blend of three dried fruits, ground together into a single powder.</p><p class="herb__trad" data-i18n="edu.herb_triphala_trad">In Ayurveda, traditionally used to support everyday digestion and gentle internal balance.</p><div class="herb__foot"><span class="herb__found mono" data-i18n="edu.herb_triphala_found">Churnas &amp; tablets</span><button class="herb__shop" data-query="triphala"><span data-i18n="edu.shop">Shop</span> Triphala <span class="arr">→</span></button></div></div></article>
+          <article class="herb"><div class="herb__img"><img loading="lazy" src="assets/herbs/tulsi.jpg" alt=""></div><div class="herb__inner"><h3 class="herb__name">Tulsi <span style="font-weight:500;color:var(--ink-soft)">(Holy Basil)</span></h3><p class="herb__sk">Ocimum sanctum</p><p class="herb__what" data-i18n="edu.herb_tulsi_what">An aromatic leaf from the holy basil plant, used as a powder, in teas and in skin and hair care.</p><p class="herb__trad" data-i18n="edu.herb_tulsi_trad">Long valued in Ayurvedic tradition to support everyday wellbeing and a sense of vitality.</p><div class="herb__foot"><span class="herb__found mono" data-i18n="edu.herb_tulsi_found">Churnas, teas &amp; skincare</span><button class="herb__shop" data-query="tulsi"><span data-i18n="edu.shop">Shop</span> Tulsi <span class="arr">→</span></button></div></div></article>
+          <article class="herb"><div class="herb__img"><img loading="lazy" src="assets/herbs/neem.jpg" alt=""></div><div class="herb__inner"><h3 class="herb__name">Neem</h3><p class="herb__sk">Azadirachta indica</p><p class="herb__what" data-i18n="edu.herb_neem_what">A bitter leaf from the neem tree, used as a powder and throughout cleansing skin and hair formulas.</p><p class="herb__trad" data-i18n="edu.herb_neem_trad">Traditionally associated in Ayurveda with everyday skin care and a clean, balanced complexion.</p><div class="herb__foot"><span class="herb__found mono" data-i18n="edu.herb_neem_found">Churnas, face &amp; hair care</span><button class="herb__shop" data-query="neem"><span data-i18n="edu.shop">Shop</span> Neem <span class="arr">→</span></button></div></div></article>
+          <article class="herb"><div class="herb__img"><img loading="lazy" src="assets/herbs/amla.jpg" alt=""></div><div class="herb__inner"><h3 class="herb__name">Amla <span style="font-weight:500;color:var(--ink-soft)">(Indian Gooseberry)</span></h3><p class="herb__sk">Emblica officinalis</p><p class="herb__what" data-i18n="edu.herb_amla_what">A small, sour green fruit, used as a powder, a juice and in hair-care products.</p><p class="herb__trad" data-i18n="edu.herb_amla_trad">Traditionally valued in Ayurveda to support everyday vitality and the care of hair and scalp.</p><div class="herb__foot"><span class="herb__found mono" data-i18n="edu.herb_amla_found">Churnas, juices &amp; hair care</span><button class="herb__shop" data-query="amla"><span data-i18n="edu.shop">Shop</span> Amla <span class="arr">→</span></button></div></div></article>
+          <article class="herb"><div class="herb__img"><img loading="lazy" src="assets/herbs/brahmi.jpg" alt=""></div><div class="herb__inner"><h3 class="herb__name">Brahmi</h3><p class="herb__sk">Bacopa monnieri</p><p class="herb__what" data-i18n="edu.herb_brahmi_what">A small creeping herb, taken as a powder or in tablet form.</p><p class="herb__trad" data-i18n="edu.herb_brahmi_trad">In Ayurveda, traditionally associated with calm focus and everyday mental wellbeing.</p><div class="herb__foot"><span class="herb__found mono" data-i18n="edu.herb_brahmi_found">Churnas &amp; tablets</span><button class="herb__shop" data-query="brahmi"><span data-i18n="edu.shop">Shop</span> Brahmi <span class="arr">→</span></button></div></div></article>
+          <article class="herb"><div class="herb__img herb__img--product"><img loading="lazy" src="assets/herbs/chyawanprash.jpg" alt="Sangam Herbals Chyawanprash"></div><div class="herb__inner"><h3 class="herb__name">Chyawanprash</h3><p class="herb__sk">Traditional herbal blend</p><p class="herb__what" data-i18n="edu.herb_chyawanprash_what">A traditional dark herbal jam built around amla and a blend of many herbs and spices.</p><p class="herb__trad" data-i18n="edu.herb_chyawanprash_trad">Long taken in Ayurvedic tradition as a daily tonic to support everyday vitality and wellbeing.</p><div class="herb__foot"><span class="herb__found mono" data-i18n="edu.herb_chyawanprash_found">Ayurveda</span><button class="herb__shop" data-query="chyawanprash"><span data-i18n="edu.shop">Shop</span> Chyawanprash <span class="arr">→</span></button></div></div></article>
+          <article class="herb"><div class="herb__img"><img loading="lazy" src="assets/herbs/turmeric.jpg" alt=""></div><div class="herb__inner"><h3 class="herb__name">Turmeric <span style="font-weight:500;color:var(--ink-soft)">(Haldi)</span></h3><p class="herb__sk">Curcuma longa</p><p class="herb__what" data-i18n="edu.herb_turmeric_what">A golden-yellow root, ground into a warm spice powder and used in cooking, juices and skin care.</p><p class="herb__trad" data-i18n="edu.herb_turmeric_trad">Traditionally valued in Ayurveda to support everyday balance and the care of the skin.</p><div class="herb__foot"><span class="herb__found mono" data-i18n="edu.herb_turmeric_found">Spices, churnas &amp; skincare</span><button class="herb__shop" data-query="turmeric"><span data-i18n="edu.shop">Shop</span> Turmeric <span class="arr">→</span></button></div></div></article>
+          <article class="herb"><div class="herb__img"><img loading="lazy" src="assets/herbs/henna.jpg" alt=""></div><div class="herb__inner"><h3 class="herb__name">Henna <span style="font-weight:500;color:var(--ink-soft)">(Mehndi)</span></h3><p class="herb__sk">Lawsonia inermis</p><p class="herb__what" data-i18n="edu.herb_henna_what">A leaf milled into a fine green powder that releases a natural reddish colour.</p><p class="herb__trad" data-i18n="edu.herb_henna_trad">Long used in Ayurvedic and Indian tradition as a natural colour and conditioning treatment for hair.</p><div class="herb__foot"><span class="herb__found mono" data-i18n="edu.herb_henna_found">Henna &amp; hair care</span><button class="herb__shop" data-query="henna"><span data-i18n="edu.shop">Shop</span> Henna <span class="arr">→</span></button></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 08 · CATEGORIES ░░ -->
+    <section class="section streams" id="categories">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <h2 class="section__title" data-i18n="streams.title">Shop by category</h2>
+          <a href="#shop" class="link-ghost" data-i18n="nav.shop">All products</a>
+        </header>
+        <div class="streams__list" id="pillars"></div>
+      </div>
+    </section>
+
+    <!-- ░░ DOSHAS ░░ -->
+    <section class="section doshas" id="doshas">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <h2 class="section__title" data-i18n="doshas.title">Shop by Dosha</h2>
+          <p class="section__sub" data-i18n="doshas.sub">Find what your body needs</p>
+        </header>
+        <div class="doshas__grid" id="dosha-cards"></div>
+      </div>
+    </section>
+
+    <!-- ░░ CREDIBILITY — checkable facts before the first price (trust) ░░ -->
+    <section class="credibility-sec" id="credibility"></section>
+
+    <!-- ░░ 04 · CATALOGUE ░░ -->
+    <section class="section shop" id="shop">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <h2 class="section__title" data-i18n="shop.title">All products</h2>
+        </header>
+        <div class="shop__layout">
+          <aside class="rail" id="rail">
+            <button class="rail__toggle mono" id="rail-toggle" aria-expanded="false" aria-controls="rail-body">
+              <span data-i18n="shop.filter">Filter</span> <span class="arr">+</span>
+            </button>
+            <div class="rail__body" id="rail-body">
+              <div class="rail__search">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="11" cy="11" r="7"/><path d="m20 20-3-3"/></svg>
+                <input type="search" id="search-input" aria-label="Search products" data-i18n-attr="placeholder" data-i18n="nav.search" placeholder="Search products" autocomplete="off" />
+              </div>
+              <nav class="rail__filters" id="chips" aria-label="Filters"></nav>
+              <div class="rail__sort">
+                <label class="label mono" data-i18n="shop.sort">Sort</label>
+                <select id="sort-select" aria-label="Sort">
+                  <option value="featured" data-i18n="shop.sort_featured">Featured</option>
+                  <option value="price_low" data-i18n="shop.sort_price_low">Price: low to high</option>
+                  <option value="price_high" data-i18n="shop.sort_price_high">Price: high to low</option>
+                  <option value="az" data-i18n="shop.sort_az">Name A–Z</option>
+                </select>
+              </div>
+            </div>
+          </aside>
+          <div class="shop__main">
+            <div class="shop__bar">
+              <p class="shop__showing mono" aria-live="polite"><span data-i18n="shop.showing">Showing</span> <span id="result-count">0</span>&thinsp;/&thinsp;<span id="result-total">0</span></p>
+              <div class="shop__tokens" id="filter-tokens"></div>
+            </div>
+            <div class="grid" id="product-grid"></div>
+            <div class="shop__empty" id="shop-empty" role="status" hidden>
+              <p data-i18n="shop.empty">No entries match your filters.</p>
+              <button class="link-cta" id="clear-filters" data-i18n="shop.clear">Clear filters</button>
+            </div>
+            <button class="link-cta loadmore" id="load-more" hidden><span data-i18n="shop.loadmore">Load more</span> <span class="arr">↓</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 05 · A SINGLE REMEDY — featured spotlight ░░ -->
+    <section class="section remedy" id="remedy" hidden>
+      <div class="wrap remedy__grid reveal">
+        <div class="remedy__media"><img id="remedy-img" alt="" /></div>
+        <div class="remedy__body">
+          <span class="section__num mono" data-i18n="remedy.kicker">Featured product</span>
+          <h2 class="remedy__title" id="remedy-title"></h2>
+          <p class="remedy__desc" id="remedy-desc"></p>
+          <div class="remedy__foot">
+            <span class="remedy__price mono" id="remedy-price"></span>
+            <button class="btn btn--solid" id="remedy-add" data-i18n="shop.add">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 10 · GETTING STARTED + FAQ ░░ -->
+    <section class="section start" id="start">
+      <div class="wrap">
+        <header class="ihead reveal">
+          <span class="ihead__kicker mono" data-i18n="edu.start_kicker">New to Ayurveda</span>
+          <h2 class="ihead__title" data-i18n="edu.start_title">Getting started, made simple</h2>
+        </header>
+        <div class="start__grid reveal">
+          <ol class="start__steps">
+            <li class="step"><span class="step__n mono">01</span><div><h3 data-i18n="edu.step1_l">Learn the basics</h3><p data-i18n="edu.step1_t">Spend a few minutes understanding what Ayurveda is — a traditional Indian system of everyday wellbeing, balance and self-care.</p></div></li>
+            <li class="step"><span class="step__n mono">02</span><div><h3 data-i18n="edu.step2_l">Find your concern or type</h3><p data-i18n="edu.step2_t">Browse by what you care about — skin, hair, digestion, daily routine — and see which traditions and ingredients fit you.</p></div></li>
+            <li class="step"><span class="step__n mono">03</span><div><h3 data-i18n="edu.step3_l">Start simple</h3><p data-i18n="edu.step3_t">Choose one product that suits your routine, try it consistently, and add more only once it feels right.</p></div></li>
+          </ol>
+          <div class="start__faq">
+            <details class="faq"><summary class="faq__q"><span data-i18n="edu.faq1_q">Is Ayurveda safe, and how do I use the products?</span><span class="faq__i" aria-hidden="true">+</span></summary><p class="faq__a" data-i18n="edu.faq1_a">Our products are made from traditional plant-based ingredients and come with clear directions for everyday use. As a sensible precaution, please consult your doctor before starting anything new if you are pregnant, breastfeeding, taking medication, or under medical care.</p></details>
+            <details class="faq"><summary class="faq__q"><span data-i18n="edu.faq2_q">How do I choose if I'm completely new to this?</span><span class="faq__i" aria-hidden="true">+</span></summary><p class="faq__a" data-i18n="edu.faq2_a">Start with a single product that matches one everyday concern — such as skin, hair or daily care — rather than buying several at once. Each product explains in plain language what it is, how it has traditionally been used, and how to apply it.</p></details>
+            <details class="faq"><summary class="faq__q"><span data-i18n="edu.faq3_q">Are the products authentic and properly labelled?</span><span class="faq__i" aria-hidden="true">+</span></summary><p class="faq__a" data-i18n="edu.faq3_a">Every product is made in India under the direction of Dr. Praveen Rathi, following traditional Ayurvedic preparation and applicable quality and labelling standards. Ingredients and usage are listed openly on each product so you always know what you are getting.</p></details>
+            <details class="faq"><summary class="faq__q"><span data-i18n="edu.faq4_q">Do you ship to my country?</span><span class="faq__i" aria-hidden="true">+</span></summary><p class="faq__a" data-i18n="edu.faq4_a">Yes — we ship internationally. Delivery times and any applicable charges or duties are shown clearly at checkout before you confirm your order.</p></details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ 07 · PROVENANCE — proof strip ░░ -->
+    <section class="proof">
+      <div class="wrap proof__row mono reveal">
+        <span data-i18n="proof.certified">Honest, open labelling</span><i>·</i>
+        <span data-i18n="proof.ships">Ships internationally</span><i>·</i>
+        <span data-i18n="proof.eur">EUR pricing</span><i>·</i>
+        <span data-i18n="proof.origin">Made in India</span><i>·</i>
+        <span data-i18n="proof.langs">35 languages</span>
+      </div>
+    </section>
+
+    <!-- ░░ 08 · THE DISPATCH — newsletter ░░ -->
+    <section class="section dispatch" id="contact">
+      <div class="wrap dispatch__grid reveal">
+        <div>
+          <span class="section__num mono" data-i18n="footer.newsletter">Newsletter</span>
+          <h2 class="section__title" data-i18n="dispatch.title">Join our newsletter</h2>
+          <p class="dispatch__sub" data-i18n="footer.newsletter_sub">Ayurvedic rituals, new arrivals and EU offers.</p>
+        </div>
+        <form class="dispatch__form">
+          <input type="email" aria-label="Your email" data-i18n-attr="aria-label,placeholder" data-i18n="footer.email_ph" placeholder="Your email" required />
+          <button class="link-cta" data-i18n="footer.subscribe">Subscribe <span class="arr">→</span></button>
+          <p class="dispatch__note mono" data-i18n="common.currency_note">Prices shown in EUR, indicative for the EU market.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ░░ PRODUCT PAGE — own URL (?product=ID), rendered by JS ░░ -->
+  <main class="pdp" id="pdp" hidden></main>
+
+  <!-- ░░ GUARANTEE / RISK-REVERSAL — global band (every page) ░░ -->
+  <section class="guarantee bleed" id="guarantee"></section>
+
+  <!-- ░░ 09 · THE COLOPHON — footer ░░ -->
+  <footer class="footer">
+    <div class="wrap footer__grid">
+      <div class="footer__brand">
+        <a href="#top" class="brand" aria-label="Sangam Herbals">
+          <img src="assets/logo.png" srcset="assets/logo.png 1x, assets/logo@2x.png 2x" alt="Sangam Herbals" class="brand__logo brand__logo--lg" width="168" height="100" />
+        </a>
+        <p class="footer__tag" data-i18n="footer.tagline">Authentic Ayurveda, worldwide</p>
+        <p class="footer__made mono" data-i18n="footer.made">Crafted in India · Delivered worldwide</p>
+        <p class="footer__director mono" data-i18n="footer.director">Directed by Dr. Praveen Rathi — formulated and overseen at the source, in India.</p>
+      </div>
+      <div class="footer__col">
+        <h4 class="label mono" data-i18n="footer.shop">Shop</h4>
+        <div id="footer-cats"></div>
+      </div>
+      <div class="footer__col">
+        <h4 class="label mono" data-i18n="footer.support">Support</h4>
+        <a href="#" id="footer-track" data-i18n="track.footer_link">Track order</a>
+        <a href="legal.html#shipping" data-i18n="footer.shipping">Worldwide shipping</a>
+        <a href="legal.html#returns" data-i18n="footer.returns">Returns</a>
+        <a href="legal.html#privacy" data-i18n="footer.privacy">Privacy</a>
+        <a href="legal.html#terms" data-i18n="footer.terms">Terms</a>
+        <a href="legal.html#imprint">Imprint</a>
+      </div>
+      <div class="footer__col">
+        <h4 class="label mono" data-i18n="nav.contact">Contact</h4>
+        <a href="https://wa.me/919910602959">WhatsApp</a>
+        <a href="https://t.me/sangamrussia">Telegram</a>
+        <a href="mailto:sangamherbals@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="wrap"><p class="footer__safety mono" id="safety-note"></p></div>
+    <div class="wrap footer__bottom mono">
+      <span>© <span id="year"></span> Sangam Herbals · <span data-i18n="footer.rights">All rights reserved.</span></span>
+      <button class="region-btn" id="region-btn-2" aria-label="Change region and language" data-i18n-attr="aria-label" data-i18n="common.change_region"><span id="region-flag-2">🌐</span> <span id="region-lang-2">EN</span></button>
+    </div>
+  </footer>
+
+  <!-- ░░ PRODUCT MODAL — The Specimen Sheet ░░ -->
+  <div class="modal" id="product-modal" hidden>
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__card" role="dialog" aria-modal="true" aria-labelledby="pm-title" tabindex="-1">
+      <button class="modal__close" data-close aria-label="Close">×</button>
+      <div class="modal__media"><img id="pm-img" alt="" /></div>
+      <div class="modal__body">
+        <p class="pm-cat mono" id="pm-cat"></p>
+        <h3 id="pm-title"></h3>
+        <div class="pm-price mono" id="pm-price"></div>
+        <p class="pm-desc" id="pm-desc"></p>
+        <ul class="pm-meta mono" id="pm-meta"></ul>
+        <button class="btn btn--solid" id="pm-add" data-i18n="shop.add">Add to cart</button>
+        <p class="pm-trust mono"><span data-i18n="product.origin">Made in India</span> · <span data-i18n="product.ships">Ships worldwide</span></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ░░ CART DRAWER — The Order Slip ░░ -->
+  <div class="drawer" id="cart-drawer" hidden>
+    <div class="drawer__backdrop" data-close-cart></div>
+    <aside class="drawer__panel" role="dialog" aria-modal="true" aria-labelledby="cart-title" tabindex="-1">
+      <header class="drawer__head">
+        <h3 id="cart-title" data-i18n="cart.title">Your cart</h3>
+        <button class="modal__close" data-close-cart aria-label="Close">×</button>
+      </header>
+      <div class="drawer__ship mono" id="cart-ship">
+        <div class="drawer__ship-bar"><span id="cart-ship-fill"></span></div>
+        <p id="cart-ship-text"></p>
+      </div>
+      <div class="drawer__items" id="cart-items"></div>
+      <div class="drawer__empty" id="cart-empty" data-i18n="cart.empty">Your cart is empty.</div>
+      <footer class="drawer__foot" id="cart-drawer__foot">
+        <div class="drawer__total"><span data-i18n="cart.total">Total</span><b class="mono" id="cart-total">€0.00</b></div>
+        <button class="btn btn--solid btn--full" id="cart-checkout" data-i18n="cart.checkout">Checkout</button>
+      </footer>
+    </aside>
+  </div>
+
+  <!-- ░░ CHECKOUT ░░ -->
+  <div class="modal checkout" id="checkout-modal" hidden>
+    <div class="modal__backdrop" data-close-checkout></div>
+    <div class="checkout__card" role="dialog" aria-modal="true" aria-labelledby="co-title" tabindex="-1">
+      <button class="modal__close" data-close-checkout aria-label="Close" data-i18n-attr="aria-label" data-i18n="checkout.close">×</button>
+      <div class="checkout__grid">
+        <section class="checkout__main">
+          <h2 class="checkout__h" id="co-title" data-i18n="checkout.title">Checkout</h2>
+          <p class="checkout__lede" data-i18n="checkout.lede">Enter your details and choose how to order. We confirm shipping for your address.</p>
+          <form class="checkout__form" id="checkout-form" novalidate autocomplete="on">
+            <div class="co-field"><label for="co-name" data-i18n="checkout.name">Full name</label><input id="co-name" name="name" autocomplete="name" required /></div>
+            <div class="co-row">
+              <div class="co-field"><label for="co-email" data-i18n="checkout.email">Email</label><input id="co-email" name="email" type="email" autocomplete="email" required /></div>
+              <div class="co-field"><label for="co-phone" data-i18n="checkout.phone">Phone / WhatsApp</label><input id="co-phone" name="phone" type="tel" autocomplete="tel" /></div>
+            </div>
+            <div class="co-field"><label for="co-country" data-i18n="checkout.country">Country</label><select id="co-country" name="country"></select></div>
+            <div class="co-field"><label for="co-address" data-i18n="checkout.address">Address</label><input id="co-address" name="address" autocomplete="street-address" required /></div>
+            <div class="co-row">
+              <div class="co-field"><label for="co-city" data-i18n="checkout.city">City</label><input id="co-city" name="city" autocomplete="address-level2" required /></div>
+              <div class="co-field"><label for="co-postal" data-i18n="checkout.postal">Postal code</label><input id="co-postal" name="postal" autocomplete="postal-code" required /></div>
+            </div>
+            <div class="co-field"><label for="co-note" data-i18n="checkout.note">Order note (optional)</label><textarea id="co-note" name="note" rows="2"></textarea></div>
+            <p class="co-error" id="co-error" role="alert" hidden></p>
+          </form>
+        </section>
+        <aside class="checkout__side">
+          <h3 class="co-side-h mono" data-i18n="checkout.summary">Order summary</h3>
+          <div class="co-items" id="co-items"></div>
+          <dl class="co-totals">
+            <div class="co-line"><dt data-i18n="checkout.subtotal">Subtotal</dt><dd id="co-subtotal">—</dd></div>
+            <div class="co-line"><dt data-i18n="checkout.shipping">Shipping</dt><dd id="co-shipping">—</dd></div>
+            <div class="co-line co-grand"><dt data-i18n="checkout.total">Total</dt><dd id="co-total">—</dd></div>
+          </dl>
+          <div class="co-pay">
+            <button class="btn btn--solid btn--full co-btn" type="button" id="co-pay-card" hidden data-i18n="checkout.pay_card">Pay by card</button>
+            <div class="co-paypal" id="co-paypal" hidden></div>
+            <button class="btn btn--full co-btn co-wa" type="button" id="co-wa"><span data-i18n="checkout.order_whatsapp">Order on WhatsApp</span> <span class="arr" aria-hidden="true">→</span></button>
+            <button class="btn btn--full co-btn btn--outline" type="button" id="co-email" data-i18n="checkout.order_email">Order by email</button>
+          </div>
+          <p class="co-pay-note" id="co-pay-note" data-i18n="checkout.manual_note">No card needed right now — send your order on WhatsApp or by email and we confirm payment and shipping for your country.</p>
+          <p class="co-secure mono" data-i18n="checkout.secure">Secure · we never see your card details</p>
+        </aside>
+      </div>
+    </div>
+  </div>
+
+  <!-- ░░ ORDER TRACKING ░░ -->
+  <div class="modal track" id="track-modal" hidden>
+    <div class="modal__backdrop" data-close-track></div>
+    <div class="track__card" role="dialog" aria-modal="true" aria-labelledby="track-title" tabindex="-1">
+      <button class="modal__close" data-close-track aria-label="Close" data-i18n-attr="aria-label" data-i18n="checkout.close">×</button>
+      <h2 class="track__title" id="track-title" data-i18n="track.title">Track your order</h2>
+      <p class="track__lede" data-i18n="track.lede">Enter your order reference to see where it is.</p>
+      <form class="track__form" id="track-form" novalidate>
+        <input id="track-ref" type="text" autocomplete="off" spellcheck="false" aria-label="Order reference" data-i18n-attr="aria-label,placeholder" data-i18n="track.ref_ph" placeholder="Paste your reference" />
+        <button class="btn btn--solid" id="track-go" type="submit" data-i18n="track.lookup">Track order</button>
+      </form>
+      <div class="track__result" id="track-result" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <div class="nav-drawer" id="nav-drawer" hidden>
+    <div class="drawer__backdrop" data-close-nav></div>
+    <aside class="nav-drawer__panel" role="dialog" aria-modal="true" aria-label="Menu" tabindex="-1">
+      <button class="modal__close" data-close-nav aria-label="Close">×</button>
+      <a href="#learn" data-close-nav data-i18n="nav.learn">Learn</a>
+      <a href="#shop" data-close-nav data-i18n="nav.shop">Shop</a>
+      <a href="#about" data-close-nav data-i18n="nav.heritage">About</a>
+      <a href="#contact" data-close-nav data-i18n="nav.contact">Contact</a>
+    </aside>
+  </div>
+
+  <div class="ghost" id="ghost" aria-hidden="true"></div>
+
+  <script src="assets/config.js?v=2"></script>
+  <script src="assets/data.js?v=2"></script>
+  <script src="assets/app.js?v=41"></script>
+</body>
+</html>

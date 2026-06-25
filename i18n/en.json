@@ -1,0 +1,673 @@
+{
+  "meta": {
+    "lang": "en",
+    "native": "English",
+    "dir": "ltr"
+  },
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "catalog": "Catalogue",
+    "learn": "Learn",
+    "about": "About",
+    "heritage": "About",
+    "contact": "Contact",
+    "search": "Search products"
+  },
+  "gate": {
+    "title": "Welcome to Sangam Herbals",
+    "subtitle": "Authentic Ayurveda, crafted in India — choose your country and language",
+    "choose_region": "Choose your country",
+    "choose_language": "Choose your language",
+    "continue": "Enter store",
+    "filter": "Search countries",
+    "country_hint": "Pick your country and language. Your country sets delivery, currency and tax; your language sets how the store reads.",
+    "no_country": "No country matches that search.",
+    "country_one": "country",
+    "country_many": "countries",
+    "close": "Close",
+    "region_na": "North America",
+    "region_eu": "Europe",
+    "region_me": "Middle East",
+    "region_ap": "Asia / Pacific",
+    "select_prompt": "Select a country to preview shipping, currency and language",
+    "preview_head": "You're shopping from {country}",
+    "row_ship": "Shipping",
+    "row_currency": "Currency",
+    "row_vat": "Tax & duties",
+    "row_lang": "Site language",
+    "ship_line": "Tracked delivery to {country}, typically 3–10 working days. Free over {free}.",
+    "currency_eur": "Prices shown in euros (EUR).",
+    "currency_local": "Prices are indicative in euros (EUR). {country} uses {cur} — your bank converts at checkout.",
+    "vat_line": "Any duties or taxes for {country} are shown at checkout before you pay.",
+    "lang_default": "the usual choice for {country}",
+    "lang_change": "change",
+    "trust_ship": "Ships internationally",
+    "trust_langs": "35 languages",
+    "trust_eur": "Indicative EUR pricing",
+    "trust_secure": "Secure checkout",
+    "trust_return": "14-day return",
+    "change_later": "Wrong country or language? Change it any time from “Region” in the menu."
+  },
+  "hero": {
+    "eyebrow": "A family Ayurvedic house · Made in India, to classical texts",
+    "title": "The tradition, prepared faithfully — and answered for by name.",
+    "subtitle": "Authentic Ayurvedic remedies, oils, cosmetics and foods, made in India under the direction of Dr. Praveen Rathi and delivered worldwide. Real herbs, open ingredients, clear labelling — trust you can check before you buy.",
+    "credential": "Dr. Praveen Rathi · Director — formulated and overseen at the source, in India",
+    "cta_shop": "Browse the catalogue",
+    "cta_story": "Meet the house",
+    "stat_products": "Authentic products",
+    "stat_categories": "Categories",
+    "stat_countries": "Countries served"
+  },
+  "sections": {
+    "ayurveda": "Ayurveda",
+    "cosmetics": "Cosmetics",
+    "food": "Food & Nutrition",
+    "oils": "Oils",
+    "aromatherapy": "Aromatherapy"
+  },
+  "shop": {
+    "title": "All products",
+    "subtitle": "Every Sangam Herbals product, now available worldwide.",
+    "all": "All products",
+    "filter": "Filter",
+    "sort": "Sort",
+    "sort_featured": "Featured",
+    "sort_price_low": "Price: low to high",
+    "sort_price_high": "Price: high to low",
+    "sort_az": "Name A–Z",
+    "results": "products",
+    "empty": "No products match your filters.",
+    "clear": "Clear filters",
+    "add": "Add to cart",
+    "sold_out": "Sold Out",
+    "view": "View details",
+    "from": "from",
+    "in_stock": "In stock",
+    "sku": "SKU",
+    "showing": "Showing",
+    "loadmore": "Load more",
+    "added": "Added"
+  },
+  "product": {
+    "description": "Description",
+    "details": "Details",
+    "category": "Category",
+    "related": "You may also like",
+    "back": "Back to shop",
+    "origin": "Made in India",
+    "ships": "Ships worldwide",
+    "unavailable": "Unavailable"
+  },
+  "heritage": {
+    "title": "Five thousand years, in one drop",
+    "body": "Sangam means confluence — the meeting of sacred rivers. Sangam Herbals is the meeting of ancient Ayurvedic wisdom and careful, modern production. Founded under the direction of Dr. Praveen Rathi, our formulations are made from authentic herbs, cold-pressed oils and time-honoured recipes, now prepared and clearly labelled for households around the world.",
+    "pillar1_t": "Authentic formulas",
+    "pillar1_b": "Classical churnas, tablets and oils prepared to traditional Ayurvedic texts.",
+    "pillar2_t": "Pure & honest",
+    "pillar2_b": "Real ingredients, honest quality, no needless additives.",
+    "pillar3_t": "From India to the world",
+    "pillar3_b": "Sourced at origin and delivered worldwide."
+  },
+  "footer": {
+    "tagline": "Authentic Ayurveda, worldwide",
+    "shop": "Shop",
+    "company": "Company",
+    "support": "Support",
+    "newsletter": "Newsletter",
+    "newsletter_sub": "Ayurvedic rituals, new arrivals and offers.",
+    "email_ph": "Your email",
+    "subscribe": "Subscribe",
+    "rights": "All rights reserved.",
+    "shipping": "Worldwide shipping",
+    "returns": "Returns",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "made": "Crafted in India · Delivered worldwide",
+    "director": "Directed by Dr. Praveen Rathi — formulated and overseen at the source, in India."
+  },
+  "cart": {
+    "title": "Your cart",
+    "empty": "Your cart is empty.",
+    "total": "Total",
+    "checkout": "Checkout",
+    "remove": "Remove",
+    "continue": "Continue shopping",
+    "add_more": "Add",
+    "free_ship": "for free shipping",
+    "free_unlocked": "✓ Free shipping unlocked",
+    "free_ship_progress": "Add {amount} for free shipping"
+  },
+  "common": {
+    "currency_note": "Prices are indicative and shown in your country's currency.",
+    "loading": "Loading…",
+    "change_region": "Region"
+  },
+  "categories": {
+    "ayurveda": "Ayurveda",
+    "single-herb-churnas": "Single-Herb Churnas",
+    "compound-churnas": "Compound Churnas",
+    "chyawanprash": "Chyawanprash",
+    "churna-tablets": "Churna Tablets",
+    "classic-tablets": "Classic Tablets",
+    "cosmetics": "Cosmetics",
+    "hair-care": "Hair Care",
+    "toothpastes": "Toothpastes",
+    "face-care": "Face Care",
+    "body-care": "Body Care",
+    "facial-toners": "Facial Toners",
+    "henna-hair-colour": "Henna Hair Colour",
+    "food-nutrition": "Food & Nutrition",
+    "indian-sweets": "Indian Sweets",
+    "spices-seasonings": "Spices & Seasonings",
+    "herbal-teas": "Herbal Teas",
+    "natural-juices": "Natural Juices",
+    "dried-fruits": "Dried Fruits",
+    "biscuits": "Biscuits",
+    "cane-sugar": "Cane Sugar",
+    "indian-tea": "Indian Tea",
+    "oils": "Oils",
+    "natural-oils": "Natural Oils",
+    "ayurvedic-oils": "Ayurvedic Oils",
+    "aromatherapy": "Aromatherapy",
+    "incense": "Incense",
+    "perfume-oils": "Perfume Oils",
+    "hydrolats": "Hydrolats",
+    "lozenges": "Lozenges"
+  },
+  "argument": {
+    "kicker": "Our principle",
+    "line": "Five thousand years of practice, held to exacting modern standards."
+  },
+  "streams": {
+    "title": "Shop by category",
+    "stream": "Stream"
+  },
+  "doshas": {
+    "title": "Shop by Dosha",
+    "sub": "Find what your body needs",
+    "vata": "Vata",
+    "pitta": "Pitta",
+    "kapha": "Kapha",
+    "vata_element": "Air & Space",
+    "pitta_element": "Fire & Water",
+    "kapha_element": "Earth & Water",
+    "vata_tag": "Grounding · Warming · Nourishing",
+    "pitta_tag": "Cooling · Soothing · Clarifying",
+    "kapha_tag": "Energising · Lightening · Stimulating"
+  },
+  "remedy": {
+    "kicker": "Featured product"
+  },
+  "dispatch": {
+    "title": "Join our newsletter"
+  },
+  "proof": {
+    "certified": "Honest, open labelling",
+    "ships": "Ships internationally",
+    "eur": "Indicative pricing",
+    "origin": "Made in India",
+    "langs": "35 languages"
+  },
+  "seo": {
+    "title": "Sangam Herbals — Authentic Ayurveda, Worldwide",
+    "description": "Authentic Ayurvedic remedies, cosmetics, oils and foods — prepared to classical texts, made in India under Dr. Praveen Rathi, and delivered worldwide."
+  },
+  "river": {
+    "kicker": "The Confluence",
+    "quote": "Where two rivers become one remedy.",
+    "sub": "Sangam is the meeting of sacred waters — and of ancient practice with careful, modern craft. Discover the attar library: 32 long-lasting Indian oil perfumes.",
+    "cta": "Browse the attar library →"
+  },
+  "edu": {
+    "explore": "Explore",
+    "shop": "Shop",
+    "care_label": "Kept in balance",
+    "learn_kicker": "Ayurveda, explained",
+    "learn_title": "What is Ayurveda?",
+    "learn_p1": "Ayurveda is a traditional system of natural wellbeing that began in India around 5,000 years ago. Its name comes from two Sanskrit words: ayur, meaning life, and veda, meaning knowledge. At its heart is one simple idea: wellbeing comes from keeping the body and mind in balance.",
+    "learn_p2": "Rather than focusing on quick fixes, Ayurveda looks at the whole person and the rhythm of everyday life. It draws on plants, herbs and traditional formulations, alongside simple daily routines for diet, sleep and self-care. Think of it as a time-honoured approach to looking after yourself, gently and consistently.",
+    "learn_pr1_l": "Balance",
+    "learn_pr1_t": "Ayurveda sees wellbeing as a state of balance, and aims to keep the body and mind steady through the seasons and the demands of daily life.",
+    "learn_pr2_l": "Whole-person",
+    "learn_pr2_t": "It considers the person as a whole, taking in diet, sleep, activity and mood rather than looking at any one part in isolation.",
+    "learn_pr3_l": "Natural ingredients",
+    "learn_pr3_t": "Its preparations are built from plants, herbs, oils and other natural ingredients, made using traditional methods passed down over generations.",
+    "learn_pr4_l": "Daily ritual",
+    "learn_pr4_t": "Much of Ayurveda lives in small, repeated daily habits — the simple acts of care that, over time, support a sense of vitality and everyday wellbeing.",
+    "dosha_kicker": "Ayurveda basics",
+    "dosha_title": "The three doshas",
+    "dosha_intro": "In Ayurveda, three energies known as doshas — Vata, Pitta and Kapha — are present in everyone in a unique blend, and the aim is simply to keep your own mix in balance.",
+    "vata_el": "Air & Space",
+    "vata_essence": "The energy of movement",
+    "vata_traits": "Vata types tend to be light, quick and creative — lively in mind and body when in balance.",
+    "vata_care": "In Ayurveda, Vata is traditionally kept steady with warmth, routine and grounding, nourishing foods and oils.",
+    "pitta_el": "Fire & Water",
+    "pitta_essence": "The energy of transformation",
+    "pitta_traits": "Pitta types tend to be focused, driven and warm, with sharp energy and a strong sense of purpose.",
+    "pitta_care": "In Ayurveda, Pitta is traditionally kept balanced with cooling foods, calm routines and time spent in nature.",
+    "kapha_el": "Earth & Water",
+    "kapha_essence": "The energy of structure",
+    "kapha_traits": "Kapha types tend to be calm, steady and grounded, with a settled, easy-going nature.",
+    "kapha_care": "In Ayurveda, Kapha is traditionally kept lively with movement, warming spices and energising daily rituals.",
+    "about_kicker": "About Sangam Herbals",
+    "about_title": "A custodian of authentic Ayurveda, made at the source",
+    "about_p1": "Sangam Herbals is a family-run Ayurvedic house in India, founded under the direction of Dr. Praveen Rathi. Each formulation is prepared to classical Ayurvedic texts, using real herbs and cold-pressed oils rather than shortcuts or synthetic fillers. The recipes are old; the standards we hold them to are not.",
+    "about_p2": "Everything is made in India, at the source of the plants and the tradition itself. From there, our products are openly labelled and delivered worldwide. We believe the best way to earn your trust is to be plain about what we make and how we make it — and to let the products speak for themselves.",
+    "about_pr1_l": "Authentic formulas",
+    "about_pr1_t": "Recipes are prepared to classical Ayurvedic texts, the way they have been made for generations.",
+    "about_pr2_l": "Real ingredients",
+    "about_pr2_t": "We work with genuine herbs and cold-pressed oils, with no synthetic fillers added for convenience.",
+    "about_pr3_l": "Made in India, at the source",
+    "about_pr3_t": "Every product is crafted in India, where the plants grow and the tradition began.",
+    "about_pr4_l": "Honest labelling & worldwide delivery",
+    "about_pr4_t": "Our range is clearly labelled, with ingredients and usage shown openly, and shipped worldwide.",
+    "concern_kicker": "Find your starting point",
+    "concern_title": "Shop by concern",
+    "concern_intro": "Not sure where to begin? Choose an everyday area you care about, and we'll point you to the products and traditions that fit.",
+    "c_digestion_l": "Digestion & Gut",
+    "c_digestion_d": "Comfortable digestion and everyday gut balance — classical churnas, carminative spices and gentle blends like Triphala and Avipattikar.",
+    "c_immunity_l": "Immunity & Vitality",
+    "c_immunity_d": "Time-honoured tonics — chyawanprash, Amla, Tulsi and Giloy — traditionally valued in Ayurveda for everyday resilience.",
+    "c_energy_l": "Strength & Energy",
+    "c_energy_d": "Rejuvenating rasayana herbs and tonics — Shilajit, Shatavari, Bala and classic strength formulas — for everyday stamina.",
+    "c_respiratory_l": "Respiratory & Seasonal",
+    "c_respiratory_d": "Throat, chest and seasonal comfort, from Sitopaladi and Mulethi to soothing herbal lozenges.",
+    "c_stress_l": "Stress, Sleep & Mind",
+    "c_stress_d": "Calming, grounding blends for focus and restful evenings — Brahmi, Shankhpushpi, Jatamansi and valerian.",
+    "c_joints_l": "Joints & Muscles",
+    "c_joints_d": "Support for active bodies and easy movement — Guggul formulas and warming massage oils like Mahanarayan.",
+    "c_womens_l": "Women's Wellbeing",
+    "c_womens_d": "Gentle, traditional support for women's everyday balance — Shatavari, Ashoka and classic women's tonics.",
+    "c_skin_l": "Skin & Face",
+    "c_skin_d": "Plant-based face and body care plus purifying herbs — cleansers, toners, hydrolats, Neem, Turmeric and Manjistha.",
+    "c_hair_l": "Hair & Scalp",
+    "c_hair_d": "Nourishing hair and scalp care — Bhringraj and Amla oils, herbal shampoos and natural henna colour.",
+    "c_oral_l": "Oral Care",
+    "c_oral_d": "Natural daily care for teeth, gums and fresh breath — herbal toothpastes and time-tested ingredients like Neem.",
+    "c_food_l": "Food, Teas & Spices",
+    "c_food_d": "The kitchen side of Ayurveda — authentic spices and masalas, herbal and Indian teas, juices, sweets and more.",
+    "c_fragrance_l": "Fragrance & Ritual",
+    "c_fragrance_d": "Incense and long-lasting Indian attars to scent your space and everyday ritual.",
+    "herb_kicker": "Ingredient education",
+    "herb_title": "Key Ayurvedic herbs",
+    "herb_intro": "A plain-language guide to the eight herbs you will meet most often across our catalogue, and the role each one has long held in Ayurvedic tradition.",
+    "herb_triphala_what": "A classic blend of three dried fruits, ground together into a single powder.",
+    "herb_triphala_trad": "In Ayurveda, traditionally used to support everyday digestion and gentle internal balance.",
+    "herb_triphala_found": "Churnas & tablets",
+    "herb_tulsi_what": "An aromatic leaf from the holy basil plant, used as a powder, in teas and in skin and hair care.",
+    "herb_tulsi_trad": "Long valued in Ayurvedic tradition to support everyday wellbeing and a sense of vitality.",
+    "herb_tulsi_found": "Churnas, teas & skincare",
+    "herb_neem_what": "A bitter leaf from the neem tree, used as a powder and throughout cleansing skin and hair formulas.",
+    "herb_neem_trad": "Traditionally associated in Ayurveda with everyday skin care and a clean, balanced complexion.",
+    "herb_neem_found": "Churnas, face & hair care",
+    "herb_amla_what": "A small, sour green fruit, used as a powder, a juice and in hair-care products.",
+    "herb_amla_trad": "Traditionally valued in Ayurveda to support everyday vitality and the care of hair and scalp.",
+    "herb_amla_found": "Churnas, juices & hair care",
+    "herb_brahmi_what": "A small creeping herb, taken as a powder or in tablet form.",
+    "herb_brahmi_trad": "In Ayurveda, traditionally associated with calm focus and everyday mental wellbeing.",
+    "herb_brahmi_found": "Churnas & tablets",
+    "herb_chyawanprash_what": "A traditional dark herbal jam built around amla and a blend of many herbs and spices.",
+    "herb_chyawanprash_trad": "Long taken in Ayurvedic tradition as a daily tonic to support everyday vitality and wellbeing.",
+    "herb_chyawanprash_found": "Ayurveda",
+    "herb_turmeric_what": "A golden-yellow root, ground into a warm spice powder and used in cooking, juices and skin care.",
+    "herb_turmeric_trad": "Traditionally valued in Ayurveda to support everyday balance and the care of the skin.",
+    "herb_turmeric_found": "Spices, churnas & skincare",
+    "herb_henna_what": "A leaf milled into a fine green powder that releases a natural reddish colour.",
+    "herb_henna_trad": "Long used in Ayurvedic and Indian tradition as a natural colour and conditioning treatment for hair.",
+    "herb_henna_found": "Henna & hair care",
+    "start_kicker": "New to Ayurveda",
+    "start_title": "Getting started, made simple",
+    "step1_l": "Learn the basics",
+    "step1_t": "Spend a few minutes understanding what Ayurveda is — a traditional Indian system of everyday wellbeing, balance and self-care.",
+    "step2_l": "Find your concern or type",
+    "step2_t": "Browse by what you care about — skin, hair, digestion, daily routine — and see which traditions and ingredients fit you.",
+    "step3_l": "Start simple",
+    "step3_t": "Choose one product that suits your routine, try it consistently, and add more only once it feels right.",
+    "faq1_q": "Is Ayurveda safe, and how do I use the products?",
+    "faq1_a": "Our products are made from traditional plant-based ingredients and come with clear directions for everyday use. As a sensible precaution, please consult your doctor before starting anything new if you are pregnant, breastfeeding, taking medication, or under medical care.",
+    "faq2_q": "How do I choose if I'm completely new to this?",
+    "faq2_a": "Start with a single product that matches one everyday concern — such as skin, hair or daily care — rather than buying several at once. Each product explains in plain language what it is, how it has traditionally been used, and how to apply it.",
+    "faq3_q": "Are the products authentic and properly labelled?",
+    "faq3_a": "Every product is made in India under the direction of Dr. Praveen Rathi, following traditional Ayurvedic preparation and applicable quality and labelling standards. Ingredients and usage are listed openly on each product so you always know what you are getting.",
+    "faq4_q": "Do you ship to my country?",
+    "faq4_a": "Yes — we ship internationally. Delivery times and any applicable charges or duties are shown clearly at checkout before you confirm your order."
+  },
+  "pdp": {
+    "back": "Back to shop",
+    "good_for": "Good for",
+    "what": "What it is",
+    "benefits": "Traditionally used to support",
+    "ingredients": "Key ingredients",
+    "how": "How to use",
+    "suited": "Suited to",
+    "details": "Details",
+    "format": "Format",
+    "origin": "Origin",
+    "india": "India",
+    "caution": "Traditional Ayurvedic information for education, not medical advice. If you are pregnant, breastfeeding, taking medication or under medical care, please consult your doctor before use.",
+    "precautions": "Precautions",
+    "related": "You may also like",
+    "transparency": "Every ingredient, listed openly",
+    "routine": "How it fits your routine",
+    "good_to_know": "Good to know",
+    "take_care": "Please take care if",
+    "why_kicker": "Why shop with us",
+    "why_title": "The tradition, carried faithfully — and made at the source",
+    "why_sub": "Every formula is prepared to the classical Ayurvedic texts, from real herbs and cold-pressed oils, made in India where the herbs grow and directed by Dr. Praveen Rathi. We earn your trust the honest way: open ingredients, clear labelling, and a family house that answers for every batch.",
+    "assure_title": "Ordering with confidence",
+    "ship_label": "Worldwide delivery",
+    "ship_text": "Tracked shipping, available worldwide.",
+    "returns_label": "Honest labelling",
+    "returns_text": "Ingredients and traditional use are listed openly on every product.",
+    "secure_label": "Made at the source",
+    "secure_text": "Crafted in India to classical Ayurvedic texts, then clearly labelled.",
+    "help_label": "Here to help",
+    "help_text": "Questions before you buy? Reach us on WhatsApp, Telegram or email.",
+    "faq_title": "Frequently asked questions",
+    "new_to": "New to Ayurveda?",
+    "new_to_cta": "Start with the basics",
+    "qty_label": "Quantity",
+    "delivery_eu": "Tracked worldwide delivery",
+    "freeship_over": "Free delivery over {amount}",
+    "freeship_away": "You're {amount} away from free delivery",
+    "freeship_unlocked": "✓ Free delivery unlocked",
+    "cta_guarantee": "Secure checkout · 14-day returns · if it arrives damaged or not as described, we make it right",
+    "authority_quote": "Formulated and overseen by Dr. Praveen Rathi — \"I answer for every batch we make.\"",
+    "pairs_title": "Completes your routine",
+    "pairs_sub": "Curated from the same wellbeing focus — add a companion and move closer to free delivery.",
+    "add_one": "Add",
+    "compare_title": "Why choose Sangam",
+    "compare_sub": "What to look for in an authentic Ayurvedic range — and how we measure up.",
+    "compare_us": "Sangam Herbals",
+    "compare_them": "Typical mass-market herbal",
+    "faq5_q": "How soon will I notice anything?",
+    "faq5_a": "Ayurvedic herbs are traditionally taken as part of a steady daily routine rather than a quick fix, and many people make them a quiet part of their day over several weeks. Results vary from person to person.",
+    "faq6_q": "Who is this best suited to — and who should take care?",
+    "faq6_a": "It is traditionally used in Ayurveda to support everyday wellbeing. If you are pregnant, breastfeeding, taking medication or under medical care, please speak with your doctor before use.",
+    "compare_rows": [
+      {
+        "label": "Formulated to classical Ayurvedic texts",
+        "us": "Yes — to traditional recipes",
+        "them": "Often proprietary blends"
+      },
+      {
+        "label": "Every ingredient listed openly",
+        "us": "Yes — in full",
+        "them": "Frequently undisclosed"
+      },
+      {
+        "label": "Real herbs & cold-pressed oils",
+        "us": "Yes — no needless fillers",
+        "them": "Varies"
+      },
+      {
+        "label": "Made at the source in India",
+        "us": "Yes — where the herbs grow",
+        "them": "Often unspecified"
+      },
+      {
+        "label": "Overseen by a named director",
+        "us": "Dr. Praveen Rathi",
+        "them": "Anonymous"
+      }
+    ]
+  },
+  "trust": {
+    "bar": [
+      "Prepared to classical Ayurvedic texts",
+      "Made in India, at the source of the herbs",
+      "Real herbs & cold-pressed oils",
+      "Ships worldwide",
+      "Secure checkout · 14-day returns"
+    ],
+    "std_kicker": "Our standards",
+    "std_title": "Made well, controlled closely",
+    "std_intro": "We would rather show you how a product is made than tell you it is good — open ingredient lists, clear labelling, and the source it comes from. Every formulation is prepared to classical Ayurvedic texts, from real herbs and cold-pressed oils, with nothing added for convenience. The recipes are centuries old; the discipline we hold them to is exact.",
+    "seals_title": "Buy with confidence",
+    "seals": [
+      {
+        "label": "Secure encrypted checkout",
+        "sub": "Processed through established providers — we never store your full card details.",
+        "icon": "lock"
+      },
+      {
+        "label": "14-day returns",
+        "sub": "Return unopened items within 14 days of delivery for a refund.",
+        "icon": "return"
+      },
+      {
+        "label": "Tracked worldwide delivery",
+        "sub": "Shipped worldwide with tracking, dispatch to doorstep.",
+        "icon": "parcel"
+      },
+      {
+        "label": "Made at the source",
+        "sub": "Crafted in India where the herbs grow, to classical texts.",
+        "icon": "mortar"
+      },
+      {
+        "label": "Open ingredients",
+        "sub": "Full ingredient list on every product — nothing hidden.",
+        "icon": "label"
+      },
+      {
+        "label": "Answered for by name",
+        "sub": "Formulated and overseen by Dr. Praveen Rathi.",
+        "icon": "person"
+      }
+    ],
+    "std_items": [
+      {
+        "label": "Real herbs, cold-pressed oils",
+        "text": "Genuine botanicals and oils pressed without heat to keep their character intact — the plant itself, worked the traditional way, never reduced to anonymous extract."
+      },
+      {
+        "label": "No synthetic fillers",
+        "text": "We don't bulk our churnas, tablets and oils with synthetic fillers, dyes or needless additives. A formula contains what the recipe calls for — nothing more."
+      },
+      {
+        "label": "Prepared to classical methods",
+        "text": "Each formulation follows the classical Ayurvedic texts — the same proportions and methods passed down over generations, made the way the tradition prescribes, batch after batch."
+      },
+      {
+        "label": "Ingredients listed openly",
+        "text": "Every product carries its full ingredient list, format and quantity — nothing hidden behind a vague 'proprietary blend'. Read exactly what's inside before you buy, and again on the label."
+      },
+      {
+        "label": "Clearly labelled",
+        "text": "Our range is clearly labelled, with ingredient, usage and storage information presented openly to high standards, and shipped worldwide."
+      },
+      {
+        "label": "Consistent, batch to batch",
+        "text": "Because the inputs are real and the method is fixed, the product you reorder is the product you trusted the first time. Quality holds steady — not just on a good day."
+      },
+      {
+        "label": "Made in India, at the source",
+        "text": "Made where the plants grow and the practice originated, under the direction of Dr. Praveen Rathi — a shorter distance between herb and formulation, and a family house answerable for every batch."
+      },
+      {
+        "label": "Plain about what we don't claim",
+        "text": "We describe our products in traditional, educational terms and make no medical claims. What we promise is specific: authentic formulas, real ingredients, open labelling, responsive support."
+      }
+    ],
+    "g_kicker": "Order with confidence",
+    "g_title": "Your purchase is protected",
+    "g_promise": "If your order arrives damaged, incomplete or not as described, we'll make it right — replacement or refund, no debate.",
+    "g_items": [
+      {
+        "label": "14-day right of return",
+        "text": "You have 14 days from delivery to return unopened items for a refund. We honour this fully, with clear instructions in every order."
+      },
+      {
+        "label": "Secure, encrypted checkout",
+        "text": "Every payment is processed over an encrypted connection through established providers. We never see or store your full card details — your data stays private."
+      },
+      {
+        "label": "Tracked worldwide delivery",
+        "text": "Orders ship worldwide with tracking from dispatch to doorstep. You get a tracking link the moment your parcel leaves us."
+      },
+      {
+        "label": "Honest, complete labelling",
+        "text": "Every ingredient is listed openly on the label and the product page — no synthetic fillers, no hidden additions, nothing left unstated."
+      },
+      {
+        "label": "Responsive human support",
+        "text": "A question before or after you buy? Write to us and a real person answers, clearly and promptly — on choosing, using and storing your products."
+      },
+      {
+        "label": "Quality you can trace",
+        "text": "Made in India at the source, from real botanicals and cold-pressed oils, prepared under the direction of Dr. Praveen Rathi. Authenticity is the standard, not the exception."
+      }
+    ],
+    "badges": [
+      {
+        "label": "Classical texts",
+        "text": "Every formula follows classical Ayurvedic method — the herbs, ratios and preparation the source texts prescribe."
+      },
+      {
+        "label": "Made at the source",
+        "text": "Produced in India where the herbs grow — real preparations, never reconstituted from imported powder elsewhere."
+      },
+      {
+        "label": "Real ingredients",
+        "text": "Genuine botanicals and cold-pressed oils. No synthetic fillers, no anonymous extracts, no shortcuts."
+      },
+      {
+        "label": "Open ingredients",
+        "text": "Full ingredients, format and quantity on every product and label — nothing behind a 'proprietary blend'."
+      },
+      {
+        "label": "Clearly labelled",
+        "text": "Prepared and clearly labelled to high standards, shipped worldwide."
+      },
+      {
+        "label": "Dr. Praveen Rathi",
+        "text": "A family Ayurvedic house, formulated and overseen by Dr. Praveen Rathi — keeping faith with the texts."
+      }
+    ],
+    "cred_title": "Trust, by the measure",
+    "credibility": [
+      "358 authentic formulations across remedies, oils, cosmetics and foods",
+      "Prepared to classical Ayurvedic texts, under the direction of Dr. Praveen Rathi",
+      "Made in India, at the source of the herbs",
+      "Real herbs and cold-pressed oils, every ingredient listed openly",
+      "Clearly labelled, delivered worldwide",
+      "Traditional, educational wellbeing language — no medical claims, ever"
+    ],
+    "atc_reassure": "Secure checkout · 14-day returns · Ships worldwide",
+    "faq": [
+      {
+        "q": "Who makes Sangam Herbals, and where?",
+        "a": "Sangam Herbals is a family Ayurvedic house, formulated and overseen by Dr. Praveen Rathi. Everything is made in India, at the source of the herbs, and prepared to classical Ayurvedic texts — then clearly labelled to high standards."
+      },
+      {
+        "q": "How do I know what is actually in each product?",
+        "a": "Every product lists its full ingredients, format and quantity — on the product page before you buy, and on the label when it arrives. We use real herbs and cold-pressed oils, with no synthetic fillers and nothing hidden behind a vague 'proprietary blend'."
+      },
+      {
+        "q": "Are these products clearly labelled?",
+        "a": "Yes. Our range is clearly labelled, with ingredient, usage and storage information presented openly to high standards, and we ship worldwide."
+      },
+      {
+        "q": "What if something is wrong with my order, or I change my mind?",
+        "a": "If your order arrives damaged, incomplete or not as described, we'll make it right — replacement or refund, no debate. And you have 14 days from delivery to return unopened items for a refund, with clear instructions in every order."
+      }
+    ],
+    "safety_note": "For wellbeing and traditional care only — not a medicine, and not a substitute for professional medical advice. Read the label, follow the directions, and consult your doctor if you are pregnant, nursing, on medication, or managing a health condition. Patch-test before first topical use. Keep out of reach of children."
+  },
+  "founder": {
+    "eyebrow": "A note from our director",
+    "heading": "I answer for every batch we make.",
+    "paragraphs": [
+      "Ayurveda was not handed to my family as a business. It was handed down as a responsibility — a way of preparing remedies exactly as the classical texts set out, from real herbs and cold-pressed oils, with nothing added for convenience. That is the only way I know how to make them, and the only way I will.",
+      "Everything we send out into the world is made here in India, at the source of the plants and the practice itself. I work to the same proportions and methods that have been followed for generations, and I hold each formulation to standards that are exact — because the recipe being old is no excuse for the making being careless.",
+      "I have chosen to put my name on this house, and on this page, for a simple reason: when something goes into your body or onto your skin, you deserve to know who stands behind it. Read the full ingredients before you buy. Write to us if anything is unclear. And if a product is not right for you, tell us, and we will make it right."
+    ],
+    "signature": "Praveen Rathi",
+    "credential": "Dr. Praveen Rathi · Director, Sangam Herbals — a family Ayurvedic house preparing remedies to classical texts, made in India"
+  },
+  "promise": {
+    "kicker": "Why we make these",
+    "title": "We would rather lose a sale than overstate one.",
+    "text": "We exist to carry an unbroken 5,000-year tradition into homes around the world without diluting it — preparing every remedy to the classical Ayurvedic texts, from real herbs and cold-pressed oils, made at the source in India and answered for by name. So we show you exactly what is inside and how it is made, list every ingredient openly, and make no medical claims. Authenticity is our standard, not our exception."
+  },
+  "checkout": {
+    "title": "Checkout",
+    "close": "Close",
+    "lede": "Enter your details and choose how to order. We confirm shipping for your address.",
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone / WhatsApp",
+    "country": "Country",
+    "address": "Address",
+    "city": "City",
+    "postal": "Postal code",
+    "note": "Order note (optional)",
+    "summary": "Order summary",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "total": "Total",
+    "free": "Free",
+    "pay_card": "Pay by card",
+    "order_whatsapp": "Order on WhatsApp",
+    "order_email": "Order by email",
+    "manual_note": "No card needed right now — send your order on WhatsApp or by email and we confirm payment and shipping for your country.",
+    "secure": "Secure · we never see your card details",
+    "fill_required": "Please add your name, a valid email, and your full address.",
+    "empty": "Your cart is empty — add a product first.",
+    "wa_intro": "New order — Sangam Herbals",
+    "email_subject": "New order — Sangam Herbals",
+    "sent": "Opening your order…",
+    "pay_unavailable": "Online card payment is being set up — place your order below and we’ll confirm payment with you directly.",
+    "or_direct": "or order directly",
+    "redirecting": "Redirecting to secure payment…",
+    "pay_error": "Payment could not start. Please try again, or order via WhatsApp or email.",
+    "success_title": "Thank you — your order is confirmed.",
+    "success_body": "We’ve received your order and will be in touch shortly to confirm payment and delivery.",
+    "ref": "Order reference",
+    "cancelled": "Payment cancelled — your cart is still here.",
+    "keep_shopping": "Keep shopping",
+    "success_eyebrow": "Order received",
+    "success_reassure": "You’ve chosen authentic Ayurveda — prepared to classical texts and made at the source in India.",
+    "next_title": "What happens next",
+    "ritual_title": "While you wait — a small ritual",
+    "founder_note": "Every order is answered for by name. — Dr. Praveen Rathi",
+    "track_cta": "Track your order",
+    "email_copy_note": "A copy of your order is on its way to your inbox.",
+    "success_tips": [
+      "Begin tomorrow with a glass of warm water and a slow breath — the Ayurvedic way to wake the body gently.",
+      "Ayurveda is built from small, repeated habits. Choose one product, one moment a day, and let it become a ritual.",
+      "Warm a little oil between your palms before you apply it — warmth helps the herbs feel at home on the skin.",
+      "Evenings are for winding down: dim the lights, sip a warm herbal tea, and let the day settle.",
+      "Consistency over intensity — a gentle daily practice carries Ayurveda further than any quick fix."
+    ]
+  },
+  "notice": {
+    "demand": "✦  We’re experiencing high demand — every order is confirmed personally, usually within 24 hours. Thank you for your patience."
+  },
+  "track": {
+    "title": "Track your order",
+    "lede": "Enter your order reference to see where it is.",
+    "ref_label": "Order reference",
+    "ref_ph": "Paste your reference",
+    "lookup": "Track order",
+    "searching": "Looking up your order…",
+    "not_found": "We couldn’t find that order. Double-check the reference, or message us on WhatsApp and we’ll help.",
+    "placed_on": "Placed",
+    "stage_received": "Received",
+    "stage_confirmed": "Confirmed",
+    "stage_preparing": "Prepared with care",
+    "stage_dispatched": "Dispatched",
+    "stage_delivered": "Delivered",
+    "cancelled": "This order was cancelled. If that’s unexpected, please reach out.",
+    "eta_note": "We prepare and dispatch every order personally — usually within 1–3 working days. Your tracking link appears here once it ships.",
+    "tracking_number": "Tracking number",
+    "track_parcel": "Track parcel →",
+    "on_its_way": "Your parcel is on its way.",
+    "delivered_note": "Delivered. We hope it brings a little calm to your day.",
+    "help": "Questions about your order? Message us on WhatsApp.",
+    "footer_link": "Track order"
+  }
+}

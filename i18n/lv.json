@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "lang": "lv",
+    "native": "Latviešu",
+    "dir": "ltr"
+  },
+  "nav": {
+    "home": "Sākumlapa",
+    "shop": "Veikals",
+    "catalog": "Katalogs",
+    "about": "Par mums",
+    "heritage": "Par mums",
+    "contact": "Sazināties",
+    "search": "Meklēt produktus",
+    "learn": "Mācīties"
+  },
+  "gate": {
+    "title": "Laipni lūdzam Sangam Herbals",
+    "subtitle": "Autentiska ajūrvēda, ražota Indijā — izvēlieties savu valsti un valodu",
+    "choose_region": "Izvēlieties valsti",
+    "choose_language": "Izvēlieties valodu",
+    "continue": "Doties uz veikalu",
+    "filter": "Meklēt valstis",
+    "country_hint": "Izvēlieties savu valsti un valodu. Jūsu valsts nosaka piegādi, valūtu un nodokļus; jūsu valoda nosaka, kādā valodā tiek rādīts veikals.",
+    "no_country": "Neviena valsts neatbilst šim meklējumam.",
+    "country_one": "valsts",
+    "country_many": "valstis",
+    "close": "Aizvērt",
+    "region_na": "Ziemeļamerika",
+    "region_eu": "Eiropa",
+    "region_me": "Tuvie Austrumi",
+    "region_ap": "Āzija / Klusais okeāns",
+    "select_prompt": "Izvēlieties valsti, lai redzētu piegādi, valūtu un valodu",
+    "preview_head": "Jūs iepērkaties no {country}",
+    "row_ship": "Piegāde",
+    "row_currency": "Valūta",
+    "row_vat": "Nodokļi un muitas maksas",
+    "row_lang": "Vietnes valoda",
+    "ship_line": "Izsekojama piegāde uz {country}, parasti 3–10 darba dienu laikā. Bezmaksas, ja virs {free}.",
+    "currency_eur": "Cenas norādītas eiro (EUR).",
+    "currency_local": "Cenas ir orientējošas eiro (EUR). {country} izmanto {cur} — jūsu banka veic konvertāciju norēķinu brīdī.",
+    "vat_line": "Visas muitas maksas vai nodokļi {country} tiek parādīti norēķinu lapā, pirms maksājat.",
+    "lang_default": "ierastā izvēle valstij {country}",
+    "lang_change": "mainīt",
+    "trust_ship": "Piegāde visā pasaulē",
+    "trust_langs": "35 valodas",
+    "trust_eur": "Orientējošas cenas EUR",
+    "trust_secure": "Droša apmaksa",
+    "trust_return": "14 dienu atteikuma tiesības",
+    "change_later": "Nepareiza valsts vai valoda? Mainiet to jebkurā brīdī izvēlnē sadaļā “Reģions”."
+  },
+  "hero": {
+    "eyebrow": "Ģimenes ajūrvēdas nams · Ražots Indijā pēc klasiskajiem tekstiem",
+    "title": "Tradīcija, sagatavota uzticīgi — un par to atbildam vārdiski.",
+    "subtitle": "Autentiski ājurvēdas līdzekļi, eļļas, kosmētika un pārtikas produkti, ražoti Indijā Dr. Praveen Rathi vadībā un piegādāti visā pasaulē. Īsti augi, atklāts sastāvs, skaidrs marķējums — uzticība, ko vari pārbaudīt pirms pirkuma.",
+    "cta_shop": "Pārlūkot katalogu",
+    "cta_story": "Iepazīt namu",
+    "stat_products": "Autentiski produkti",
+    "stat_categories": "Kategorijas",
+    "stat_countries": "Apkalpotās valstis",
+    "credential": "Dr. Praveen Rathi · Direktors — sastāvs izstrādāts un pārraudzīts pašā avotā, Indijā"
+  },
+  "sections": {
+    "ayurveda": "Ajurvēda",
+    "cosmetics": "Kosmētika",
+    "food": "Pārtika un uzturs",
+    "oils": "Eļļas",
+    "aromatherapy": "Aromaterapija"
+  },
+  "shop": {
+    "title": "Visi produkti",
+    "subtitle": "Ikviens Sangam Herbals produkts tagad pieejams visā pasaulē.",
+    "all": "Visi produkti",
+    "filter": "Filtrēt",
+    "sort": "Kārtot",
+    "sort_featured": "Izceltie",
+    "sort_price_low": "Cena: no zemākās",
+    "sort_price_high": "Cena: no augstākās",
+    "sort_az": "Nosaukums A–Z",
+    "results": "produkti",
+    "empty": "Neviens produkts neatbilst izvēlētajiem filtriem.",
+    "clear": "Notīrīt filtrus",
+    "add": "Pievienot grozam",
+    "view": "Skatīt detaļas",
+    "from": "no",
+    "in_stock": "Noliktavā",
+    "sku": "SKU",
+    "showing": "Rāda",
+    "loadmore": "Ielādēt vairāk",
+    "added": "Added"
+  },
+  "product": {
+    "description": "Apraksts",
+    "details": "Detaļas",
+    "category": "Kategorija",
+    "related": "Jums varētu patikt arī",
+    "back": "Atpakaļ uz veikalu",
+    "origin": "Ražots Indijā",
+    "ships": "Piegāde visā pasaulē",
+    "unavailable": "Unavailable"
+  },
+  "heritage": {
+    "title": "Pieci tūkstoši gadu — vienā pilienā",
+    "body": "Sangam nozīmē saplūsmi — svēto upju satikšanos. Sangam Herbals ir senās ājurvēdas gudrības un rūpīgas, mūsdienīgas ražošanas satikšanās. Dibinātas Dr. Praveen Rathi vadībā, mūsu receptūras tiek gatavotas no autentiskiem augiem, auksti spiestām eļļām un laika pārbaudītām receptēm, tagad sagatavotas un skaidri marķētas mājsaimniecībām visā pasaulē.",
+    "pillar1_t": "Autentiskas receptūras",
+    "pillar1_b": "Klasiskās čurnas, tabletes un eļļas, gatavotas pēc tradicionālajiem ajurvēdas tekstiem.",
+    "pillar2_t": "Tīrs un godīgs",
+    "pillar2_b": "Īstas izejvielas, godīga kvalitāte, bez liekām piedevām.",
+    "pillar3_t": "No Indijas uz pasauli",
+    "pillar3_b": "Iegūts izcelsmes vietā un piegādāts visā pasaulē."
+  },
+  "footer": {
+    "tagline": "Autentiska ājurvēda, visā pasaulē",
+    "shop": "Veikals",
+    "company": "Uzņēmums",
+    "support": "Atbalsts",
+    "newsletter": "Jaunumu vēstule",
+    "newsletter_sub": "Ājurvēdas rituāli, jaunumi un piedāvājumi.",
+    "email_ph": "Jūsu e-pasts",
+    "subscribe": "Abonēt",
+    "rights": "Visas tiesības aizsargātas.",
+    "shipping": "Piegāde visā pasaulē",
+    "returns": "Atgriešana",
+    "privacy": "Privātums",
+    "terms": "Noteikumi",
+    "made": "Gatavots Indijā · Piegādāts visā pasaulē",
+    "director": "Vadību nodrošina Dr. Praveen Rathi — sastāvs izstrādāts un pārraudzīts pašā avotā, Indijā."
+  },
+  "cart": {
+    "title": "Jūsu grozs",
+    "empty": "Jūsu grozs ir tukšs.",
+    "total": "Kopā",
+    "checkout": "Noformēt pasūtījumu",
+    "remove": "Noņemt",
+    "continue": "Turpināt iepirkšanos",
+    "add_more": "Pievienot",
+    "free_ship": "bezmaksas piegādei",
+    "free_unlocked": "✓ Bezmaksas piegāde atbloķēta",
+    "free_ship_progress": "Pievieno {amount}, lai saņemtu bezmaksas piegādi"
+  },
+  "common": {
+    "currency_note": "Cenas ir orientējošas un norādītas jūsu valsts valūtā.",
+    "loading": "Ielādē…",
+    "change_region": "Reģions"
+  },
+  "categories": {
+    "ayurveda": "Ajurvēda",
+    "single-herb-churnas": "Vienaugu čurnas",
+    "compound-churnas": "Kombinētās čurnas",
+    "chyawanprash": "Čavanpraša",
+    "churna-tablets": "Čurnu tabletes",
+    "classic-tablets": "Klasiskās tabletes",
+    "cosmetics": "Kosmētika",
+    "hair-care": "Matu kopšana",
+    "toothpastes": "Zobu pastas",
+    "face-care": "Sejas kopšana",
+    "body-care": "Ķermeņa kopšana",
+    "facial-toners": "Sejas toneri",
+    "henna-hair-colour": "Henna matu krāsa",
+    "food-nutrition": "Pārtika un uzturs",
+    "indian-sweets": "Indiešu saldumi",
+    "spices-seasonings": "Garšvielas un piedevas",
+    "herbal-teas": "Augu tējas",
+    "natural-juices": "Dabīgas sulas",
+    "dried-fruits": "Žāvēti augļi",
+    "biscuits": "Cepumi",
+    "cane-sugar": "Niedru cukurs",
+    "indian-tea": "Indiešu tēja",
+    "oils": "Eļļas",
+    "natural-oils": "Dabīgās eļļas",
+    "ayurvedic-oils": "Ajurvēdas eļļas",
+    "aromatherapy": "Aromaterapija",
+    "incense": "Vīraki",
+    "perfume-oils": "Smaržu eļļas",
+    "hydrolats": "Hidrolāti",
+    "lozenges": "Pastilas"
+  },
+  "argument": {
+    "line": "Pieci tūkstoši gadu prakses, ievērojot precīzus mūsdienu standartus.",
+    "kicker": "Mūsu princips"
+  },
+  "streams": {
+    "title": "Iepērcies pa kategorijām",
+    "stream": "Plūsma"
+  },
+  "remedy": {
+    "kicker": "Ieteiktais produkts"
+  },
+  "dispatch": {
+    "title": "Pierakstieties jaunumu vēstulei"
+  },
+  "proof": {
+    "certified": "Godīgs, atklāts marķējums",
+    "ships": "Piegāde visā pasaulē",
+    "eur": "Orientējošas cenas",
+    "origin": "Ražots Indijā",
+    "langs": "35 valodas"
+  },
+  "edu": {
+    "explore": "Izpētīt",
+    "shop": "Veikals",
+    "care_label": "Saglabāts līdzsvarā",
+    "learn_kicker": "Ayurveda — vienkārši izskaidrota",
+    "learn_title": "Kas ir Ayurveda?",
+    "learn_p1": "Ayurveda ir tradicionāla dabiskās labsajūtas sistēma, kas Indijā radusies aptuveni pirms 5000 gadiem. Tās nosaukums cēlies no diviem sanskrita vārdiem: ayur, kas nozīmē dzīvība, un veda, kas nozīmē zināšanas. Tās pamatā ir viena vienkārša doma: labsajūta rodas, uzturot ķermeni un prātu līdzsvarā.",
+    "learn_p2": "Tā vietā, lai meklētu ātrus risinājumus, Ayurveda raugās uz cilvēku kopumā un ikdienas dzīves ritmu. Tā balstās uz augiem, garšaugiem un tradicionālām formulām, kā arī uz vienkāršiem ikdienas ieradumiem uzturā, miegā un pašaprūpē. Uztveriet to kā laika pārbaudītu veidu, kā par sevi rūpēties — saudzīgi un konsekventi.",
+    "learn_pr1_l": "Līdzsvars",
+    "learn_pr1_t": "Ayurveda labsajūtu uztver kā līdzsvara stāvokli un tiecas saglabāt ķermeni un prātu noturīgu cauri gadalaikiem un ikdienas slodzēm.",
+    "learn_pr2_l": "Cilvēks kopumā",
+    "learn_pr2_t": "Tā raugās uz cilvēku kā veselumu, ņemot vērā uzturu, miegu, aktivitāti un garastāvokli, nevis aplūkojot kādu vienu daļu izolēti.",
+    "learn_pr3_l": "Dabiskas sastāvdaļas",
+    "learn_pr3_t": "Tās preparāti tiek veidoti no augiem, garšaugiem, eļļām un citām dabiskām sastāvdaļām, izmantojot tradicionālas, paaudžu paaudzēs nodotas metodes.",
+    "learn_pr4_l": "Ikdienas rituāls",
+    "learn_pr4_t": "Liela daļa Ayurveda dzīvo mazos, ikdienā atkārtotos ieradumos — vienkāršos rūpju mirkļos, kas laika gaitā uztur dzīvīguma un ikdienas labsajūtas sajūtu.",
+    "dosha_kicker": "Ayurveda pamati",
+    "dosha_title": "Trīs došas",
+    "dosha_intro": "Ayurveda mācībā trīs enerģijas, ko sauc par došām — Vata, Pitta un Kapha —, ir sastopamas ikvienā cilvēkā unikālā kombinācijā, un mērķis ir vienkārši uzturēt jūsu personīgo sajaukumu līdzsvarā.",
+    "vata_el": "Gaiss un telpa",
+    "vata_essence": "Kustības enerģija",
+    "vata_traits": "Vata tipi mēdz būt viegli, ātri un radoši — līdzsvarā esot, dzīvespriecīgi gan prātā, gan ķermenī.",
+    "vata_care": "Ayurveda mācībā Vata tradicionāli tiek uzturēta noturīga ar siltumu, regularitāti un iezemējošu, barojošu pārtiku un eļļām.",
+    "pitta_el": "Uguns un ūdens",
+    "pitta_essence": "Pārveides enerģija",
+    "pitta_traits": "Pitta tipi mēdz būt koncentrēti, mērķtiecīgi un sirsnīgi, ar asu enerģiju un spēcīgu mērķa apziņu.",
+    "pitta_care": "Ayurveda mācībā Pitta tradicionāli tiek uzturēta līdzsvarā ar atvēsinošu pārtiku, mierīgiem ieradumiem un dabā pavadītu laiku.",
+    "kapha_el": "Zeme un ūdens",
+    "kapha_essence": "Struktūras enerģija",
+    "kapha_traits": "Kapha tipi mēdz būt mierīgi, noturīgi un iezemēti, ar nosvērtu, vienkāršu dabu.",
+    "kapha_care": "Ayurveda mācībā Kapha tradicionāli tiek uzturēta dzīvīga ar kustību, sasildošām garšvielām un enerģizējošiem ikdienas rituāliem.",
+    "about_kicker": "Par Sangam Herbals",
+    "about_title": "Autentiskas ājurvēdas glabātājs, ražots izcelsmes vietā",
+    "about_p1": "Sangam Herbals ir ģimenes vadīts Ayurveda nams Indijā, dibināts Dr. Praveen Rathi vadībā. Katra formula tiek gatavota saskaņā ar klasiskajiem Ayurveda tekstiem, izmantojot īstus garšaugus un auksti spiestas eļļas, nevis īsceļus vai sintētiskus pildvielas. Receptes ir senas; standarti, pēc kuriem tās ievērojam, nav.",
+    "about_p2": "Viss tiek ražots Indijā, augu un pašas tradīcijas avotā. No turienes mūsu produkti tiek atklāti marķēti un piegādāti visā pasaulē. Mēs ticam, ka labākais veids, kā nopelnīt tavu uzticību, ir godīgi runāt par to, ko mēs gatavojam un kā mēs to darām — un ļaut produktiem runāt pašiem par sevi.",
+    "about_pr1_l": "Autentiskas formulas",
+    "about_pr1_t": "Receptes tiek gatavotas saskaņā ar klasiskajiem Ayurveda tekstiem — tāpat kā tās gatavotas paaudžu paaudzēs.",
+    "about_pr2_l": "Īstas sastāvdaļas",
+    "about_pr2_t": "Mēs strādājam ar īstiem garšaugiem un auksti spiestām eļļām, nepievienojot sintētiskas pildvielas ērtības labad.",
+    "about_pr3_l": "Ražots Indijā, pie avota",
+    "about_pr3_t": "Katrs produkts top Indijā, kur aug augi un kur radās tradīcija.",
+    "about_pr4_l": "Godīgs marķējums un piegāde visā pasaulē",
+    "about_pr4_t": "Mūsu klāsts ir skaidri marķēts, ar atklāti norādītu sastāvu un lietošanu, un tiek piegādāts visā pasaulē.",
+    "concern_kicker": "Atrodiet savu sākumpunktu",
+    "concern_title": "Iepērcieties pēc vajadzības",
+    "concern_intro": "Neesat pārliecināti, ar ko sākt? Izvēlieties ikdienas jomu, kas jums rūp, un mēs norādīsim uz produktiem un tradīcijām, kas tai atbilst.",
+    "c_digestion_l": "Gremošana un zarnas",
+    "c_digestion_d": "Ērta gremošana un ikdienas zarnu līdzsvars — klasiskie churna, vēja dzenošās garšvielas un saudzīgi maisījumi kā Triphala un Avipattikar.",
+    "c_immunity_l": "Imunitāte un dzīvīgums",
+    "c_immunity_d": "Laika pārbaudīti toniki — Chyawanprash, Amla, Tulsi un Giloy —, Ayurveda mācībā tradicionāli novērtēti ikdienas izturībai.",
+    "c_energy_l": "Spēks un enerģija",
+    "c_energy_d": "Atjaunojoši rasayana garšaugi un toniki — Shilajit, Shatavari, Bala un klasiskās spēka formulas — ikdienas izturībai.",
+    "c_respiratory_l": "Elpošana un gadalaiki",
+    "c_respiratory_d": "Komforts kaklam, krūtīm un gadalaiku maiņai — no Sitopaladi un Mulethi līdz nomierinošām zāļu pastilām.",
+    "c_stress_l": "Stress, miegs un prāts",
+    "c_stress_d": "Nomierinoši, iezemējoši maisījumi koncentrēšanās un mierīgiem vakariem — Brahmi, Shankhpushpi, Jatamansi un baldriāns.",
+    "c_joints_l": "Locītavas un muskuļi",
+    "c_joints_d": "Atbalsts aktīvam ķermenim un brīvai kustībai — Guggul formulas un sasildošas masāžas eļļas kā Mahanarayan.",
+    "c_womens_l": "Sieviešu labsajūta",
+    "c_womens_d": "Saudzīgs, tradicionāls atbalsts sieviešu ikdienas līdzsvaram — Shatavari, Ashoka un klasiskie sieviešu toniki.",
+    "c_skin_l": "Āda un seja",
+    "c_skin_d": "Augu izcelsmes sejas un ķermeņa kopšana, kā arī attīrošie garšaugi — tīrīšanas līdzekļi, toneri, hidrolāti, Neem, Turmeric un Manjistha.",
+    "c_hair_l": "Mati un galvas āda",
+    "c_hair_d": "Barojoša matu un galvas ādas kopšana — Bhringraj un Amla eļļas, zāļu šampūni un dabīgā henna krāsa.",
+    "c_oral_l": "Mutes kopšana",
+    "c_oral_d": "Dabīga ikdienas kopšana zobiem, smaganām un svaigai elpai — zāļu zobu pastas un laika pārbaudītas sastāvdaļas kā Neem.",
+    "c_food_l": "Pārtika, tējas un garšvielas",
+    "c_food_d": "Ayurveda virtuves puse — autentiskas garšvielas un masalas, zāļu un Indijas tējas, sulas, saldumi un vēl daudz kas.",
+    "c_fragrance_l": "Smaržas un rituāls",
+    "c_fragrance_d": "Vīraks un ilgnoturīgie Indijas attari, lai piepildītu ar smaržu jūsu telpu un ikdienas rituālu.",
+    "herb_kicker": "Izglītība par sastāvdaļām",
+    "herb_title": "Galvenie Ayurveda garšaugi",
+    "herb_intro": "Vienkāršā valodā skaidrots ceļvedis pa astoņiem garšaugiem, ar kuriem mūsu katalogā sastapsieties visbiežāk, un par lomu, ko katrs no tiem jau sen ieņem Ayurveda tradīcijā.",
+    "herb_triphala_what": "Klasisks trīs žāvētu augļu maisījums, kas kopā samalts vienotā pulverī.",
+    "herb_triphala_trad": "Ayurveda mācībā tradicionāli izmantots ikdienas gremošanas un saudzīga iekšējā līdzsvara atbalstam.",
+    "herb_triphala_found": "Churna un tabletes",
+    "herb_tulsi_what": "Aromātiska lapa no svētā baziliku auga, ko izmanto kā pulveri, tējās un ādas un matu kopšanā.",
+    "herb_tulsi_trad": "Ayurveda tradīcijā jau sen novērtēts ikdienas labsajūtas un dzīvīguma sajūtas atbalstam.",
+    "herb_tulsi_found": "Churna, tējas un ādas kopšana",
+    "herb_neem_what": "Rūgta lapa no neem koka, ko izmanto kā pulveri un visās attīrošajās ādas un matu formulās.",
+    "herb_neem_trad": "Ayurveda mācībā tradicionāli saistīts ar ikdienas ādas kopšanu un tīru, līdzsvarotu sejas ādu.",
+    "herb_neem_found": "Churna, sejas un matu kopšana",
+    "herb_amla_what": "Mazs, skābs zaļš auglis, ko izmanto kā pulveri, sulu un matu kopšanas produktos.",
+    "herb_amla_trad": "Ayurveda mācībā tradicionāli novērtēts ikdienas dzīvīguma un matu un galvas ādas kopšanas atbalstam.",
+    "herb_amla_found": "Churna, sulas un matu kopšana",
+    "herb_brahmi_what": "Mazs ložņājošs garšaugs, ko lieto kā pulveri vai tablešu veidā.",
+    "herb_brahmi_trad": "Ayurveda mācībā tradicionāli saistīts ar mierīgu koncentrēšanos un ikdienas garīgo labsajūtu.",
+    "herb_brahmi_found": "Churna un tabletes",
+    "herb_chyawanprash_what": "Tradicionāls tumšs zāļu ievārījums, kura pamatā ir Amla un daudzu garšaugu un garšvielu maisījums.",
+    "herb_chyawanprash_trad": "Ayurveda tradīcijā jau sen lietots kā ikdienas toniks ikdienas dzīvīguma un labsajūtas atbalstam.",
+    "herb_chyawanprash_found": "Ayurveda",
+    "herb_turmeric_what": "Zeltaini dzeltena sakne, samalta siltā garšvielu pulverī un izmantota ēdienu gatavošanā, sulās un ādas kopšanā.",
+    "herb_turmeric_trad": "Ayurveda mācībā tradicionāli novērtēts ikdienas līdzsvara un ādas kopšanas atbalstam.",
+    "herb_turmeric_found": "Garšvielas, churna un ādas kopšana",
+    "herb_henna_what": "Lapa, samalta smalkā zaļā pulverī, kas atbrīvo dabīgu sarkanīgu krāsu.",
+    "herb_henna_trad": "Ayurveda un Indijas tradīcijā jau sen izmantota kā dabīga krāsa un kondicionējoša matu kopšana.",
+    "herb_henna_found": "Henna un matu kopšana",
+    "start_kicker": "Iesācējiem Ayurveda jomā",
+    "start_title": "Vienkāršs ceļš, kā sākt",
+    "step1_l": "Apgūstiet pamatus",
+    "step1_t": "Veltiet dažas minūtes, lai saprastu, kas ir Ayurveda — tradicionāla Indijas sistēma ikdienas labsajūtai, līdzsvaram un pašaprūpei.",
+    "step2_l": "Atrodiet savu vajadzību vai tipu",
+    "step2_t": "Pārlūkojiet pēc tā, kas jums rūp — āda, mati, gremošana, ikdienas rutīna —, un redziet, kuras tradīcijas un sastāvdaļas jums atbilst.",
+    "step3_l": "Sāciet vienkārši",
+    "step3_t": "Izvēlieties vienu produktu, kas iederas jūsu rutīnā, lietojiet to konsekventi un pievienojiet vēl tikai tad, kad tas šķiet pareizi.",
+    "faq1_q": "Vai Ayurveda ir droša un kā lietot produktus?",
+    "faq1_a": "Mūsu produkti ir gatavoti no tradicionālām augu izcelsmes sastāvdaļām, un tiem ir skaidri lietošanas norādījumi ikdienai. Kā saprātīgu piesardzību lūdzam pirms kaut kā jauna uzsākšanas konsultēties ar ārstu, ja esat grūtniece, barojat bērnu ar krūti, lietojat medikamentus vai atrodaties medicīniskā aprūpē.",
+    "faq2_q": "Kā izvēlēties, ja esmu pavisam jauns šajā jomā?",
+    "faq2_a": "Sāciet ar vienu produktu, kas atbilst vienai ikdienas vajadzībai — piemēram, ādai, matiem vai ikdienas kopšanai —, nevis pērciet vairākus uzreiz. Katrs produkts vienkāršā valodā skaidro, kas tas ir, kā tas tradicionāli lietots un kā to izmantot.",
+    "faq3_q": "Vai produkti ir autentiski un pareizi marķēti?",
+    "faq3_a": "Katrs produkts tiek ražots Indijā Dr. Praveen Rathi vadībā, ievērojot tradicionālo Ayurveda pagatavošanu un attiecināmos kvalitātes un marķēšanas standartus. Sastāvdaļas un lietošana ir atklāti norādītas uz katra produkta, tāpēc jūs vienmēr zināt, ko saņemat.",
+    "faq4_q": "Vai jūs piegādājat uz manu valsti?",
+    "faq4_a": "Jā — mēs piegādājam starptautiski. Piegādes laiki un jebkuras piemērojamās izmaksas vai nodevas tiek skaidri parādītas norēķinu brīdī, pirms tu apstiprini savu pasūtījumu."
+  },
+  "pdp": {
+    "back": "Atpakaļ uz veikalu",
+    "good_for": "Noderīgs",
+    "what": "Kas tas ir",
+    "benefits": "Tradicionāli izmantots, lai atbalstītu",
+    "ingredients": "Galvenās sastāvdaļas",
+    "how": "Kā lietot",
+    "suited": "Piemērots",
+    "details": "Sīkāka informācija",
+    "format": "Formāts",
+    "origin": "Izcelsme",
+    "india": "Indija",
+    "caution": "Tradicionāla Ayurveda informācija izglītojošiem nolūkiem, nevis medicīnisks padoms. Ja esat grūtniece, barojat bērnu ar krūti, lietojat medikamentus vai atrodaties medicīniskā aprūpē, lūdzu, pirms lietošanas konsultējieties ar ārstu.",
+    "precautions": "Piesardzības pasākumi",
+    "related": "Jums varētu patikt arī",
+    "transparency": "Katra sastāvdaļa norādīta atklāti",
+    "routine": "Kā tas iekļaujas jūsu rutīnā",
+    "good_to_know": "Noderīgi zināt",
+    "take_care": "Lūdzu, ievērojiet piesardzību, ja",
+    "why_kicker": "Kāpēc iepirkties pie mums",
+    "why_title": "Tradīcija, uzticīgi pārmantota — un ražota izcelsmes vietā",
+    "why_sub": "Katra receptūra tiek gatavota pēc klasiskajiem ājurvēdas tekstiem, no īstiem augiem un auksti spiestām eļļām, ražota Indijā, kur augi aug, un veidota Dr. Praveen Rathi vadībā. Mēs nopelnām tavu uzticību godīgā ceļā: atklāts sastāvs, skaidrs marķējums un ģimenes nams, kas atbild par katru partiju.",
+    "assure_title": "Pasūtiet ar pārliecību",
+    "ship_label": "Piegāde visā pasaulē",
+    "ship_text": "Izsekojama piegāde, pieejama visā pasaulē.",
+    "returns_label": "Godīgs marķējums",
+    "returns_text": "Sastāvdaļas un tradicionālais lietojums ir atklāti norādīti uz katra produkta.",
+    "secure_label": "Ražots avota vietā",
+    "secure_text": "Gatavots Indijā pēc klasiskajiem ājurvēdas tekstiem, tad skaidri marķēts.",
+    "help_label": "Esam šeit, lai palīdzētu",
+    "help_text": "Jautājumi pirms pirkuma? Sazinieties ar mums, izmantojot WhatsApp, Telegram vai e-pastu.",
+    "faq_title": "Biežāk uzdotie jautājumi",
+    "new_to": "Pirmo reizi ar Ājurvēdu?",
+    "new_to_cta": "Sāciet ar pamatiem",
+    "qty_label": "Daudzums",
+    "delivery_eu": "Izsekojama piegāde visā pasaulē",
+    "freeship_over": "Bezmaksas piegāde virs {amount}",
+    "freeship_away": "Tev atlikuši {amount} līdz bezmaksas piegādei",
+    "freeship_unlocked": "✓ Bezmaksas piegāde atbloķēta",
+    "cta_guarantee": "Drošs norēķins · 14 dienu atgriešana · ja prece pienāk bojāta vai neatbilst aprakstam, mēs to izlabosim",
+    "authority_quote": "Izstrādājis un pārrauga Dr. Praveen Rathi — \"Es atbildu par katru partiju, ko izgatavojam.\"",
+    "pairs_title": "Papildina jūsu rutīnu",
+    "pairs_sub": "Atlasīts ar to pašu labsajūtas fokusu — pievieno papildinājumu un pietuvojies bezmaksas piegādei.",
+    "add_one": "Pievienot",
+    "compare_title": "Kāpēc izvēlēties Sangam",
+    "compare_sub": "Ko meklēt autentiskā ajūrvēdas produktu klāstā — un kā mēs tam atbilstam.",
+    "compare_us": "Sangam Herbals",
+    "compare_them": "Tipisks masu tirgus augu produkts",
+    "compare_rows": [
+      {
+        "label": "Izstrādāts pēc klasiskajiem ajūrvēdas tekstiem",
+        "us": "Jā — pēc tradicionālajām receptēm",
+        "them": "Bieži patentētas maisījumu formulas"
+      },
+      {
+        "label": "Katra sastāvdaļa norādīta atklāti",
+        "us": "Jā — pilnā apjomā",
+        "them": "Bieži neatklātas"
+      },
+      {
+        "label": "Īsti augi un auksti spiestas eļļas",
+        "us": "Jā — bez liekiem pildvielu piemaisījumiem",
+        "them": "Mainīgi"
+      },
+      {
+        "label": "Ražots avota vietā Indijā",
+        "us": "Jā — tur, kur aug augi",
+        "them": "Bieži nenorādīts"
+      },
+      {
+        "label": "Pārrauga konkrēts vadītājs",
+        "us": "Dr. Praveen Rathi",
+        "them": "Anonīms"
+      }
+    ],
+    "faq5_q": "Cik ātri es pamanīšu kādu iedarbību?",
+    "faq5_a": "Ajūrvēdas augus tradicionāli lieto kā daļu no vienmērīgas ikdienas rutīnas, nevis kā ātru risinājumu, un daudzi cilvēki tos vairāku nedēļu garumā padara par klusu savas dienas sastāvdaļu. Rezultāti katram cilvēkam atšķiras.",
+    "faq6_q": "Kam tas ir vispiemērotākais — un kam jābūt uzmanīgam?",
+    "faq6_a": "To tradicionāli lieto ajūrvēdā, lai atbalstītu ikdienas labsajūtu. Ja esat grūtniece, barojat bērnu ar krūti, lietojat medikamentus vai atrodaties medicīniskā uzraudzībā, pirms lietošanas, lūdzu, konsultējieties ar savu ārstu."
+  },
+  "trust": {
+    "bar": [
+      "Gatavots saskaņā ar klasiskajiem ājurvēdas tekstiem",
+      "Ražots Indijā, augu izcelsmes vietā",
+      "Īsti augi & auksti spiestas eļļas",
+      "Piegāde visā pasaulē",
+      "Drošs norēķins · 14 dienu atgriešana"
+    ],
+    "std_kicker": "Mūsu standarti",
+    "std_title": "Labi gatavots, rūpīgi kontrolēts",
+    "std_intro": "Mēs labāk parādīsim, kā produkts tiek gatavots, nekā teiksim, ka tas ir labs — atklāti sastāvdaļu saraksti, skaidrs marķējums un izcelsmes vieta, no kuras tas nāk. Katra receptūra tiek gatavota pēc klasiskajiem ājurvēdas tekstiem, no īstiem augiem un auksti spiestām eļļām, bez nekā pievienota ērtības labad. Receptes ir gadsimtiem senas; disciplīna, ar kādu mēs tās ievērojam, ir precīza.",
+    "std_items": [
+      {
+        "label": "Īsti augi, auksti spiestas eļļas",
+        "text": "Īsti augi un eļļas, kas spiestas bez karstuma, lai saglabātu to dabisko būtību — pats augs, apstrādāts tradicionālajā veidā, nekad nereducēts līdz bezpersoniskam ekstraktam."
+      },
+      {
+        "label": "Bez sintētiskiem pildvielām",
+        "text": "Mēs neapjomojam savas čurnas, tabletes un eļļas ar sintētiskām pildvielām, krāsvielām vai liekām piedevām. Receptūrā ir tas, ko paredz recepte — nekas vairāk."
+      },
+      {
+        "label": "Gatavots pēc klasiskajām metodēm",
+        "text": "Katra receptūra seko klasiskajiem ājurvēdas tekstiem — tās pašas proporcijas un metodes, kas nodotas no paaudzes paaudzē, gatavotas tā, kā nosaka tradīcija, partija pēc partijas."
+      },
+      {
+        "label": "Sastāvdaļas norādītas atklāti",
+        "text": "Katram produktam ir pievienots pilns sastāvdaļu saraksts, forma un daudzums — nekas nav paslēpts aiz neskaidra 'patentēta sastāva'. Izlasiet precīzi, kas ir iekšā, pirms pirkuma un vēlreiz uz etiķetes."
+      },
+      {
+        "label": "Skaidri marķēts",
+        "text": "Mūsu klāsts ir skaidri marķēts, ar atklāti un augstā līmenī sniegtu informāciju par sastāvu, lietošanu un uzglabāšanu, un tiek piegādāts visā pasaulē."
+      },
+      {
+        "label": "Nemainīgs, partija pēc partijas",
+        "text": "Tā kā izejvielas ir īstas un metode ir noteikta, produkts, ko pasūtāt atkārtoti, ir tas pats produkts, kuram uzticējāties pirmoreiz. Kvalitāte saglabājas stabila — ne tikai labās dienās."
+      },
+      {
+        "label": "Ražots Indijā, izcelsmes vietā",
+        "text": "Ražots tur, kur augi aug un kur radusies pati prakse, Dr. Praveen Rathi vadībā — īsāks ceļš starp augu un receptūru, un ģimenes nams, kas atbild par katru partiju."
+      },
+      {
+        "label": "Atklāti par to, ko neapgalvojam",
+        "text": "Mēs aprakstām savus produktus tradicionālos, izglītojošos terminos un nesniedzam nekādus medicīniskus apgalvojumus. Tas, ko mēs solām, ir konkrēts: autentiskas receptūras, īstas sastāvdaļas, atklāts marķējums, atsaucīgs atbalsts."
+      }
+    ],
+    "g_kicker": "Pasūtiet ar pārliecību",
+    "g_title": "Jūsu pirkums ir aizsargāts",
+    "g_promise": "Ja jūsu pasūtījums pienāk bojāts, nepilnīgs vai neatbilst aprakstam, mēs to izlabosim — nomaiņa vai atmaksa, bez strīdiem.",
+    "g_items": [
+      {
+        "label": "14 dienu atteikuma tiesības",
+        "text": "Tev ir 14 dienas no piegādes brīža, lai atgrieztu neatvērtas preces un saņemtu naudas atmaksu. Mēs to pilnībā ievērojam, ar skaidrām norādēm katrā pasūtījumā."
+      },
+      {
+        "label": "Droša, šifrēta apmaksa",
+        "text": "Katrs maksājums tiek apstrādāts pa šifrētu savienojumu, izmantojot atzītus pakalpojumu sniedzējus. Mēs nekad neredzam un neuzglabājam jūsu pilnos kartes datus — jūsu informācija paliek privāta."
+      },
+      {
+        "label": "Izsekojama piegāde visā pasaulē",
+        "text": "Pasūtījumi tiek nosūtīti visā pasaulē ar izsekošanu no nosūtīšanas līdz durvīm. Tu saņem izsekošanas saiti brīdī, kad tava paka atstāj mūs."
+      },
+      {
+        "label": "Godīgs, pilnīgs marķējums",
+        "text": "Katra sastāvdaļa ir atklāti norādīta uz etiķetes un produkta lapā — bez sintētiskām pildvielām, bez slēptām piedevām, nekas nav noklusēts."
+      },
+      {
+        "label": "Atsaucīgs cilvēka atbalsts",
+        "text": "Jautājums pirms vai pēc pirkuma? Rakstiet mums, un atbildēs īsts cilvēks, skaidri un nekavējoties — par produktu izvēli, lietošanu un uzglabāšanu."
+      },
+      {
+        "label": "Kvalitāte, kuru var izsekot",
+        "text": "Ražots Indijā, izcelsmes vietā, no īstiem augiem un auksti spiestām eļļām, gatavots Dr. Praveen Rathi vadībā. Autentiskums ir standarts, nevis izņēmums."
+      }
+    ],
+    "badges": [
+      {
+        "label": "Klasiskie teksti",
+        "text": "Katra receptūra seko klasiskajai ājurvēdas metodei — augi, proporcijas un sagatavošana, ko nosaka pirmavotu teksti."
+      },
+      {
+        "label": "Ražots izcelsmes vietā",
+        "text": "Ražots Indijā, kur augi aug — īstas receptūras, nekad neatjaunotas no citur ievesta pulvera."
+      },
+      {
+        "label": "Īstas sastāvdaļas",
+        "text": "Īsti augi un auksti spiestas eļļas. Bez sintētiskām pildvielām, bez bezpersoniskiem ekstraktiem, bez saīsinājumiem."
+      },
+      {
+        "label": "Atklātas sastāvdaļas",
+        "text": "Pilns sastāvs, forma un daudzums uz katra produkta un etiķetes — nekas aiz 'patentēta sastāva'."
+      },
+      {
+        "label": "Skaidri marķēts",
+        "text": "Sagatavots un skaidri marķēts augstā līmenī, nosūtīts visā pasaulē."
+      },
+      {
+        "label": "Dr. Praveen Rathi",
+        "text": "Ģimenes ājurvēdas nams, ko izstrādā un pārrauga Dr. Praveen Rathi — uzticīgs tekstiem."
+      }
+    ],
+    "cred_title": "Uzticība, pēc būtības",
+    "credibility": [
+      "358 autentiskas receptūras — līdzekļi, eļļas, kosmētika un pārtika",
+      "Gatavots saskaņā ar klasiskajiem ājurvēdas tekstiem, Dr. Praveen Rathi vadībā",
+      "Ražots Indijā, augu izcelsmes vietā",
+      "Īsti augi un auksti spiestas eļļas, katra sastāvdaļa norādīta atklāti",
+      "Skaidri marķēts, piegādāts visā pasaulē",
+      "Tradicionāla, izglītojoša labsajūtas valoda — nekādu medicīnisku apgalvojumu, nekad"
+    ],
+    "atc_reassure": "Drošs norēķins · 14 dienu atgriešana · Piegāde visā pasaulē",
+    "faq": [
+      {
+        "q": "Kas un kur ražo Sangam Herbals?",
+        "a": "Sangam Herbals ir ģimenes ājurvēdas nams, ko izstrādājis un pārrauga Dr. Praveen Rathi. Viss tiek ražots Indijā, augu izcelsmes vietā, un gatavots pēc klasiskajiem ājurvēdas tekstiem — tad skaidri marķēts augstā līmenī."
+      },
+      {
+        "q": "Kā es varu zināt, kas patiesībā ir katrā produktā?",
+        "a": "Katram produktam ir norādīts pilns sastāvs, forma un daudzums — produkta lapā pirms pirkuma un uz etiķetes, kad tas pienāk. Mēs izmantojam īstus augus un auksti spiestas eļļas, bez sintētiskām pildvielām un bez nekā paslēpta aiz neskaidra 'patentēta sastāva'."
+      },
+      {
+        "q": "Vai šie produkti ir skaidri marķēti?",
+        "a": "Jā. Mūsu klāsts ir skaidri marķēts, ar atklāti un augstā līmenī sniegtu informāciju par sastāvu, lietošanu un uzglabāšanu, un mēs piegādājam visā pasaulē."
+      },
+      {
+        "q": "Ko darīt, ja ar manu pasūtījumu kaut kas nav kārtībā vai es pārdomāju?",
+        "a": "Ja tavs pasūtījums pienāk bojāts, nepilnīgs vai neatbilst aprakstam, mēs to izlabosim — nomaiņa vai naudas atmaksa, bez strīdiem. Un tev ir 14 dienas no piegādes brīža, lai atgrieztu neatvērtas preces un saņemtu naudas atmaksu, ar skaidrām norādēm katrā pasūtījumā."
+      }
+    ],
+    "safety_note": "Tikai labsajūtai un tradicionālai aprūpei — nav zāles un nav aizstājējs profesionālai medicīniskai konsultācijai. Izlasiet etiķeti, ievērojiet norādījumus un konsultējieties ar ārstu, ja esat grūtniece, barojat bērnu ar krūti, lietojat medikamentus vai pārvaldāt veselības stāvokli. Pirms pirmās lietošanas uz ādas veiciet ādas testu. Glabāt bērniem nepieejamā vietā.",
+    "seals_title": "Pērciet ar pārliecību",
+    "seals": [
+      {
+        "label": "Droša šifrēta apmaksa",
+        "sub": "Apstrādāta caur uzticamiem pakalpojumu sniedzējiem — mēs nekad neglabājam jūsu pilnos kartes datus.",
+        "icon": "lock"
+      },
+      {
+        "label": "14 dienu atgriešana",
+        "sub": "Atgrieziet neatvērtas preces 14 dienu laikā pēc piegādes, lai saņemtu naudas atmaksu.",
+        "icon": "return"
+      },
+      {
+        "label": "Izsekojama piegāde visā pasaulē",
+        "sub": "Nosūtīts visā pasaulē ar izsekošanu, no nosūtīšanas līdz durvīm.",
+        "icon": "parcel"
+      },
+      {
+        "label": "Gatavots avotā",
+        "sub": "Izgatavots Indijā, kur aug garšaugi, pēc klasiskajiem tekstiem.",
+        "icon": "mortar"
+      },
+      {
+        "label": "Atklāts sastāvs",
+        "sub": "Pilns sastāva saraksts uz katra produkta — nekas nav noslēpts.",
+        "icon": "label"
+      },
+      {
+        "label": "Atbildam vārdiski",
+        "sub": "Sastāvu izstrādājis un pārrauga Dr. Praveen Rathi.",
+        "icon": "person"
+      }
+    ]
+  },
+  "seo": {
+    "description": "Autentiski ājurvēdas līdzekļi, kosmētika, eļļas un pārtikas produkti — gatavoti pēc klasiskajiem tekstiem, ražoti Indijā Dr. Praveen Rathi vadībā un piegādāti visā pasaulē.",
+    "title": "Sangam Herbals — Autentiska ājurvēda, visā pasaulē"
+  },
+  "river": {
+    "sub": "Sangam ir svēto ūdeņu satikšanās — un senās prakses satikšanās ar rūpīgu, mūsdienīgu meistarību. Atklājiet ataru bibliotēku: 32 ilgnoturīgas Indijas eļļas smaržas.",
+    "kicker": "Saplūsme",
+    "quote": "Kur divas upes kļūst par vienu līdzekli.",
+    "cta": "Pārlūkot ataru bibliotēku →"
+  },
+  "founder": {
+    "eyebrow": "Vēstule no mūsu direktora",
+    "heading": "Es atbildu par katru mūsu gatavoto partiju.",
+    "paragraphs": [
+      "Ajūrvēda manai ģimenei netika nodota kā bizness. Tā tika nodota kā atbildība — veids, kā sagatavot līdzekļus tieši tā, kā nosaka klasiskie teksti, no īstiem garšaugiem un auksti spiestām eļļām, neko nepievienojot ērtības labad. Tas ir vienīgais veids, kā es protu tos gatavot, un vienīgais veids, kā es to darīšu.",
+      "Viss, ko mēs sūtām pasaulē, tiek ražots šeit, Indijā, augu un pašas prakses avotā. Es strādāju ar tām pašām proporcijām un metodēm, kas tiek ievērotas paaudžu paaudzēs, un katru receptūru turu pie precīziem standartiem — jo tas, ka recepte ir sena, nav attaisnojums nevērīgai gatavošanai.",
+      "Es esmu izvēlējies likt savu vārdu uz šī nama un uz šīs lapas vienkārša iemesla dēļ: kad kaut kas nonāk jūsu ķermenī vai uz jūsu ādas, jums ir tiesības zināt, kas par to stāv. Pirms pirkuma izlasiet pilnu sastāvu. Rakstiet mums, ja kaut kas ir neskaidrs. Un, ja produkts jums neder, pasakiet mums, un mēs to izlabosim."
+    ],
+    "signature": "Praveen Rathi",
+    "credential": "Dr. Praveen Rathi · Direktors, Sangam Herbals — ģimenes ajūrvēdas nams, kas gatavo līdzekļus pēc klasiskajiem tekstiem, ražoti Indijā"
+  },
+  "promise": {
+    "kicker": "Kāpēc mēs tos gatavojam",
+    "title": "Mēs labāk zaudētu pārdošanu, nekā to pārspīlētu.",
+    "text": "Mēs pastāvam, lai nepārtrauktu 5000 gadu seno tradīciju ienestu mājās visā pasaulē, to neatšķaidot — gatavojot katru līdzekli pēc klasiskajiem ājurvēdas tekstiem, no īstiem augiem un auksti spiestām eļļām, ražojot to izcelsmes vietā Indijā un atbildot par to ar savu vārdu. Tāpēc mēs parādām tev tieši to, kas ir iekšā un kā tas tiek gatavots, atklāti uzskaitām katru sastāvdaļu un nesniedzam nekādus medicīniskus apgalvojumus. Autentiskums ir mūsu standarts, nevis izņēmums."
+  }
+}

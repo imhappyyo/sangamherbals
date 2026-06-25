@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "lang": "ro",
+    "native": "Română",
+    "dir": "ltr"
+  },
+  "nav": {
+    "home": "Acasă",
+    "shop": "Magazin",
+    "catalog": "Catalog",
+    "about": "Despre noi",
+    "heritage": "Despre",
+    "contact": "Contact",
+    "search": "Caută produse",
+    "learn": "Învață"
+  },
+  "gate": {
+    "title": "Bine ați venit la Sangam Herbals",
+    "subtitle": "Ayurveda autentică, creată în India — alegeți țara și limba",
+    "choose_region": "Alegeți țara",
+    "choose_language": "Alegeți limba",
+    "continue": "Intră în magazin",
+    "filter": "Caută țări",
+    "country_hint": "Alegeți țara și limba. Țara stabilește livrarea, moneda și taxele; limba stabilește modul în care este afișat magazinul.",
+    "no_country": "Nicio țară nu corespunde căutării.",
+    "country_one": "țară",
+    "country_many": "țări",
+    "close": "Închide",
+    "region_na": "America de Nord",
+    "region_eu": "Europa",
+    "region_me": "Orientul Mijlociu",
+    "region_ap": "Asia / Pacific",
+    "select_prompt": "Selectați o țară pentru a vedea livrarea, moneda și limba",
+    "preview_head": "Cumpărați din {country}",
+    "row_ship": "Livrare",
+    "row_currency": "Monedă",
+    "row_vat": "Taxe și accize",
+    "row_lang": "Limba site-ului",
+    "ship_line": "Livrare cu urmărire către {country}, de regulă 3–10 zile lucrătoare. Gratuită peste {free}.",
+    "currency_eur": "Prețurile sunt afișate în euro (EUR).",
+    "currency_local": "Prețurile sunt orientative, în euro (EUR). {country} folosește {cur} — banca dumneavoastră face conversia la finalizarea comenzii.",
+    "vat_line": "Eventualele taxe sau accize pentru {country} sunt afișate la finalizarea comenzii, înainte de plată.",
+    "lang_default": "alegerea obișnuită pentru {country}",
+    "lang_change": "schimbă",
+    "trust_ship": "Livrare internațională",
+    "trust_langs": "35 de limbi",
+    "trust_eur": "Prețuri orientative în EUR",
+    "trust_secure": "Plată securizată",
+    "trust_return": "Retur în 14 zile",
+    "change_later": "Țara sau limba greșită? O puteți schimba oricând din „Regiune”, în meniu."
+  },
+  "hero": {
+    "eyebrow": "O casă Ayurvedică de familie · Fabricat în India, după textele clasice",
+    "title": "Tradiția, pregătită cu credință — și asumată prin nume.",
+    "subtitle": "Remedii, uleiuri, cosmetice și alimente ayurvedice autentice, fabricate în India sub îndrumarea Dr. Praveen Rathi și livrate în întreaga lume. Plante reale, ingrediente transparente, etichetare clară — o încredere pe care o poți verifica înainte de a cumpăra.",
+    "cta_shop": "Răsfoiește catalogul",
+    "cta_story": "Cunoaște casa",
+    "stat_products": "Produse autentice",
+    "stat_categories": "Categorii",
+    "stat_countries": "Țări deservite",
+    "credential": "Dr. Praveen Rathi · Director — formulat și supravegheat la sursă, în India"
+  },
+  "sections": {
+    "ayurveda": "Ayurveda",
+    "cosmetics": "Cosmetice",
+    "food": "Alimentație și nutriție",
+    "oils": "Uleiuri",
+    "aromatherapy": "Aromaterapie"
+  },
+  "shop": {
+    "title": "Toate produsele",
+    "subtitle": "Fiecare produs Sangam Herbals, acum disponibil în întreaga lume.",
+    "all": "Toate produsele",
+    "filter": "Filtrează",
+    "sort": "Sortează",
+    "sort_featured": "Recomandate",
+    "sort_price_low": "Preț: de la mic la mare",
+    "sort_price_high": "Preț: de la mare la mic",
+    "sort_az": "Nume A–Z",
+    "results": "produse",
+    "empty": "Niciun produs nu corespunde filtrelor selectate.",
+    "clear": "Șterge filtrele",
+    "add": "Adaugă în coș",
+    "view": "Vezi detalii",
+    "from": "de la",
+    "in_stock": "În stoc",
+    "sku": "COD",
+    "showing": "Se afișează",
+    "loadmore": "Încarcă mai mult",
+    "added": "Added"
+  },
+  "product": {
+    "description": "Descriere",
+    "details": "Detalii",
+    "category": "Categorie",
+    "related": "S-ar putea să îți placă și",
+    "back": "Înapoi la magazin",
+    "origin": "Fabricat în India",
+    "ships": "Livrare în întreaga lume",
+    "unavailable": "Unavailable"
+  },
+  "heritage": {
+    "title": "Cinci mii de ani, într-o singură picătură",
+    "body": "Sangam înseamnă confluență — întâlnirea râurilor sacre. Sangam Herbals este întâlnirea dintre înțelepciunea ayurvedică străveche și producția modernă, atentă. Înființate sub îndrumarea Dr. Praveen Rathi, formulele noastre sunt realizate din plante autentice, uleiuri presate la rece și rețete consacrate de timp, acum preparate și etichetate clar pentru gospodării din întreaga lume.",
+    "pillar1_t": "Formule autentice",
+    "pillar1_b": "Churna-uri clasice, tablete și uleiuri preparate după textele tradiționale ayurvedice.",
+    "pillar2_t": "Pură și sinceră",
+    "pillar2_b": "Ingrediente reale, calitate sinceră, fără aditivi inutili.",
+    "pillar3_t": "Din India către lume",
+    "pillar3_b": "Provenite de la sursă și livrate în întreaga lume."
+  },
+  "footer": {
+    "tagline": "Ayurveda autentică, în întreaga lume",
+    "shop": "Magazin",
+    "company": "Companie",
+    "support": "Asistență",
+    "newsletter": "Newsletter",
+    "newsletter_sub": "Ritualuri ayurvedice, noutăți și oferte.",
+    "email_ph": "Adresa ta de e-mail",
+    "subscribe": "Abonează-te",
+    "rights": "Toate drepturile rezervate.",
+    "shipping": "Livrare în întreaga lume",
+    "returns": "Returnări",
+    "privacy": "Confidențialitate",
+    "terms": "Termeni și condiții",
+    "made": "Realizate în India · Livrate în întreaga lume",
+    "director": "Sub direcția Dr. Praveen Rathi — formulat și supravegheat la sursă, în India."
+  },
+  "cart": {
+    "title": "Coșul tău",
+    "empty": "Coșul tău este gol.",
+    "total": "Total",
+    "checkout": "Finalizează comanda",
+    "remove": "Elimină",
+    "continue": "Continuă cumpărăturile",
+    "add_more": "Adaugă",
+    "free_ship": "pentru livrare gratuită",
+    "free_unlocked": "✓ Livrare gratuită deblocată",
+    "free_ship_progress": "Adaugă {amount} pentru livrare gratuită"
+  },
+  "common": {
+    "currency_note": "Prețurile sunt orientative și sunt afișate în moneda țării dumneavoastră.",
+    "loading": "Se încarcă…",
+    "change_region": "Regiune"
+  },
+  "categories": {
+    "ayurveda": "Ayurveda",
+    "single-herb-churnas": "Churna-uri din plantă unică",
+    "compound-churnas": "Churna-uri compuse",
+    "chyawanprash": "Chyawanprash",
+    "churna-tablets": "Tablete Churna",
+    "classic-tablets": "Tablete clasice",
+    "cosmetics": "Cosmetice",
+    "hair-care": "Îngrijirea părului",
+    "toothpastes": "Paste de dinți",
+    "face-care": "Îngrijirea feței",
+    "body-care": "Îngrijirea corpului",
+    "facial-toners": "Tonice faciale",
+    "henna-hair-colour": "Vopsea de păr cu henna",
+    "food-nutrition": "Alimentație și nutriție",
+    "indian-sweets": "Dulciuri indiene",
+    "spices-seasonings": "Condimente și arome",
+    "herbal-teas": "Ceaiuri din plante",
+    "natural-juices": "Sucuri naturale",
+    "dried-fruits": "Fructe uscate",
+    "biscuits": "Biscuiți",
+    "cane-sugar": "Zahăr din trestie",
+    "indian-tea": "Ceai indian",
+    "oils": "Uleiuri",
+    "natural-oils": "Uleiuri naturale",
+    "ayurvedic-oils": "Uleiuri ayurvedice",
+    "aromatherapy": "Aromaterapie",
+    "incense": "Tămâie și bețișoare parfumate",
+    "perfume-oils": "Uleiuri parfumate",
+    "hydrolats": "Hidrolate",
+    "lozenges": "Pastile"
+  },
+  "argument": {
+    "line": "Cinci mii de ani de practică, ținuți la standarde moderne exigente.",
+    "kicker": "Principiul nostru"
+  },
+  "streams": {
+    "title": "Cumpără pe categorii",
+    "stream": "Categorie"
+  },
+  "remedy": {
+    "kicker": "Produs recomandat"
+  },
+  "dispatch": {
+    "title": "Abonează-te la newsletter"
+  },
+  "proof": {
+    "certified": "Etichetare sinceră, la vedere",
+    "ships": "Livrare internațională",
+    "eur": "Prețuri orientative",
+    "origin": "Produs în India",
+    "langs": "35 de limbi"
+  },
+  "edu": {
+    "explore": "Explorează",
+    "shop": "Cumpără",
+    "care_label": "Menținut în echilibru",
+    "learn_kicker": "Ayurveda, pe înțelesul tuturor",
+    "learn_title": "Ce este Ayurveda?",
+    "learn_p1": "Ayurveda este un sistem tradițional de bunăstare naturală care a apărut în India în urmă cu aproximativ 5.000 de ani. Numele provine din două cuvinte sanscrite: ayur, care înseamnă viață, și veda, care înseamnă cunoaștere. La baza ei stă o idee simplă: bunăstarea vine din menținerea echilibrului dintre corp și minte.",
+    "learn_p2": "În loc să se concentreze pe soluții rapide, Ayurveda privește persoana în întregul ei și ritmul vieții de zi cu zi. Se bazează pe plante, ierburi și formulări tradiționale, alături de rutine zilnice simple pentru alimentație, somn și îngrijire personală. Privește-o ca pe o abordare consacrată de a avea grijă de tine, blând și constant.",
+    "learn_pr1_l": "Echilibru",
+    "learn_pr1_t": "Ayurveda vede bunăstarea ca o stare de echilibru și urmărește menținerea stabilității corpului și a minții de-a lungul anotimpurilor și a solicitărilor vieții de zi cu zi.",
+    "learn_pr2_l": "Persoana în întregul ei",
+    "learn_pr2_t": "Ia în considerare persoana ca un întreg, cuprinzând alimentația, somnul, activitatea și starea de spirit, în loc să se uite la o singură parte în mod izolat.",
+    "learn_pr3_l": "Ingrediente naturale",
+    "learn_pr3_t": "Preparatele ei sunt create din plante, ierburi, uleiuri și alte ingrediente naturale, realizate prin metode tradiționale transmise de-a lungul generațiilor.",
+    "learn_pr4_l": "Ritual zilnic",
+    "learn_pr4_t": "O mare parte din Ayurveda se regăsește în obiceiuri zilnice mici și repetate — gesturile simple de îngrijire care, în timp, susțin un sentiment de vitalitate și de bunăstare cotidiană.",
+    "dosha_kicker": "Noțiuni de bază Ayurveda",
+    "dosha_title": "Cele trei doshas",
+    "dosha_intro": "În Ayurveda, trei energii cunoscute drept doshas — Vata, Pitta și Kapha — sunt prezente în fiecare dintre noi într-un amestec unic, iar scopul este pur și simplu menținerea în echilibru a propriului tău amestec.",
+    "vata_el": "Aer & Spațiu",
+    "vata_essence": "Energia mișcării",
+    "vata_traits": "Tipurile Vata tind să fie ușoare, vioaie și creative — pline de viață în minte și în corp atunci când sunt în echilibru.",
+    "vata_care": "În Ayurveda, Vata este menținută în mod tradițional stabilă prin căldură, rutină și alimente și uleiuri hrănitoare, care oferă stabilitate.",
+    "pitta_el": "Foc & Apă",
+    "pitta_essence": "Energia transformării",
+    "pitta_traits": "Tipurile Pitta tind să fie concentrate, ambițioase și calde, cu o energie pătrunzătoare și un puternic simț al scopului.",
+    "pitta_care": "În Ayurveda, Pitta este menținută în mod tradițional în echilibru prin alimente răcoritoare, rutine calme și timp petrecut în natură.",
+    "kapha_el": "Pământ & Apă",
+    "kapha_essence": "Energia structurii",
+    "kapha_traits": "Tipurile Kapha tind să fie calme, stabile și echilibrate, cu o fire așezată și relaxată.",
+    "kapha_care": "În Ayurveda, Kapha este menținută în mod tradițional vioaie prin mișcare, condimente încălzitoare și ritualuri zilnice energizante.",
+    "about_kicker": "Despre Sangam Herbals",
+    "about_title": "Un custode al Ayurvedei autentice, făcută la sursă",
+    "about_p1": "Sangam Herbals este o casă Ayurvedică de familie din India, fondată sub îndrumarea Dr. Praveen Rathi. Fiecare formulare este preparată după textele Ayurvedice clasice, folosind ierburi reale și uleiuri presate la rece, nu scurtături sau aditivi sintetici. Rețetele sunt vechi; standardele după care le respectăm nu sunt.",
+    "about_p2": "Totul este fabricat în India, la sursa plantelor și a tradiției însăși. De acolo, produsele noastre sunt etichetate transparent și livrate în întreaga lume. Credem că cel mai bun mod de a-ți câștiga încrederea este să fim sinceri în privința a ceea ce facem și a modului în care o facem — și să lăsăm produsele să vorbească de la sine.",
+    "about_pr1_l": "Formule autentice",
+    "about_pr1_t": "Rețetele sunt preparate după textele Ayurvedice clasice, așa cum au fost realizate de generații întregi.",
+    "about_pr2_l": "Ingrediente reale",
+    "about_pr2_t": "Lucrăm cu ierburi autentice și uleiuri presate la rece, fără aditivi sintetici adăugați pentru comoditate.",
+    "about_pr3_l": "Fabricat în India, la sursă",
+    "about_pr3_t": "Fiecare produs este creat în India, acolo unde cresc plantele și unde a luat naștere tradiția.",
+    "about_pr4_l": "Etichetare onestă și livrare în întreaga lume",
+    "about_pr4_t": "Gama noastră este etichetată clar, cu ingredientele și modul de utilizare prezentate transparent, și este expediată în întreaga lume.",
+    "concern_kicker": "Găsește-ți punctul de plecare",
+    "concern_title": "Cumpără în funcție de nevoi",
+    "concern_intro": "Nu știi de unde să începi? Alege un aspect cotidian care îți pasă, iar noi îți vom indica produsele și tradițiile potrivite.",
+    "c_digestion_l": "Digestie & Intestin",
+    "c_digestion_d": "Digestie confortabilă și echilibru intestinal de zi cu zi — churnas clasice, condimente carminative și amestecuri blânde precum Triphala și Avipattikar.",
+    "c_immunity_l": "Imunitate & Vitalitate",
+    "c_immunity_d": "Tonice consacrate — Chyawanprash, Amla, Tulsi și Giloy — prețuite în mod tradițional în Ayurveda pentru reziliența cotidiană.",
+    "c_energy_l": "Forță & Energie",
+    "c_energy_d": "Ierburi și tonice rasayana revitalizante — Shilajit, Shatavari, Bala și formule clasice pentru forță — pentru rezistența de zi cu zi.",
+    "c_respiratory_l": "Respirator & Sezonier",
+    "c_respiratory_d": "Confort pentru gât, piept și sezonier, de la Sitopaladi și Mulethi până la pastile din plante calmante.",
+    "c_stress_l": "Stres, Somn & Minte",
+    "c_stress_d": "Amestecuri calmante și echilibrante pentru concentrare și seri liniștite — Brahmi, Shankhpushpi, Jatamansi și valeriană.",
+    "c_joints_l": "Articulații & Mușchi",
+    "c_joints_d": "Sprijin pentru corpuri active și mișcare lejeră — formule cu Guggul și uleiuri de masaj încălzitoare precum Mahanarayan.",
+    "c_womens_l": "Bunăstarea femeilor",
+    "c_womens_d": "Sprijin blând și tradițional pentru echilibrul cotidian al femeilor — Shatavari, Ashoka și tonice clasice pentru femei.",
+    "c_skin_l": "Piele & Față",
+    "c_skin_d": "Îngrijire pe bază de plante pentru față și corp, plus ierburi purificatoare — produse de curățare, tonice, hidrolate, Neem, Turmeric și Manjistha.",
+    "c_hair_l": "Păr & Scalp",
+    "c_hair_d": "Îngrijire hrănitoare pentru păr și scalp — uleiuri de Bhringraj și Amla, șampoane din plante și colorant natural cu Henna.",
+    "c_oral_l": "Îngrijire orală",
+    "c_oral_d": "Îngrijire naturală zilnică pentru dinți, gingii și respirație proaspătă — paste de dinți din plante și ingrediente verificate în timp precum Neem.",
+    "c_food_l": "Alimente, Ceaiuri & Condimente",
+    "c_food_d": "Latura culinară a Ayurveda — condimente și masala autentice, ceaiuri din plante și indiene, sucuri, dulciuri și multe altele.",
+    "c_fragrance_l": "Parfum & Ritual",
+    "c_fragrance_d": "Bețișoare parfumate și attaruri indiene de lungă durată pentru a-ți parfuma spațiul și ritualul de zi cu zi.",
+    "herb_kicker": "Educație despre ingrediente",
+    "herb_title": "Ierburi Ayurvedice esențiale",
+    "herb_intro": "Un ghid pe înțelesul tuturor despre cele opt ierburi pe care le vei întâlni cel mai des în catalogul nostru și rolul pe care fiecare l-a deținut îndelung în tradiția Ayurvedică.",
+    "herb_triphala_what": "Un amestec clasic din trei fructe uscate, măcinate împreună într-o singură pulbere.",
+    "herb_triphala_trad": "În Ayurveda, folosită în mod tradițional pentru a susține digestia de zi cu zi și un echilibru intern blând.",
+    "herb_triphala_found": "Churnas & tablete",
+    "herb_tulsi_what": "O frunză aromată provenită din planta de busuioc sfânt, folosită ca pulbere, în ceaiuri și în îngrijirea pielii și a părului.",
+    "herb_tulsi_trad": "Prețuită îndelung în tradiția Ayurvedică pentru a susține bunăstarea de zi cu zi și un sentiment de vitalitate.",
+    "herb_tulsi_found": "Churnas, ceaiuri & îngrijirea pielii",
+    "herb_neem_what": "O frunză amară provenită din arborele de Neem, folosită ca pulbere și în formulele de curățare pentru piele și păr.",
+    "herb_neem_trad": "Asociată în mod tradițional în Ayurveda cu îngrijirea zilnică a pielii și un ten curat și echilibrat.",
+    "herb_neem_found": "Churnas, îngrijirea feței & a părului",
+    "herb_amla_what": "Un fruct verde mic și acrișor, folosit ca pulbere, suc și în produse pentru îngrijirea părului.",
+    "herb_amla_trad": "Prețuită în mod tradițional în Ayurveda pentru a susține vitalitatea de zi cu zi și îngrijirea părului și a scalpului.",
+    "herb_amla_found": "Churnas, sucuri & îngrijirea părului",
+    "herb_brahmi_what": "O ierbă mică târâtoare, administrată sub formă de pulbere sau de tablete.",
+    "herb_brahmi_trad": "În Ayurveda, asociată în mod tradițional cu o concentrare calmă și bunăstarea mentală de zi cu zi.",
+    "herb_brahmi_found": "Churnas & tablete",
+    "herb_chyawanprash_what": "O gem tradițional din plante, de culoare închisă, creat în jurul Amla și a unui amestec de numeroase ierburi și condimente.",
+    "herb_chyawanprash_trad": "Administrat îndelung în tradiția Ayurvedică drept tonic zilnic pentru a susține vitalitatea și bunăstarea de zi cu zi.",
+    "herb_chyawanprash_found": "Ayurveda",
+    "herb_turmeric_what": "O rădăcină de culoare galben-auriu, măcinată într-o pulbere de condiment cald și folosită în gătit, sucuri și îngrijirea pielii.",
+    "herb_turmeric_trad": "Prețuit în mod tradițional în Ayurveda pentru a susține echilibrul de zi cu zi și îngrijirea pielii.",
+    "herb_turmeric_found": "Condimente, churnas & îngrijirea pielii",
+    "herb_henna_what": "O frunză măcinată într-o pulbere verde fină care eliberează o culoare roșiatică naturală.",
+    "herb_henna_trad": "Folosită îndelung în tradiția Ayurvedică și indiană drept colorant natural și tratament de îngrijire pentru păr.",
+    "herb_henna_found": "Henna & îngrijirea părului",
+    "start_kicker": "Nou în Ayurveda",
+    "start_title": "Primii pași, pe înțelesul tuturor",
+    "step1_l": "Învață noțiunile de bază",
+    "step1_t": "Petrece câteva minute înțelegând ce este Ayurveda — un sistem tradițional indian de bunăstare, echilibru și îngrijire personală de zi cu zi.",
+    "step2_l": "Găsește-ți nevoia sau tipul",
+    "step2_t": "Navighează în funcție de ceea ce îți pasă — piele, păr, digestie, rutină zilnică — și vezi care tradiții și ingrediente ți se potrivesc.",
+    "step3_l": "Începe simplu",
+    "step3_t": "Alege un singur produs care se potrivește rutinei tale, încearcă-l în mod constant și adaugă mai multe doar atunci când simți că este momentul.",
+    "faq1_q": "Este Ayurveda sigură și cum folosesc produsele?",
+    "faq1_a": "Produsele noastre sunt realizate din ingrediente tradiționale pe bază de plante și sunt însoțite de indicații clare pentru utilizarea de zi cu zi. Ca o măsură de precauție rezonabilă, te rugăm să-ți consulți medicul înainte de a începe ceva nou dacă ești însărcinată, alăptezi, urmezi un tratament medicamentos sau te afli sub supraveghere medicală.",
+    "faq2_q": "Cum aleg dacă sunt complet nou în acest domeniu?",
+    "faq2_a": "Începe cu un singur produs care corespunde unei nevoi cotidiene — precum pielea, părul sau îngrijirea zilnică — în loc să cumperi mai multe deodată. Fiecare produs explică pe înțelesul tuturor ce este, cum a fost folosit în mod tradițional și cum se aplică.",
+    "faq3_q": "Produsele sunt autentice și etichetate corespunzător?",
+    "faq3_a": "Fiecare produs este fabricat în India sub îndrumarea Dr. Praveen Rathi, urmând prepararea Ayurvedică tradițională și standardele de calitate și etichetare aplicabile. Ingredientele și modul de utilizare sunt prezentate în mod deschis pe fiecare produs, astfel încât să știi întotdeauna ce primești.",
+    "faq4_q": "Livrați în țara mea?",
+    "faq4_a": "Da — livrăm internațional. Termenele de livrare și orice taxe sau impozite aplicabile sunt afișate clar la finalizarea comenzii, înainte de a confirma comanda."
+  },
+  "pdp": {
+    "back": "Înapoi la magazin",
+    "good_for": "Bun pentru",
+    "what": "Ce este",
+    "benefits": "Folosit în mod tradițional pentru a susține",
+    "ingredients": "Ingrediente esențiale",
+    "how": "Mod de utilizare",
+    "suited": "Potrivit pentru",
+    "details": "Detalii",
+    "format": "Format",
+    "origin": "Origine",
+    "india": "India",
+    "caution": "Informații Ayurvedice tradiționale cu scop educativ, nu sfaturi medicale. Dacă ești însărcinată, alăptezi, urmezi un tratament medicamentos sau te afli sub supraveghere medicală, te rugăm să-ți consulți medicul înainte de utilizare.",
+    "precautions": "Precauții",
+    "related": "Ți-ar putea plăcea și",
+    "transparency": "Fiecare ingredient, prezentat deschis",
+    "routine": "Cum se integrează în rutina ta",
+    "good_to_know": "Bine de știut",
+    "take_care": "Atenție dacă",
+    "why_kicker": "De ce să cumperi de la noi",
+    "why_title": "Tradiția, purtată cu fidelitate — și făcută la sursă",
+    "why_sub": "Fiecare formulă este preparată după textele ayurvedice clasice, din plante reale și uleiuri presate la rece, fabricată în India unde cresc plantele și sub îndrumarea Dr. Praveen Rathi. Îți câștigăm încrederea pe calea onestă: ingrediente transparente, etichetare clară și o casă de familie care răspunde pentru fiecare lot.",
+    "assure_title": "Comandă cu încredere",
+    "ship_label": "Livrare în întreaga lume",
+    "ship_text": "Expediere cu urmărire, disponibilă în întreaga lume.",
+    "returns_label": "Etichetare onestă",
+    "returns_text": "Ingredientele și utilizarea tradițională sunt prezentate deschis pe fiecare produs.",
+    "secure_label": "Făcut la sursă",
+    "secure_text": "Realizate în India după textele ayurvedice clasice, apoi etichetate clar.",
+    "help_label": "Aici pentru tine",
+    "help_text": "Ai întrebări înainte de a cumpăra? Contactează-ne pe WhatsApp, Telegram sau prin e-mail.",
+    "faq_title": "Întrebări frecvente",
+    "new_to": "Nou în Ayurveda?",
+    "new_to_cta": "Începe cu noțiunile de bază",
+    "qty_label": "Cantitate",
+    "delivery_eu": "Livrare urmărită în întreaga lume",
+    "freeship_over": "Livrare gratuită peste {amount}",
+    "freeship_away": "Mai ai {amount} până la livrarea gratuită",
+    "freeship_unlocked": "✓ Livrare gratuită deblocată",
+    "cta_guarantee": "Plată securizată · Retur în 14 zile · dacă ajunge deteriorat sau diferit de descriere, remediem situația",
+    "authority_quote": "Formulat și supravegheat de Dr. Praveen Rathi — „Răspund pentru fiecare lot pe care îl producem.”",
+    "pairs_title": "Vă completează rutina",
+    "pairs_sub": "Selectate din aceeași grijă pentru starea de bine — adaugă un produs însoțitor și apropie-te de livrarea gratuită.",
+    "add_one": "Adaugă",
+    "compare_title": "De ce să alegeți Sangam",
+    "compare_sub": "La ce să fiți atenți într-o gamă Ayurvedică autentică — și cum ne situăm noi.",
+    "compare_us": "Sangam Herbals",
+    "compare_them": "Produs din plante obișnuit, de masă",
+    "compare_rows": [
+      {
+        "label": "Formulat după textele Ayurvedice clasice",
+        "us": "Da — după rețete tradiționale",
+        "them": "Adesea amestecuri proprietare"
+      },
+      {
+        "label": "Fiecare ingredient menționat deschis",
+        "us": "Da — în întregime",
+        "them": "Frecvent nedezvăluite"
+      },
+      {
+        "label": "Plante reale și uleiuri presate la rece",
+        "us": "Da — fără umpluturi inutile",
+        "them": "Variază"
+      },
+      {
+        "label": "Produs la sursă, în India",
+        "us": "Da — acolo unde cresc plantele",
+        "them": "Adesea neprecizat"
+      },
+      {
+        "label": "Supravegheat de un director cu nume cunoscut",
+        "us": "Dr. Praveen Rathi",
+        "them": "Anonim"
+      }
+    ],
+    "faq5_q": "În cât timp voi observa ceva?",
+    "faq5_a": "Plantele Ayurvedice sunt luate în mod tradițional ca parte a unei rutine zilnice constante, mai degrabă decât ca o soluție rapidă, iar mulți oameni le fac o parte discretă a zilei lor de-a lungul mai multor săptămâni. Rezultatele variază de la o persoană la alta.",
+    "faq6_q": "Cui i se potrivește cel mai bine — și cine ar trebui să fie precaut?",
+    "faq6_a": "Este folosit în mod tradițional în Ayurveda pentru a susține starea de bine de zi cu zi. Dacă sunteți însărcinată, alăptați, luați medicamente sau sunteți sub îngrijire medicală, vă rugăm să discutați cu medicul dumneavoastră înainte de utilizare."
+  },
+  "trust": {
+    "bar": [
+      "Preparate după textele clasice Ayurveda",
+      "Fabricate în India, la sursa plantelor",
+      "Plante autentice & uleiuri presate la rece",
+      "Livrare în întreaga lume",
+      "Plată securizată · Retur în 14 zile"
+    ],
+    "std_kicker": "Standardele noastre",
+    "std_title": "Făcut bine, controlat îndeaproape",
+    "std_intro": "Preferăm să-ți arătăm cum este făcut un produs decât să-ți spunem că este bun — liste de ingrediente transparente, etichetare clară și sursa din care provine. Fiecare formulă este preparată după textele ayurvedice clasice, din plante reale și uleiuri presate la rece, fără nimic adăugat de dragul comodității. Rețetele au secole vechime; disciplina cu care le respectăm este exactă.",
+    "std_items": [
+      {
+        "label": "Plante autentice, uleiuri presate la rece",
+        "text": "Plante și uleiuri veritabile, presate fără căldură pentru a le păstra caracterul intact — planta însăși, prelucrată în mod tradițional, niciodată redusă la un extract anonim."
+      },
+      {
+        "label": "Fără agenți de umplutură sintetici",
+        "text": "Nu îngroșăm churna-urile, comprimatele și uleiurile cu agenți de umplutură sintetici, coloranți sau aditivi inutili. O formulă conține ceea ce cere rețeta — nimic în plus."
+      },
+      {
+        "label": "Preparate după metodele clasice",
+        "text": "Fiecare formulă urmează textele clasice Ayurveda — aceleași proporții și metode transmise de-a lungul generațiilor, făcute așa cum prescrie tradiția, lot după lot."
+      },
+      {
+        "label": "Ingrediente prezentate deschis",
+        "text": "Fiecare produs poartă lista completă de ingrediente, formatul și cantitatea — nimic ascuns în spatele unui vag „amestec proprietar”. Citiți exact ce conține înainte de a cumpăra, și din nou pe etichetă."
+      },
+      {
+        "label": "Etichetare clară",
+        "text": "Gama noastră este etichetată clar, cu informații despre ingrediente, utilizare și depozitare prezentate transparent la standarde înalte, și este expediată în întreaga lume."
+      },
+      {
+        "label": "Constante, de la lot la lot",
+        "text": "Pentru că materiile prime sunt autentice, iar metoda este fixă, produsul pe care îl recomandați este produsul în care ați avut încredere prima dată. Calitatea rămâne constantă — nu doar într-o zi bună."
+      },
+      {
+        "label": "Fabricate în India, la sursă",
+        "text": "Fabricate acolo unde cresc plantele și unde s-a născut practica, sub îndrumarea Dr. Praveen Rathi — o distanță mai scurtă între plantă și formulă, și o casă de familie care răspunde pentru fiecare lot."
+      },
+      {
+        "label": "Sinceri în privința a ceea ce nu pretindem",
+        "text": "Descriem produsele noastre în termeni tradiționali, educativi, și nu facem nicio afirmație medicală. Ceea ce promitem este precis: formule autentice, ingrediente reale, etichetare deschisă, asistență prompt."
+      }
+    ],
+    "g_kicker": "Comandați cu încredere",
+    "g_title": "Achiziția dumneavoastră este protejată",
+    "g_promise": "Dacă produsele ajung deteriorate, incomplete sau diferite de descriere, vom remedia situația — înlocuire sau rambursare, fără discuții.",
+    "g_items": [
+      {
+        "label": "Drept de retur de 14 zile",
+        "text": "Ai la dispoziție 14 zile de la livrare pentru a returna produsele nedesfăcute în vederea unei rambursări. Respectăm acest lucru pe deplin, cu instrucțiuni clare în fiecare comandă."
+      },
+      {
+        "label": "Plată securizată, criptată",
+        "text": "Fiecare plată este procesată printr-o conexiune criptată, prin furnizori consacrați. Nu vedem și nu stocăm niciodată datele complete ale cardului — informațiile dumneavoastră rămân private."
+      },
+      {
+        "label": "Livrare urmărită în întreaga lume",
+        "text": "Comenzile sunt expediate în întreaga lume cu urmărire, de la expediere până la ușa ta. Primești un link de urmărire în momentul în care coletul pleacă de la noi."
+      },
+      {
+        "label": "Etichetare onestă, completă",
+        "text": "Fiecare ingredient este prezentat deschis pe etichetă și pe pagina produsului — fără agenți de umplutură sintetici, fără adaosuri ascunse, nimic nespus."
+      },
+      {
+        "label": "Asistență umană, promptă",
+        "text": "Aveți o întrebare înainte sau după cumpărare? Scrieți-ne și o persoană reală vă răspunde, clar și prompt — despre alegerea, utilizarea și depozitarea produselor."
+      },
+      {
+        "label": "Calitate pe care o puteți urmări",
+        "text": "Fabricate în India, la sursă, din plante autentice și uleiuri presate la rece, preparate sub îndrumarea Dr. Praveen Rathi. Autenticitatea este regula, nu excepția."
+      }
+    ],
+    "badges": [
+      {
+        "label": "Texte clasice",
+        "text": "Fiecare formulă urmează metoda clasică Ayurveda — plantele, proporțiile și prepararea pe care le prescriu textele de referință."
+      },
+      {
+        "label": "Făcut la sursă",
+        "text": "Produse în India, acolo unde cresc plantele — preparate autentice, niciodată reconstituite din pulbere importată în altă parte."
+      },
+      {
+        "label": "Ingrediente autentice",
+        "text": "Plante veritabile și uleiuri presate la rece. Fără agenți de umplutură sintetici, fără extracte anonime, fără scurtături."
+      },
+      {
+        "label": "Ingrediente deschise",
+        "text": "Ingrediente, format și cantitate complete pe fiecare produs și etichetă — nimic în spatele unui „amestec proprietar”."
+      },
+      {
+        "label": "Etichetare clară",
+        "text": "Preparate și etichetate clar la standarde înalte, expediate în întreaga lume."
+      },
+      {
+        "label": "Dr. Praveen Rathi",
+        "text": "O casă Ayurveda de familie, formulată și supravegheată de Dr. Praveen Rathi — fidelă textelor."
+      }
+    ],
+    "cred_title": "Încredere, după măsură",
+    "credibility": [
+      "358 de formule autentice, între remedii, uleiuri, cosmetice și alimente",
+      "Preparate după textele clasice Ayurveda, sub îndrumarea Dr. Praveen Rathi",
+      "Fabricate în India, la sursa plantelor",
+      "Plante autentice și uleiuri presate la rece, fiecare ingredient prezentat deschis",
+      "Etichetate clar, livrate în întreaga lume",
+      "Limbaj tradițional, educativ, al stării de bine — nicio afirmație medicală, niciodată"
+    ],
+    "atc_reassure": "Plată securizată · Retur în 14 zile · Livrare în întreaga lume",
+    "faq": [
+      {
+        "q": "Cine produce Sangam Herbals și unde?",
+        "a": "Sangam Herbals este o casă ayurvedică de familie, ale cărei formule sunt create și supravegheate de Dr. Praveen Rathi. Totul este fabricat în India, la sursa plantelor, și preparat după textele ayurvedice clasice — apoi etichetat clar la standarde înalte."
+      },
+      {
+        "q": "Cum știu ce conține de fapt fiecare produs?",
+        "a": "Fiecare produs prezintă lista completă de ingrediente, formatul și cantitatea — pe pagina produsului înainte de a cumpăra și pe etichetă atunci când ajunge. Folosim plante autentice și uleiuri presate la rece, fără agenți de umplutură sintetici și fără nimic ascuns în spatele unui vag „amestec proprietar”."
+      },
+      {
+        "q": "Sunt aceste produse etichetate clar?",
+        "a": "Da. Gama noastră este etichetată clar, cu informații despre ingrediente, utilizare și depozitare prezentate transparent la standarde înalte, și livrăm în întreaga lume."
+      },
+      {
+        "q": "Ce se întâmplă dacă ceva nu este în regulă cu comanda mea sau mă răzgândesc?",
+        "a": "Dacă comanda ta ajunge deteriorată, incompletă sau diferită de descriere, remediem situația — înlocuire sau rambursare, fără discuții. Și ai la dispoziție 14 zile de la livrare pentru a returna produsele nedesfăcute în vederea unei rambursări, cu instrucțiuni clare în fiecare comandă."
+      }
+    ],
+    "safety_note": "Doar pentru starea de bine și îngrijire tradițională — nu este un medicament și nu înlocuiește sfatul medical de specialitate. Citiți eticheta, respectați indicațiile și consultați-vă medicul dacă sunteți însărcinată, alăptați, urmați un tratament sau gestionați o afecțiune de sănătate. Efectuați un test cutanat înainte de prima aplicare topică. A nu se lăsa la îndemâna copiilor.",
+    "seals_title": "Cumpără cu încredere",
+    "seals": [
+      {
+        "label": "Plată securizată și criptată",
+        "sub": "Procesată prin furnizori consacrați — nu stocăm niciodată datele complete ale cardului tău.",
+        "icon": "lock"
+      },
+      {
+        "label": "Retur în 14 zile",
+        "sub": "Returnează articolele nedeschise în termen de 14 zile de la livrare pentru o rambursare.",
+        "icon": "return"
+      },
+      {
+        "label": "Livrare urmărită în întreaga lume",
+        "sub": "Expediere în întreaga lume cu urmărire, de la expediere până la ușa ta.",
+        "icon": "parcel"
+      },
+      {
+        "label": "Făcut la sursă",
+        "sub": "Realizat în India, acolo unde cresc plantele, după textele clasice.",
+        "icon": "mortar"
+      },
+      {
+        "label": "Ingrediente la vedere",
+        "sub": "Lista completă a ingredientelor pe fiecare produs — nimic ascuns.",
+        "icon": "label"
+      },
+      {
+        "label": "Asumat prin nume",
+        "sub": "Formulat și supravegheat de Dr. Praveen Rathi.",
+        "icon": "person"
+      }
+    ]
+  },
+  "seo": {
+    "description": "Remedii, cosmetice, uleiuri și alimente ayurvedice autentice — preparate după textele clasice, fabricate în India sub îndrumarea Dr. Praveen Rathi și livrate în întreaga lume.",
+    "title": "Sangam Herbals — Ayurveda autentică, în întreaga lume"
+  },
+  "river": {
+    "sub": "Sangam este întâlnirea apelor sacre — și a practicii străvechi cu meșteșugul modern, atent. Descoperă biblioteca de attar: 32 de parfumuri indiene pe bază de ulei, cu o ținută îndelungată.",
+    "kicker": "Confluența",
+    "quote": "Acolo unde două râuri devin un singur remediu.",
+    "cta": "Răsfoiește biblioteca de attar →"
+  },
+  "founder": {
+    "eyebrow": "Un cuvânt din partea directorului nostru",
+    "heading": "Răspund pentru fiecare lot pe care îl facem.",
+    "paragraphs": [
+      "Ayurveda nu i-a fost dată familiei mele ca o afacere. I-a fost transmisă ca o responsabilitate — un mod de a pregăti remediile exact așa cum prevăd textele clasice, din plante reale și uleiuri presate la rece, fără nimic adăugat de dragul comodității. Acesta este singurul mod în care știu să le fac și singurul mod în care le voi face.",
+      "Tot ceea ce trimitem în lume este făcut aici, în India, la sursa plantelor și a practicii însăși. Lucrez după aceleași proporții și metode urmate de generații întregi și țin fiecare formulă la standarde exacte — pentru că vechimea rețetei nu este o scuză pentru o realizare neglijentă.",
+      "Am ales să-mi pun numele pe această casă și pe această pagină dintr-un motiv simplu: când ceva îți intră în corp sau ți se aplică pe piele, meriți să știi cine își asumă răspunderea. Citește lista completă a ingredientelor înainte să cumperi. Scrie-ne dacă ceva nu este clar. Iar dacă un produs nu ți se potrivește, spune-ne, și vom îndrepta lucrurile."
+    ],
+    "signature": "Praveen Rathi",
+    "credential": "Dr. Praveen Rathi · Director, Sangam Herbals — o casă Ayurvedică de familie care pregătește remedii după textele clasice, fabricate în India"
+  },
+  "promise": {
+    "kicker": "De ce le facem",
+    "title": "Mai degrabă pierdem o vânzare decât să o exagerăm.",
+    "text": "Existăm pentru a duce o tradiție neîntreruptă de 5.000 de ani în case din întreaga lume fără a o dilua — preparând fiecare remediu după textele ayurvedice clasice, din plante reale și uleiuri presate la rece, făcut la sursă în India și asumat cu numele nostru. Așa că îți arătăm exact ce conține și cum este făcut, enumerăm transparent fiecare ingredient și nu facem nicio afirmație medicală. Autenticitatea este standardul nostru, nu excepția."
+  }
+}

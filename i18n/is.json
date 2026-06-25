@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "lang": "is",
+    "native": "Íslenska",
+    "dir": "ltr"
+  },
+  "nav": {
+    "home": "Heim",
+    "shop": "Verslun",
+    "catalog": "Vörulisti",
+    "learn": "Fræðsla",
+    "about": "Um okkur",
+    "heritage": "Um okkur",
+    "contact": "Hafa samband",
+    "search": "Leita að vörum"
+  },
+  "gate": {
+    "title": "Velkomin til Sangam Herbals",
+    "subtitle": "Ósvikið Ayurveda, unnið á Indlandi — veldu land þitt og tungumál",
+    "choose_region": "Veldu land þitt",
+    "choose_language": "Veldu tungumál þitt",
+    "continue": "Fara í verslun",
+    "filter": "Leita að löndum",
+    "country_hint": "Veldu land þitt og tungumál. Landið ákveður afhendingu, gjaldmiðil og skatta; tungumálið ákveður hvernig verslunin birtist.",
+    "no_country": "Ekkert land passar við þessa leit.",
+    "country_one": "land",
+    "country_many": "lönd",
+    "close": "Loka",
+    "region_na": "Norður-Ameríka",
+    "region_eu": "Evrópa",
+    "region_me": "Miðausturlönd",
+    "region_ap": "Asía / Kyrrahaf",
+    "select_prompt": "Veldu land til að sjá sendingu, gjaldmiðil og tungumál",
+    "preview_head": "Þú verslar frá {country}",
+    "row_ship": "Sending",
+    "row_currency": "Gjaldmiðill",
+    "row_vat": "Skattar og tollar",
+    "row_lang": "Tungumál vefsíðu",
+    "ship_line": "Rakin afhending til {country}, venjulega 3–10 virkir dagar. Ókeypis yfir {free}.",
+    "currency_eur": "Verð birt í evrum (EUR).",
+    "currency_local": "Verð eru til viðmiðunar í evrum (EUR). {country} notar {cur} — bankinn þinn umreiknar við greiðslu.",
+    "vat_line": "Allir tollar eða skattar fyrir {country} eru sýndir við greiðslu áður en þú borgar.",
+    "lang_default": "venjulegt val fyrir {country}",
+    "lang_change": "breyta",
+    "trust_ship": "Sendir um allan heim",
+    "trust_langs": "35 tungumál",
+    "trust_eur": "Viðmiðunarverð í EUR",
+    "trust_secure": "Örugg greiðsla",
+    "trust_return": "14 daga skilaréttur",
+    "change_later": "Rangt land eða tungumál? Breyttu því hvenær sem er undir „Svæði“ í valmyndinni."
+  },
+  "hero": {
+    "eyebrow": "Fjölskyldurekið Ayurveda-hús · Unnið á Indlandi, eftir klassískum ritum",
+    "title": "Hefðin, unnin af trúmennsku — og staðið við hana með nafni.",
+    "subtitle": "Ekta ayurvedísk meðul, olíur, snyrtivörur og matvæli, framleidd á Indlandi undir stjórn Dr. Praveen Rathi og send um allan heim. Raunverulegar jurtir, opin innihaldsefni, skýrar merkingar — traust sem þú getur sannreynt áður en þú kaupir.",
+    "credential": "Dr. Praveen Rathi · Framkvæmdastjóri — mótað og haft eftirlit með við upptökin, á Indlandi",
+    "cta_shop": "Skoða vörulistann",
+    "cta_story": "Kynnstu húsinu",
+    "stat_products": "Ósviknar vörur",
+    "stat_categories": "Flokkar",
+    "stat_countries": "Lönd sem þjónustuð eru"
+  },
+  "sections": {
+    "ayurveda": "Ayurveda",
+    "cosmetics": "Snyrtivörur",
+    "food": "Matur og næring",
+    "oils": "Olíur",
+    "aromatherapy": "Ilmmeðferð"
+  },
+  "shop": {
+    "title": "Allar vörur",
+    "subtitle": "Sérhver Sangam Herbals vara, nú fáanleg um allan heim.",
+    "all": "Allar vörur",
+    "filter": "Sía",
+    "sort": "Raða",
+    "sort_featured": "Valdar vörur",
+    "sort_price_low": "Verð: lágt til hátt",
+    "sort_price_high": "Verð: hátt til lágt",
+    "sort_az": "Nafn A–Ö",
+    "results": "vörur",
+    "empty": "Engar vörur passa við síurnar þínar.",
+    "clear": "Hreinsa síur",
+    "add": "Setja í körfu",
+    "view": "Skoða nánar",
+    "from": "frá",
+    "in_stock": "Til á lager",
+    "sku": "Vörunúmer",
+    "showing": "Sýni",
+    "loadmore": "Hlaða meira",
+    "added": "Bætt við"
+  },
+  "product": {
+    "description": "Lýsing",
+    "details": "Upplýsingar",
+    "category": "Flokkur",
+    "related": "Þér gæti einnig líkað",
+    "back": "Til baka í verslun",
+    "origin": "Framleitt á Indlandi",
+    "ships": "Sent um allan heim",
+    "unavailable": "Ófáanlegt"
+  },
+  "heritage": {
+    "title": "Fimm þúsund ár, í einum dropa",
+    "body": "Sangam merkir samfljót — fundur heilagra fljóta. Sangam Herbals er fundur fornrar ayurvedískrar visku og vandaðrar, nútímalegrar framleiðslu. Stofnað undir stjórn Dr. Praveen Rathi, eru uppskriftir okkar gerðar úr ekta jurtum, kaldpressuðum olíum og aldagömlum aðferðum, nú útbúnar og skýrt merktar fyrir heimili um allan heim.",
+    "pillar1_t": "Ósviknar formúlur",
+    "pillar1_b": "Klassísk churna, töflur og olíur unnar eftir hefðbundnum Ayurveda-ritum.",
+    "pillar2_t": "Hreint og heiðarlegt",
+    "pillar2_b": "Raunveruleg innihaldsefni, heiðarleg gæði, engin óþarfa aukefni.",
+    "pillar3_t": "Frá Indlandi til alls heimsins",
+    "pillar3_b": "Aflað við upprunastað og sent um allan heim."
+  },
+  "footer": {
+    "tagline": "Ekta Ayurveda, um allan heim",
+    "shop": "Verslun",
+    "company": "Fyrirtæki",
+    "support": "Þjónusta",
+    "newsletter": "Fréttabréf",
+    "newsletter_sub": "Ayurvedískar venjur, nýjar vörur og tilboð.",
+    "email_ph": "Netfangið þitt",
+    "subscribe": "Skrá mig",
+    "rights": "Allur réttur áskilinn.",
+    "shipping": "Sending um allan heim",
+    "returns": "Skil",
+    "privacy": "Persónuvernd",
+    "terms": "Skilmálar",
+    "made": "Handgert á Indlandi · Sent um allan heim",
+    "director": "Stýrt af Dr. Praveen Rathi — mótað og haft eftirlit með við upptökin, á Indlandi."
+  },
+  "cart": {
+    "title": "Karfan þín",
+    "empty": "Karfan þín er tóm.",
+    "total": "Samtals",
+    "checkout": "Ganga frá kaupum",
+    "remove": "Fjarlægja",
+    "continue": "Halda áfram að versla",
+    "add_more": "Bæta við",
+    "free_ship": "fyrir fría sendingu",
+    "free_unlocked": "✓ Frí sending opnuð",
+    "free_ship_progress": "Bættu við {amount} fyrir fría sendingu"
+  },
+  "common": {
+    "currency_note": "Verð eru til viðmiðunar og sýnd í gjaldmiðli lands þíns.",
+    "loading": "Hleð…",
+    "change_region": "Svæði"
+  },
+  "categories": {
+    "ayurveda": "Ayurveda",
+    "single-herb-churnas": "Einjurta churna",
+    "compound-churnas": "Samsett churna",
+    "chyawanprash": "Chyawanprash",
+    "churna-tablets": "Churna-töflur",
+    "classic-tablets": "Klassískar töflur",
+    "cosmetics": "Snyrtivörur",
+    "hair-care": "Hárumhirða",
+    "toothpastes": "Tannkrem",
+    "face-care": "Andlitsumhirða",
+    "body-care": "Líkamsumhirða",
+    "facial-toners": "Andlitstónar",
+    "henna-hair-colour": "Henna-hárlitur",
+    "food-nutrition": "Matur og næring",
+    "indian-sweets": "Indverskt sælgæti",
+    "spices-seasonings": "Krydd og kryddblöndur",
+    "herbal-teas": "Jurtate",
+    "natural-juices": "Náttúrulegir safar",
+    "dried-fruits": "Þurrkaðir ávextir",
+    "biscuits": "Kex",
+    "cane-sugar": "Reyrsykur",
+    "indian-tea": "Indverskt te",
+    "oils": "Olíur",
+    "natural-oils": "Náttúrulegar olíur",
+    "ayurvedic-oils": "Ayurveda-olíur",
+    "aromatherapy": "Ilmmeðferð",
+    "incense": "Reykelsi",
+    "perfume-oils": "Ilmolíur",
+    "hydrolats": "Vatnsdreifar",
+    "lozenges": "Hálstöflur"
+  },
+  "argument": {
+    "kicker": "Meginregla okkar",
+    "line": "Fimm þúsund ára iðkun, haldin í nákvæmum nútímastöðlum."
+  },
+  "streams": {
+    "title": "Verslaðu eftir flokkum",
+    "stream": "Straumur"
+  },
+  "remedy": {
+    "kicker": "Valin vara"
+  },
+  "dispatch": {
+    "title": "Skráðu þig á fréttabréfið okkar"
+  },
+  "proof": {
+    "certified": "Heiðarleg, opin merking",
+    "ships": "Sendir um allan heim",
+    "eur": "Leiðbeinandi verð",
+    "origin": "Framleitt á Indlandi",
+    "langs": "35 tungumál"
+  },
+  "seo": {
+    "title": "Sangam Herbals — Ekta Ayurveda, um allan heim",
+    "description": "Ekta ayurvedísk meðul, snyrtivörur, olíur og matvæli — útbúin samkvæmt klassískum ritum, framleidd á Indlandi undir Dr. Praveen Rathi og send um allan heim."
+  },
+  "river": {
+    "kicker": "Samflæðið",
+    "quote": "Þar sem tvö fljót verða að einu úrræði.",
+    "sub": "Sangam er fundur heilagra vatna — og fornrar iðkunar við vandaða, nútímalega smíð. Uppgötvaðu attar-safnið: 32 langvarandi indverskar olíuilmvötn.",
+    "cta": "Skoða attar-safnið →"
+  },
+  "edu": {
+    "explore": "Kanna",
+    "shop": "Verslun",
+    "care_label": "Haldið í jafnvægi",
+    "learn_kicker": "Ayurveda, útskýrt",
+    "learn_title": "Hvað er Ayurveda?",
+    "learn_p1": "Ayurveda er hefðbundið kerfi náttúrulegrar vellíðanar sem hófst á Indlandi fyrir um 5.000 árum. Nafnið kemur frá tveimur sanskrítarorðum: ayur, sem þýðir líf, og veda, sem þýðir þekking. Í kjarna þess er ein einföld hugmynd: vellíðan kemur frá því að halda líkama og huga í jafnvægi.",
+    "learn_p2": "Í stað þess að einblína á skyndilausnir lítur Ayurveda á manneskjuna í heild og takt daglegs lífs. Það byggir á plöntum, jurtum og hefðbundnum samsetningum, ásamt einföldum daglegum venjum um mataræði, svefn og sjálfsumhirðu. Hugsaðu um það sem aldagamla nálgun til að annast sjálfan þig, blíðlega og samkvæmt.",
+    "learn_pr1_l": "Jafnvægi",
+    "learn_pr1_t": "Ayurveda lítur á vellíðan sem ástand jafnvægis og leitast við að halda líkama og huga stöðugum í gegnum árstíðirnar og kröfur daglegs lífs.",
+    "learn_pr2_l": "Heildarmanneskjan",
+    "learn_pr2_t": "Það lítur á manneskjuna í heild og tekur inn mataræði, svefn, hreyfingu og skap frekar en að skoða einn hluta í einangrun.",
+    "learn_pr3_l": "Náttúruleg innihaldsefni",
+    "learn_pr3_t": "Undirbúningur þess er gerður úr plöntum, jurtum, olíum og öðrum náttúrulegum innihaldsefnum, gerður með hefðbundnum aðferðum sem hafa borist niður kynslóð fram af kynslóð.",
+    "learn_pr4_l": "Daglegur helgisiður",
+    "learn_pr4_t": "Stór hluti Ayurveda lifir í litlum, endurteknum daglegum venjum — einföldum athöfnum umhirðu sem með tímanum styðja við tilfinningu fyrir lífskrafti og daglegri vellíðan.",
+    "dosha_kicker": "Grunnatriði Ayurveda",
+    "dosha_title": "Doshurnar þrjár",
+    "dosha_intro": "Í Ayurveda eru þrjár orkur þekktar sem doshur — Vata, Pitta og Kapha — til staðar í hverjum og einum í einstakri blöndu, og markmiðið er einfaldlega að halda þinni eigin blöndu í jafnvægi.",
+    "vata_el": "Loft og rúm",
+    "vata_essence": "Orka hreyfingar",
+    "vata_traits": "Vata-gerðir hafa tilhneigingu til að vera léttar, snöggar og skapandi — fjörugar í huga og líkama þegar þær eru í jafnvægi.",
+    "vata_care": "Í Ayurveda er Vata hefðbundið haldið stöðugri með hlýju, reglu og jarðtengjandi, nærandi mat og olíum.",
+    "pitta_el": "Eldur og vatn",
+    "pitta_essence": "Orka umbreytingar",
+    "pitta_traits": "Pitta-gerðir hafa tilhneigingu til að vera einbeittar, drífandi og hlýjar, með skarpri orku og sterkri tilfinningu fyrir tilgangi.",
+    "pitta_care": "Í Ayurveda er Pitta hefðbundið haldið í jafnvægi með kælandi mat, rólegum venjum og tíma í náttúrunni.",
+    "kapha_el": "Jörð og vatn",
+    "kapha_essence": "Orka byggingar",
+    "kapha_traits": "Kapha-gerðir hafa tilhneigingu til að vera rólegar, stöðugar og jarðtengdar, með yfirveguðu, afslöppuðu eðli.",
+    "kapha_care": "Í Ayurveda er Kapha hefðbundið haldið fjörugri með hreyfingu, hlýjandi kryddi og orkugefandi daglegum helgisiðum.",
+    "about_kicker": "Um Sangam Herbals",
+    "about_title": "Varðveitandi ósvikins Ayurveda, unnið við upptökin",
+    "about_p1": "Sangam Herbals er fjölskyldurekið Ayurveda-hús á Indlandi, stofnað undir stjórn Dr. Praveen Rathi. Hver samsetning er unnin eftir klassískum Ayurveda-ritum, með raunverulegum jurtum og kaldpressuðum olíum frekar en skyndilausnum eða tilbúnum fylliefnum. Uppskriftirnar eru gamlar; gæðakröfurnar sem við höldum þeim að eru það ekki.",
+    "about_p2": "Allt er framleitt á Indlandi, við uppsprettu plantnanna og sjálfrar hefðarinnar. Þaðan eru vörur okkar skýrt merktar og sendar um allan heim. Við trúum að besta leiðin til að ávinna sér traust þitt sé að vera hreinskilin um hvað við gerum og hvernig við gerum það — og að láta vörurnar tala sínu máli.",
+    "about_pr1_l": "Ósviknar formúlur",
+    "about_pr1_t": "Uppskriftir eru unnar eftir klassískum Ayurveda-ritum, eins og þær hafa verið gerðar kynslóð fram af kynslóð.",
+    "about_pr2_l": "Raunveruleg innihaldsefni",
+    "about_pr2_t": "Við vinnum með ósviknum jurtum og kaldpressuðum olíum, án tilbúinna fylliefna sem bætt er við fyrir hentugleika.",
+    "about_pr3_l": "Framleitt á Indlandi, við upptökin",
+    "about_pr3_t": "Hver vara er unnin á Indlandi, þar sem plönturnar vaxa og hefðin hófst.",
+    "about_pr4_l": "Heiðarlegar merkingar og afhending um allan heim",
+    "about_pr4_t": "Vöruúrval okkar er skýrt merkt, með innihaldsefnum og notkun sýndum á opinn hátt, og sent um allan heim.",
+    "concern_kicker": "Finndu upphafspunkt þinn",
+    "concern_title": "Verslaðu eftir áhyggjuefni",
+    "concern_intro": "Ekki viss hvar á að byrja? Veldu daglegt svið sem þér er annt um, og við vísum þér á vörurnar og hefðirnar sem henta.",
+    "c_digestion_l": "Melting og þörmum",
+    "c_digestion_d": "Þægileg melting og dagleg jafnvægi þarma — klassísk churna, vindeyðandi krydd og mild blöndur eins og Triphala og Avipattikar.",
+    "c_immunity_l": "Ónæmi og lífskraftur",
+    "c_immunity_d": "Aldagamlir styrkjandi drykkir — chyawanprash, Amla, Tulsi og Giloy — hefðbundið metnir í Ayurveda fyrir daglega seiglu.",
+    "c_energy_l": "Styrkur og orka",
+    "c_energy_d": "Endurnýjandi rasayana-jurtir og styrkjandi drykkir — Shilajit, Shatavari, Bala og klassískar styrkformúlur — fyrir daglegan úthald.",
+    "c_respiratory_l": "Öndun og árstíðir",
+    "c_respiratory_d": "Háls-, brjóst- og árstíðaþægindi, frá Sitopaladi og Mulethi til róandi jurtahálstaflna.",
+    "c_stress_l": "Streita, svefn og hugur",
+    "c_stress_d": "Róandi, jarðtengjandi blöndur fyrir einbeitingu og hvíldarsöm kvöld — Brahmi, Shankhpushpi, Jatamansi og garðabrúða.",
+    "c_joints_l": "Liðir og vöðvar",
+    "c_joints_d": "Stuðningur fyrir virka líkama og auðvelda hreyfingu — Guggul-formúlur og hlýjandi nuddolíur eins og Mahanarayan.",
+    "c_womens_l": "Vellíðan kvenna",
+    "c_womens_d": "Mildur, hefðbundinn stuðningur fyrir daglegt jafnvægi kvenna — Shatavari, Ashoka og klassískir styrkjandi drykkir kvenna.",
+    "c_skin_l": "Húð og andlit",
+    "c_skin_d": "Plöntubundin andlits- og líkamsumhirða auk hreinsandi jurta — hreinsiefni, tónar, vatnsdreifar, Neem, Túrmerik og Manjistha.",
+    "c_hair_l": "Hár og hársvörður",
+    "c_hair_d": "Nærandi hár- og hársvarðarumhirða — Bhringraj- og Amla-olíur, jurtasjampó og náttúrulegur henna-litur.",
+    "c_oral_l": "Munnumhirða",
+    "c_oral_d": "Náttúruleg dagleg umhirða fyrir tennur, tannhold og ferskan anda — jurtatannkrem og tímaprófuð innihaldsefni eins og Neem.",
+    "c_food_l": "Matur, te og krydd",
+    "c_food_d": "Eldhúshlið Ayurveda — ósvikin krydd og masala, jurta- og indverskt te, safar, sælgæti og fleira.",
+    "c_fragrance_l": "Ilmur og helgisiður",
+    "c_fragrance_d": "Reykelsi og langvarandi indversk attar til að ilmvæða rýmið þitt og daglega helgisiði.",
+    "herb_kicker": "Fræðsla um innihaldsefni",
+    "herb_title": "Helstu Ayurveda-jurtir",
+    "herb_intro": "Einfaldur leiðarvísir um þær átta jurtir sem þú munt rekast oftast á í vörulistanum okkar, og hlutverkið sem hver þeirra hefur lengi haft í Ayurveda-hefðinni.",
+    "herb_triphala_what": "Klassísk blanda af þremur þurrkuðum ávöxtum, möluðum saman í eitt duft.",
+    "herb_triphala_trad": "Í Ayurveda er hún hefðbundið notuð til að styðja við daglega meltingu og milt innra jafnvægi.",
+    "herb_triphala_found": "Churna og töflur",
+    "herb_tulsi_what": "Ilmandi blað af heilögu basilíkuplöntunni, notað sem duft, í te og í húð- og hárumhirðu.",
+    "herb_tulsi_trad": "Lengi metið í Ayurveda-hefð til að styðja við daglega vellíðan og tilfinningu fyrir lífskrafti.",
+    "herb_tulsi_found": "Churna, te og húðumhirða",
+    "herb_neem_what": "Beiskt blað af neem-trénu, notað sem duft og í hreinsandi húð- og hárformúlum.",
+    "herb_neem_trad": "Hefðbundið tengt í Ayurveda við daglega húðumhirðu og hreina, jafnvæga húð.",
+    "herb_neem_found": "Churna, andlits- og hárumhirða",
+    "herb_amla_what": "Lítill, súr grænn ávöxtur, notaður sem duft, safi og í hárumhirðuvörum.",
+    "herb_amla_trad": "Hefðbundið metinn í Ayurveda til að styðja við daglegan lífskraft og umhirðu hárs og hársvarðar.",
+    "herb_amla_found": "Churna, safar og hárumhirða",
+    "herb_brahmi_what": "Lítil skríðandi jurt, tekin sem duft eða í töfluformi.",
+    "herb_brahmi_trad": "Í Ayurveda er hún hefðbundið tengd við rólega einbeitingu og daglega andlega vellíðan.",
+    "herb_brahmi_found": "Churna og töflur",
+    "herb_chyawanprash_what": "Hefðbundin dökk jurtamauk byggð á amla og blöndu af mörgum jurtum og kryddi.",
+    "herb_chyawanprash_trad": "Lengi tekin í Ayurveda-hefð sem daglegur styrkjandi drykkur til að styðja við daglegan lífskraft og vellíðan.",
+    "herb_chyawanprash_found": "Ayurveda",
+    "herb_turmeric_what": "Gullgul rót, möluð í hlýtt kryddduft og notuð í matargerð, safa og húðumhirðu.",
+    "herb_turmeric_trad": "Hefðbundið metið í Ayurveda til að styðja við daglegt jafnvægi og umhirðu húðarinnar.",
+    "herb_turmeric_found": "Krydd, churna og húðumhirða",
+    "herb_henna_what": "Blað malað í fínt grænt duft sem gefur frá sér náttúrulegan rauðleitan lit.",
+    "herb_henna_trad": "Lengi notað í Ayurveda- og indverskri hefð sem náttúrulegur litur og næringarmeðferð fyrir hár.",
+    "herb_henna_found": "Henna og hárumhirða",
+    "start_kicker": "Nýr í Ayurveda",
+    "start_title": "Að byrja, gert einfalt",
+    "step1_l": "Lærðu grunnatriðin",
+    "step1_t": "Eyddu nokkrum mínútum í að skilja hvað Ayurveda er — hefðbundið indverskt kerfi daglegrar vellíðanar, jafnvægis og sjálfsumhirðu.",
+    "step2_l": "Finndu áhyggjuefni þitt eða gerð",
+    "step2_t": "Skoðaðu eftir því sem þér er annt um — húð, hár, melting, dagleg rútína — og sjáðu hvaða hefðir og innihaldsefni henta þér.",
+    "step3_l": "Byrjaðu einfaldlega",
+    "step3_t": "Veldu eina vöru sem hentar rútínunni þinni, prófaðu hana samkvæmt, og bættu við fleiri aðeins þegar það finnst rétt.",
+    "faq1_q": "Er Ayurveda öruggt, og hvernig nota ég vörurnar?",
+    "faq1_a": "Vörur okkar eru gerðar úr hefðbundnum plöntubundnum innihaldsefnum og fylgja skýrar leiðbeiningar um daglega notkun. Sem skynsamlega varúðarráðstöfun, vinsamlegast ráðfærðu þig við lækninn þinn áður en þú byrjar á einhverju nýju ef þú ert barnshafandi, með barn á brjósti, tekur lyf eða ert undir læknismeðferð.",
+    "faq2_q": "Hvernig vel ég ef ég er algjörlega nýr í þessu?",
+    "faq2_a": "Byrjaðu á einni vöru sem passar við eitt daglegt áhyggjuefni — eins og húð, hár eða daglega umhirðu — frekar en að kaupa nokkrar í einu. Hver vara útskýrir á einföldu máli hvað hún er, hvernig hún hefur hefðbundið verið notuð og hvernig á að bera hana á.",
+    "faq3_q": "Eru vörurnar ósviknar og rétt merktar?",
+    "faq3_a": "Hver vara er framleidd á Indlandi undir stjórn Dr. Praveen Rathi, eftir hefðbundnum Ayurveda-undirbúningi og gildandi gæða- og merkingarstöðlum. Innihaldsefni og notkun eru skráð opinskátt á hverri vöru svo þú vitir alltaf hvað þú færð.",
+    "faq4_q": "Sendið þið til lands míns?",
+    "faq4_a": "Já — við sendum um allan heim. Afhendingartímar og hvers kyns gjöld eða tollar sem við eiga eru sýnd skýrt við kassann áður en þú staðfestir pöntun þína."
+  },
+  "pdp": {
+    "back": "Til baka í verslun",
+    "good_for": "Gott fyrir",
+    "what": "Hvað það er",
+    "benefits": "Hefðbundið notað til að styðja við",
+    "ingredients": "Helstu innihaldsefni",
+    "how": "Hvernig á að nota",
+    "suited": "Hentar fyrir",
+    "details": "Upplýsingar",
+    "format": "Form",
+    "origin": "Uppruni",
+    "india": "Indland",
+    "caution": "Hefðbundnar Ayurveda-upplýsingar til fræðslu, ekki læknisráð. Ef þú ert barnshafandi, með barn á brjósti, tekur lyf eða ert undir læknismeðferð, vinsamlegast ráðfærðu þig við lækninn þinn fyrir notkun.",
+    "precautions": "Varúðarráðstafanir",
+    "related": "Þér gæti einnig líkað",
+    "transparency": "Hvert innihaldsefni, skráð opinskátt",
+    "routine": "Hvernig það passar inn í rútínuna þína",
+    "good_to_know": "Gott að vita",
+    "take_care": "Vinsamlegast farðu varlega ef",
+    "why_kicker": "Hvers vegna versla við okkur",
+    "why_title": "Hefðin, borin áfram af trúmennsku — og unnin við upptökin",
+    "why_sub": "Sérhver uppskrift er útbúin samkvæmt klassísku ayurvedísku ritunum, úr raunverulegum jurtum og kaldpressuðum olíum, framleidd á Indlandi þar sem jurtirnar vaxa og undir stjórn Dr. Praveen Rathi. Við ávinnum okkur traust þitt á heiðarlegan hátt: opin innihaldsefni, skýrar merkingar og fjölskylduhús sem ber ábyrgð á hverri lotu.",
+    "assure_title": "Að panta með öryggi",
+    "ship_label": "Afhending um allan heim",
+    "ship_text": "Rakin sending, fáanleg um allan heim.",
+    "returns_label": "Heiðarleg merking",
+    "returns_text": "Innihaldsefni og hefðbundin notkun eru skráð opinskátt á hverri vöru.",
+    "secure_label": "Unnið við upptökin",
+    "secure_text": "Handgert á Indlandi samkvæmt klassískum ayurvedískum ritum, síðan skýrt merkt.",
+    "help_label": "Hér til að hjálpa",
+    "help_text": "Spurningar áður en þú kaupir? Hafðu samband við okkur á WhatsApp, Telegram eða með tölvupósti.",
+    "faq_title": "Algengar spurningar",
+    "new_to": "Nýr í Ayurveda?",
+    "new_to_cta": "Byrjaðu á grunnatriðunum",
+    "qty_label": "Magn",
+    "delivery_eu": "Rakin afhending um allan heim",
+    "freeship_over": "Frí afhending yfir {amount}",
+    "freeship_away": "Þú átt {amount} eftir í fría afhendingu",
+    "freeship_unlocked": "✓ Frí afhending opnuð",
+    "cta_guarantee": "Örugg greiðsla · 14 daga skil · ef varan berst skemmd eða ekki eins og lýst er, lögum við það",
+    "authority_quote": "Mótað og haft eftirlit með af Dr. Praveen Rathi — „Ég stend við hverja lotu sem við framleiðum.“",
+    "pairs_title": "Klárar rútínuna þína",
+    "pairs_sub": "Valið með sömu áherslu á vellíðan — bættu við fylgivöru og færðu þig nær frírri afhendingu.",
+    "add_one": "Bæta við",
+    "compare_title": "Hvers vegna að velja Sangam",
+    "compare_sub": "Hvað á að leita að í ósviknu Ayurveda-úrvali — og hvernig við stöndum okkur.",
+    "compare_us": "Sangam Herbals",
+    "compare_them": "Dæmigerð fjöldaframleidd jurtavara",
+    "faq5_q": "Hve fljótt mun ég taka eftir einhverju?",
+    "faq5_a": "Ayurveda-jurtir eru hefðbundið teknar sem hluti af stöðugri daglegri rútínu frekar en skyndilausn, og margir gera þær að hljóðlátum hluta dagsins yfir nokkrar vikur. Árangur er mismunandi frá manni til manns.",
+    "faq6_q": "Hverjum hentar þetta best — og hver ætti að fara varlega?",
+    "faq6_a": "Það er hefðbundið notað í Ayurveda til að styðja við daglega vellíðan. Ef þú ert barnshafandi, með barn á brjósti, tekur lyf eða ert undir læknismeðferð, vinsamlegast ræddu við lækninn þinn fyrir notkun.",
+    "compare_rows": [
+      {
+        "label": "Mótað eftir klassískum Ayurveda-ritum",
+        "us": "Já — eftir hefðbundnum uppskriftum",
+        "them": "Oft sérvarðar blöndur"
+      },
+      {
+        "label": "Hvert innihaldsefni skráð opinskátt",
+        "us": "Já — að fullu",
+        "them": "Oft óupplýst"
+      },
+      {
+        "label": "Raunverulegar jurtir og kaldpressaðar olíur",
+        "us": "Já — engin óþarfa fylliefni",
+        "them": "Misjafnt"
+      },
+      {
+        "label": "Unnið við upptökin á Indlandi",
+        "us": "Já — þar sem jurtirnar vaxa",
+        "them": "Oft ótilgreint"
+      },
+      {
+        "label": "Eftirlit af nafngreindum framkvæmdastjóra",
+        "us": "Dr. Praveen Rathi",
+        "them": "Nafnlaust"
+      }
+    ]
+  },
+  "trust": {
+    "bar": [
+      "Unnið eftir klassískum Ayurveda-ritum",
+      "Framleitt á Indlandi, við upptök jurtanna",
+      "Raunverulegar jurtir og kaldpressaðar olíur",
+      "Sent um allan heim",
+      "Örugg greiðsla · 14 daga skil"
+    ],
+    "std_kicker": "Gæðakröfur okkar",
+    "std_title": "Vel unnið, náið stýrt",
+    "std_intro": "Við viljum frekar sýna þér hvernig vara er gerð en að segja þér að hún sé góð — opnir innihaldslistar, skýrar merkingar og uppruninn sem hún kemur frá. Sérhver uppskrift er útbúin samkvæmt klassískum ayurvedískum ritum, úr raunverulegum jurtum og kaldpressuðum olíum, með engu bætt við fyrir þægindi. Uppskriftirnar eru aldagamlar; aginn sem við höldum þeim í er nákvæmur.",
+    "seals_title": "Kauptu með öryggi",
+    "seals": [
+      {
+        "label": "Örugg dulkóðuð greiðsla",
+        "sub": "Unnið í gegnum viðurkennda þjónustuaðila — við geymum aldrei allar kortaupplýsingar þínar.",
+        "icon": "lock"
+      },
+      {
+        "label": "14 daga skil",
+        "sub": "Skilaðu óopnuðum vörum innan 14 daga frá afhendingu fyrir endurgreiðslu.",
+        "icon": "return"
+      },
+      {
+        "label": "Rakin afhending um allan heim",
+        "sub": "Sent um allan heim með rakningu, frá sendingu að dyrum.",
+        "icon": "parcel"
+      },
+      {
+        "label": "Unnið við upptökin",
+        "sub": "Unnið á Indlandi þar sem jurtirnar vaxa, eftir klassískum ritum.",
+        "icon": "mortar"
+      },
+      {
+        "label": "Opin innihaldsefni",
+        "sub": "Fullur innihaldslisti á hverri vöru — ekkert falið.",
+        "icon": "label"
+      },
+      {
+        "label": "Staðið við með nafni",
+        "sub": "Mótað og haft eftirlit með af Dr. Praveen Rathi.",
+        "icon": "person"
+      }
+    ],
+    "std_items": [
+      {
+        "label": "Raunverulegar jurtir, kaldpressaðar olíur",
+        "text": "Ósviknar jurtir og olíur pressaðar án hita til að halda eðli sínu óskertu — plantan sjálf, unnin á hefðbundinn hátt, aldrei minnkuð í nafnlausan útdrátt."
+      },
+      {
+        "label": "Engin tilbúin fylliefni",
+        "text": "Við aukum ekki magn churna, taflna og olía með tilbúnum fylliefnum, litarefnum eða óþarfa aukefnum. Formúla inniheldur það sem uppskriftin kallar á — ekkert meira."
+      },
+      {
+        "label": "Unnið eftir klassískum aðferðum",
+        "text": "Hver samsetning fylgir klassískum Ayurveda-ritum — sömu hlutföllum og aðferðum sem borist hafa niður kynslóð fram af kynslóð, gerð eins og hefðin segir til um, lotu eftir lotu."
+      },
+      {
+        "label": "Innihaldsefni skráð opinskátt",
+        "text": "Hver vara ber sinn fulla innihaldslista, form og magn — ekkert falið á bak við óljósa „sérvarða blöndu“. Lestu nákvæmlega hvað er inni áður en þú kaupir, og aftur á merkimiðanum."
+      },
+      {
+        "label": "Skýrt merkt",
+        "text": "Vöruúrval okkar er skýrt merkt, með upplýsingum um innihaldsefni, notkun og geymslu settum fram á opinn hátt og samkvæmt háum stöðlum, og sent um allan heim."
+      },
+      {
+        "label": "Samkvæmt, lotu eftir lotu",
+        "text": "Þar sem hráefnin eru raunveruleg og aðferðin föst, er varan sem þú endurpantar sú vara sem þú treystir í fyrsta skipti. Gæðin haldast stöðug — ekki bara á góðum degi."
+      },
+      {
+        "label": "Framleitt á Indlandi, við upptökin",
+        "text": "Framleitt þar sem plönturnar vaxa og iðkunin átti uppruna sinn, undir stjórn Dr. Praveen Rathi — styttri vegalengd milli jurtar og samsetningar, og fjölskylduhús sem ábyrgist hverja lotu."
+      },
+      {
+        "label": "Hreinskilin um það sem við fullyrðum ekki",
+        "text": "Við lýsum vörum okkar á hefðbundnum, fræðandi nótum og gerum engar læknisfræðilegar fullyrðingar. Það sem við lofum er afmarkað: ósviknar formúlur, raunveruleg innihaldsefni, opin merking, viðbragðsgóð þjónusta."
+      }
+    ],
+    "g_kicker": "Pantaðu með öryggi",
+    "g_title": "Kaup þín eru vernduð",
+    "g_promise": "Ef pöntunin þín kemur skemmd, ófullkomin eða ekki eins og lýst er, gerum við það gott aftur — endurnýjun eða endurgreiðsla, engar deilur.",
+    "g_items": [
+      {
+        "label": "14 daga skilaréttur",
+        "text": "Þú hefur 14 daga frá afhendingu til að skila óopnuðum vörum gegn endurgreiðslu. Við virðum þetta að fullu, með skýrum leiðbeiningum í hverri pöntun."
+      },
+      {
+        "label": "Örugg, dulkóðuð greiðsla",
+        "text": "Hver greiðsla er unnin yfir dulkóðaða tengingu í gegnum viðurkennda þjónustuaðila. Við sjáum aldrei né geymum allar kortaupplýsingar þínar — gögnin þín haldast einkamál."
+      },
+      {
+        "label": "Rakin afhending um allan heim",
+        "text": "Pantanir eru sendar um allan heim með rakningu frá sendingu að dyrum. Þú færð rakningarhlekk um leið og pakkinn þinn fer frá okkur."
+      },
+      {
+        "label": "Heiðarleg, fullkomin merking",
+        "text": "Hvert innihaldsefni er skráð opinskátt á merkimiðanum og á vörusíðunni — engin tilbúin fylliefni, engar faldar viðbætur, ekkert ósagt."
+      },
+      {
+        "label": "Viðbragðsgóð mannleg þjónusta",
+        "text": "Spurning fyrir eða eftir kaup? Skrifaðu okkur og raunveruleg manneskja svarar, skýrt og fljótt — um val, notkun og geymslu á vörunum þínum."
+      },
+      {
+        "label": "Gæði sem þú getur rakið",
+        "text": "Framleitt á Indlandi við upptökin, úr raunverulegum jurtum og kaldpressuðum olíum, unnið undir stjórn Dr. Praveen Rathi. Áreiðanleiki er staðallinn, ekki undantekningin."
+      }
+    ],
+    "badges": [
+      {
+        "label": "Klassísk rit",
+        "text": "Hver formúla fylgir klassískri Ayurveda-aðferð — jurtirnar, hlutföllin og undirbúningurinn sem upprunaritin segja til um."
+      },
+      {
+        "label": "Unnið við upptökin",
+        "text": "Framleitt á Indlandi þar sem jurtirnar vaxa — raunverulegur undirbúningur, aldrei endurgerður úr innfluttu dufti annars staðar."
+      },
+      {
+        "label": "Raunveruleg innihaldsefni",
+        "text": "Ósviknar jurtir og kaldpressaðar olíur. Engin tilbúin fylliefni, engir nafnlausir útdrættir, engar skyndilausnir."
+      },
+      {
+        "label": "Opin innihaldsefni",
+        "text": "Full innihaldsefni, form og magn á hverri vöru og merkimiða — ekkert á bak við „sérvarða blöndu“."
+      },
+      {
+        "label": "Skýrt merkt",
+        "text": "Útbúið og skýrt merkt samkvæmt háum stöðlum, sent um allan heim."
+      },
+      {
+        "label": "Dr. Praveen Rathi",
+        "text": "Fjölskyldurekið Ayurveda-hús, mótað og haft eftirlit með af Dr. Praveen Rathi — sem heldur tryggð við ritin."
+      }
+    ],
+    "cred_title": "Traust, mælt í tölum",
+    "credibility": [
+      "358 ósviknar samsetningar í úrræðum, olíum, snyrtivörum og matvælum",
+      "Unnið eftir klassískum Ayurveda-ritum, undir stjórn Dr. Praveen Rathi",
+      "Framleitt á Indlandi, við upptök jurtanna",
+      "Raunverulegar jurtir og kaldpressaðar olíur, hvert innihaldsefni skráð opinskátt",
+      "Skýrt merkt, sent um allan heim",
+      "Hefðbundið, fræðandi vellíðunarmál — engar læknisfræðilegar fullyrðingar, aldrei"
+    ],
+    "atc_reassure": "Örugg greiðsla · 14 daga skil · Sent um allan heim",
+    "faq": [
+      {
+        "q": "Hver framleiðir Sangam Herbals, og hvar?",
+        "a": "Sangam Herbals er fjölskyldurekið ayurvedískt hús, sem Dr. Praveen Rathi mótar og hefur umsjón með. Allt er framleitt á Indlandi, við uppsprettu jurtanna, og útbúið samkvæmt klassískum ayurvedískum ritum — síðan skýrt merkt samkvæmt háum stöðlum."
+      },
+      {
+        "q": "Hvernig veit ég hvað er raunverulega í hverri vöru?",
+        "a": "Hver vara skráir sín fullu innihaldsefni, form og magn — á vörusíðunni áður en þú kaupir, og á merkimiðanum þegar hún kemur. Við notum raunverulegar jurtir og kaldpressaðar olíur, án tilbúinna fylliefna og ekkert falið á bak við óljósa „sérvarða blöndu“."
+      },
+      {
+        "q": "Eru þessar vörur skýrt merktar?",
+        "a": "Já. Vöruúrval okkar er skýrt merkt, með upplýsingum um innihaldsefni, notkun og geymslu settum fram á opinn hátt og samkvæmt háum stöðlum, og við sendum um allan heim."
+      },
+      {
+        "q": "Hvað ef eitthvað er að pöntuninni minni, eða ég skipti um skoðun?",
+        "a": "Ef pöntunin þín berst skemmd, ófullkomin eða ekki eins og lýst er, lögum við það — endurnýjun eða endurgreiðsla, engin þræta. Og þú hefur 14 daga frá afhendingu til að skila óopnuðum vörum gegn endurgreiðslu, með skýrum leiðbeiningum í hverri pöntun."
+      }
+    ],
+    "safety_note": "Aðeins fyrir vellíðan og hefðbundna umhirðu — ekki lyf, og ekki staðgengill fyrir faglega læknisráðgjöf. Lestu merkimiðann, fylgdu leiðbeiningunum og ráðfærðu þig við lækninn þinn ef þú ert barnshafandi, með barn á brjósti, á lyfjum eða að glíma við heilsufarsvanda. Gerðu húðprófun fyrir fyrstu notkun á húð. Geymist þar sem börn ná ekki til."
+  },
+  "founder": {
+    "eyebrow": "Athugasemd frá framkvæmdastjóra okkar",
+    "heading": "Ég stend við hverja lotu sem við framleiðum.",
+    "paragraphs": [
+      "Ayurveda var ekki afhent fjölskyldu minni sem fyrirtæki. Það var afhent sem ábyrgð — leið til að undirbúa úrræði nákvæmlega eins og klassísku ritin segja til um, úr raunverulegum jurtum og kaldpressuðum olíum, með engu bætt við fyrir hentugleika. Það er eina leiðin sem ég kann að gera þau, og eina leiðin sem ég mun.",
+      "Allt sem við sendum út í heiminn er gert hér á Indlandi, við uppsprettu plantnanna og iðkunarinnar sjálfrar. Ég vinn samkvæmt sömu hlutföllum og aðferðum sem fylgt hefur verið kynslóð fram af kynslóð, og ég held hverri uppskrift í nákvæmum stöðlum — því að uppskriftin sé gömul er engin afsökun fyrir kæruleysi í gerðinni.",
+      "Ég hef valið að setja nafn mitt á þetta hús, og á þessa síðu, af einfaldri ástæðu: þegar eitthvað fer í líkama þinn eða á húð þína, áttu skilið að vita hver stendur að baki því. Lestu öll innihaldsefnin áður en þú kaupir. Skrifaðu okkur ef eitthvað er óljóst. Og ef vara hentar þér ekki, segðu okkur það, og við gerum það gott aftur."
+    ],
+    "signature": "Praveen Rathi",
+    "credential": "Dr. Praveen Rathi · Framkvæmdastjóri, Sangam Herbals — fjölskyldurekið Ayurveda-hús sem undirbýr úrræði eftir klassískum ritum, framleitt á Indlandi"
+  },
+  "promise": {
+    "kicker": "Hvers vegna við gerum þetta",
+    "title": "Við viljum frekar missa sölu en ýkja hana.",
+    "text": "Við erum til þess að bera órofna 5.000 ára hefð inn á heimili um allan heim án þess að þynna hana út — útbúum sérhvert meðul samkvæmt klassísku ayurvedísku ritunum, úr raunverulegum jurtum og kaldpressuðum olíum, framleitt við upprunann á Indlandi og ábyrgst með nafni. Þess vegna sýnum við þér nákvæmlega hvað er innan í og hvernig það er gert, listum sérhvert innihaldsefni á opinn hátt og gerum engar læknisfræðilegar fullyrðingar. Ekta gæði eru staðall okkar, ekki undantekning."
+  }
+}

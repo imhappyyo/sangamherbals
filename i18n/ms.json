@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "lang": "ms",
+    "native": "Bahasa Melayu",
+    "dir": "ltr"
+  },
+  "nav": {
+    "home": "Laman Utama",
+    "shop": "Beli-belah",
+    "catalog": "Katalog",
+    "learn": "Belajar",
+    "about": "Tentang Kami",
+    "heritage": "Tentang Kami",
+    "contact": "Hubungi",
+    "search": "Cari produk"
+  },
+  "gate": {
+    "title": "Selamat datang ke Sangam Herbals",
+    "subtitle": "Ayurveda tulen, dihasilkan di India — pilih negara dan bahasa anda",
+    "choose_region": "Pilih negara anda",
+    "choose_language": "Pilih bahasa anda",
+    "continue": "Masuk ke kedai",
+    "filter": "Cari negara",
+    "country_hint": "Pilih negara dan bahasa anda. Negara anda menentukan penghantaran, mata wang dan cukai; bahasa anda menentukan cara kedai dipaparkan.",
+    "no_country": "Tiada negara yang sepadan dengan carian itu.",
+    "country_one": "negara",
+    "country_many": "negara",
+    "close": "Tutup",
+    "region_na": "Amerika Utara",
+    "region_eu": "Eropah",
+    "region_me": "Timur Tengah",
+    "region_ap": "Asia / Pasifik",
+    "select_prompt": "Pilih negara untuk pratonton penghantaran, mata wang dan bahasa",
+    "preview_head": "Anda membeli-belah dari {country}",
+    "row_ship": "Penghantaran",
+    "row_currency": "Mata wang",
+    "row_vat": "Cukai & duti",
+    "row_lang": "Bahasa laman",
+    "ship_line": "Penghantaran berjejak ke {country}, biasanya 3–10 hari bekerja. Percuma untuk pesanan melebihi {free}.",
+    "currency_eur": "Harga dipaparkan dalam euro (EUR).",
+    "currency_local": "Harga adalah anggaran dalam euro (EUR). {country} menggunakan {cur} — bank anda akan menukar mata wang semasa pembayaran.",
+    "vat_line": "Sebarang duti atau cukai untuk {country} akan dipaparkan semasa pembayaran sebelum anda membayar.",
+    "lang_default": "pilihan biasa untuk {country}",
+    "lang_change": "tukar",
+    "trust_ship": "Penghantaran antarabangsa",
+    "trust_langs": "35 bahasa",
+    "trust_eur": "Harga anggaran EUR",
+    "trust_secure": "Pembayaran selamat",
+    "trust_return": "Pemulangan 14 hari",
+    "change_later": "Salah negara atau bahasa? Tukar bila-bila masa daripada “Wilayah” dalam menu."
+  },
+  "hero": {
+    "eyebrow": "Sebuah rumah Ayurveda keluarga · Dibuat di India, menurut teks klasik",
+    "title": "Tradisi yang disediakan dengan setia — dan dipertanggungjawabkan atas nama.",
+    "subtitle": "Rawatan Ayurveda tulen, minyak, kosmetik dan makanan, dibuat di India di bawah bimbingan Dr. Praveen Rathi dan dihantar ke seluruh dunia. Herba sebenar, ramuan terbuka, pelabelan jelas — kepercayaan yang boleh anda semak sebelum membeli.",
+    "credential": "Dr. Praveen Rathi · Pengarah — diformulasikan dan diselia di sumbernya, di India",
+    "cta_shop": "Layari katalog",
+    "cta_story": "Kenali rumah kami",
+    "stat_products": "Produk tulen",
+    "stat_categories": "Kategori",
+    "stat_countries": "Negara dilayani"
+  },
+  "sections": {
+    "ayurveda": "Ayurveda",
+    "cosmetics": "Kosmetik",
+    "food": "Makanan & Pemakanan",
+    "oils": "Minyak",
+    "aromatherapy": "Aromaterapi"
+  },
+  "shop": {
+    "title": "Semua produk",
+    "subtitle": "Setiap produk Sangam Herbals, kini tersedia di seluruh dunia.",
+    "all": "Semua produk",
+    "filter": "Tapis",
+    "sort": "Susun",
+    "sort_featured": "Pilihan istimewa",
+    "sort_price_low": "Harga: rendah ke tinggi",
+    "sort_price_high": "Harga: tinggi ke rendah",
+    "sort_az": "Nama A–Z",
+    "results": "produk",
+    "empty": "Tiada produk yang sepadan dengan tapisan anda.",
+    "clear": "Kosongkan tapisan",
+    "add": "Tambah ke troli",
+    "view": "Lihat butiran",
+    "from": "dari",
+    "in_stock": "Ada stok",
+    "sku": "SKU",
+    "showing": "Memaparkan",
+    "loadmore": "Muat lagi",
+    "added": "Ditambah"
+  },
+  "product": {
+    "description": "Penerangan",
+    "details": "Butiran",
+    "category": "Kategori",
+    "related": "Anda mungkin juga suka",
+    "back": "Kembali ke kedai",
+    "origin": "Dibuat di India",
+    "ships": "Dihantar ke seluruh dunia",
+    "unavailable": "Tidak tersedia"
+  },
+  "heritage": {
+    "title": "Lima ribu tahun, dalam satu titik",
+    "body": "Sangam bermaksud pertemuan — pertemuan sungai-sungai suci. Sangam Herbals ialah pertemuan kebijaksanaan Ayurveda purba dengan pengeluaran moden yang teliti. Diasaskan di bawah bimbingan Dr. Praveen Rathi, formulasi kami dibuat daripada herba tulen, minyak perah sejuk dan resipi warisan turun-temurun, kini disediakan dan dilabel dengan jelas untuk isi rumah di seluruh dunia.",
+    "pillar1_t": "Formula tulen",
+    "pillar1_b": "Churna, tablet dan minyak klasik disediakan menurut teks Ayurveda tradisional.",
+    "pillar2_t": "Tulen & jujur",
+    "pillar2_b": "Ramuan sebenar, kualiti yang jujur, tanpa bahan tambahan yang tidak perlu.",
+    "pillar3_t": "Dari India ke seluruh dunia",
+    "pillar3_b": "Diperoleh dari sumber dan dihantar ke seluruh dunia."
+  },
+  "footer": {
+    "tagline": "Ayurveda tulen, ke seluruh dunia",
+    "shop": "Beli-belah",
+    "company": "Syarikat",
+    "support": "Sokongan",
+    "newsletter": "Surat berita",
+    "newsletter_sub": "Ritual Ayurveda, ketibaan baharu dan tawaran.",
+    "email_ph": "E-mel anda",
+    "subscribe": "Langgan",
+    "rights": "Hak cipta terpelihara.",
+    "shipping": "Penghantaran ke seluruh dunia",
+    "returns": "Pemulangan",
+    "privacy": "Privasi",
+    "terms": "Terma",
+    "made": "Dihasilkan di India · Dihantar ke seluruh dunia",
+    "director": "Diarahkan oleh Dr. Praveen Rathi — diformulasikan dan diselia di sumbernya, di India."
+  },
+  "cart": {
+    "title": "Troli anda",
+    "empty": "Troli anda kosong.",
+    "total": "Jumlah",
+    "checkout": "Bayar",
+    "remove": "Buang",
+    "continue": "Teruskan membeli-belah",
+    "add_more": "Tambah",
+    "free_ship": "untuk penghantaran percuma",
+    "free_unlocked": "✓ Penghantaran percuma dibuka",
+    "free_ship_progress": "Tambah {amount} untuk penghantaran percuma"
+  },
+  "common": {
+    "currency_note": "Harga adalah anggaran dan dipaparkan dalam mata wang negara anda.",
+    "loading": "Memuatkan…",
+    "change_region": "Wilayah"
+  },
+  "categories": {
+    "ayurveda": "Ayurveda",
+    "single-herb-churnas": "Churna Herba Tunggal",
+    "compound-churnas": "Churna Kompaun",
+    "chyawanprash": "Chyawanprash",
+    "churna-tablets": "Tablet Churna",
+    "classic-tablets": "Tablet Klasik",
+    "cosmetics": "Kosmetik",
+    "hair-care": "Penjagaan Rambut",
+    "toothpastes": "Ubat Gigi",
+    "face-care": "Penjagaan Wajah",
+    "body-care": "Penjagaan Badan",
+    "facial-toners": "Toner Wajah",
+    "henna-hair-colour": "Pewarna Rambut Inai",
+    "food-nutrition": "Makanan & Pemakanan",
+    "indian-sweets": "Manisan India",
+    "spices-seasonings": "Rempah & Perasa",
+    "herbal-teas": "Teh Herba",
+    "natural-juices": "Jus Semula Jadi",
+    "dried-fruits": "Buah Kering",
+    "biscuits": "Biskut",
+    "cane-sugar": "Gula Tebu",
+    "indian-tea": "Teh India",
+    "oils": "Minyak",
+    "natural-oils": "Minyak Semula Jadi",
+    "ayurvedic-oils": "Minyak Ayurveda",
+    "aromatherapy": "Aromaterapi",
+    "incense": "Colok",
+    "perfume-oils": "Minyak Wangi",
+    "hydrolats": "Hidrolat",
+    "lozenges": "Pastil"
+  },
+  "argument": {
+    "kicker": "Prinsip kami",
+    "line": "Lima ribu tahun amalan, dipegang pada piawaian moden yang tepat."
+  },
+  "streams": {
+    "title": "Beli-belah mengikut kategori",
+    "stream": "Aliran"
+  },
+  "remedy": {
+    "kicker": "Produk pilihan"
+  },
+  "dispatch": {
+    "title": "Sertai surat berita kami"
+  },
+  "proof": {
+    "certified": "Pelabelan yang jujur dan terbuka",
+    "ships": "Penghantaran antarabangsa",
+    "eur": "Harga indikatif",
+    "origin": "Dibuat di India",
+    "langs": "35 bahasa"
+  },
+  "seo": {
+    "title": "Sangam Herbals — Ayurveda Tulen, Ke Seluruh Dunia",
+    "description": "Rawatan Ayurveda tulen, kosmetik, minyak dan makanan — disediakan menurut teks klasik, dibuat di India di bawah Dr. Praveen Rathi, dan dihantar ke seluruh dunia."
+  },
+  "river": {
+    "kicker": "Pertemuan",
+    "quote": "Di mana dua sungai menjadi satu ubat.",
+    "sub": "Sangam ialah pertemuan air-air suci — dan pertemuan amalan purba dengan seni moden yang teliti. Terokai pustaka attar: 32 minyak wangi India dari India yang tahan lama.",
+    "cta": "Layari pustaka attar →"
+  },
+  "edu": {
+    "explore": "Terokai",
+    "shop": "Beli-belah",
+    "care_label": "Sentiasa seimbang",
+    "learn_kicker": "Ayurveda, dijelaskan",
+    "learn_title": "Apakah itu Ayurveda?",
+    "learn_p1": "Ayurveda ialah sistem kesejahteraan semula jadi tradisional yang bermula di India kira-kira 5,000 tahun lalu. Namanya berasal daripada dua perkataan Sanskrit: ayur, bermaksud kehidupan, dan veda, bermaksud pengetahuan. Pada terasnya terletak satu idea mudah: kesejahteraan datang daripada mengekalkan keseimbangan tubuh dan minda.",
+    "learn_p2": "Daripada menumpukan kepada penyelesaian pantas, Ayurveda melihat keseluruhan diri seseorang dan irama kehidupan harian. Ia bergantung pada tumbuhan, herba dan formulasi tradisional, di samping rutin harian mudah untuk diet, tidur dan penjagaan diri. Anggaplah ia sebagai pendekatan warisan untuk menjaga diri anda, dengan lembut dan konsisten.",
+    "learn_pr1_l": "Keseimbangan",
+    "learn_pr1_t": "Ayurveda melihat kesejahteraan sebagai keadaan seimbang, dan bermatlamat untuk mengekalkan ketenangan tubuh dan minda sepanjang musim serta tuntutan kehidupan harian.",
+    "learn_pr2_l": "Keseluruhan diri",
+    "learn_pr2_t": "Ia mempertimbangkan seseorang secara keseluruhan, merangkumi diet, tidur, aktiviti dan suasana hati, bukannya melihat mana-mana bahagian secara terasing.",
+    "learn_pr3_l": "Ramuan semula jadi",
+    "learn_pr3_t": "Penyediaannya dibina daripada tumbuhan, herba, minyak dan ramuan semula jadi lain, dibuat menggunakan kaedah tradisional yang diwariskan turun-temurun.",
+    "learn_pr4_l": "Ritual harian",
+    "learn_pr4_t": "Sebahagian besar Ayurveda terletak dalam tabiat harian yang kecil dan berulang — perbuatan penjagaan mudah yang, dari masa ke masa, menyokong rasa kecergasan dan kesejahteraan harian.",
+    "dosha_kicker": "Asas Ayurveda",
+    "dosha_title": "Tiga dosha",
+    "dosha_intro": "Dalam Ayurveda, tiga tenaga yang dikenali sebagai dosha — Vata, Pitta dan Kapha — hadir dalam diri setiap orang dengan campuran yang unik, dan matlamatnya hanyalah untuk mengekalkan keseimbangan campuran anda sendiri.",
+    "vata_el": "Udara & Ruang",
+    "vata_essence": "Tenaga pergerakan",
+    "vata_traits": "Jenis Vata cenderung untuk ringan, pantas dan kreatif — bertenaga dalam minda dan tubuh apabila seimbang.",
+    "vata_care": "Dalam Ayurveda, Vata secara tradisinya dikekalkan stabil dengan kehangatan, rutin serta makanan dan minyak yang menyuburkan dan mendamaikan.",
+    "pitta_el": "Api & Air",
+    "pitta_essence": "Tenaga transformasi",
+    "pitta_traits": "Jenis Pitta cenderung untuk fokus, bersemangat dan hangat, dengan tenaga yang tajam dan rasa tujuan yang kuat.",
+    "pitta_care": "Dalam Ayurveda, Pitta secara tradisinya dikekalkan seimbang dengan makanan menyejukkan, rutin yang tenang dan masa yang dihabiskan dalam alam semula jadi.",
+    "kapha_el": "Bumi & Air",
+    "kapha_essence": "Tenaga struktur",
+    "kapha_traits": "Jenis Kapha cenderung untuk tenang, stabil dan kukuh, dengan sifat yang mantap dan tenang.",
+    "kapha_care": "Dalam Ayurveda, Kapha secara tradisinya dikekalkan bersemangat dengan pergerakan, rempah yang menghangatkan dan ritual harian yang membangkitkan tenaga.",
+    "about_kicker": "Tentang Sangam Herbals",
+    "about_title": "Penjaga Ayurveda tulen, dibuat di sumbernya",
+    "about_p1": "Sangam Herbals ialah rumah Ayurveda milik keluarga di India, diasaskan di bawah arahan Dr. Praveen Rathi. Setiap formulasi disediakan menurut teks Ayurveda klasik, menggunakan herba sebenar dan minyak perahan sejuk, bukannya jalan pintas atau pengisi sintetik. Resipinya lama; piawaian yang kami pegang padanya tidak.",
+    "about_p2": "Segala-galanya dibuat di India, di sumber tumbuhan dan tradisi itu sendiri. Dari situ, produk kami dilabel secara terbuka dan dihantar ke seluruh dunia. Kami percaya cara terbaik untuk mendapat kepercayaan anda ialah dengan berterus terang tentang apa yang kami buat dan bagaimana kami membuatnya — dan membiarkan produk berbicara sendiri.",
+    "about_pr1_l": "Formula tulen",
+    "about_pr1_t": "Resipi disediakan menurut teks Ayurveda klasik, sebagaimana ia telah dibuat turun-temurun.",
+    "about_pr2_l": "Ramuan sebenar",
+    "about_pr2_t": "Kami menggunakan herba tulen dan minyak perahan sejuk, tanpa pengisi sintetik yang ditambah demi kemudahan.",
+    "about_pr3_l": "Dibuat di India, di sumbernya",
+    "about_pr3_t": "Setiap produk dihasilkan di India, tempat tumbuhan tumbuh dan tradisi bermula.",
+    "about_pr4_l": "Pelabelan jujur & penghantaran ke seluruh dunia",
+    "about_pr4_t": "Rangkaian kami dilabel dengan jelas, dengan ramuan dan cara penggunaan ditunjukkan secara terbuka, dan dihantar ke seluruh dunia.",
+    "concern_kicker": "Cari titik permulaan anda",
+    "concern_title": "Beli-belah mengikut keperluan",
+    "concern_intro": "Tidak pasti di mana hendak bermula? Pilih bidang harian yang anda ambil berat, dan kami akan menunjukkan produk dan tradisi yang sesuai.",
+    "c_digestion_l": "Penghadaman & Usus",
+    "c_digestion_d": "Penghadaman yang selesa dan keseimbangan usus harian — churna klasik, rempah karminatif dan campuran lembut seperti Triphala dan Avipattikar.",
+    "c_immunity_l": "Imuniti & Kecergasan",
+    "c_immunity_d": "Tonik warisan — chyawanprash, Amla, Tulsi dan Giloy — dihargai secara tradisi dalam Ayurveda untuk daya tahan harian.",
+    "c_energy_l": "Kekuatan & Tenaga",
+    "c_energy_d": "Herba rasayana dan tonik yang meremajakan — Shilajit, Shatavari, Bala dan formula kekuatan klasik — untuk stamina harian.",
+    "c_respiratory_l": "Pernafasan & Bermusim",
+    "c_respiratory_d": "Keselesaan tekak, dada dan bermusim, daripada Sitopaladi dan Mulethi hingga pastil herba yang menenangkan.",
+    "c_stress_l": "Tekanan, Tidur & Minda",
+    "c_stress_d": "Campuran yang menenangkan dan mendamaikan untuk fokus dan malam yang lena — Brahmi, Shankhpushpi, Jatamansi dan valerian.",
+    "c_joints_l": "Sendi & Otot",
+    "c_joints_d": "Sokongan untuk tubuh aktif dan pergerakan yang mudah — formula Guggul dan minyak urut yang menghangatkan seperti Mahanarayan.",
+    "c_womens_l": "Kesejahteraan Wanita",
+    "c_womens_d": "Sokongan lembut dan tradisional untuk keseimbangan harian wanita — Shatavari, Ashoka dan tonik wanita klasik.",
+    "c_skin_l": "Kulit & Wajah",
+    "c_skin_d": "Penjagaan wajah dan badan berasaskan tumbuhan serta herba penulen — pembersih, toner, hidrolat, Neem, Kunyit dan Manjistha.",
+    "c_hair_l": "Rambut & Kulit Kepala",
+    "c_hair_d": "Penjagaan rambut dan kulit kepala yang menyuburkan — minyak Bhringraj dan Amla, syampu herba dan pewarna inai semula jadi.",
+    "c_oral_l": "Penjagaan Mulut",
+    "c_oral_d": "Penjagaan harian semula jadi untuk gigi, gusi dan nafas segar — ubat gigi herba dan ramuan teruji masa seperti Neem.",
+    "c_food_l": "Makanan, Teh & Rempah",
+    "c_food_d": "Sisi dapur Ayurveda — rempah dan masala tulen, teh herba dan India, jus, manisan dan banyak lagi.",
+    "c_fragrance_l": "Wangian & Ritual",
+    "c_fragrance_d": "Colok dan attar India yang tahan lama untuk mengharumkan ruang dan ritual harian anda.",
+    "herb_kicker": "Pendidikan ramuan",
+    "herb_title": "Herba Ayurveda utama",
+    "herb_intro": "Panduan bahasa mudah tentang lapan herba yang paling kerap anda temui di seluruh katalog kami, dan peranan yang telah lama dipegang oleh setiap satu dalam tradisi Ayurveda.",
+    "herb_triphala_what": "Campuran klasik tiga buah kering, dikisar bersama menjadi satu serbuk.",
+    "herb_triphala_trad": "Dalam Ayurveda, secara tradisinya digunakan untuk menyokong penghadaman harian dan keseimbangan dalaman yang lembut.",
+    "herb_triphala_found": "Churna & tablet",
+    "herb_tulsi_what": "Daun beraroma daripada pokok selasih suci, digunakan sebagai serbuk, dalam teh dan dalam penjagaan kulit serta rambut.",
+    "herb_tulsi_trad": "Lama dihargai dalam tradisi Ayurveda untuk menyokong kesejahteraan harian dan rasa kecergasan.",
+    "herb_tulsi_found": "Churna, teh & penjagaan kulit",
+    "herb_neem_what": "Daun pahit daripada pokok neem, digunakan sebagai serbuk dan di seluruh formula pembersih kulit serta rambut.",
+    "herb_neem_trad": "Secara tradisinya dikaitkan dalam Ayurveda dengan penjagaan kulit harian dan kulit yang bersih serta seimbang.",
+    "herb_neem_found": "Churna, penjagaan wajah & rambut",
+    "herb_amla_what": "Buah hijau kecil yang masam, digunakan sebagai serbuk, jus dan dalam produk penjagaan rambut.",
+    "herb_amla_trad": "Secara tradisinya dihargai dalam Ayurveda untuk menyokong kecergasan harian dan penjagaan rambut serta kulit kepala.",
+    "herb_amla_found": "Churna, jus & penjagaan rambut",
+    "herb_brahmi_what": "Herba menjalar kecil, diambil sebagai serbuk atau dalam bentuk tablet.",
+    "herb_brahmi_trad": "Dalam Ayurveda, secara tradisinya dikaitkan dengan fokus yang tenang dan kesejahteraan mental harian.",
+    "herb_brahmi_found": "Churna & tablet",
+    "herb_chyawanprash_what": "Jem herba gelap tradisional yang dibina di sekeliling amla dan campuran banyak herba serta rempah.",
+    "herb_chyawanprash_trad": "Lama diambil dalam tradisi Ayurveda sebagai tonik harian untuk menyokong kecergasan dan kesejahteraan harian.",
+    "herb_chyawanprash_found": "Ayurveda",
+    "herb_turmeric_what": "Akar berwarna kuning keemasan, dikisar menjadi serbuk rempah yang hangat dan digunakan dalam masakan, jus serta penjagaan kulit.",
+    "herb_turmeric_trad": "Secara tradisinya dihargai dalam Ayurveda untuk menyokong keseimbangan harian dan penjagaan kulit.",
+    "herb_turmeric_found": "Rempah, churna & penjagaan kulit",
+    "herb_henna_what": "Daun yang dikisar menjadi serbuk hijau halus yang mengeluarkan warna kemerahan semula jadi.",
+    "herb_henna_trad": "Lama digunakan dalam tradisi Ayurveda dan India sebagai pewarna semula jadi dan rawatan perapi untuk rambut.",
+    "herb_henna_found": "Inai & penjagaan rambut",
+    "start_kicker": "Baru kenal Ayurveda",
+    "start_title": "Memulakan, dipermudahkan",
+    "step1_l": "Pelajari asasnya",
+    "step1_t": "Luangkan beberapa minit untuk memahami apa itu Ayurveda — sistem tradisional India tentang kesejahteraan harian, keseimbangan dan penjagaan diri.",
+    "step2_l": "Cari keperluan atau jenis anda",
+    "step2_t": "Layari mengikut apa yang anda ambil berat — kulit, rambut, penghadaman, rutin harian — dan lihat tradisi serta ramuan yang sesuai untuk anda.",
+    "step3_l": "Mulakan dengan ringkas",
+    "step3_t": "Pilih satu produk yang sesuai dengan rutin anda, cuba dengan konsisten, dan tambah lagi hanya apabila ia terasa betul.",
+    "faq1_q": "Adakah Ayurveda selamat, dan bagaimana saya menggunakan produk ini?",
+    "faq1_a": "Produk kami dibuat daripada ramuan tradisional berasaskan tumbuhan dan disertakan dengan arahan yang jelas untuk kegunaan harian. Sebagai langkah berjaga-jaga yang munasabah, sila rujuk doktor anda sebelum memulakan sesuatu yang baharu jika anda hamil, menyusu, mengambil ubat, atau berada di bawah penjagaan perubatan.",
+    "faq2_q": "Bagaimana saya memilih jika saya benar-benar baru dalam hal ini?",
+    "faq2_a": "Mulakan dengan satu produk yang sepadan dengan satu keperluan harian — seperti kulit, rambut atau penjagaan harian — dan bukannya membeli beberapa sekaligus. Setiap produk menerangkan dalam bahasa mudah apa itu, bagaimana ia digunakan secara tradisi, dan cara menggunakannya.",
+    "faq3_q": "Adakah produk ini tulen dan dilabel dengan betul?",
+    "faq3_a": "Setiap produk dibuat di India di bawah arahan Dr. Praveen Rathi, mengikut penyediaan Ayurveda tradisional serta piawaian kualiti dan pelabelan yang terpakai. Ramuan dan cara penggunaan disenaraikan secara terbuka pada setiap produk supaya anda sentiasa tahu apa yang anda perolehi.",
+    "faq4_q": "Adakah anda menghantar ke negara saya?",
+    "faq4_a": "Ya — kami menghantar ke peringkat antarabangsa. Masa penghantaran dan sebarang caj atau duti yang berkenaan ditunjukkan dengan jelas semasa pembayaran sebelum anda mengesahkan pesanan anda."
+  },
+  "pdp": {
+    "back": "Kembali ke kedai",
+    "good_for": "Baik untuk",
+    "what": "Apakah ia",
+    "benefits": "Secara tradisinya digunakan untuk menyokong",
+    "ingredients": "Ramuan utama",
+    "how": "Cara penggunaan",
+    "suited": "Sesuai untuk",
+    "details": "Butiran",
+    "format": "Format",
+    "origin": "Asal",
+    "india": "India",
+    "caution": "Maklumat Ayurveda tradisional untuk pendidikan, bukan nasihat perubatan. Jika anda hamil, menyusu, mengambil ubat atau berada di bawah penjagaan perubatan, sila rujuk doktor anda sebelum penggunaan.",
+    "precautions": "Langkah berjaga-jaga",
+    "related": "Anda mungkin juga suka",
+    "transparency": "Setiap ramuan, disenaraikan secara terbuka",
+    "routine": "Cara ia sesuai dengan rutin anda",
+    "good_to_know": "Baik untuk diketahui",
+    "take_care": "Sila berhati-hati jika",
+    "why_kicker": "Mengapa membeli dengan kami",
+    "why_title": "Tradisi yang dibawa dengan setia — dan dibuat di sumbernya",
+    "why_sub": "Setiap formula disediakan menurut teks klasik Ayurveda, daripada herba sebenar dan minyak perah sejuk, dibuat di India tempat herba tumbuh dan diarahkan oleh Dr. Praveen Rathi. Kami mendapat kepercayaan anda dengan cara yang jujur: ramuan terbuka, pelabelan jelas, dan sebuah keluarga yang bertanggungjawab terhadap setiap kelompok.",
+    "assure_title": "Memesan dengan yakin",
+    "ship_label": "Penghantaran ke seluruh dunia",
+    "ship_text": "Penghantaran berjejak, tersedia ke seluruh dunia.",
+    "returns_label": "Pelabelan yang jujur",
+    "returns_text": "Ramuan dan kegunaan tradisional disenaraikan secara terbuka pada setiap produk.",
+    "secure_label": "Dibuat di sumbernya",
+    "secure_text": "Dihasilkan di India menurut teks klasik Ayurveda, kemudian dilabel dengan jelas.",
+    "help_label": "Sedia membantu",
+    "help_text": "Ada soalan sebelum membeli? Hubungi kami melalui WhatsApp, Telegram atau e-mel.",
+    "faq_title": "Soalan lazim",
+    "new_to": "Baru kenal Ayurveda?",
+    "new_to_cta": "Mulakan dengan asasnya",
+    "qty_label": "Kuantiti",
+    "delivery_eu": "Penghantaran berjejak ke seluruh dunia",
+    "freeship_over": "Penghantaran percuma melebihi {amount}",
+    "freeship_away": "Anda berbaki {amount} lagi untuk penghantaran percuma",
+    "freeship_unlocked": "✓ Penghantaran percuma dibuka",
+    "cta_guarantee": "Pembayaran selamat · Pemulangan 14 hari · jika tiba dalam keadaan rosak atau tidak seperti diterangkan, kami akan betulkannya",
+    "authority_quote": "Diformulasikan dan diselia oleh Dr. Praveen Rathi — \"Saya bertanggungjawab atas setiap kelompok yang kami buat.\"",
+    "pairs_title": "Melengkapkan rutin anda",
+    "pairs_sub": "Dipilih daripada tumpuan kesejahteraan yang sama — tambah satu pelengkap dan hampiri penghantaran percuma.",
+    "add_one": "Tambah",
+    "compare_title": "Mengapa memilih Sangam",
+    "compare_sub": "Apa yang perlu dicari dalam rangkaian Ayurveda tulen — dan bagaimana kami menepatinya.",
+    "compare_us": "Sangam Herbals",
+    "compare_them": "Herba pasaran massa biasa",
+    "faq5_q": "Berapa cepat saya akan perasan sesuatu?",
+    "faq5_a": "Herba Ayurveda secara tradisinya diambil sebagai sebahagian daripada rutin harian yang tetap dan bukannya penyelesaian pantas, dan ramai orang menjadikannya sebahagian tenang dalam hari mereka selama beberapa minggu. Hasilnya berbeza dari seorang ke seorang.",
+    "faq6_q": "Siapa yang paling sesuai untuk ini — dan siapa yang perlu berhati-hati?",
+    "faq6_a": "Ia secara tradisinya digunakan dalam Ayurveda untuk menyokong kesejahteraan harian. Jika anda hamil, menyusu, mengambil ubat atau berada di bawah penjagaan perubatan, sila berbincang dengan doktor anda sebelum penggunaan.",
+    "compare_rows": [
+      {
+        "label": "Diformulasikan menurut teks Ayurveda klasik",
+        "us": "Ya — menurut resipi tradisional",
+        "them": "Selalunya campuran proprietari"
+      },
+      {
+        "label": "Setiap ramuan disenaraikan secara terbuka",
+        "us": "Ya — sepenuhnya",
+        "them": "Kerap tidak didedahkan"
+      },
+      {
+        "label": "Herba sebenar & minyak perahan sejuk",
+        "us": "Ya — tanpa pengisi yang tidak perlu",
+        "them": "Berbeza-beza"
+      },
+      {
+        "label": "Dibuat di sumbernya di India",
+        "us": "Ya — tempat herba tumbuh",
+        "them": "Selalunya tidak dinyatakan"
+      },
+      {
+        "label": "Diselia oleh pengarah yang dinamakan",
+        "us": "Dr. Praveen Rathi",
+        "them": "Tanpa nama"
+      }
+    ]
+  },
+  "trust": {
+    "bar": [
+      "Disediakan menurut teks Ayurveda klasik",
+      "Dibuat di India, di sumber herba",
+      "Herba sebenar & minyak perahan sejuk",
+      "Dihantar ke seluruh dunia",
+      "Pembayaran selamat · Pemulangan 14 hari"
+    ],
+    "std_kicker": "Piawaian kami",
+    "std_title": "Dibuat dengan baik, dikawal dengan rapi",
+    "std_intro": "Kami lebih suka menunjukkan kepada anda cara sesuatu produk dibuat daripada sekadar memberitahu ia bagus — senarai ramuan terbuka, pelabelan jelas, dan sumber asalnya. Setiap formulasi disediakan menurut teks klasik Ayurveda, daripada herba sebenar dan minyak perah sejuk, tanpa apa-apa ditambah demi kemudahan. Resipinya berusia berabad-abad lamanya; disiplin yang kami pegang terhadapnya adalah tepat.",
+    "seals_title": "Beli dengan yakin",
+    "seals": [
+      {
+        "label": "Pembayaran tersulit yang selamat",
+        "sub": "Diproses melalui penyedia yang mantap — kami tidak pernah menyimpan butiran penuh kad anda.",
+        "icon": "lock"
+      },
+      {
+        "label": "Pemulangan 14 hari",
+        "sub": "Pulangkan barang yang belum dibuka dalam tempoh 14 hari selepas penghantaran untuk bayaran balik.",
+        "icon": "return"
+      },
+      {
+        "label": "Penghantaran berjejak ke seluruh dunia",
+        "sub": "Dihantar ke seluruh dunia dengan penjejakan, dari penghantaran hingga ke pintu rumah.",
+        "icon": "parcel"
+      },
+      {
+        "label": "Dibuat di sumbernya",
+        "sub": "Dihasilkan di India tempat herba tumbuh, menurut teks klasik.",
+        "icon": "mortar"
+      },
+      {
+        "label": "Ramuan terbuka",
+        "sub": "Senarai ramuan penuh pada setiap produk — tiada apa yang disembunyikan.",
+        "icon": "label"
+      },
+      {
+        "label": "Dipertanggungjawabkan atas nama",
+        "sub": "Diformulasikan dan diselia oleh Dr. Praveen Rathi.",
+        "icon": "person"
+      }
+    ],
+    "std_items": [
+      {
+        "label": "Herba sebenar, minyak perahan sejuk",
+        "text": "Botani dan minyak tulen yang diperah tanpa haba untuk mengekalkan ciri aslinya — tumbuhan itu sendiri, diusahakan dengan cara tradisional, tidak pernah diturunkan menjadi ekstrak tanpa nama."
+      },
+      {
+        "label": "Tiada pengisi sintetik",
+        "text": "Kami tidak membesarkan churna, tablet dan minyak kami dengan pengisi sintetik, pewarna atau bahan tambahan yang tidak perlu. Sesuatu formula mengandungi apa yang dikehendaki oleh resipi — tidak lebih daripada itu."
+      },
+      {
+        "label": "Disediakan menurut kaedah klasik",
+        "text": "Setiap formulasi mengikut teks Ayurveda klasik — kadar dan kaedah yang sama yang diwariskan turun-temurun, dibuat menurut apa yang ditetapkan oleh tradisi, kelompok demi kelompok."
+      },
+      {
+        "label": "Ramuan disenaraikan secara terbuka",
+        "text": "Setiap produk membawa senarai ramuan penuhnya, format dan kuantiti — tiada apa yang disembunyikan di sebalik 'campuran proprietari' yang kabur. Baca dengan tepat apa yang ada di dalamnya sebelum anda membeli, dan sekali lagi pada label."
+      },
+      {
+        "label": "Dilabel dengan jelas",
+        "text": "Rangkaian kami dilabel dengan jelas, dengan maklumat ramuan, penggunaan dan penyimpanan dibentangkan secara terbuka mengikut piawaian tinggi, dan dihantar ke seluruh dunia."
+      },
+      {
+        "label": "Konsisten, kelompok demi kelompok",
+        "text": "Kerana bahan masukannya sebenar dan kaedahnya tetap, produk yang anda pesan semula ialah produk yang anda percayai pada kali pertama. Kualiti kekal stabil — bukan hanya pada hari yang baik."
+      },
+      {
+        "label": "Dibuat di India, di sumbernya",
+        "text": "Dibuat di tempat tumbuhan tumbuh dan amalan bermula, di bawah arahan Dr. Praveen Rathi — jarak yang lebih pendek antara herba dan formulasi, serta sebuah rumah keluarga yang bertanggungjawab atas setiap kelompok."
+      },
+      {
+        "label": "Berterus terang tentang apa yang kami tidak dakwa",
+        "text": "Kami menerangkan produk kami dalam istilah tradisional dan pendidikan serta tidak membuat sebarang dakwaan perubatan. Apa yang kami janjikan adalah khusus: formula tulen, ramuan sebenar, pelabelan terbuka, sokongan yang responsif."
+      }
+    ],
+    "g_kicker": "Pesan dengan yakin",
+    "g_title": "Pembelian anda dilindungi",
+    "g_promise": "Jika pesanan anda tiba rosak, tidak lengkap atau tidak seperti yang diterangkan, kami akan membetulkannya — penggantian atau bayaran balik, tanpa pertikaian.",
+    "g_items": [
+      {
+        "label": "Hak pemulangan 14 hari",
+        "text": "Anda mempunyai 14 hari dari tarikh penghantaran untuk memulangkan barang yang belum dibuka bagi bayaran balik. Kami menghormatinya sepenuhnya, dengan arahan yang jelas dalam setiap pesanan."
+      },
+      {
+        "label": "Pembayaran selamat dan tersulit",
+        "text": "Setiap pembayaran diproses melalui sambungan tersulit menerusi penyedia yang mantap. Kami tidak pernah melihat atau menyimpan butiran penuh kad anda — data anda kekal peribadi."
+      },
+      {
+        "label": "Penghantaran berjejak ke seluruh dunia",
+        "text": "Pesanan dihantar ke seluruh dunia dengan penjejakan dari penghantaran hingga ke pintu rumah. Anda menerima pautan penjejakan sebaik sahaja bungkusan anda meninggalkan kami."
+      },
+      {
+        "label": "Pelabelan jujur dan lengkap",
+        "text": "Setiap ramuan disenaraikan secara terbuka pada label dan halaman produk — tiada pengisi sintetik, tiada tambahan tersembunyi, tiada apa yang dibiarkan tidak dinyatakan."
+      },
+      {
+        "label": "Sokongan manusia yang responsif",
+        "text": "Ada soalan sebelum atau selepas anda membeli? Tulis kepada kami dan seorang manusia sebenar akan menjawab, dengan jelas dan pantas — tentang memilih, menggunakan dan menyimpan produk anda."
+      },
+      {
+        "label": "Kualiti yang boleh anda jejaki",
+        "text": "Dibuat di India di sumbernya, daripada botani sebenar dan minyak perahan sejuk, disediakan di bawah arahan Dr. Praveen Rathi. Ketulenan ialah piawaian, bukan pengecualian."
+      }
+    ],
+    "badges": [
+      {
+        "label": "Teks klasik",
+        "text": "Setiap formula mengikut kaedah Ayurveda klasik — herba, nisbah dan penyediaan yang ditetapkan oleh teks sumber."
+      },
+      {
+        "label": "Dibuat di sumbernya",
+        "text": "Dihasilkan di India tempat herba tumbuh — penyediaan sebenar, tidak pernah dibentuk semula daripada serbuk import di tempat lain."
+      },
+      {
+        "label": "Ramuan sebenar",
+        "text": "Botani tulen dan minyak perahan sejuk. Tiada pengisi sintetik, tiada ekstrak tanpa nama, tiada jalan pintas."
+      },
+      {
+        "label": "Ramuan terbuka",
+        "text": "Ramuan penuh, format dan kuantiti pada setiap produk dan label — tiada apa di sebalik 'campuran proprietari'."
+      },
+      {
+        "label": "Dilabel dengan jelas",
+        "text": "Disediakan dan dilabel dengan jelas mengikut piawaian tinggi, dihantar ke seluruh dunia."
+      },
+      {
+        "label": "Dr. Praveen Rathi",
+        "text": "Sebuah rumah Ayurveda keluarga, diformulasikan dan diselia oleh Dr. Praveen Rathi — kekal setia kepada teks."
+      }
+    ],
+    "cred_title": "Kepercayaan, mengikut ukuran",
+    "credibility": [
+      "358 formulasi tulen merentasi ubat, minyak, kosmetik dan makanan",
+      "Disediakan menurut teks Ayurveda klasik, di bawah arahan Dr. Praveen Rathi",
+      "Dibuat di India, di sumber herba",
+      "Herba sebenar dan minyak perahan sejuk, setiap ramuan disenaraikan secara terbuka",
+      "Dilabel dengan jelas, dihantar ke seluruh dunia",
+      "Bahasa kesejahteraan tradisional dan pendidikan — tiada dakwaan perubatan, selama-lamanya"
+    ],
+    "atc_reassure": "Pembayaran selamat · Pemulangan 14 hari · Dihantar ke seluruh dunia",
+    "faq": [
+      {
+        "q": "Siapa yang membuat Sangam Herbals, dan di mana?",
+        "a": "Sangam Herbals ialah sebuah perniagaan keluarga Ayurveda, diformulasi dan diselia oleh Dr. Praveen Rathi. Segala-galanya dibuat di India, di sumber herba, dan disediakan menurut teks klasik Ayurveda — kemudian dilabel dengan jelas mengikut piawaian tinggi."
+      },
+      {
+        "q": "Bagaimana saya tahu apa sebenarnya yang ada dalam setiap produk?",
+        "a": "Setiap produk menyenaraikan ramuan penuh, format dan kuantitinya — pada halaman produk sebelum anda membeli, dan pada label apabila ia tiba. Kami menggunakan herba sebenar dan minyak perahan sejuk, tanpa pengisi sintetik dan tiada apa yang disembunyikan di sebalik 'campuran proprietari' yang kabur."
+      },
+      {
+        "q": "Adakah produk ini dilabel dengan jelas?",
+        "a": "Ya. Rangkaian kami dilabel dengan jelas, dengan maklumat ramuan, penggunaan dan penyimpanan dibentangkan secara terbuka mengikut piawaian tinggi, dan kami menghantar ke seluruh dunia."
+      },
+      {
+        "q": "Bagaimana jika ada sesuatu yang tidak kena dengan pesanan saya, atau saya berubah fikiran?",
+        "a": "Jika pesanan anda tiba dalam keadaan rosak, tidak lengkap atau tidak seperti diterangkan, kami akan betulkannya — gantian atau bayaran balik, tanpa pertikaian. Dan anda mempunyai 14 hari dari tarikh penghantaran untuk memulangkan barang yang belum dibuka bagi bayaran balik, dengan arahan yang jelas dalam setiap pesanan."
+      }
+    ],
+    "safety_note": "Untuk kesejahteraan dan penjagaan tradisional sahaja — bukan ubat, dan bukan pengganti nasihat perubatan profesional. Baca label, ikut arahan, dan rujuk doktor anda jika anda hamil, menyusu, mengambil ubat, atau menguruskan keadaan kesihatan. Lakukan ujian tampalan sebelum penggunaan topikal pertama. Jauhkan daripada capaian kanak-kanak."
+  },
+  "founder": {
+    "eyebrow": "Catatan daripada pengarah kami",
+    "heading": "Saya bertanggungjawab atas setiap kelompok yang kami buat.",
+    "paragraphs": [
+      "Ayurveda tidak diserahkan kepada keluarga saya sebagai perniagaan. Ia diwariskan sebagai tanggungjawab — cara menyediakan ubat tepat sebagaimana yang ditetapkan oleh teks klasik, daripada herba sebenar dan minyak perahan sejuk, tanpa apa-apa ditambah demi kemudahan. Itu sahaja cara saya tahu untuk membuatnya, dan satu-satunya cara yang saya akan lakukan.",
+      "Segala yang kami hantar ke seluruh dunia dibuat di sini di India, di sumber tumbuhan dan amalan itu sendiri. Saya berkerja mengikut nisbah dan kaedah yang sama yang telah diikuti turun-temurun, dan saya memegang setiap formulasi pada piawaian yang tepat — kerana resipi yang lama bukanlah alasan untuk pembuatan yang cuai.",
+      "Saya telah memilih untuk meletakkan nama saya pada rumah ini, dan pada halaman ini, atas satu sebab yang mudah: apabila sesuatu masuk ke dalam tubuh anda atau ke atas kulit anda, anda berhak tahu siapa yang berdiri di sebaliknya. Baca ramuan penuh sebelum anda membeli. Tulis kepada kami jika ada apa-apa yang tidak jelas. Dan jika sesuatu produk tidak sesuai untuk anda, beritahu kami, dan kami akan membetulkannya."
+    ],
+    "signature": "Praveen Rathi",
+    "credential": "Dr. Praveen Rathi · Pengarah, Sangam Herbals — sebuah rumah Ayurveda keluarga yang menyediakan ubat menurut teks klasik, dibuat di India"
+  },
+  "promise": {
+    "kicker": "Mengapa kami membuat ini",
+    "title": "Kami lebih rela kehilangan jualan daripada melebih-lebihkannya.",
+    "text": "Kami wujud untuk membawa tradisi 5,000 tahun yang tidak terputus ke dalam rumah di seluruh dunia tanpa mencairkannya — menyediakan setiap rawatan menurut teks klasik Ayurveda, daripada herba sebenar dan minyak perah sejuk, dibuat di sumbernya di India dan dipertanggungjawabkan atas nama. Maka kami tunjukkan kepada anda dengan tepat apa yang ada di dalamnya dan bagaimana ia dibuat, menyenaraikan setiap ramuan secara terbuka, dan tidak membuat sebarang dakwaan perubatan. Ketulenan ialah piawaian kami, bukan pengecualian kami."
+  }
+}

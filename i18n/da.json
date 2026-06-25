@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "lang": "da",
+    "native": "Dansk",
+    "dir": "ltr"
+  },
+  "nav": {
+    "home": "Forside",
+    "shop": "Butik",
+    "catalog": "Katalog",
+    "about": "Om os",
+    "heritage": "Om",
+    "contact": "Kontakt",
+    "search": "Søg efter produkter",
+    "learn": "Lær"
+  },
+  "gate": {
+    "title": "Velkommen til Sangam Herbals",
+    "subtitle": "Autentisk Ayurveda, fremstillet i Indien — vælg dit land og sprog",
+    "choose_region": "Vælg dit land",
+    "choose_language": "Vælg dit sprog",
+    "continue": "Gå til butikken",
+    "filter": "Søg efter lande",
+    "country_hint": "Vælg dit land og sprog. Dit land bestemmer levering, valuta og afgifter; dit sprog bestemmer, hvordan butikken vises.",
+    "no_country": "Ingen lande matcher den søgning.",
+    "country_one": "land",
+    "country_many": "lande",
+    "close": "Luk",
+    "region_na": "Nordamerika",
+    "region_eu": "Europa",
+    "region_me": "Mellemøsten",
+    "region_ap": "Asien / Stillehavet",
+    "select_prompt": "Vælg et land for at se levering, valuta og sprog",
+    "preview_head": "Du handler fra {country}",
+    "row_ship": "Levering",
+    "row_currency": "Valuta",
+    "row_vat": "Afgifter og told",
+    "row_lang": "Sprog på siden",
+    "ship_line": "Sporbar levering til {country}, typisk 3-10 hverdage. Gratis ved køb over {free}.",
+    "currency_eur": "Priser vises i euro (EUR).",
+    "currency_local": "Priserne er vejledende i euro (EUR). {country} bruger {cur} — din bank omregner ved betaling.",
+    "vat_line": "Eventuel told eller afgifter for {country} vises ved betaling, før du betaler.",
+    "lang_default": "det sædvanlige valg for {country}",
+    "lang_change": "skift",
+    "trust_ship": "Leverer internationalt",
+    "trust_langs": "35 sprog",
+    "trust_eur": "Vejledende priser i EUR",
+    "trust_secure": "Sikker betaling",
+    "trust_return": "14 dages returret",
+    "change_later": "Forkert land eller sprog? Skift det når som helst under “Region” i menuen."
+  },
+  "hero": {
+    "eyebrow": "Et ayurvedisk familiehus · Fremstillet i Indien efter de klassiske skrifter",
+    "title": "Traditionen, tilberedt tro mod skrifterne — og stået inde for ved navn.",
+    "subtitle": "Autentiske ayurvediske midler, olier, kosmetik og fødevarer, fremstillet i Indien under ledelse af Dr. Praveen Rathi og leveret over hele verden. Ægte urter, åbne ingredienser, klar mærkning — tillid, du kan efterprøve, før du køber.",
+    "cta_shop": "Se kataloget",
+    "cta_story": "Mød huset",
+    "stat_products": "Autentiske produkter",
+    "stat_categories": "Kategorier",
+    "stat_countries": "Lande betjent",
+    "credential": "Dr. Praveen Rathi · Direktør — formuleret og overvåget ved kilden, i Indien"
+  },
+  "sections": {
+    "ayurveda": "Ayurveda",
+    "cosmetics": "Kosmetik",
+    "food": "Mad og ernæring",
+    "oils": "Olier",
+    "aromatherapy": "Aromaterapi"
+  },
+  "shop": {
+    "title": "Alle produkter",
+    "subtitle": "Alle Sangam Herbals-produkter, nu tilgængelige over hele verden.",
+    "all": "Alle produkter",
+    "filter": "Filtrér",
+    "sort": "Sorter",
+    "sort_featured": "Udvalgte",
+    "sort_price_low": "Pris: lav til høj",
+    "sort_price_high": "Pris: høj til lav",
+    "sort_az": "Navn A–Z",
+    "results": "produkter",
+    "empty": "Ingen produkter matcher dine filtre.",
+    "clear": "Ryd filtre",
+    "add": "Læg i kurv",
+    "view": "Se detaljer",
+    "from": "fra",
+    "in_stock": "På lager",
+    "sku": "Varenr.",
+    "showing": "Viser",
+    "loadmore": "Indlæs flere",
+    "added": "Added"
+  },
+  "product": {
+    "description": "Beskrivelse",
+    "details": "Detaljer",
+    "category": "Kategori",
+    "related": "Det kan du også synes om",
+    "back": "Tilbage til butikken",
+    "origin": "Fremstillet i Indien",
+    "ships": "Leveres over hele verden",
+    "unavailable": "Unavailable"
+  },
+  "heritage": {
+    "title": "Fem tusinde år — i én enkelt dråbe",
+    "body": "Sangam betyder sammenløb — mødet mellem hellige floder. Sangam Herbals er mødet mellem ældgammel ayurvedisk visdom og omhyggelig, moderne produktion. Grundlagt under ledelse af Dr. Praveen Rathi er vores formuleringer fremstillet af autentiske urter, koldpressede olier og tidløse opskrifter, nu tilberedt og tydeligt mærket til husstande over hele verden.",
+    "pillar1_t": "Autentiske formler",
+    "pillar1_b": "Klassiske churnaer, tabletter og olier tilberedt efter traditionelle ayurvediske tekster.",
+    "pillar2_t": "Ren & ærlig",
+    "pillar2_b": "Ægte ingredienser, ærlig kvalitet, ingen unødvendige tilsætningsstoffer.",
+    "pillar3_t": "Fra Indien til verden",
+    "pillar3_b": "Indkøbt ved kilden og leveret over hele verden."
+  },
+  "footer": {
+    "tagline": "Autentisk Ayurveda, over hele verden",
+    "shop": "Butik",
+    "company": "Virksomhed",
+    "support": "Support",
+    "newsletter": "Nyhedsbrev",
+    "newsletter_sub": "Ayurvediske ritualer, nyheder og tilbud.",
+    "email_ph": "Din e-mail",
+    "subscribe": "Tilmeld",
+    "rights": "Alle rettigheder forbeholdes.",
+    "shipping": "Verdensomspændende forsendelse",
+    "returns": "Returnering",
+    "privacy": "Privatlivspolitik",
+    "terms": "Vilkår",
+    "made": "Fremstillet i Indien · Leveret over hele verden",
+    "director": "Ledet af Dr. Praveen Rathi — formuleret og overvåget ved kilden, i Indien."
+  },
+  "cart": {
+    "title": "Din kurv",
+    "empty": "Din kurv er tom.",
+    "total": "I alt",
+    "checkout": "Gå til betaling",
+    "remove": "Fjern",
+    "continue": "Fortsæt med at handle",
+    "add_more": "Tilføj",
+    "free_ship": "for gratis forsendelse",
+    "free_unlocked": "✓ Gratis forsendelse låst op",
+    "free_ship_progress": "Tilføj {amount} for gratis forsendelse"
+  },
+  "common": {
+    "currency_note": "Priserne er vejledende og vises i dit lands valuta.",
+    "loading": "Indlæser…",
+    "change_region": "Region"
+  },
+  "categories": {
+    "ayurveda": "Ayurveda",
+    "single-herb-churnas": "Enkelt-urte-churnaer",
+    "compound-churnas": "Sammensatte churnaer",
+    "chyawanprash": "Chyawanprash",
+    "churna-tablets": "Churna-tabletter",
+    "classic-tablets": "Klassiske tabletter",
+    "cosmetics": "Kosmetik",
+    "hair-care": "Hårpleje",
+    "toothpastes": "Tandpastaer",
+    "face-care": "Ansigtspleje",
+    "body-care": "Kropspleje",
+    "facial-toners": "Ansigtsvand",
+    "henna-hair-colour": "Henna-hårfarve",
+    "food-nutrition": "Mad og ernæring",
+    "indian-sweets": "Indiske søde sager",
+    "spices-seasonings": "Krydderier og smagsgivere",
+    "herbal-teas": "Urteté",
+    "natural-juices": "Naturlige juicer",
+    "dried-fruits": "Tørret frugt",
+    "biscuits": "Kiks og småkager",
+    "cane-sugar": "Rørsukker",
+    "indian-tea": "Indisk te",
+    "oils": "Olier",
+    "natural-oils": "Naturlige olier",
+    "ayurvedic-oils": "Ayurvediske olier",
+    "aromatherapy": "Aromaterapi",
+    "incense": "Røgelse",
+    "perfume-oils": "Parfumeolier",
+    "hydrolats": "Hydrolater",
+    "lozenges": "Pastiller"
+  },
+  "argument": {
+    "line": "Fem tusind års praksis, holdt til nøjagtige moderne standarder.",
+    "kicker": "Vores princip"
+  },
+  "streams": {
+    "title": "Shop efter kategori",
+    "stream": "Strøm"
+  },
+  "remedy": {
+    "kicker": "Udvalgt produkt"
+  },
+  "dispatch": {
+    "title": "Tilmeld dig vores nyhedsbrev"
+  },
+  "proof": {
+    "certified": "Ærlig, åben mærkning",
+    "ships": "Leverer internationalt",
+    "eur": "Vejledende priser",
+    "origin": "Fremstillet i Indien",
+    "langs": "35 sprog"
+  },
+  "edu": {
+    "explore": "Udforsk",
+    "shop": "Shop",
+    "care_label": "Holdt i balance",
+    "learn_kicker": "Ayurveda, forklaret",
+    "learn_title": "Hvad er Ayurveda?",
+    "learn_p1": "Ayurveda er et traditionelt system for naturligt velvære, der opstod i Indien for omkring 5.000 år siden. Navnet kommer fra to sanskritord: ayur, som betyder liv, og veda, som betyder viden. Kernen er en enkel tanke: velvære kommer af at holde krop og sind i balance.",
+    "learn_p2": "I stedet for at fokusere på hurtige løsninger ser Ayurveda på hele mennesket og på dagligdagens rytme. Den bygger på planter, urter og traditionelle formuleringer sammen med enkle daglige rutiner for kost, søvn og egenomsorg. Tænk på det som en tidløs måde at tage vare på sig selv på, blidt og vedholdende.",
+    "learn_pr1_l": "Balance",
+    "learn_pr1_t": "Ayurveda betragter velvære som en tilstand af balance og søger at holde krop og sind stabile gennem årstiderne og hverdagens krav.",
+    "learn_pr2_l": "Hele mennesket",
+    "learn_pr2_t": "Den betragter mennesket som en helhed og inddrager kost, søvn, aktivitet og humør frem for at se på en enkelt del isoleret.",
+    "learn_pr3_l": "Naturlige ingredienser",
+    "learn_pr3_t": "Dens præparater er bygget op af planter, urter, olier og andre naturlige ingredienser, fremstillet efter traditionelle metoder, der er givet videre gennem generationer.",
+    "learn_pr4_l": "Daglig ritual",
+    "learn_pr4_t": "Meget af Ayurveda lever i små, gentagne daglige vaner — de enkle omsorgshandlinger, der over tid understøtter en følelse af vitalitet og dagligt velvære.",
+    "dosha_kicker": "Ayurveda-grundbegreber",
+    "dosha_title": "De tre doshaer",
+    "dosha_intro": "I Ayurveda findes tre energier kaldet doshaer — Vata, Pitta og Kapha — i alle mennesker i en unik sammensætning, og målet er ganske enkelt at holde din egen blanding i balance.",
+    "vata_el": "Luft & Rum",
+    "vata_essence": "Bevægelsens energi",
+    "vata_traits": "Vata-typer er ofte lette, hurtige og kreative — livlige i sind og krop, når de er i balance.",
+    "vata_care": "I Ayurveda holdes Vata traditionelt stabil med varme, rutine og jordforbindende, nærende fødevarer og olier.",
+    "pitta_el": "Ild & Vand",
+    "pitta_essence": "Forvandlingens energi",
+    "pitta_traits": "Pitta-typer er ofte fokuserede, drevne og varme, med skarp energi og en stærk følelse af formål.",
+    "pitta_care": "I Ayurveda holdes Pitta traditionelt i balance med kølende fødevarer, rolige rutiner og tid tilbragt i naturen.",
+    "kapha_el": "Jord & Vand",
+    "kapha_essence": "Strukturens energi",
+    "kapha_traits": "Kapha-typer er ofte rolige, stabile og jordnære, med en afbalanceret, ubekymret natur.",
+    "kapha_care": "I Ayurveda holdes Kapha traditionelt livlig med bevægelse, varmende krydderier og energigivende daglige ritualer.",
+    "about_kicker": "Om Sangam Herbals",
+    "about_title": "En forvalter af autentisk Ayurveda, lavet ved kilden",
+    "about_p1": "Sangam Herbals er et familiedrevet ayurvedisk hus i Indien, grundlagt under ledelse af Dr. Praveen Rathi. Hver formulering fremstilles efter klassiske ayurvediske tekster med ægte urter og koldpressede olier frem for genveje eller syntetiske fyldstoffer. Opskrifterne er gamle; de standarder, vi holder dem op imod, er det ikke.",
+    "about_p2": "Alt fremstilles i Indien, ved planternes og selve traditionens kilde. Derfra mærkes vores produkter åbent og leveres over hele verden. Vi mener, at den bedste måde at fortjene din tillid på er at være ærlige om, hvad vi laver, og hvordan vi laver det — og at lade produkterne tale for sig selv.",
+    "about_pr1_l": "Autentiske formler",
+    "about_pr1_t": "Opskrifterne fremstilles efter klassiske ayurvediske tekster, sådan som de er blevet lavet gennem generationer.",
+    "about_pr2_l": "Ægte ingredienser",
+    "about_pr2_t": "Vi arbejder med ægte urter og koldpressede olier, uden tilsatte syntetiske fyldstoffer for nemheds skyld.",
+    "about_pr3_l": "Fremstillet i Indien, ved kilden",
+    "about_pr3_t": "Hvert produkt er fremstillet i Indien, hvor planterne gror, og hvor traditionen begyndte.",
+    "about_pr4_l": "Ærlig mærkning og verdensomspændende levering",
+    "about_pr4_t": "Vores sortiment er tydeligt mærket, med ingredienser og brug vist åbent, og sendes over hele verden.",
+    "concern_kicker": "Find dit udgangspunkt",
+    "concern_title": "Shop efter behov",
+    "concern_intro": "Ved du ikke, hvor du skal begynde? Vælg et hverdagsområde, der betyder noget for dig, så peger vi dig hen mod de produkter og traditioner, der passer.",
+    "c_digestion_l": "Fordøjelse & Mave",
+    "c_digestion_d": "Behagelig fordøjelse og daglig mavebalance — klassiske churnaer, fordøjelsesfremmende krydderier og blide blandinger som Triphala og Avipattikar.",
+    "c_immunity_l": "Immunforsvar & Vitalitet",
+    "c_immunity_d": "Tidløse tonika — Chyawanprash, Amla, Tulsi og Giloy — traditionelt værdsat i Ayurveda for daglig modstandskraft.",
+    "c_energy_l": "Styrke & Energi",
+    "c_energy_d": "Foryngende rasayana-urter og tonika — Shilajit, Shatavari, Bala og klassiske styrkeformler — til daglig udholdenhed.",
+    "c_respiratory_l": "Luftveje & Årstid",
+    "c_respiratory_d": "Behag for hals, bryst og årstid, fra Sitopaladi og Mulethi til lindrende urtepastiller.",
+    "c_stress_l": "Stress, Søvn & Sind",
+    "c_stress_d": "Beroligende, jordforbindende blandinger til fokus og afslappende aftener — Brahmi, Shankhpushpi, Jatamansi og baldrian.",
+    "c_joints_l": "Led & Muskler",
+    "c_joints_d": "Støtte til aktive kroppe og let bevægelse — Guggul-formler og varmende massageolier som Mahanarayan.",
+    "c_womens_l": "Kvinders Velvære",
+    "c_womens_d": "Blid, traditionel støtte til kvinders daglige balance — Shatavari, Ashoka og klassiske kvindetonika.",
+    "c_skin_l": "Hud & Ansigt",
+    "c_skin_d": "Plantebaseret ansigts- og kropspleje samt rensende urter — rensemidler, toner, hydrolater, Neem, Turmeric og Manjistha.",
+    "c_hair_l": "Hår & Hovedbund",
+    "c_hair_d": "Nærende hår- og hovedbundspleje — Bhringraj- og Amla-olier, urteshampooer og naturlig hennafarve.",
+    "c_oral_l": "Mundpleje",
+    "c_oral_d": "Naturlig daglig pleje til tænder, tandkød og frisk ånde — urtetandpasta og gennemprøvede ingredienser som Neem.",
+    "c_food_l": "Mad, Te & Krydderier",
+    "c_food_d": "Køkkensiden af Ayurveda — autentiske krydderier og masalaer, urte- og indiske teer, juicer, slik og mere.",
+    "c_fragrance_l": "Duft & Ritual",
+    "c_fragrance_d": "Røgelse og langtidsholdbare indiske attarer, der dufter dit rum og dit daglige ritual.",
+    "herb_kicker": "Ingrediensundervisning",
+    "herb_title": "Vigtige ayurvediske urter",
+    "herb_intro": "En letforståelig guide til de otte urter, du oftest vil møde i vores katalog, og den rolle, hver enkelt længe har haft i ayurvedisk tradition.",
+    "herb_triphala_what": "En klassisk blanding af tre tørrede frugter, malet sammen til ét pulver.",
+    "herb_triphala_trad": "I Ayurveda traditionelt brugt til at understøtte daglig fordøjelse og blid indre balance.",
+    "herb_triphala_found": "Churnaer & tabletter",
+    "herb_tulsi_what": "Et aromatisk blad fra den hellige basilikumplante, brugt som pulver, i teer og i hud- og hårpleje.",
+    "herb_tulsi_trad": "Længe værdsat i ayurvedisk tradition for at understøtte dagligt velvære og en følelse af vitalitet.",
+    "herb_tulsi_found": "Churnaer, teer & hudpleje",
+    "herb_neem_what": "Et bittert blad fra neemtræet, brugt som pulver og i rensende hud- og hårformler.",
+    "herb_neem_trad": "Traditionelt forbundet i Ayurveda med daglig hudpleje og en ren, afbalanceret hud.",
+    "herb_neem_found": "Churnaer, ansigts- & hårpleje",
+    "herb_amla_what": "En lille, sur grøn frugt, brugt som pulver, juice og i hårplejeprodukter.",
+    "herb_amla_trad": "Traditionelt værdsat i Ayurveda for at understøtte daglig vitalitet og pleje af hår og hovedbund.",
+    "herb_amla_found": "Churnaer, juicer & hårpleje",
+    "herb_brahmi_what": "En lille krybende urt, indtaget som pulver eller i tabletform.",
+    "herb_brahmi_trad": "I Ayurveda traditionelt forbundet med roligt fokus og dagligt mentalt velvære.",
+    "herb_brahmi_found": "Churnaer & tabletter",
+    "herb_chyawanprash_what": "En traditionel mørk urtemarmelade bygget op om Amla og en blanding af mange urter og krydderier.",
+    "herb_chyawanprash_trad": "Længe indtaget i ayurvedisk tradition som dagligt tonikum til at understøtte daglig vitalitet og velvære.",
+    "herb_chyawanprash_found": "Ayurveda",
+    "herb_turmeric_what": "En gyldengul rod, malet til et varmt krydderipulver og brugt i madlavning, juicer og hudpleje.",
+    "herb_turmeric_trad": "Traditionelt værdsat i Ayurveda for at understøtte daglig balance og pleje af huden.",
+    "herb_turmeric_found": "Krydderier, churnaer & hudpleje",
+    "herb_henna_what": "Et blad malet til et fint grønt pulver, der frigiver en naturlig rødlig farve.",
+    "herb_henna_trad": "Længe brugt i ayurvedisk og indisk tradition som naturlig farve og plejende behandling til håret.",
+    "herb_henna_found": "Henna & hårpleje",
+    "start_kicker": "Ny i Ayurveda",
+    "start_title": "Kom i gang, gjort enkelt",
+    "step1_l": "Lær det grundlæggende",
+    "step1_t": "Brug et par minutter på at forstå, hvad Ayurveda er — et traditionelt indisk system for dagligt velvære, balance og egenomsorg.",
+    "step2_l": "Find dit behov eller din type",
+    "step2_t": "Browse efter det, der betyder noget for dig — hud, hår, fordøjelse, daglig rutine — og se, hvilke traditioner og ingredienser der passer til dig.",
+    "step3_l": "Begynd enkelt",
+    "step3_t": "Vælg ét produkt, der passer til din rutine, prøv det vedholdende, og tilføj først mere, når det føles rigtigt.",
+    "faq1_q": "Er Ayurveda sikkert, og hvordan bruger jeg produkterne?",
+    "faq1_a": "Vores produkter er fremstillet af traditionelle plantebaserede ingredienser og leveres med klare anvisninger til daglig brug. Som en fornuftig forholdsregel bør du rådføre dig med din læge, før du begynder på noget nyt, hvis du er gravid, ammer, tager medicin eller er under lægebehandling.",
+    "faq2_q": "Hvordan vælger jeg, hvis jeg er helt ny til det her?",
+    "faq2_a": "Begynd med et enkelt produkt, der matcher ét hverdagsbehov — såsom hud, hår eller daglig pleje — frem for at købe flere på én gang. Hvert produkt forklarer i et letforståeligt sprog, hvad det er, hvordan det traditionelt er blevet brugt, og hvordan du anvender det.",
+    "faq3_q": "Er produkterne autentiske og korrekt mærket?",
+    "faq3_a": "Hvert produkt er fremstillet i Indien under ledelse af Dr. Praveen Rathi efter traditionel ayurvedisk fremstilling og gældende kvalitets- og mærkningsstandarder. Ingredienser og brug er anført åbent på hvert produkt, så du altid ved, hvad du får.",
+    "faq4_q": "Leverer I til mit land?",
+    "faq4_a": "Ja — vi sender internationalt. Leveringstider og eventuelle gebyrer eller afgifter vises tydeligt ved kassen, før du bekræfter din ordre."
+  },
+  "pdp": {
+    "back": "Tilbage til shop",
+    "good_for": "God til",
+    "what": "Hvad det er",
+    "benefits": "Traditionelt brugt til at understøtte",
+    "ingredients": "Vigtige ingredienser",
+    "how": "Sådan bruges det",
+    "suited": "Egnet til",
+    "details": "Detaljer",
+    "format": "Format",
+    "origin": "Oprindelse",
+    "india": "Indien",
+    "caution": "Traditionel ayurvedisk information til oplysning, ikke lægelig rådgivning. Hvis du er gravid, ammer, tager medicin eller er under lægebehandling, bør du rådføre dig med din læge før brug.",
+    "precautions": "Forholdsregler",
+    "related": "Du vil måske også kunne lide",
+    "transparency": "Alle ingredienser, åbent oplyst",
+    "routine": "Sådan passer det ind i din rutine",
+    "good_to_know": "Godt at vide",
+    "take_care": "Vær særligt opmærksom, hvis",
+    "why_kicker": "Derfor skal du handle hos os",
+    "why_title": "Traditionen, ført videre trofast — og lavet ved kilden",
+    "why_sub": "Hver formel er tilberedt efter de klassiske ayurvediske tekster, af ægte urter og koldpressede olier, fremstillet i Indien hvor urterne vokser og ledet af Dr. Praveen Rathi. Vi fortjener din tillid på den ærlige måde: åbne ingredienser, klar mærkning og et familiehus, der står til ansvar for hver batch.",
+    "assure_title": "Bestil med tryghed",
+    "ship_label": "Verdensomspændende levering",
+    "ship_text": "Sporet forsendelse, tilgængelig over hele verden.",
+    "returns_label": "Ærlig mærkning",
+    "returns_text": "Ingredienser og traditionel anvendelse er åbent oplyst på alle produkter.",
+    "secure_label": "Fremstillet ved kilden",
+    "secure_text": "Fremstillet i Indien efter klassiske ayurvediske tekster og derefter tydeligt mærket.",
+    "help_label": "Klar til at hjælpe",
+    "help_text": "Har du spørgsmål, inden du køber? Kontakt os på WhatsApp, Telegram eller e-mail.",
+    "faq_title": "Ofte stillede spørgsmål",
+    "new_to": "Ny inden for Ayurveda?",
+    "new_to_cta": "Start med det grundlæggende",
+    "qty_label": "Antal",
+    "delivery_eu": "Sporet verdensomspændende levering",
+    "freeship_over": "Gratis levering over {amount}",
+    "freeship_away": "Du mangler {amount} til gratis levering",
+    "freeship_unlocked": "✓ Gratis levering låst op",
+    "cta_guarantee": "Sikker betaling · 14 dages returret · hvis varen ankommer beskadiget eller ikke som beskrevet, ordner vi det",
+    "authority_quote": "Formuleret og overvåget af Dr. Praveen Rathi — \"Jeg står inde for hver eneste batch, vi laver.\"",
+    "pairs_title": "Fuldender din rutine",
+    "pairs_sub": "Udvalgt med samme fokus på velvære — tilføj en ledsager og kom tættere på gratis levering.",
+    "add_one": "Tilføj",
+    "compare_title": "Hvorfor vælge Sangam",
+    "compare_sub": "Hvad du bør se efter i et autentisk ayurvedisk sortiment — og hvordan vi lever op til det.",
+    "compare_us": "Sangam Herbals",
+    "compare_them": "Typisk masseproduceret urteprodukt",
+    "compare_rows": [
+      {
+        "label": "Formuleret efter klassiske ayurvediske tekster",
+        "us": "Ja — efter traditionelle opskrifter",
+        "them": "Ofte hemmelige blandinger"
+      },
+      {
+        "label": "Alle ingredienser angives åbent",
+        "us": "Ja — i sin helhed",
+        "them": "Ofte ikke oplyst"
+      },
+      {
+        "label": "Ægte urter og koldpressede olier",
+        "us": "Ja — ingen unødvendige fyldstoffer",
+        "them": "Varierer"
+      },
+      {
+        "label": "Fremstillet ved kilden i Indien",
+        "us": "Ja — hvor urterne gror",
+        "them": "Ofte ikke specificeret"
+      },
+      {
+        "label": "Overvåget af en navngiven direktør",
+        "us": "Dr. Praveen Rathi",
+        "them": "Anonym"
+      }
+    ],
+    "faq5_q": "Hvor hurtigt vil jeg mærke noget?",
+    "faq5_a": "Ayurvediske urter indtages traditionelt som en del af en stabil daglig rutine frem for en hurtig løsning, og mange gør dem til en stille del af deres hverdag over flere uger. Resultater varierer fra person til person.",
+    "faq6_q": "Hvem passer dette bedst til — og hvem bør være forsigtig?",
+    "faq6_a": "Det anvendes traditionelt i ayurveda til at understøtte det daglige velvære. Hvis du er gravid, ammer, tager medicin eller er under lægebehandling, bør du tale med din læge før brug."
+  },
+  "trust": {
+    "bar": [
+      "Fremstillet efter klassiske ayurvediske tekster",
+      "Lavet i Indien, ved kilden til urterne",
+      "Ægte urter & koldpressede olier",
+      "Leveres over hele verden",
+      "Sikker betaling · 14 dages returret"
+    ],
+    "std_kicker": "Vores standarder",
+    "std_title": "Velfremstillet, nøje kontrolleret",
+    "std_intro": "Vi viser dig hellere, hvordan et produkt fremstilles, end vi fortæller dig, at det er godt — åbne ingredienslister, klar mærkning og den kilde, det kommer fra. Hver formulering er tilberedt efter klassiske ayurvediske tekster, af ægte urter og koldpressede olier, uden noget tilsat for nemheds skyld. Opskrifterne er århundreder gamle; den disciplin, vi holder dem til, er nøjagtig.",
+    "std_items": [
+      {
+        "label": "Ægte urter, koldpressede olier",
+        "text": "Ægte botaniske råvarer og olier presset uden varme, så deres karakter forbliver intakt — selve planten, bearbejdet på traditionel vis, aldrig reduceret til anonymt ekstrakt."
+      },
+      {
+        "label": "Ingen syntetiske fyldstoffer",
+        "text": "Vi fylder ikke vores churnaer, tabletter og olier op med syntetiske fyldstoffer, farvestoffer eller unødvendige tilsætninger. En formel indeholder, hvad opskriften kræver — intet mere."
+      },
+      {
+        "label": "Fremstillet efter klassiske metoder",
+        "text": "Hver formulering følger de klassiske ayurvediske tekster — de samme forhold og metoder, der er videregivet gennem generationer, fremstillet, som traditionen foreskriver, batch efter batch."
+      },
+      {
+        "label": "Ingredienser oplyst åbent",
+        "text": "Hvert produkt bærer sin fulde ingrediensliste, format og mængde — intet skjult bag en vag 'proprietær blanding'. Læs præcis, hvad der er i, før du køber, og igen på etiketten."
+      },
+      {
+        "label": "Tydeligt mærket",
+        "text": "Vores sortiment er tydeligt mærket, med oplysninger om ingrediens, brug og opbevaring præsenteret åbent efter høje standarder, og sendes over hele verden."
+      },
+      {
+        "label": "Ensartet, batch for batch",
+        "text": "Fordi råvarerne er ægte og metoden er fast, er det produkt, du genbestiller, det produkt, du stolede på første gang. Kvaliteten holder sig stabil — ikke kun på en god dag."
+      },
+      {
+        "label": "Lavet i Indien, ved kilden",
+        "text": "Lavet der, hvor planterne vokser, og hvor praksissen opstod, under ledelse af Dr. Praveen Rathi — en kortere afstand mellem urt og formulering, og et familiehus, der står til ansvar for hver batch."
+      },
+      {
+        "label": "Ærlige om, hvad vi ikke påstår",
+        "text": "Vi beskriver vores produkter i traditionelle, oplysende vendinger og fremsætter ingen medicinske påstande. Det, vi lover, er specifikt: autentiske formler, ægte ingredienser, åben mærkning, lydhør support."
+      }
+    ],
+    "g_kicker": "Bestil med tryghed",
+    "g_title": "Dit køb er beskyttet",
+    "g_promise": "Hvis din ordre ankommer beskadiget, ufuldstændig eller ikke som beskrevet, retter vi op på det — erstatning eller refusion, uden diskussion.",
+    "g_items": [
+      {
+        "label": "14 dages returret",
+        "text": "Du har 14 dage fra levering til at returnere uåbnede varer mod refundering. Vi overholder dette fuldt ud, med klare instruktioner i hver ordre."
+      },
+      {
+        "label": "Sikker, krypteret betaling",
+        "text": "Hver betaling behandles over en krypteret forbindelse gennem etablerede udbydere. Vi ser eller gemmer aldrig dine fulde kortoplysninger — dine data forbliver private."
+      },
+      {
+        "label": "Sporet verdensomspændende levering",
+        "text": "Ordrer sendes over hele verden med sporing fra afsendelse til dørtrin. Du får et sporingslink i det øjeblik, din pakke forlader os."
+      },
+      {
+        "label": "Ærlig, fuldstændig mærkning",
+        "text": "Hver ingrediens er oplyst åbent på etiketten og produktsiden — ingen syntetiske fyldstoffer, ingen skjulte tilsætninger, intet ladt usagt."
+      },
+      {
+        "label": "Lydhør menneskelig support",
+        "text": "Et spørgsmål før eller efter dit køb? Skriv til os, og et rigtigt menneske svarer, klart og hurtigt — om valg, brug og opbevaring af dine produkter."
+      },
+      {
+        "label": "Kvalitet, du kan spore",
+        "text": "Lavet i Indien ved kilden, af ægte botaniske råvarer og koldpressede olier, fremstillet under ledelse af Dr. Praveen Rathi. Autenticitet er standarden, ikke undtagelsen."
+      }
+    ],
+    "badges": [
+      {
+        "label": "Klassiske tekster",
+        "text": "Hver formel følger klassisk ayurvedisk metode — de urter, forhold og den tilberedning, kildeteksterne foreskriver."
+      },
+      {
+        "label": "Lavet ved kilden",
+        "text": "Fremstillet i Indien, hvor urterne vokser — ægte præparater, aldrig rekonstitueret fra importeret pulver andetsteds."
+      },
+      {
+        "label": "Ægte ingredienser",
+        "text": "Ægte botaniske råvarer og koldpressede olier. Ingen syntetiske fyldstoffer, ingen anonyme ekstrakter, ingen genveje."
+      },
+      {
+        "label": "Åbne ingredienser",
+        "text": "Fulde ingredienser, format og mængde på hvert produkt og hver etiket — intet bag en 'proprietær blanding'."
+      },
+      {
+        "label": "Tydeligt mærket",
+        "text": "Tilberedt og tydeligt mærket efter høje standarder, sendt over hele verden."
+      },
+      {
+        "label": "Dr. Praveen Rathi",
+        "text": "Et ayurvedisk familiehus, formuleret og overvåget af Dr. Praveen Rathi — tro mod teksterne."
+      }
+    ],
+    "cred_title": "Tillid, målt i konkrete tal",
+    "credibility": [
+      "358 autentiske formuleringer på tværs af remedier, olier, kosmetik og fødevarer",
+      "Fremstillet efter klassiske ayurvediske tekster, under ledelse af Dr. Praveen Rathi",
+      "Lavet i Indien, ved kilden til urterne",
+      "Ægte urter og koldpressede olier, hver ingrediens oplyst åbent",
+      "Tydeligt mærket, leveret over hele verden",
+      "Traditionelt, oplysende sprog om velvære — ingen medicinske påstande, nogensinde"
+    ],
+    "atc_reassure": "Sikker betaling · 14 dages returret · Leveres over hele verden",
+    "faq": [
+      {
+        "q": "Hvem laver Sangam Herbals, og hvor?",
+        "a": "Sangam Herbals er et ayurvedisk familiehus, formuleret og overvåget af Dr. Praveen Rathi. Alt fremstilles i Indien, ved urternes kilde, og tilberedes efter klassiske ayurvediske tekster — derefter tydeligt mærket efter høje standarder."
+      },
+      {
+        "q": "Hvordan ved jeg, hvad der reelt er i hvert produkt?",
+        "a": "Hvert produkt oplyser sine fulde ingredienser, format og mængde — på produktsiden, før du køber, og på etiketten, når det ankommer. Vi bruger ægte urter og koldpressede olier, uden syntetiske fyldstoffer og intet skjult bag en vag 'proprietær blanding'."
+      },
+      {
+        "q": "Er disse produkter tydeligt mærket?",
+        "a": "Ja. Vores sortiment er tydeligt mærket, med oplysninger om ingrediens, brug og opbevaring præsenteret åbent efter høje standarder, og vi sender over hele verden."
+      },
+      {
+        "q": "Hvad hvis der er noget galt med min ordre, eller jeg fortryder?",
+        "a": "Hvis din ordre ankommer beskadiget, ufuldstændig eller ikke som beskrevet, ordner vi det — erstatning eller refundering, uden diskussion. Og du har 14 dage fra levering til at returnere uåbnede varer mod refundering, med klare instruktioner i hver ordre."
+      }
+    ],
+    "safety_note": "Kun til velvære og traditionel pleje — ikke et lægemiddel og ikke en erstatning for professionel lægefaglig rådgivning. Læs etiketten, følg anvisningerne, og rådfør dig med din læge, hvis du er gravid, ammer, tager medicin eller har en helbredstilstand. Lav en pletprøve før første brug på huden. Opbevares utilgængeligt for børn.",
+    "seals_title": "Køb med tryghed",
+    "seals": [
+      {
+        "label": "Sikker krypteret betaling",
+        "sub": "Behandlet gennem etablerede udbydere — vi gemmer aldrig dine fulde kortoplysninger.",
+        "icon": "lock"
+      },
+      {
+        "label": "14 dages returret",
+        "sub": "Returnér uåbnede varer inden for 14 dage efter levering og få pengene tilbage.",
+        "icon": "return"
+      },
+      {
+        "label": "Sporet verdensomspændende levering",
+        "sub": "Sendt over hele verden med sporing, fra afsendelse til dørtrin.",
+        "icon": "parcel"
+      },
+      {
+        "label": "Fremstillet ved kilden",
+        "sub": "Lavet i Indien, hvor urterne gror, efter de klassiske skrifter.",
+        "icon": "mortar"
+      },
+      {
+        "label": "Åbne ingredienser",
+        "sub": "Fuld ingrediensliste på hvert produkt — intet skjult.",
+        "icon": "label"
+      },
+      {
+        "label": "Stået inde for ved navn",
+        "sub": "Formuleret og overvåget af Dr. Praveen Rathi.",
+        "icon": "person"
+      }
+    ]
+  },
+  "seo": {
+    "description": "Autentiske ayurvediske midler, kosmetik, olier og fødevarer — tilberedt efter de klassiske tekster, fremstillet i Indien under Dr. Praveen Rathi og leveret over hele verden.",
+    "title": "Sangam Herbals — Autentisk Ayurveda, over hele verden"
+  },
+  "river": {
+    "sub": "Sangam er mødet mellem hellige vande — og mellem ældgammel praksis og omhyggeligt, moderne håndværk. Opdag attar-biblioteket: 32 langvarige indiske olieparfumer.",
+    "kicker": "Sammenløbet",
+    "quote": "Hvor to floder bliver til ét middel.",
+    "cta": "Gennemse attar-biblioteket →"
+  },
+  "founder": {
+    "eyebrow": "En hilsen fra vores direktør",
+    "heading": "Jeg står inde for hver eneste batch, vi fremstiller.",
+    "paragraphs": [
+      "Ayurveda blev ikke overdraget til min familie som en forretning. Det blev givet videre som et ansvar — en måde at tilberede midler nøjagtigt, som de klassiske skrifter foreskriver, af ægte urter og koldpressede olier, uden noget tilsat for nemheds skyld. Det er den eneste måde, jeg ved at fremstille dem på, og den eneste måde, jeg vil.",
+      "Alt, hvад vi sender ud i verden, fremstilles her i Indien, ved planternes og selve håndværkets kilde. Jeg arbejder efter de samme proportioner og metoder, som er blevet fulgt i generationer, og jeg holder hver formulering til standarder, der er nøjagtige — for at opskriften er gammel er ingen undskyldning for, at fremstillingen er skødesløs.",
+      "Jeg har valgt at sætte mit navn på dette hus og på denne side af en enkel grund: når noget kommer ind i din krop eller på din hud, fortjener du at vide, hvem der står bag det. Læs hele ingredienslisten, før du køber. Skriv til os, hvis noget er uklart. Og hvis et produkt ikke er rigtigt for dig, så sig det, og vi vil gøre det godt igen."
+    ],
+    "signature": "Praveen Rathi",
+    "credential": "Dr. Praveen Rathi · Direktør, Sangam Herbals — et ayurvedisk familiehus, der tilbereder midler efter de klassiske skrifter, fremstillet i Indien"
+  },
+  "promise": {
+    "kicker": "Hvorfor vi fremstiller disse",
+    "title": "Vi vil hellere miste et salg end overdrive et.",
+    "text": "Vi findes for at bringe en ubrudt 5.000 år gammel tradition ind i hjem over hele verden uden at udvande den — ved at tilberede hvert middel efter de klassiske ayurvediske tekster, af ægte urter og koldpressede olier, fremstillet ved kilden i Indien og stået til ansvar for ved navn. Derfor viser vi dig præcis, hvad der er indeni, og hvordan det fremstilles, angiver hver ingrediens åbent og fremsætter ingen medicinske påstande. Autenticitet er vores standard, ikke vores undtagelse."
+  }
+}

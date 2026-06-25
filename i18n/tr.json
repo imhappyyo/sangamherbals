@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "lang": "tr",
+    "native": "Türkçe",
+    "dir": "ltr"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "shop": "Mağaza",
+    "catalog": "Katalog",
+    "learn": "Öğren",
+    "about": "Hakkımızda",
+    "heritage": "Hakkımızda",
+    "contact": "İletişim",
+    "search": "Ürün ara"
+  },
+  "gate": {
+    "title": "Sangam Herbals'a Hoş Geldiniz",
+    "subtitle": "Hindistan'da özenle hazırlanan otantik Ayurveda — ülkenizi ve dilinizi seçin",
+    "choose_region": "Ülkenizi seçin",
+    "choose_language": "Dilinizi seçin",
+    "continue": "Mağazaya gir",
+    "filter": "Ülke ara",
+    "country_hint": "Ülkenizi ve dilinizi seçin. Ülkeniz teslimatı, para birimini ve vergiyi belirler; diliniz mağazanın görünümünü belirler.",
+    "no_country": "Bu aramayla eşleşen ülke yok.",
+    "country_one": "ülke",
+    "country_many": "ülke",
+    "close": "Kapat",
+    "region_na": "Kuzey Amerika",
+    "region_eu": "Avrupa",
+    "region_me": "Orta Doğu",
+    "region_ap": "Asya / Pasifik",
+    "select_prompt": "Kargo, para birimi ve dili önizlemek için bir ülke seçin",
+    "preview_head": "{country} ülkesinden alışveriş yapıyorsunuz",
+    "row_ship": "Kargo",
+    "row_currency": "Para birimi",
+    "row_vat": "Vergi ve gümrük",
+    "row_lang": "Site dili",
+    "ship_line": "{country} ülkesine takip edilebilir teslimat, genellikle 3–10 iş günü. {free} üzeri ücretsiz.",
+    "currency_eur": "Fiyatlar euro (EUR) cinsinden gösterilmektedir.",
+    "currency_local": "Fiyatlar euro (EUR) cinsinden gösterge niteliğindedir. {country} {cur} kullanır — bankanız ödeme sırasında dönüştürür.",
+    "vat_line": "{country} için her türlü gümrük veya vergi, ödeme yapmadan önce ödeme adımında gösterilir.",
+    "lang_default": "{country} için olağan tercih",
+    "lang_change": "değiştir",
+    "trust_ship": "Uluslararası gönderim",
+    "trust_langs": "35 dil",
+    "trust_eur": "Gösterge niteliğinde EUR fiyatlandırması",
+    "trust_secure": "Güvenli ödeme",
+    "trust_return": "14 günlük iade",
+    "change_later": "Yanlış ülke veya dil mi? Menüdeki “Bölge” bölümünden istediğiniz zaman değiştirin."
+  },
+  "hero": {
+    "eyebrow": "Bir aile Ayurveda evi · Klasik metinlere uygun, Hindistan'da üretildi",
+    "title": "Gelenek, sadakatle hazırlanır — ve her partinin sorumluluğu adıyla üstlenilir.",
+    "subtitle": "Dr. Praveen Rathi'nin yönetiminde Hindistan'da üretilen ve dünya geneline gönderilen özgün Ayurveda ilaçları, yağları, kozmetik ürünleri ve gıdaları. Gerçek bitkiler, açık içerikler, net etiketleme — satın almadan önce kontrol edebileceğiniz bir güven.",
+    "credential": "Dr. Praveen Rathi · Direktör — kaynağında, Hindistan'da formüle edildi ve denetlendi",
+    "cta_shop": "Kataloğa göz at",
+    "cta_story": "Evi tanıyın",
+    "stat_products": "Otantik ürün",
+    "stat_categories": "Kategori",
+    "stat_countries": "Hizmet verilen ülke"
+  },
+  "sections": {
+    "ayurveda": "Ayurveda",
+    "cosmetics": "Kozmetik",
+    "food": "Gıda ve Beslenme",
+    "oils": "Yağlar",
+    "aromatherapy": "Aromaterapi"
+  },
+  "shop": {
+    "title": "Tüm ürünler",
+    "subtitle": "Tüm Sangam Herbals ürünleri artık dünya genelinde mevcut.",
+    "all": "Tüm ürünler",
+    "filter": "Filtrele",
+    "sort": "Sırala",
+    "sort_featured": "Öne çıkanlar",
+    "sort_price_low": "Fiyat: düşükten yükseğe",
+    "sort_price_high": "Fiyat: yüksekten düşüğe",
+    "sort_az": "İsim A–Z",
+    "results": "ürün",
+    "empty": "Filtrelerinizle eşleşen ürün yok.",
+    "clear": "Filtreleri temizle",
+    "add": "Sepete ekle",
+    "view": "Ayrıntıları görüntüle",
+    "from": "başlangıç",
+    "in_stock": "Stokta",
+    "sku": "Stok kodu",
+    "showing": "Gösteriliyor",
+    "loadmore": "Daha fazla yükle",
+    "added": "Eklendi"
+  },
+  "product": {
+    "description": "Açıklama",
+    "details": "Ayrıntılar",
+    "category": "Kategori",
+    "related": "Bunları da beğenebilirsiniz",
+    "back": "Mağazaya dön",
+    "origin": "Hindistan'da üretildi",
+    "ships": "Dünya geneline gönderim",
+    "unavailable": "Mevcut değil"
+  },
+  "heritage": {
+    "title": "Beş bin yıl, tek bir damlada",
+    "body": "Sangam, kavuşum demektir — kutsal nehirlerin buluşması. Sangam Herbals, kadim Ayurveda bilgeliği ile özenli, modern üretimin buluşmasıdır. Dr. Praveen Rathi'nin yönetiminde kurulan formüllerimiz özgün bitkilerden, soğuk preslenmiş yağlardan ve asırlık tariflerden hazırlanır; şimdi dünyanın dört bir yanındaki haneler için hazırlanıp net biçimde etiketlenmektedir.",
+    "pillar1_t": "Otantik formüller",
+    "pillar1_b": "Geleneksel Ayurvedik metinlere göre hazırlanan klasik çurnalar, tabletler ve yağlar.",
+    "pillar2_t": "Saf ve dürüst",
+    "pillar2_b": "Gerçek içerikler, dürüst kalite, gereksiz katkı maddesi yok.",
+    "pillar3_t": "Hindistan'dan dünyaya",
+    "pillar3_b": "Kaynağında tedarik edilir, dünya geneline gönderilir."
+  },
+  "footer": {
+    "tagline": "Özgün Ayurveda, dünya genelinde",
+    "shop": "Mağaza",
+    "company": "Şirket",
+    "support": "Destek",
+    "newsletter": "Bülten",
+    "newsletter_sub": "Ayurveda ritüelleri, yeni ürünler ve fırsatlar.",
+    "email_ph": "E-posta adresiniz",
+    "subscribe": "Abone ol",
+    "rights": "Tüm hakları saklıdır.",
+    "shipping": "Dünya geneline gönderim",
+    "returns": "İadeler",
+    "privacy": "Gizlilik",
+    "terms": "Koşullar",
+    "made": "Hindistan'da üretildi · Dünya geneline gönderilir",
+    "director": "Dr. Praveen Rathi yönetiminde — kaynağında, Hindistan'da formüle edildi ve denetlendi."
+  },
+  "cart": {
+    "title": "Sepetiniz",
+    "empty": "Sepetiniz boş.",
+    "total": "Toplam",
+    "checkout": "Ödeme",
+    "remove": "Kaldır",
+    "continue": "Alışverişe devam et",
+    "add_more": "Ekle",
+    "free_ship": "ücretsiz gönderim için",
+    "free_unlocked": "✓ Ücretsiz gönderim açıldı",
+    "free_ship_progress": "Ücretsiz gönderim için {amount} ekleyin"
+  },
+  "common": {
+    "currency_note": "Fiyatlar gösterge niteliğindedir ve ülkenizin para birimi cinsinden gösterilir.",
+    "loading": "Yükleniyor…",
+    "change_region": "Bölge"
+  },
+  "categories": {
+    "ayurveda": "Ayurveda",
+    "single-herb-churnas": "Tek Bitkili Çurnalar",
+    "compound-churnas": "Bileşik Çurnalar",
+    "chyawanprash": "Chyawanprash",
+    "churna-tablets": "Çurna Tabletleri",
+    "classic-tablets": "Klasik Tabletler",
+    "cosmetics": "Kozmetik",
+    "hair-care": "Saç Bakımı",
+    "toothpastes": "Diş Macunları",
+    "face-care": "Yüz Bakımı",
+    "body-care": "Vücut Bakımı",
+    "facial-toners": "Yüz Tonikleri",
+    "henna-hair-colour": "Kına Saç Boyası",
+    "food-nutrition": "Gıda ve Beslenme",
+    "indian-sweets": "Hint Tatlıları",
+    "spices-seasonings": "Baharatlar ve Çeşniler",
+    "herbal-teas": "Bitki Çayları",
+    "natural-juices": "Doğal Meyve Suları",
+    "dried-fruits": "Kuru Meyveler",
+    "biscuits": "Bisküviler",
+    "cane-sugar": "Kamış Şekeri",
+    "indian-tea": "Hint Çayı",
+    "oils": "Yağlar",
+    "natural-oils": "Doğal Yağlar",
+    "ayurvedic-oils": "Ayurvedik Yağlar",
+    "aromatherapy": "Aromaterapi",
+    "incense": "Tütsü",
+    "perfume-oils": "Parfüm Yağları",
+    "hydrolats": "Hidrolatlar",
+    "lozenges": "Pastiller"
+  },
+  "argument": {
+    "kicker": "İlkemiz",
+    "line": "Beş bin yıllık uygulama, kusursuz modern standartlara bağlı."
+  },
+  "streams": {
+    "title": "Kategoriye göre alışveriş",
+    "stream": "Akış"
+  },
+  "remedy": {
+    "kicker": "Öne çıkan ürün"
+  },
+  "dispatch": {
+    "title": "Bültenimize katılın"
+  },
+  "proof": {
+    "certified": "Dürüst, açık etiketleme",
+    "ships": "Uluslararası gönderim",
+    "eur": "Gösterge niteliğinde fiyatlandırma",
+    "origin": "Hindistan'da üretildi",
+    "langs": "35 dil"
+  },
+  "seo": {
+    "title": "Sangam Herbals — Özgün Ayurveda, Dünya Genelinde",
+    "description": "Özgün Ayurveda ilaçları, kozmetik ürünleri, yağları ve gıdaları — klasik metinlere göre hazırlanmış, Dr. Praveen Rathi yönetiminde Hindistan'da üretilmiş ve dünya geneline gönderilmektedir."
+  },
+  "river": {
+    "kicker": "Kavuşma",
+    "quote": "İki nehrin tek bir küre dönüştüğü yer.",
+    "sub": "Sangam, kutsal suların — ve kadim uygulamanın özenli, modern zanaatla — buluşmasıdır. Attar kütüphanesini keşfedin: 32 uzun ömürlü Hint yağ parfümü.",
+    "cta": "Attar kütüphanesine göz at →"
+  },
+  "edu": {
+    "explore": "Keşfet",
+    "shop": "Mağaza",
+    "care_label": "Dengede tutuluyor",
+    "learn_kicker": "Ayurveda, açıklandı",
+    "learn_title": "Ayurveda nedir?",
+    "learn_p1": "Ayurveda, yaklaşık 5.000 yıl önce Hindistan'da başlamış geleneksel bir doğal sağlık sistemidir. Adı iki Sanskritçe kelimeden gelir: yaşam anlamına gelen ayur ve bilgi anlamına gelen veda. Özünde basit bir fikir yatar: sağlık, beden ve zihni dengede tutmaktan gelir.",
+    "learn_p2": "Hızlı çözümlere odaklanmak yerine Ayurveda, kişinin bütününe ve günlük yaşamın ritmine bakar. Bitkilerden, otlardan ve geleneksel formüllerden yararlanır; beslenme, uyku ve öz bakım için basit günlük rutinlerle birlikte. Bunu, kendinize nazikçe ve istikrarlı şekilde bakmanın köklü bir yöntemi olarak düşünün.",
+    "learn_pr1_l": "Denge",
+    "learn_pr1_t": "Ayurveda, sağlığı bir denge hali olarak görür ve beden ile zihni mevsimler ve günlük yaşamın talepleri boyunca istikrarlı tutmayı amaçlar.",
+    "learn_pr2_l": "Bütünsel kişi",
+    "learn_pr2_t": "Kişiyi bir bütün olarak değerlendirir; herhangi bir parçayı tek başına ele almak yerine beslenmeyi, uykuyu, etkinliği ve ruh halini hesaba katar.",
+    "learn_pr3_l": "Doğal içerikler",
+    "learn_pr3_t": "Hazırlıkları bitkilerden, otlardan, yağlardan ve diğer doğal içeriklerden oluşur; nesiller boyunca aktarılan geleneksel yöntemlerle üretilir.",
+    "learn_pr4_l": "Günlük ritüel",
+    "learn_pr4_t": "Ayurveda'nın büyük bölümü küçük, tekrarlanan günlük alışkanlıklarda yaşar — zamanla bir canlılık ve günlük sağlık hissini destekleyen basit bakım eylemleri.",
+    "dosha_kicker": "Ayurveda temelleri",
+    "dosha_title": "Üç dosha",
+    "dosha_intro": "Ayurveda'da dosha olarak bilinen üç enerji — Vata, Pitta ve Kapha — herkeste benzersiz bir karışım halinde bulunur ve amaç yalnızca kendi karışımınızı dengede tutmaktır.",
+    "vata_el": "Hava ve Boşluk",
+    "vata_essence": "Hareketin enerjisi",
+    "vata_traits": "Vata tipleri genellikle hafif, hızlı ve yaratıcıdır — dengede olduklarında zihinde ve bedende canlıdırlar.",
+    "vata_care": "Ayurveda'da Vata, geleneksel olarak sıcaklık, rutin ve topraklayan, besleyici gıdalar ve yağlarla istikrarlı tutulur.",
+    "pitta_el": "Ateş ve Su",
+    "pitta_essence": "Dönüşümün enerjisi",
+    "pitta_traits": "Pitta tipleri genellikle odaklı, hırslı ve sıcaktır; keskin bir enerjiye ve güçlü bir amaç duygusuna sahiptir.",
+    "pitta_care": "Ayurveda'da Pitta, geleneksel olarak serinletici gıdalar, sakin rutinler ve doğada geçirilen zamanla dengede tutulur.",
+    "kapha_el": "Toprak ve Su",
+    "kapha_essence": "Yapının enerjisi",
+    "kapha_traits": "Kapha tipleri genellikle sakin, istikrarlı ve dengelidir; oturmuş, rahat bir yapıya sahiptir.",
+    "kapha_care": "Ayurveda'da Kapha, geleneksel olarak hareket, ısıtıcı baharatlar ve canlandırıcı günlük ritüellerle canlı tutulur.",
+    "about_kicker": "Sangam Herbals Hakkında",
+    "about_title": "Kaynağında üretilen otantik Ayurveda'nın bir koruyucusu",
+    "about_p1": "Sangam Herbals, Dr. Praveen Rathi yönetiminde kurulan, Hindistan'da bir aile tarafından işletilen bir Ayurveda evidir. Her formül, kestirme yollar veya sentetik dolgu maddeleri yerine gerçek bitkiler ve soğuk preslenmiş yağlar kullanılarak klasik Ayurvedik metinlere göre hazırlanır. Tarifler eskidir; onları tuttuğumuz standartlar değil.",
+    "about_p2": "Her şey, bitkilerin ve geleneğin kaynağında, Hindistan'da üretilir. Oradan, ürünlerimiz açıkça etiketlenir ve dünya geneline gönderilir. Güveninizi kazanmanın en iyi yolunun, ne ürettiğimiz ve nasıl ürettiğimiz konusunda açık olmak — ve ürünlerin kendi adlarına konuşmasına izin vermek olduğuna inanıyoruz.",
+    "about_pr1_l": "Otantik formüller",
+    "about_pr1_t": "Tarifler, nesiller boyunca yapıldıkları şekilde klasik Ayurvedik metinlere göre hazırlanır.",
+    "about_pr2_l": "Gerçek içerikler",
+    "about_pr2_t": "Kolaylık için eklenen sentetik dolgu maddeleri olmadan, gerçek bitkiler ve soğuk preslenmiş yağlarla çalışıyoruz.",
+    "about_pr3_l": "Hindistan'da, kaynağında üretildi",
+    "about_pr3_t": "Her ürün, bitkilerin yetiştiği ve geleneğin başladığı Hindistan'da özenle hazırlanır.",
+    "about_pr4_l": "Dürüst etiketleme ve dünya geneline teslimat",
+    "about_pr4_t": "Ürün yelpazemiz, içerikleri ve kullanımı açıkça gösterilerek net biçimde etiketlenir ve dünya geneline gönderilir.",
+    "concern_kicker": "Başlangıç noktanızı bulun",
+    "concern_title": "İhtiyacınıza göre alışveriş",
+    "concern_intro": "Nereden başlayacağınızdan emin değil misiniz? Önemsediğiniz günlük bir alanı seçin, biz de size uygun ürünleri ve gelenekleri gösterelim.",
+    "c_digestion_l": "Sindirim ve Bağırsak",
+    "c_digestion_d": "Rahat sindirim ve günlük bağırsak dengesi — klasik çurnalar, gaz giderici baharatlar ve Triphala ile Avipattikar gibi yumuşak karışımlar.",
+    "c_immunity_l": "Bağışıklık ve Canlılık",
+    "c_immunity_d": "Köklü tonikler — chyawanprash, Amla, Tulsi ve Giloy — Ayurveda'da günlük dayanıklılık için geleneksel olarak değer görür.",
+    "c_energy_l": "Güç ve Enerji",
+    "c_energy_d": "Yenileyici rasayana bitkileri ve tonikler — Shilajit, Shatavari, Bala ve klasik güç formülleri — günlük dayanıklılık için.",
+    "c_respiratory_l": "Solunum ve Mevsimsel",
+    "c_respiratory_d": "Boğaz, göğüs ve mevsimsel rahatlık; Sitopaladi ve Mulethi'den yatıştırıcı bitkisel pastillere kadar.",
+    "c_stress_l": "Stres, Uyku ve Zihin",
+    "c_stress_d": "Odaklanma ve dingin akşamlar için sakinleştirici, topraklayan karışımlar — Brahmi, Shankhpushpi, Jatamansi ve kediotu.",
+    "c_joints_l": "Eklemler ve Kaslar",
+    "c_joints_d": "Aktif bedenlere ve rahat harekete destek — Guggul formülleri ve Mahanarayan gibi ısıtıcı masaj yağları.",
+    "c_womens_l": "Kadın Sağlığı",
+    "c_womens_d": "Kadınların günlük dengesine nazik, geleneksel destek — Shatavari, Ashoka ve klasik kadın tonikleri.",
+    "c_skin_l": "Cilt ve Yüz",
+    "c_skin_d": "Bitki bazlı yüz ve vücut bakımı ile arındırıcı bitkiler — temizleyiciler, tonikler, hidrolatlar, Neem, Zerdeçal ve Manjistha.",
+    "c_hair_l": "Saç ve Saç Derisi",
+    "c_hair_d": "Besleyici saç ve saç derisi bakımı — Bhringraj ve Amla yağları, bitkisel şampuanlar ve doğal kına boyası.",
+    "c_oral_l": "Ağız Bakımı",
+    "c_oral_d": "Dişler, diş etleri ve ferah nefes için doğal günlük bakım — bitkisel diş macunları ve Neem gibi zamanla denenmiş içerikler.",
+    "c_food_l": "Gıda, Çaylar ve Baharatlar",
+    "c_food_d": "Ayurveda'nın mutfak yönü — otantik baharatlar ve masalalar, bitkisel ve Hint çayları, meyve suları, tatlılar ve daha fazlası.",
+    "c_fragrance_l": "Koku ve Ritüel",
+    "c_fragrance_d": "Mekânınıza ve günlük ritüelinize koku katan tütsüler ve uzun ömürlü Hint attarları.",
+    "herb_kicker": "İçerik eğitimi",
+    "herb_title": "Temel Ayurvedik bitkiler",
+    "herb_intro": "Kataloğumuzda en sık karşılaşacağınız sekiz bitkiye ve her birinin Ayurvedik gelenekte uzun zamandır üstlendiği role yönelik sade bir rehber.",
+    "herb_triphala_what": "Üç kurutulmuş meyvenin birlikte öğütülerek tek bir toz haline getirildiği klasik bir karışım.",
+    "herb_triphala_trad": "Ayurveda'da geleneksel olarak günlük sindirimi ve nazik iç dengeyi desteklemek için kullanılır.",
+    "herb_triphala_found": "Çurnalar ve tabletler",
+    "herb_tulsi_what": "Kutsal fesleğen bitkisinden gelen, toz olarak, çaylarda ve cilt ile saç bakımında kullanılan aromatik bir yaprak.",
+    "herb_tulsi_trad": "Ayurvedik gelenekte günlük sağlığı ve canlılık hissini desteklemek için uzun zamandır değer görür.",
+    "herb_tulsi_found": "Çurnalar, çaylar ve cilt bakımı",
+    "herb_neem_what": "Neem ağacından gelen acı bir yaprak; toz olarak ve cilt ile saç temizleme formüllerinde kullanılır.",
+    "herb_neem_trad": "Ayurveda'da geleneksel olarak günlük cilt bakımı ve temiz, dengeli bir cilt tonu ile ilişkilendirilir.",
+    "herb_neem_found": "Çurnalar, yüz ve saç bakımı",
+    "herb_amla_what": "Küçük, ekşi yeşil bir meyve; toz, meyve suyu ve saç bakım ürünlerinde kullanılır.",
+    "herb_amla_trad": "Ayurveda'da geleneksel olarak günlük canlılığı ve saç ile saç derisi bakımını desteklemek için değer görür.",
+    "herb_amla_found": "Çurnalar, meyve suları ve saç bakımı",
+    "herb_brahmi_what": "Toz veya tablet biçiminde alınan küçük, sürünücü bir bitki.",
+    "herb_brahmi_trad": "Ayurveda'da geleneksel olarak sakin odaklanma ve günlük zihinsel sağlık ile ilişkilendirilir.",
+    "herb_brahmi_found": "Çurnalar ve tabletler",
+    "herb_chyawanprash_what": "Amla ve birçok bitki ile baharatın karışımı etrafında oluşturulmuş geleneksel koyu renkli bitkisel bir reçel.",
+    "herb_chyawanprash_trad": "Ayurvedik gelenekte günlük canlılığı ve sağlığı desteklemek için uzun zamandır günlük bir tonik olarak alınır.",
+    "herb_chyawanprash_found": "Ayurveda",
+    "herb_turmeric_what": "Altın sarısı bir kök; ısıtıcı bir baharat tozuna öğütülür ve yemeklerde, meyve sularında ve cilt bakımında kullanılır.",
+    "herb_turmeric_trad": "Ayurveda'da geleneksel olarak günlük dengeyi ve cilt bakımını desteklemek için değer görür.",
+    "herb_turmeric_found": "Baharatlar, çurnalar ve cilt bakımı",
+    "herb_henna_what": "İnce yeşil bir toza öğütülen ve doğal kırmızımsı bir renk veren bir yaprak.",
+    "herb_henna_trad": "Ayurvedik ve Hint geleneğinde uzun zamandır saç için doğal bir renk ve bakım uygulaması olarak kullanılır.",
+    "herb_henna_found": "Kına ve saç bakımı",
+    "start_kicker": "Ayurveda'da yeni misiniz",
+    "start_title": "Başlamak, basitleştirildi",
+    "step1_l": "Temelleri öğrenin",
+    "step1_t": "Ayurveda'nın ne olduğunu anlamak için birkaç dakika ayırın — günlük sağlık, denge ve öz bakımın geleneksel bir Hint sistemi.",
+    "step2_l": "İhtiyacınızı veya tipinizi bulun",
+    "step2_t": "Önemsediğiniz konuya göre göz atın — cilt, saç, sindirim, günlük rutin — ve size hangi geleneklerin ve içeriklerin uygun olduğunu görün.",
+    "step3_l": "Basit başlayın",
+    "step3_t": "Rutininize uyan bir ürün seçin, onu istikrarlı şekilde deneyin ve ancak doğru hissettirdiğinde daha fazlasını ekleyin.",
+    "faq1_q": "Ayurveda güvenli mi ve ürünleri nasıl kullanırım?",
+    "faq1_a": "Ürünlerimiz geleneksel bitki bazlı içeriklerden yapılır ve günlük kullanım için net talimatlarla gelir. Makul bir önlem olarak, hamileyseniz, emziriyorsanız, ilaç kullanıyorsanız veya tıbbi bakım altındaysanız yeni bir şeye başlamadan önce lütfen doktorunuza danışın.",
+    "faq2_q": "Bu konuda tamamen yeniysem nasıl seçim yaparım?",
+    "faq2_a": "Aynı anda birkaç tane satın almak yerine, günlük bir ihtiyacınızla eşleşen tek bir ürünle başlayın — cilt, saç veya günlük bakım gibi. Her ürün, ne olduğunu, geleneksel olarak nasıl kullanıldığını ve nasıl uygulanacağını sade bir dille açıklar.",
+    "faq3_q": "Ürünler otantik ve doğru şekilde etiketlenmiş mi?",
+    "faq3_a": "Her ürün, geleneksel Ayurvedik hazırlık ve geçerli kalite ile etiketleme standartlarına uygun olarak Dr. Praveen Rathi yönetiminde Hindistan'da üretilir. İçerikler ve kullanım, her üründe açıkça listelenir; böylece ne aldığınızı her zaman bilirsiniz.",
+    "faq4_q": "Benim ülkeme gönderim yapıyor musunuz?",
+    "faq4_a": "Evet — uluslararası gönderim yapıyoruz. Teslimat süreleri ve geçerli ücretler veya gümrük vergileri, siparişinizi onaylamadan önce ödeme adımında açıkça gösterilir."
+  },
+  "pdp": {
+    "back": "Mağazaya dön",
+    "good_for": "Şunun için iyidir",
+    "what": "Nedir",
+    "benefits": "Geleneksel olarak şunu desteklemek için kullanılır",
+    "ingredients": "Temel içerikler",
+    "how": "Nasıl kullanılır",
+    "suited": "Şuna uygundur",
+    "details": "Ayrıntılar",
+    "format": "Form",
+    "origin": "Menşe",
+    "india": "Hindistan",
+    "caution": "Eğitim amaçlı geleneksel Ayurvedik bilgidir, tıbbi tavsiye değildir. Hamileyseniz, emziriyorsanız, ilaç kullanıyorsanız veya tıbbi bakım altındaysanız kullanmadan önce lütfen doktorunuza danışın.",
+    "precautions": "Önlemler",
+    "related": "Bunları da beğenebilirsiniz",
+    "transparency": "Her içerik, açıkça listelenmiş",
+    "routine": "Rutininize nasıl uyar",
+    "good_to_know": "Bilmekte fayda var",
+    "take_care": "Lütfen şu durumda dikkatli olun",
+    "why_kicker": "Neden bizden alışveriş yapmalısınız",
+    "why_title": "Gelenek, sadakatle sürdürülür — ve kaynağında üretilir",
+    "why_sub": "Her formül, bitkilerin yetiştiği Hindistan'da, Dr. Praveen Rathi yönetiminde, gerçek bitkilerden ve soğuk preslenmiş yağlardan, klasik Ayurveda metinlerine göre hazırlanır. Güveninizi dürüst yoldan kazanırız: açık içerikler, net etiketleme ve her partinin hesabını veren bir aile evi.",
+    "assure_title": "Güvenle sipariş verin",
+    "ship_label": "Dünya geneline teslimat",
+    "ship_text": "Takip edilebilir gönderim, dünya genelinde mevcut.",
+    "returns_label": "Dürüst etiketleme",
+    "returns_text": "İçerikler ve geleneksel kullanım, her üründe açıkça listelenir.",
+    "secure_label": "Kaynağında üretildi",
+    "secure_text": "Hindistan'da klasik Ayurveda metinlerine göre üretilir, ardından net biçimde etiketlenir.",
+    "help_label": "Yardıma hazırız",
+    "help_text": "Satın almadan önce sorularınız mı var? Bize WhatsApp, Telegram veya e-posta üzerinden ulaşın.",
+    "faq_title": "Sıkça sorulan sorular",
+    "new_to": "Ayurveda'da yeni misiniz?",
+    "new_to_cta": "Temellerle başlayın",
+    "qty_label": "Adet",
+    "delivery_eu": "Takip edilebilir dünya geneline teslimat",
+    "freeship_over": "{amount} üzeri ücretsiz teslimat",
+    "freeship_away": "Ücretsiz teslimata {amount} kaldı",
+    "freeship_unlocked": "✓ Ücretsiz teslimat açıldı",
+    "cta_guarantee": "Güvenli ödeme · 14 gün içinde iade · hasarlı veya açıklamaya uygun olmayan şekilde gelirse, telafi ederiz",
+    "authority_quote": "Dr. Praveen Rathi tarafından formüle edildi ve denetlendi — \"Ürettiğimiz her partinin sorumluluğunu ben üstlenirim.\"",
+    "pairs_title": "Rutininizi tamamlar",
+    "pairs_sub": "Aynı sağlıklı yaşam odağıyla seçildi — bir tamamlayıcı ekleyin ve ücretsiz teslimata yaklaşın.",
+    "add_one": "Ekle",
+    "compare_title": "Neden Sangam'ı seçmelisiniz",
+    "compare_sub": "Otantik bir Ayurvedik üründe nelere dikkat edilmeli — ve biz bunlara nasıl uyuyoruz.",
+    "compare_us": "Sangam Herbals",
+    "compare_them": "Tipik seri üretim bitkisel ürün",
+    "faq5_q": "Ne kadar sürede bir şey fark ederim?",
+    "faq5_a": "Ayurvedik bitkiler, hızlı bir çözüm olarak değil, geleneksel olarak istikrarlı bir günlük rutinin parçası olarak alınır ve birçok kişi onları birkaç hafta boyunca gününün sessiz bir parçası haline getirir. Sonuçlar kişiden kişiye değişir.",
+    "faq6_q": "Bu en çok kime uygundur — ve kimler dikkatli olmalı?",
+    "faq6_a": "Ayurveda'da geleneksel olarak günlük sağlığı desteklemek için kullanılır. Hamileyseniz, emziriyorsanız, ilaç kullanıyorsanız veya tıbbi bakım altındaysanız kullanmadan önce lütfen doktorunuzla konuşun.",
+    "compare_rows": [
+      {
+        "label": "Klasik Ayurvedik metinlere göre formüle edildi",
+        "us": "Evet — geleneksel tariflere göre",
+        "them": "Genellikle tescilli karışımlar"
+      },
+      {
+        "label": "Her içerik açıkça listelendi",
+        "us": "Evet — eksiksiz",
+        "them": "Sıklıkla açıklanmaz"
+      },
+      {
+        "label": "Gerçek bitkiler ve soğuk preslenmiş yağlar",
+        "us": "Evet — gereksiz dolgu maddesi yok",
+        "them": "Değişir"
+      },
+      {
+        "label": "Kaynağında, Hindistan'da üretildi",
+        "us": "Evet — bitkilerin yetiştiği yerde",
+        "them": "Genellikle belirtilmez"
+      },
+      {
+        "label": "Adı belirtilen bir direktör tarafından denetlendi",
+        "us": "Dr. Praveen Rathi",
+        "them": "Anonim"
+      }
+    ]
+  },
+  "trust": {
+    "bar": [
+      "Klasik Ayurvedik metinlere göre hazırlandı",
+      "Bitkilerin kaynağında, Hindistan'da üretildi",
+      "Gerçek bitkiler ve soğuk preslenmiş yağlar",
+      "Dünya geneline gönderim",
+      "Güvenli ödeme · 14 gün içinde iade"
+    ],
+    "std_kicker": "Standartlarımız",
+    "std_title": "İyi üretildi, yakından kontrol edildi",
+    "std_intro": "Bir ürünün iyi olduğunu söylemektense, nasıl üretildiğini göstermeyi tercih ederiz — açık içerik listeleri, net etiketleme ve geldiği kaynak. Her formül, gerçek bitkilerden ve soğuk preslenmiş yağlardan, kolaylık için hiçbir şey eklenmeden, klasik Ayurveda metinlerine göre hazırlanır. Tarifler asırlık; onları bağlı tuttuğumuz disiplin ise kusursuzdur.",
+    "seals_title": "Güvenle satın alın",
+    "seals": [
+      {
+        "label": "Güvenli şifreli ödeme",
+        "sub": "Köklü sağlayıcılar üzerinden işlenir — kartınızın tam bilgilerini asla saklamayız.",
+        "icon": "lock"
+      },
+      {
+        "label": "14 gün içinde iade",
+        "sub": "Açılmamış ürünleri teslimattan itibaren 14 gün içinde iade ederek para iadesi alın.",
+        "icon": "return"
+      },
+      {
+        "label": "Takip edilebilir dünya geneline teslimat",
+        "sub": "Takip ile dünya geneline gönderilir, sevkiyattan kapınıza kadar.",
+        "icon": "parcel"
+      },
+      {
+        "label": "Kaynağında üretildi",
+        "sub": "Bitkilerin yetiştiği Hindistan'da, klasik metinlere göre özenle hazırlandı.",
+        "icon": "mortar"
+      },
+      {
+        "label": "Açık içerikler",
+        "sub": "Her üründe eksiksiz içerik listesi — hiçbir şey gizli değil.",
+        "icon": "label"
+      },
+      {
+        "label": "Sorumluluğu adıyla üstlenildi",
+        "sub": "Dr. Praveen Rathi tarafından formüle edildi ve denetlendi.",
+        "icon": "person"
+      }
+    ],
+    "std_items": [
+      {
+        "label": "Gerçek bitkiler, soğuk preslenmiş yağlar",
+        "text": "Karakterlerini koruyacak şekilde ısı olmadan preslenmiş gerçek bitkiler ve yağlar — bitkinin kendisi, geleneksel yöntemle işlenmiş, asla anonim bir özüte indirgenmemiş."
+      },
+      {
+        "label": "Sentetik dolgu maddesi yok",
+        "text": "Çurnalarımızı, tabletlerimizi ve yağlarımızı sentetik dolgu maddeleri, boyalar veya gereksiz katkı maddeleriyle çoğaltmayız. Bir formül, tarifin gerektirdiğini içerir — fazlasını değil."
+      },
+      {
+        "label": "Klasik yöntemlere göre hazırlandı",
+        "text": "Her formül, klasik Ayurvedik metinleri izler — nesiller boyunca aktarılan aynı oranlar ve yöntemler, geleneğin öngördüğü şekilde, parti üstüne parti üretilir."
+      },
+      {
+        "label": "İçerikler açıkça listelendi",
+        "text": "Her ürün, tüm içerik listesini, formunu ve miktarını taşır — belirsiz bir 'tescilli karışım' arkasında hiçbir şey gizlenmez. Satın almadan önce ve etiket üzerinde içinde tam olarak ne olduğunu okuyun."
+      },
+      {
+        "label": "Net biçimde etiketlenmiş",
+        "text": "Ürün yelpazemiz, içerik, kullanım ve saklama bilgileri yüksek standartlarda açıkça sunularak net biçimde etiketlenir ve dünya geneline gönderilir."
+      },
+      {
+        "label": "Partiden partiye tutarlı",
+        "text": "Girdiler gerçek ve yöntem sabit olduğundan, yeniden sipariş ettiğiniz ürün, ilk kez güvendiğiniz üründür. Kalite istikrarlı kalır — sadece iyi bir günde değil."
+      },
+      {
+        "label": "Hindistan'da, kaynağında üretildi",
+        "text": "Bitkilerin yetiştiği ve uygulamanın başladığı yerde, Dr. Praveen Rathi yönetiminde üretildi — bitki ile formül arasında daha kısa bir mesafe ve her partinin sorumluluğunu üstlenen bir aile evi."
+      },
+      {
+        "label": "İddia etmediklerimiz konusunda açık",
+        "text": "Ürünlerimizi geleneksel, eğitici terimlerle tanımlarız ve hiçbir tıbbi iddiada bulunmayız. Vaat ettiğimiz şey nettir: otantik formüller, gerçek içerikler, açık etiketleme, hızlı destek."
+      }
+    ],
+    "g_kicker": "Güvenle sipariş verin",
+    "g_title": "Satın alımınız korunmaktadır",
+    "g_promise": "Siparişiniz hasarlı, eksik veya açıklandığı gibi gelmezse, sorunu çözeriz — değiştirme veya para iadesi, tartışmasız.",
+    "g_items": [
+      {
+        "label": "14 günlük iade hakkı",
+        "text": "Açılmamış ürünleri iade ederek geri ödeme almak için teslimattan itibaren 14 gününüz vardır. Bunu eksiksiz şekilde yerine getiririz; her siparişte net talimatlarla."
+      },
+      {
+        "label": "Güvenli, şifreli ödeme",
+        "text": "Her ödeme, köklü sağlayıcılar aracılığıyla şifreli bir bağlantı üzerinden işlenir. Kartınızın tam bilgilerini asla görmez veya saklamayız — verileriniz gizli kalır."
+      },
+      {
+        "label": "Takip edilebilir dünya geneline teslimat",
+        "text": "Siparişler, sevkiyattan kapınıza kadar takip ile dünya geneline gönderilir. Paketiniz bizden ayrıldığı anda bir takip bağlantısı alırsınız."
+      },
+      {
+        "label": "Dürüst, eksiksiz etiketleme",
+        "text": "Her içerik, etikette ve ürün sayfasında açıkça listelenir — sentetik dolgu maddesi yok, gizli eklemeler yok, belirtilmeyen hiçbir şey yok."
+      },
+      {
+        "label": "Duyarlı insan desteği",
+        "text": "Satın almadan önce veya sonra bir sorunuz mu var? Bize yazın, gerçek bir insan açık ve hızlı bir şekilde yanıtlasın — ürünlerinizi seçme, kullanma ve saklama konusunda."
+      },
+      {
+        "label": "İzini sürebileceğiniz kalite",
+        "text": "Hindistan'da kaynağında, gerçek bitkilerden ve soğuk preslenmiş yağlardan, Dr. Praveen Rathi yönetiminde hazırlandı. Otantiklik istisna değil, standardımızdır."
+      }
+    ],
+    "badges": [
+      {
+        "label": "Klasik metinler",
+        "text": "Her formül, klasik Ayurvedik yöntemi izler — kaynak metinlerin öngördüğü bitkiler, oranlar ve hazırlık."
+      },
+      {
+        "label": "Kaynağında üretildi",
+        "text": "Bitkilerin yetiştiği Hindistan'da üretildi — gerçek hazırlıklar, asla başka yerde ithal tozdan yeniden oluşturulmadı."
+      },
+      {
+        "label": "Gerçek içerikler",
+        "text": "Gerçek bitkiler ve soğuk preslenmiş yağlar. Sentetik dolgu maddesi yok, anonim özüt yok, kestirme yol yok."
+      },
+      {
+        "label": "Açık içerikler",
+        "text": "Her üründe ve etikette eksiksiz içerikler, form ve miktar — 'tescilli karışım' arkasında hiçbir şey yok."
+      },
+      {
+        "label": "Net biçimde etiketlenmiş",
+        "text": "Yüksek standartlarda hazırlanıp net biçimde etiketlenir, dünya geneline gönderilir."
+      },
+      {
+        "label": "Dr. Praveen Rathi",
+        "text": "Bir aile Ayurveda evi, Dr. Praveen Rathi tarafından formüle edildi ve denetlendi — metinlere sadık kalarak."
+      }
+    ],
+    "cred_title": "Ölçülerle güven",
+    "credibility": [
+      "Kürler, yağlar, kozmetikler ve gıdalar genelinde 358 otantik formül",
+      "Dr. Praveen Rathi yönetiminde, klasik Ayurvedik metinlere göre hazırlandı",
+      "Bitkilerin kaynağında, Hindistan'da üretildi",
+      "Gerçek bitkiler ve soğuk preslenmiş yağlar, her içerik açıkça listelendi",
+      "Net biçimde etiketlenmiş, dünya geneline gönderilir",
+      "Geleneksel, eğitici sağlık dili — asla tıbbi iddia yok"
+    ],
+    "atc_reassure": "Güvenli ödeme · 14 gün içinde iade · Dünya geneline gönderim",
+    "faq": [
+      {
+        "q": "Sangam Herbals'ı kim, nerede üretiyor?",
+        "a": "Sangam Herbals, Dr. Praveen Rathi tarafından formüle edilip denetlenen bir aile Ayurveda evidir. Her şey, bitkilerin kaynağında, Hindistan'da üretilir ve klasik Ayurveda metinlerine göre hazırlanır — ardından yüksek standartlarda net biçimde etiketlenir."
+      },
+      {
+        "q": "Her üründe gerçekte ne olduğunu nasıl bilebilirim?",
+        "a": "Her ürün, tüm içeriklerini, formunu ve miktarını listeler — satın almadan önce ürün sayfasında ve geldiğinde etiket üzerinde. Gerçek bitkiler ve soğuk preslenmiş yağlar kullanırız; sentetik dolgu maddesi olmadan ve belirsiz bir 'tescilli karışım' arkasında hiçbir şey gizlemeden."
+      },
+      {
+        "q": "Bu ürünler net biçimde etiketleniyor mu?",
+        "a": "Evet. Ürün yelpazemiz, içerik, kullanım ve saklama bilgileri yüksek standartlarda açıkça sunularak net biçimde etiketlenir ve dünya geneline gönderim yaparız."
+      },
+      {
+        "q": "Siparişimde bir sorun olursa veya fikrimi değiştirirsem ne olur?",
+        "a": "Siparişiniz hasarlı, eksik veya açıklamaya uygun olmayan şekilde gelirse, telafi ederiz — değişim veya geri ödeme, tartışmasız. Ayrıca açılmamış ürünleri iade ederek geri ödeme almak için teslimattan itibaren 14 gününüz vardır; her siparişte net talimatlarla."
+      }
+    ],
+    "safety_note": "Yalnızca sağlık ve geleneksel bakım içindir — bir ilaç değildir ve profesyonel tıbbi tavsiyenin yerine geçmez. Etiketi okuyun, talimatları izleyin ve hamileyseniz, emziriyorsanız, ilaç kullanıyorsanız veya bir sağlık durumunu yönetiyorsanız doktorunuza danışın. İlk topikal kullanımdan önce yama testi yapın. Çocukların erişemeyeceği yerde saklayın."
+  },
+  "founder": {
+    "eyebrow": "Direktörümüzden bir not",
+    "heading": "Ürettiğimiz her partinin sorumluluğunu ben üstlenirim.",
+    "paragraphs": [
+      "Ayurveda aileme bir iş olarak verilmedi. Bir sorumluluk olarak aktarıldı — kürleri tam olarak klasik metinlerin belirttiği gibi, gerçek bitkilerden ve soğuk preslenmiş yağlardan, kolaylık için hiçbir şey eklemeden hazırlamanın bir yolu olarak. Onları üretmenin bildiğim tek yolu bu ve uygulayacağım tek yol bu.",
+      "Dünyaya gönderdiğimiz her şey, burada, bitkilerin ve uygulamanın kaynağında, Hindistan'da üretilir. Nesillerdir izlenen aynı oranlar ve yöntemlerle çalışırım ve her formülü kusursuz standartlara bağlı tutarım — çünkü tarifin eski olması, üretimin özensiz olmasının mazereti değildir.",
+      "Adımı bu eve ve bu sayfaya koymayı basit bir nedenle seçtim: bir şey bedeninize girdiğinde veya cildinize değdiğinde, arkasında kimin durduğunu bilmeyi hak edersiniz. Satın almadan önce tüm içerikleri okuyun. Bir şey belirsizse bize yazın. Ve bir ürün size uygun değilse, bize söyleyin, biz de sorunu çözelim."
+    ],
+    "signature": "Praveen Rathi",
+    "credential": "Dr. Praveen Rathi · Direktör, Sangam Herbals — kürleri klasik metinlere göre hazırlayan, Hindistan'da üretilen bir aile Ayurveda evi"
+  },
+  "promise": {
+    "kicker": "Bunları neden üretiyoruz",
+    "title": "Bir satışı abartmaktansa onu kaybetmeyi tercih ederiz.",
+    "text": "5.000 yıllık kesintisiz bir geleneği seyreltmeden dünyanın dört bir yanındaki evlere taşımak için varız — her ilacı gerçek bitkilerden ve soğuk preslenmiş yağlardan, klasik Ayurveda metinlerine göre, Hindistan'da kaynağında üreterek ve ismimizle hesabını vererek hazırlıyoruz. Bu yüzden içinde tam olarak ne olduğunu ve nasıl üretildiğini gösteririz, her içeriği açıkça listeleriz ve hiçbir tıbbi iddiada bulunmayız. Özgünlük bizim istisnamız değil, standardımızdır."
+  }
+}

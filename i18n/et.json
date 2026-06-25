@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "lang": "et",
+    "native": "Eesti",
+    "dir": "ltr"
+  },
+  "nav": {
+    "home": "Avaleht",
+    "shop": "Pood",
+    "catalog": "Kataloog",
+    "about": "Meist",
+    "heritage": "Meist",
+    "contact": "Kontakt",
+    "search": "Otsi tooteid",
+    "learn": "Õpi"
+  },
+  "gate": {
+    "title": "Tere tulemast Sangam Herbalsi",
+    "subtitle": "Ehe ajurveeda, valmistatud Indias — vali oma riik ja keel",
+    "choose_region": "Vali oma riik",
+    "choose_language": "Vali oma keel",
+    "continue": "Sisene poodi",
+    "filter": "Otsi riike",
+    "country_hint": "Vali oma riik ja keel. Sinu riik määrab tarne, valuuta ja maksud; sinu keel määrab, kuidas pood kuvatakse.",
+    "no_country": "Sellele otsingule ei vasta ükski riik.",
+    "country_one": "riik",
+    "country_many": "riiki",
+    "close": "Sulge",
+    "region_na": "Põhja-Ameerika",
+    "region_eu": "Euroopa",
+    "region_me": "Lähis-Ida",
+    "region_ap": "Aasia ja Vaikse ookeani piirkond",
+    "select_prompt": "Vali riik, et näha tarnet, valuutat ja keelt",
+    "preview_head": "Sa ostled riigist {country}",
+    "row_ship": "Tarne",
+    "row_currency": "Valuuta",
+    "row_vat": "Maksud ja tollimaksud",
+    "row_lang": "Veebisaidi keel",
+    "ship_line": "Jälgitav tarne riiki {country}, tavaliselt 3–10 tööpäeva. Tasuta tellimustelt üle {free}.",
+    "currency_eur": "Hinnad on kuvatud eurodes (EUR).",
+    "currency_local": "Hinnad on soovituslikud eurodes (EUR). {country} kasutab valuutat {cur} — sinu pank teeb ümberarvestuse kassas.",
+    "vat_line": "Kõik riigi {country} tollimaksud või maksud kuvatakse kassas enne tasumist.",
+    "lang_default": "tavapärane valik riigi {country} jaoks",
+    "lang_change": "muuda",
+    "trust_ship": "Tarnime rahvusvaheliselt",
+    "trust_langs": "35 keelt",
+    "trust_eur": "Soovituslikud hinnad eurodes",
+    "trust_secure": "Turvaline ostuvormistus",
+    "trust_return": "14-päevane tagastusõigus",
+    "change_later": "Vale riik või keel? Muuda seda igal ajal menüü valikust „Piirkond“."
+  },
+  "hero": {
+    "eyebrow": "Pere ajurveeda koda · Valmistatud Indias klassikaliste tekstide järgi",
+    "title": "Traditsioon, truult valmistatud — ja nimeliselt vastutatud.",
+    "subtitle": "Ehtsad ayurveda ravimid, õlid, kosmeetika ja toidud, valmistatud Indias dr. Praveen Rathi juhtimisel ja tarnitud üle kogu maailma. Päris ürdid, avatud koostis, selge märgistus — usaldus, mida saad enne ostmist ise kontrollida.",
+    "cta_shop": "Sirvi kataloogi",
+    "cta_story": "Tutvu kojaga",
+    "stat_products": "Ehtsat toodet",
+    "stat_categories": "Kategooriat",
+    "stat_countries": "Riiki teenindatud",
+    "credential": "Dr. Praveen Rathi · Juhataja — koostatud ja jälgitud allikal, Indias"
+  },
+  "sections": {
+    "ayurveda": "Ajurveda",
+    "cosmetics": "Kosmeetika",
+    "food": "Toit ja toitumine",
+    "oils": "Õlid",
+    "aromatherapy": "Aroomiteraapia"
+  },
+  "shop": {
+    "title": "Kõik tooted",
+    "subtitle": "Iga Sangam Herbalsi toode, nüüd saadaval üle kogu maailma.",
+    "all": "Kõik tooted",
+    "filter": "Filter",
+    "sort": "Sorteeri",
+    "sort_featured": "Esiletõstetud",
+    "sort_price_low": "Hind: odavamast kallimale",
+    "sort_price_high": "Hind: kallimast odavamale",
+    "sort_az": "Nimi A–Z",
+    "results": "toodet",
+    "empty": "Sinu filtritele vastavaid tooteid ei leitud.",
+    "clear": "Tühista filtrid",
+    "add": "Lisa ostukorvi",
+    "view": "Vaata lähemalt",
+    "from": "alates",
+    "in_stock": "Laos olemas",
+    "sku": "Tootekood",
+    "showing": "Kuvatakse",
+    "loadmore": "Laadi rohkem",
+    "added": "Added"
+  },
+  "product": {
+    "description": "Kirjeldus",
+    "details": "Üksikasjad",
+    "category": "Kategooria",
+    "related": "Sulle võib meeldida ka",
+    "back": "Tagasi poodi",
+    "origin": "Valmistatud Indias",
+    "ships": "Tarnime üle kogu maailma",
+    "unavailable": "Unavailable"
+  },
+  "heritage": {
+    "title": "Viis tuhat aastat — ühes tilgas",
+    "body": "Sangam tähendab kokkuvoolu — pühade jõgede kohtumist. Sangam Herbals on iidse ayurveda tarkuse ja hoolika, kaasaegse tootmise kohtumine. Asutatud dr. Praveen Rathi juhtimisel, valmistatakse meie tooted ehtsatest ürtidest, külmpressitud õlidest ja ajaproovile vastu pidanud retseptidest, nüüd ette valmistatud ja selgelt märgistatud kodudele üle kogu maailma.",
+    "pillar1_t": "Ehtsad valemid",
+    "pillar1_b": "Klassikalised churnad, tabletid ja õlid, valmistatud traditsiooniliste ajurveeda tekstide järgi.",
+    "pillar2_t": "Puhas ja aus",
+    "pillar2_b": "Päris koostisosad, aus kvaliteet, tarbetute lisanditeta.",
+    "pillar3_t": "Indiast maailma",
+    "pillar3_b": "Hangitud päritolukohas ja tarnitud üle kogu maailma."
+  },
+  "footer": {
+    "tagline": "Ehtne ayurveda, üle kogu maailma",
+    "shop": "Pood",
+    "company": "Ettevõte",
+    "support": "Tugi",
+    "newsletter": "Uudiskiri",
+    "newsletter_sub": "Ayurveda rituaalid, uued tooted ja pakkumised.",
+    "email_ph": "Sinu e-posti aadress",
+    "subscribe": "Telli",
+    "rights": "Kõik õigused kaitstud.",
+    "shipping": "Ülemaailmne tarne",
+    "returns": "Tagastused",
+    "privacy": "Privaatsus",
+    "terms": "Tingimused",
+    "made": "Valmistatud Indias · Tarnitud üle kogu maailma",
+    "director": "Juhitud dr. Praveen Rathi poolt — koostatud ja jälgitud allikal, Indias."
+  },
+  "cart": {
+    "title": "Sinu ostukorv",
+    "empty": "Sinu ostukorv on tühi.",
+    "total": "Kokku",
+    "checkout": "Vormista tellimus",
+    "remove": "Eemalda",
+    "continue": "Jätka ostlemist",
+    "add_more": "Lisa",
+    "free_ship": "tasuta tarne saamiseks",
+    "free_unlocked": "✓ Tasuta tarne avatud",
+    "free_ship_progress": "Lisa {amount} tasuta tarne saamiseks"
+  },
+  "common": {
+    "currency_note": "Hinnad on soovituslikud ja kuvatakse teie riigi valuutas.",
+    "loading": "Laadimine…",
+    "change_region": "Piirkond"
+  },
+  "categories": {
+    "ayurveda": "Ajurveda",
+    "single-herb-churnas": "Ühetaimsed churnad",
+    "compound-churnas": "Segachurnad",
+    "chyawanprash": "Chyawanprash",
+    "churna-tablets": "Churna tabletid",
+    "classic-tablets": "Klassikalised tabletid",
+    "cosmetics": "Kosmeetika",
+    "hair-care": "Juuksehooldus",
+    "toothpastes": "Hambapastadid",
+    "face-care": "Näohooldus",
+    "body-care": "Kehahooldus",
+    "facial-toners": "Näotoonerid",
+    "henna-hair-colour": "Henna juuksevärv",
+    "food-nutrition": "Toit ja toitumine",
+    "indian-sweets": "India maiustused",
+    "spices-seasonings": "Vürtsid ja maitseained",
+    "herbal-teas": "Ürditeead",
+    "natural-juices": "Looduslikud mahlad",
+    "dried-fruits": "Kuivatatud puuviljad",
+    "biscuits": "Küpsised",
+    "cane-sugar": "Roosuhkur",
+    "indian-tea": "India tee",
+    "oils": "Õlid",
+    "natural-oils": "Looduslikud õlid",
+    "ayurvedic-oils": "Ajurveeda õlid",
+    "aromatherapy": "Aroomiteraapia",
+    "incense": "Viiruk",
+    "perfume-oils": "Parfüümõlid",
+    "hydrolats": "Hüdrolaadid",
+    "lozenges": "Pastillid"
+  },
+  "argument": {
+    "line": "Viis tuhat aastat praktikat, hoitud rangete kaasaegsete standardite juures.",
+    "kicker": "Meie põhimõte"
+  },
+  "streams": {
+    "title": "Sirvi kategooriate kaupa",
+    "stream": "Haru"
+  },
+  "remedy": {
+    "kicker": "Esiletõstetud toode"
+  },
+  "dispatch": {
+    "title": "Liitu uudiskirjaga"
+  },
+  "proof": {
+    "certified": "Aus ja avatud märgistus",
+    "ships": "Tarnime rahvusvaheliselt",
+    "eur": "Soovituslik hind",
+    "origin": "Valmistatud Indias",
+    "langs": "35 keelt"
+  },
+  "edu": {
+    "explore": "Avasta",
+    "shop": "Pood",
+    "care_label": "Tasakaalus hoitud",
+    "learn_kicker": "Ayurveda, lahti seletatuna",
+    "learn_title": "Mis on Ayurveda?",
+    "learn_p1": "Ayurveda on traditsiooniline loomuliku heaolu süsteem, mis sai Indias alguse umbes 5000 aastat tagasi. Selle nimi pärineb kahest sanskritikeelsest sõnast: ayur, mis tähendab elu, ja veda, mis tähendab teadmist. Selle keskmes on üks lihtne mõte: heaolu tuleneb keha ja vaimu tasakaalus hoidmisest.",
+    "learn_p2": "Kiirete lahenduste asemel vaatleb Ayurveda inimest tervikuna ja igapäevaelu rütmi. See tugineb taimedele, ürtidele ja traditsioonilistele segudele ning lihtsatele igapäevastele harjumustele toitumise, une ja enesehoolduse alal. Mõtle sellest kui ajaproovile vastu pidanud viisist enda eest hoolitseda — õrnalt ja järjepidevalt.",
+    "learn_pr1_l": "Tasakaal",
+    "learn_pr1_t": "Ayurveda näeb heaolu kui tasakaaluseisundit ning püüab hoida keha ja vaimu stabiilsena läbi aastaaegade ja igapäevaelu nõudmiste.",
+    "learn_pr2_l": "Terviklik lähenemine",
+    "learn_pr2_t": "See käsitleb inimest tervikuna, võttes arvesse toitumist, und, tegevust ja meeleolu, selle asemel et vaadelda mõnda üksikut osa eraldi.",
+    "learn_pr3_l": "Looduslikud koostisosad",
+    "learn_pr3_t": "Selle valmistised on koostatud taimedest, ürtidest, õlidest ja muudest looduslikest koostisosadest, valmistatud põlvest põlve edasi antud traditsiooniliste meetoditega.",
+    "learn_pr4_l": "Igapäevane rituaal",
+    "learn_pr4_t": "Suur osa Ayurvedast peitub väikestes, korduvates igapäevastes harjumustes — lihtsates hoolitsustegudes, mis aja jooksul toetavad elujõu ja igapäevase heaolu tunnet.",
+    "dosha_kicker": "Ayurveda alused",
+    "dosha_title": "Kolm doshat",
+    "dosha_intro": "Ayurvedas on kolm energiat, mida tuntakse doshadena — Vata, Pitta ja Kapha — ning need esinevad igaühes ainulaadses kombinatsioonis; eesmärk on lihtsalt hoida sinu enda segu tasakaalus.",
+    "vata_el": "Õhk & Eeter",
+    "vata_essence": "Liikumise energia",
+    "vata_traits": "Vata tüübid kipuvad olema kerged, kiired ja loovad — tasakaalus olles elavad nii vaimult kui kehalt.",
+    "vata_care": "Ayurvedas hoitakse Vatat traditsiooniliselt tasakaalus soojuse, korrapära ning maandavate, toitvate toitude ja õlidega.",
+    "pitta_el": "Tuli & Vesi",
+    "pitta_essence": "Muundumise energia",
+    "pitta_traits": "Pitta tüübid kipuvad olema keskendunud, sihikindlad ja soojad, terava energia ja tugeva eesmärgitundega.",
+    "pitta_care": "Ayurvedas hoitakse Pittat traditsiooniliselt tasakaalus jahutavate toitude, rahulike harjumuste ja looduses veedetud ajaga.",
+    "kapha_el": "Maa & Vesi",
+    "kapha_essence": "Struktuuri energia",
+    "kapha_traits": "Kapha tüübid kipuvad olema rahulikud, stabiilsed ja maandatud, tasakaaluka ja muretu loomuga.",
+    "kapha_care": "Ayurvedas hoitakse Kaphat traditsiooniliselt elavana liikumise, soojendavate vürtside ja ergutavate igapäevaste rituaalidega.",
+    "about_kicker": "Sangam Herbalsist",
+    "about_title": "Ehtsa ajurveeda hoidja, valmistatud algallikal",
+    "about_p1": "Sangam Herbals on Indias tegutsev pereettevõttena juhitud Ayurveda koda, mis on asutatud Dr. Praveen Rathi juhtimisel. Iga segu valmistatakse klassikaliste ayurveda tekstide järgi, kasutades ehtsaid ürte ja külmpressitud õlisid, mitte otseteid ega sünteetilisi täiteaineid. Retseptid on vanad; standardid, mille järgi me neid hoiame, ei ole.",
+    "about_p2": "Kõik valmistatakse Indias, taimede ja traditsiooni enda allika juures. Sealt edasi on meie tooted avatult märgistatud ja tarnitud üle kogu maailma. Usume, et parim viis sinu usalduse võitmiseks on olla aus selle suhtes, mida me valmistame ja kuidas me seda teeme — ning lasta toodetel enda eest rääkida.",
+    "about_pr1_l": "Ehtsad retseptid",
+    "about_pr1_t": "Retseptid valmistatakse klassikaliste ayurveda tekstide järgi, samamoodi nagu neid on põlvkondade jooksul tehtud.",
+    "about_pr2_l": "Ehtsad koostisosad",
+    "about_pr2_t": "Töötame ehtsate ürtide ja külmpressitud õlidega, ilma mugavuse huvides lisatud sünteetiliste täiteaineteta.",
+    "about_pr3_l": "Valmistatud Indias, allika juures",
+    "about_pr3_t": "Iga toode on valmistatud Indias, kus taimed kasvavad ja kust traditsioon alguse sai.",
+    "about_pr4_l": "Aus märgistus ja ülemaailmne tarne",
+    "about_pr4_t": "Meie tootevalik on selgelt märgistatud, koostisosad ja kasutamine avalikult välja toodud, ning tarnitud üle kogu maailma.",
+    "concern_kicker": "Leia oma lähtepunkt",
+    "concern_title": "Osta murekoha järgi",
+    "concern_intro": "Ei tea, kust alustada? Vali endale oluline igapäevane valdkond ja me juhatame sind toodete ja traditsioonide juurde, mis sobivad.",
+    "c_digestion_l": "Seedimine & Soolestik",
+    "c_digestion_d": "Mugav seedimine ja igapäevane soolestiku tasakaal — klassikalised churna'd, kõhugaase vähendavad vürtsid ja õrnad segud nagu Triphala ja Avipattikar.",
+    "c_immunity_l": "Immuunsus & Elujõud",
+    "c_immunity_d": "Ajaproovile vastu pidanud toonikud — chyawanprash, Amla, Tulsi ja Giloy — Ayurvedas traditsiooniliselt hinnatud igapäevase vastupidavuse toetamiseks.",
+    "c_energy_l": "Jõud & Energia",
+    "c_energy_d": "Värskendavad rasayana ürdid ja toonikud — Shilajit, Shatavari, Bala ja klassikalised jõusegud — igapäevase vastupidavuse jaoks.",
+    "c_respiratory_l": "Hingamisteed & Hooajaline",
+    "c_respiratory_d": "Kurgu, rindkere ja hooajaline mugavus, alates Sitopaladi ja Mulethi'st kuni rahustavate ürdipastillideni.",
+    "c_stress_l": "Stress, Uni & Vaim",
+    "c_stress_d": "Rahustavad, maandavad segud keskendumiseks ja rahulikeks õhtuteks — Brahmi, Shankhpushpi, Jatamansi ja palderjan.",
+    "c_joints_l": "Liigesed & Lihased",
+    "c_joints_d": "Tugi aktiivsetele kehadele ja sujuvale liikumisele — Guggul'i segud ja soojendavad massaažiõlid nagu Mahanarayan.",
+    "c_womens_l": "Naiste heaolu",
+    "c_womens_d": "Õrn, traditsiooniline tugi naiste igapäevasele tasakaalule — Shatavari, Ashoka ja klassikalised naiste toonikud.",
+    "c_skin_l": "Nahk & Nägu",
+    "c_skin_d": "Taimne näo- ja kehahooldus ning puhastavad ürdid — puhastusvahendid, toonikud, hüdrolaadid, Neem, Turmeric ja Manjistha.",
+    "c_hair_l": "Juuksed & Peanahk",
+    "c_hair_d": "Toitev juukse- ja peanahahooldus — Bhringraj'i ja Amla õlid, ürdišampoonid ja looduslik henna värv.",
+    "c_oral_l": "Suuhooldus",
+    "c_oral_d": "Looduslik igapäevane hooldus hammastele, igemetele ja värskele hingeõhule — ürdihambapastad ja ajaproovile vastu pidanud koostisosad nagu Neem.",
+    "c_food_l": "Toit, Teed & Vürtsid",
+    "c_food_d": "Ayurveda köögipool — ehtsad vürtsid ja masala'd, ürdi- ja India teed, mahlad, maiustused ja muu.",
+    "c_fragrance_l": "Lõhnad & Rituaal",
+    "c_fragrance_d": "Viiruk ja kauakestvad India attar'id, et lõhnastada oma ruumi ja igapäevast rituaali.",
+    "herb_kicker": "Koostisosade tundmaõppimine",
+    "herb_title": "Olulised ayurveda ürdid",
+    "herb_intro": "Lihtsas keeles juhend kaheksa ürdi kohta, mida kohtad meie kataloogis kõige sagedamini, ning roll, mida igaüks neist on ayurveda traditsioonis pikka aega kandnud.",
+    "herb_triphala_what": "Klassikaline segu kolmest kuivatatud viljast, mis on koos peeneks pulbriks jahvatatud.",
+    "herb_triphala_trad": "Ayurvedas traditsiooniliselt kasutatud igapäevase seedimise ja õrna sisemise tasakaalu toetamiseks.",
+    "herb_triphala_found": "Churna'd & tabletid",
+    "herb_tulsi_what": "Aromaatne leht püha basiiliku taimelt, kasutatakse pulbrina, teedes ning naha- ja juuksehoolduses.",
+    "herb_tulsi_trad": "Ayurveda traditsioonis pikka aega hinnatud igapäevase heaolu ja elujõutunde toetamiseks.",
+    "herb_tulsi_found": "Churna'd, teed & nahahooldus",
+    "herb_neem_what": "Mõru leht neemipuult, kasutatakse pulbrina ja kogu puhastavas naha- ja juuksehoolduses.",
+    "herb_neem_trad": "Ayurvedas traditsiooniliselt seostatud igapäevase nahahoolduse ning puhta, tasakaalus jumega.",
+    "herb_neem_found": "Churna'd, näo- & juuksehooldus",
+    "herb_amla_what": "Väike, hapu roheline vili, kasutatakse pulbrina, mahlana ja juuksehooldustoodetes.",
+    "herb_amla_trad": "Ayurvedas traditsiooniliselt hinnatud igapäevase elujõu ning juuste ja peanaha hooldamise toetamiseks.",
+    "herb_amla_found": "Churna'd, mahlad & juuksehooldus",
+    "herb_brahmi_what": "Väike roomav ürt, võetakse pulbrina või tabletina.",
+    "herb_brahmi_trad": "Ayurvedas traditsiooniliselt seostatud rahuliku keskendumise ja igapäevase vaimse heaoluga.",
+    "herb_brahmi_found": "Churna'd & tabletid",
+    "herb_chyawanprash_what": "Traditsiooniline tume ürdimoos, mille keskmes on amla ning mitmete ürtide ja vürtside segu.",
+    "herb_chyawanprash_trad": "Ayurveda traditsioonis pikka aega tarvitatud igapäevase toonikuna igapäevase elujõu ja heaolu toetamiseks.",
+    "herb_chyawanprash_found": "Ayurveda",
+    "herb_turmeric_what": "Kuldkollane juur, jahvatatud soojaks vürtsipulbriks ning kasutatud toiduvalmistamises, mahlades ja nahahoolduses.",
+    "herb_turmeric_trad": "Ayurvedas traditsiooniliselt hinnatud igapäevase tasakaalu ja naha hooldamise toetamiseks.",
+    "herb_turmeric_found": "Vürtsid, churna'd & nahahooldus",
+    "herb_henna_what": "Leht, mis on jahvatatud peeneks roheliseks pulbriks ja mis vabastab loodusliku punaka värvi.",
+    "herb_henna_trad": "Ayurveda ja India traditsioonis pikka aega kasutatud loodusliku värvi ja juukseid taastava hooldusena.",
+    "herb_henna_found": "Henna & juuksehooldus",
+    "start_kicker": "Ayurvedaga alustajale",
+    "start_title": "Alustamine, tehtud lihtsaks",
+    "step1_l": "Õpi selgeks alused",
+    "step1_t": "Veeda mõni minut, et mõista, mis on Ayurveda — traditsiooniline India igapäevase heaolu, tasakaalu ja enesehoolduse süsteem.",
+    "step2_l": "Leia oma murekoht või tüüp",
+    "step2_t": "Sirvi selle järgi, mis sulle korda läheb — nahk, juuksed, seedimine, igapäevarutiin — ja vaata, millised traditsioonid ja koostisosad sulle sobivad.",
+    "step3_l": "Alusta lihtsalt",
+    "step3_t": "Vali üks toode, mis sobib sinu rutiiniga, kasuta seda järjepidevalt ning lisa rohkem alles siis, kui tunne on õige.",
+    "faq1_q": "Kas Ayurveda on ohutu ja kuidas tooteid kasutada?",
+    "faq1_a": "Meie tooted on valmistatud traditsioonilistest taimsetest koostisosadest ning nendega on kaasas selged juhised igapäevaseks kasutamiseks. Mõistliku ettevaatusabinõuna konsulteeri palun enne millegi uue alustamist oma arstiga, kui oled rase, toidad last rinnaga, võtad ravimeid või oled arstliku järelevalve all.",
+    "faq2_q": "Kuidas valida, kui olen selles vallas täiesti uus?",
+    "faq2_a": "Alusta ühe tootega, mis vastab ühele igapäevasele murekohale — näiteks nahk, juuksed või igapäevane hooldus — selle asemel, et osta mitut korraga. Iga toode selgitab lihtsas keeles, mis see on, kuidas seda on traditsiooniliselt kasutatud ja kuidas seda kasutada.",
+    "faq3_q": "Kas tooted on ehtsad ja korralikult märgistatud?",
+    "faq3_a": "Iga toode on valmistatud Indias Dr. Praveen Rathi juhtimisel, järgides traditsioonilist ayurveda valmistamisviisi ning kohaldatavaid kvaliteedi- ja märgistusstandardeid. Koostisosad ja kasutusviis on igal tootel avalikult ära toodud, nii et sa tead alati, mida saad.",
+    "faq4_q": "Kas te saadate minu riiki?",
+    "faq4_a": "Jah — me tarnime rahvusvaheliselt. Tarneajad ja kõik kohaldatavad tasud või tollimaksud kuvatakse selgelt kassas enne tellimuse kinnitamist."
+  },
+  "pdp": {
+    "back": "Tagasi poodi",
+    "good_for": "Sobib hästi",
+    "what": "Mis see on",
+    "benefits": "Traditsiooniliselt kasutatud toetamaks",
+    "ingredients": "Olulised koostisosad",
+    "how": "Kuidas kasutada",
+    "suited": "Sobib",
+    "details": "Üksikasjad",
+    "format": "Vorm",
+    "origin": "Päritolu",
+    "india": "India",
+    "caution": "Traditsiooniline ayurveda teave hariduslikul eesmärgil, mitte meditsiiniline nõuanne. Kui oled rase, toidad last rinnaga, võtad ravimeid või oled arstliku järelevalve all, konsulteeri palun enne kasutamist oma arstiga.",
+    "precautions": "Ettevaatusabinõud",
+    "related": "Sulle võiks veel meeldida",
+    "transparency": "Iga koostisosa avalikult välja toodud",
+    "routine": "Kuidas see sobitub sinu rutiini",
+    "good_to_know": "Hea teada",
+    "take_care": "Palun ole tähelepanelik, kui",
+    "why_kicker": "Miks osta meilt",
+    "why_title": "Truult edasi kantud traditsioon — valmistatud algallikal",
+    "why_sub": "Iga retsept valmistatakse klassikaliste ayurveda tekstide järgi, päris ürtidest ja külmpressitud õlidest, toodetud Indias, kus ürdid kasvavad, ja juhitud dr. Praveen Rathi poolt. Võidame sinu usalduse ausal teel: avatud koostis, selge märgistus ja peremaja, mis vastutab iga partii eest.",
+    "assure_title": "Telli kindlustundega",
+    "ship_label": "Ülemaailmne tarne",
+    "ship_text": "Jälgitav tarne, saadaval üle kogu maailma.",
+    "returns_label": "Aus märgistus",
+    "returns_text": "Koostisosad ja traditsiooniline kasutus on igal tootel avalikult välja toodud.",
+    "secure_label": "Valmistatud algallikas",
+    "secure_text": "Valmistatud Indias klassikaliste ayurveda tekstide järgi, seejärel selgelt märgistatud.",
+    "help_label": "Oleme abiks",
+    "help_text": "Küsimusi enne ostu? Võta meiega ühendust WhatsAppi, Telegrami või e-posti teel.",
+    "faq_title": "Korduma kippuvad küsimused",
+    "new_to": "Ajurveeda on sulle uus?",
+    "new_to_cta": "Alusta põhitõdedest",
+    "qty_label": "Kogus",
+    "delivery_eu": "Jälgitav ülemaailmne tarne",
+    "freeship_over": "Tasuta tarne üle {amount}",
+    "freeship_away": "Sul on {amount} tasuta tarneni",
+    "freeship_unlocked": "✓ Tasuta tarne avatud",
+    "cta_guarantee": "Turvaline kassa · 14-päevane tagastus · kui see saabub kahjustatuna või kirjeldusele mittevastavalt, lahendame selle",
+    "authority_quote": "Koostanud ja järelevalvet teostab Dr. Praveen Rathi — „Vastutan iga valmistatud partii eest.\"",
+    "pairs_title": "Täiendab sinu rutiini",
+    "pairs_sub": "Valitud sama heaolu fookusega — lisa kaaslane ja jõua tasuta tarnele lähemale.",
+    "add_one": "Lisa",
+    "compare_title": "Miks valida Sangam",
+    "compare_sub": "Mida otsida ehtsast ajurveeda tootevalikust — ja kuidas meie sellele vastame.",
+    "compare_us": "Sangam Herbals",
+    "compare_them": "Tüüpiline masstoodanguline taimne toode",
+    "compare_rows": [
+      {
+        "label": "Koostatud klassikaliste ajurveeda tekstide järgi",
+        "us": "Jah — traditsiooniliste retseptide järgi",
+        "them": "Sageli salajased segud"
+      },
+      {
+        "label": "Iga koostisosa on avalikult välja toodud",
+        "us": "Jah — täies ulatuses",
+        "them": "Sageli avalikustamata"
+      },
+      {
+        "label": "Ehtsad taimed ja külmpressitud õlid",
+        "us": "Jah — ilma tarbetute täiteaineteta",
+        "them": "Erineb"
+      },
+      {
+        "label": "Valmistatud allikal Indias",
+        "us": "Jah — seal, kus taimed kasvavad",
+        "them": "Sageli täpsustamata"
+      },
+      {
+        "label": "Järelevalve nimelise juhi all",
+        "us": "Dr. Praveen Rathi",
+        "them": "Anonüümne"
+      }
+    ],
+    "faq5_q": "Kui ruttu ma midagi märkan?",
+    "faq5_a": "Ajurveeda taimi võetakse traditsiooniliselt osana ühtlasest igapäevasest rutiinist, mitte kiirlahendusena, ning paljud inimesed teevad neist mitme nädala jooksul oma päeva vaikse osa. Tulemused on inimeseti erinevad.",
+    "faq6_q": "Kellele see kõige paremini sobib — ja kes peaks olema ettevaatlik?",
+    "faq6_a": "Seda kasutatakse ajurveedas traditsiooniliselt igapäevase heaolu toetamiseks. Kui oled rase, imetad, võtad ravimeid või oled arstliku järelevalve all, pea enne kasutamist nõu oma arstiga."
+  },
+  "trust": {
+    "bar": [
+      "Valmistatud klassikaliste ajurveeda tekstide järgi",
+      "Valmistatud Indias, ürtide algallikal",
+      "Ehtsad ürdid & külmpressitud õlid",
+      "Tarnime üle kogu maailma",
+      "Turvaline kassa · 14-päevane tagastus"
+    ],
+    "std_kicker": "Meie standardid",
+    "std_title": "Hoolikalt valmistatud, hoolikalt kontrollitud",
+    "std_intro": "Pigem näitame sulle, kuidas toode on valmistatud, kui ütleme, et see on hea — avatud koostisnimekirjad, selge märgistus ja allikas, kust see pärineb. Iga retsept valmistatakse klassikaliste ayurveda tekstide järgi, päris ürtidest ja külmpressitud õlidest, ilma midagi mugavuse pärast lisamata. Retseptid on sajandeid vanad; distsipliin, mille järgi neid hoiame, on täpne.",
+    "std_items": [
+      {
+        "label": "Ehtsad ürdid, külmpressitud õlid",
+        "text": "Ehtsad taimed ja kuumuseta pressitud õlid, mis säilitavad oma loomupärase olemuse — taim ise, töödeldud traditsioonilisel viisil, mitte kunagi taandatud anonüümseks ekstraktiks."
+      },
+      {
+        "label": "Ilma sünteetiliste täiteaineteta",
+        "text": "Me ei suurenda oma tšuurnade, tablettide ega õlide mahtu sünteetiliste täiteainete, värvainete ega tarbetute lisanditega. Koostis sisaldab seda, mida retsept nõuab — ei midagi enamat."
+      },
+      {
+        "label": "Valmistatud klassikaliste meetodite järgi",
+        "text": "Iga koostis järgib klassikalisi ajurveeda tekste — samu proportsioone ja meetodeid, mida on edasi antud põlvkondade kaupa, valmistatud nii, nagu traditsioon ette näeb, partii partii järel."
+      },
+      {
+        "label": "Koostisosad avalikult välja toodud",
+        "text": "Iga toode kannab oma täielikku koostisosade loetelu, vormi ja kogust — mitte midagi pole peidetud ähmase 'patenteeritud segu' taha. Lugege täpselt, mis on sees, juba enne ostu, ja uuesti etiketilt."
+      },
+      {
+        "label": "Selgelt märgistatud",
+        "text": "Meie tootevalik on selgelt märgistatud, koostisosade, kasutamise ja säilitamise teave avalikult ja kõrgete standardite järgi esitatud, ning tarnitud üle kogu maailma."
+      },
+      {
+        "label": "Ühtlane, partiist partiisse",
+        "text": "Kuna lähteained on ehtsad ja meetod on muutumatu, on toode, mille uuesti tellite, sama toode, mida esimesel korral usaldasite. Kvaliteet püsib stabiilne — mitte ainult heal päeval."
+      },
+      {
+        "label": "Valmistatud Indias, algallikal",
+        "text": "Valmistatud seal, kus taimed kasvavad ja kus praktika sai alguse, Dr. Praveen Rathi juhtimisel — lühem tee ürdist koostiseni ja perekondlik koda, kes vastutab iga partii eest."
+      },
+      {
+        "label": "Aus selles, mida me ei väida",
+        "text": "Me kirjeldame oma tooteid traditsioonilises, harivas keeles ega esita meditsiinilisi väiteid. See, mida me lubame, on konkreetne: ehtsad koostised, ehtsad koostisosad, avatud märgistus, vastutulelik tugi."
+      }
+    ],
+    "g_kicker": "Tellige enesekindlalt",
+    "g_title": "Teie ost on kaitstud",
+    "g_promise": "Kui teie tellimus saabub kahjustatuna, puudulikuna või kirjeldusele mittevastavalt, parandame selle — asendus või tagasimakse, ilma vaidlusteta.",
+    "g_items": [
+      {
+        "label": "14-päevane tagastusõigus",
+        "text": "Sul on alates kohaletoimetamisest 14 päeva aega avamata toodete tagastamiseks raha tagasi saamise eesmärgil. Austame seda täielikult, selgete juhistega igas tellimuses."
+      },
+      {
+        "label": "Turvaline, krüpteeritud ostuvormistus",
+        "text": "Iga makse töödeldakse krüpteeritud ühenduse kaudu väljakujunenud teenusepakkujate vahendusel. Me ei näe ega salvesta kunagi teie täielikke kaardiandmeid — teie andmed jäävad privaatseks."
+      },
+      {
+        "label": "Jälgitav ülemaailmne tarne",
+        "text": "Tellimused tarnitakse üle kogu maailma jälgimisega saatmisest ukseni. Saad jälgimislingi hetkel, kui sinu pakk meilt lahkub."
+      },
+      {
+        "label": "Aus, täielik märgistus",
+        "text": "Iga koostisosa on avalikult välja toodud etiketil ja tootelehel — ilma sünteetiliste täiteaineteta, ilma peidetud lisanditeta, mitte midagi pole ütlemata jäetud."
+      },
+      {
+        "label": "Vastutulelik inimtugi",
+        "text": "Küsimus enne või pärast ostu? Kirjutage meile ja teile vastab päris inimene, selgelt ja kiiresti — toodete valimisest, kasutamisest ja säilitamisest."
+      },
+      {
+        "label": "Kvaliteet, mida saab jälgida",
+        "text": "Valmistatud Indias algallikal, ehtsatest taimedest ja külmpressitud õlidest, Dr. Praveen Rathi juhtimisel. Ehtsus on standard, mitte erand."
+      }
+    ],
+    "badges": [
+      {
+        "label": "Klassikalised tekstid",
+        "text": "Iga koostis järgib klassikalist ajurveeda meetodit — ürte, vahekordi ja valmistust, mida algallikatekstid ette näevad."
+      },
+      {
+        "label": "Valmistatud algallikal",
+        "text": "Toodetud Indias, kus ürdid kasvavad — ehtsad valmistised, mitte kunagi mujal imporditud pulbrist taastatud."
+      },
+      {
+        "label": "Ehtsad koostisosad",
+        "text": "Ehtsad taimed ja külmpressitud õlid. Ilma sünteetiliste täiteaineteta, ilma anonüümsete ekstraktideta, ilma mööndusteta."
+      },
+      {
+        "label": "Avatud koostisosad",
+        "text": "Täielikud koostisosad, vorm ja kogus igal tootel ja etiketil — mitte midagi 'patenteeritud segu' taga."
+      },
+      {
+        "label": "Selgelt märgistatud",
+        "text": "Valmistatud ja selgelt märgistatud kõrgete standardite järgi, tarnitud üle kogu maailma."
+      },
+      {
+        "label": "Dr. Praveen Rathi",
+        "text": "Perekondlik ajurveeda koda, mille koostised on loonud ja mida juhib Dr. Praveen Rathi — tekstidele truuks jäädes."
+      }
+    ],
+    "cred_title": "Usaldus, mõõdetuna",
+    "credibility": [
+      "358 ehtsat koostist ravivahendite, õlide, kosmeetika ja toiduainete seas",
+      "Valmistatud klassikaliste ajurveeda tekstide järgi, Dr. Praveen Rathi juhtimisel",
+      "Valmistatud Indias, ürtide algallikal",
+      "Ehtsad ürdid ja külmpressitud õlid, iga koostisosa avalikult välja toodud",
+      "Selgelt märgistatud, tarnitud üle kogu maailma",
+      "Traditsiooniline, hariv heaolu keel — mitte kunagi meditsiinilisi väiteid"
+    ],
+    "atc_reassure": "Turvaline kassa · 14-päevane tagastus · Tarnime üle kogu maailma",
+    "faq": [
+      {
+        "q": "Kes valmistab Sangam Herbalsi ja kus?",
+        "a": "Sangam Herbals on pere ayurveda maja, mille tooted on koostatud ja mille üle teostab järelevalvet dr. Praveen Rathi. Kõik valmistatakse Indias, ürtide allika juures, ja klassikaliste ayurveda tekstide järgi — seejärel selgelt märgistatud kõrgete standardite järgi."
+      },
+      {
+        "q": "Kuidas ma tean, mis igas tootes tegelikult on?",
+        "a": "Iga toode toob välja oma täielikud koostisosad, vormi ja koguse — tootelehel juba enne ostu ja etiketil, kui toode saabub. Me kasutame ehtsaid ürte ja külmpressitud õlisid, ilma sünteetiliste täiteaineteta ja ilma et midagi oleks peidetud ähmase 'patenteeritud segu' taha."
+      },
+      {
+        "q": "Kas need tooted on selgelt märgistatud?",
+        "a": "Jah. Meie tootevalik on selgelt märgistatud, koostisosade, kasutamise ja säilitamise teave avalikult ja kõrgete standardite järgi esitatud, ning me tarnime üle kogu maailma."
+      },
+      {
+        "q": "Mis siis, kui mu tellimusega on midagi valesti või kui ma muudan meelt?",
+        "a": "Kui sinu tellimus saabub kahjustatuna, mittetäielikuna või kirjeldusele mittevastavalt, lahendame selle — asendus või raha tagasi, ilma vaidluseta. Ja sul on alates kohaletoimetamisest 14 päeva aega avamata toodete tagastamiseks raha tagasi saamise eesmärgil, selgete juhistega igas tellimuses."
+      }
+    ],
+    "safety_note": "Mõeldud üksnes heaoluks ja traditsiooniliseks hoolduseks — ei ole ravim ega asenda professionaalset arstinõu. Lugege etiketti, järgige juhiseid ja pidage nõu oma arstiga, kui olete rase, toidate last rinnaga, võtate ravimeid või tegelete tervisliku seisundi haldamisega. Enne esmakordset nahale kandmist tehke plaastriproov. Hoida lastele kättesaamatus kohas.",
+    "seals_title": "Osta kindlustundega",
+    "seals": [
+      {
+        "label": "Turvaline krüpteeritud makse",
+        "sub": "Töödeldud usaldusväärsete teenusepakkujate kaudu — me ei salvesta kunagi teie kaardi täisandmeid.",
+        "icon": "lock"
+      },
+      {
+        "label": "14-päevane tagastus",
+        "sub": "Tagastage avamata tooted 14 päeva jooksul pärast kättesaamist raha tagasi saamiseks.",
+        "icon": "return"
+      },
+      {
+        "label": "Jälgitav ülemaailmne tarne",
+        "sub": "Tarnitud üle kogu maailma jälgimisega, saatmisest ukseni.",
+        "icon": "parcel"
+      },
+      {
+        "label": "Valmistatud allikal",
+        "sub": "Valmistatud Indias, kus ürdid kasvavad, klassikaliste tekstide järgi.",
+        "icon": "mortar"
+      },
+      {
+        "label": "Avatud koostis",
+        "sub": "Täielik koostisosade loetelu igal tootel — midagi pole varjatud.",
+        "icon": "label"
+      },
+      {
+        "label": "Nimeliselt vastutatud",
+        "sub": "Koostatud ja jälgitud dr. Praveen Rathi poolt.",
+        "icon": "person"
+      }
+    ]
+  },
+  "seo": {
+    "description": "Ehtsad ayurveda ravimid, kosmeetika, õlid ja toidud — valmistatud klassikaliste tekstide järgi, toodetud Indias dr. Praveen Rathi juhtimisel ja tarnitud üle kogu maailma.",
+    "title": "Sangam Herbals — Ehtne ayurveda, üle kogu maailma"
+  },
+  "river": {
+    "sub": "Sangam on pühade vete kohtumine — ja iidse tava kohtumine hoolika, kaasaegse meisterlikkusega. Avasta attar-kogu: 32 püsivat India õliparfüümi.",
+    "kicker": "Kokkusaamine",
+    "quote": "Kus kaks jõge saavad üheks ravimiks.",
+    "cta": "Sirvi attar-kogu →"
+  },
+  "founder": {
+    "eyebrow": "Sõnum meie juhatajalt",
+    "heading": "Ma vastutan iga valmistatud partii eest.",
+    "paragraphs": [
+      "Ajurveedat ei antud meie perele üle ärina. See anti edasi vastutusena — viisina valmistada ravimeid täpselt nii, nagu klassikalised tekstid ette näevad, ehtsatest ürtidest ja külmpressitud õlidest, ilma mugavuse pärast midagi lisamata. See on ainus viis, kuidas ma oskan neid valmistada, ja ainus viis, kuidas ma seda teen.",
+      "Kõik, mille me maailma saadame, on valmistatud siin Indias, taimede ja praktika enda allika juures. Töötan samade proportsioonide ja meetodite järgi, mida on järgitud põlvkondade kaupa, ja hoian iga retsepti täpsete standardite juures — sest see, et retsept on vana, ei õigusta hooletut valmistamist.",
+      "Olen otsustanud panna oma nime sellele kojale ja sellele lehele lihtsal põhjusel: kui miski läheb teie kehasse või teie nahale, väärite teadmist, kes selle taga seisab. Lugege enne ostmist läbi kogu koostis. Kirjutage meile, kui midagi jääb ebaselgeks. Ja kui mõni toode teile ei sobi, andke meile teada ning me parandame selle."
+    ],
+    "signature": "Praveen Rathi",
+    "credential": "Dr. Praveen Rathi · Juhataja, Sangam Herbals — pere ajurveeda koda, mis valmistab ravimeid klassikaliste tekstide järgi, toodetud Indias"
+  },
+  "promise": {
+    "kicker": "Miks me neid valmistame",
+    "title": "Pigem kaotame müügi kui liialdame sellega.",
+    "text": "Me eksisteerime selleks, et kanda katkematut 5000-aastast traditsiooni kodudesse üle kogu maailma seda lahjendamata — valmistades iga ravimi klassikaliste ayurveda tekstide järgi, päris ürtidest ja külmpressitud õlidest, valmistatud allika juures Indias ja vastutades selle eest nimeliselt. Seega näitame sulle täpselt, mis on sees ja kuidas see on valmistatud, loetleme iga koostisosa avalikult ega esita ühtegi meditsiinilist väidet. Ehtsus on meie standard, mitte erand."
+  }
+}

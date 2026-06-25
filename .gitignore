@@ -1,0 +1,12 @@
+# Secrets — NEVER commit the Supabase service_role key
+backend/.env
+.env
+*.local
+
+# Node
+node_modules/
+backend/node_modules/
+
+# OS / editor
+.DS_Store
+*.log

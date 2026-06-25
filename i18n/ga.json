@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "lang": "ga",
+    "native": "Gaeilge",
+    "dir": "ltr"
+  },
+  "nav": {
+    "home": "Baile",
+    "shop": "Siopa",
+    "catalog": "Catalóg",
+    "about": "Fúinn",
+    "heritage": "Maidir Linn",
+    "contact": "Teagmháil",
+    "search": "Cuardaigh táirgí",
+    "learn": "Foghlaim"
+  },
+  "gate": {
+    "title": "Fáilte go Sangam Herbals",
+    "subtitle": "Ayurveda barántúil, déanta san India — roghnaigh do thír agus do theanga",
+    "choose_region": "Roghnaigh do thír",
+    "choose_language": "Roghnaigh do theanga",
+    "continue": "Iontráil an siopa",
+    "filter": "Cuardaigh tíortha",
+    "country_hint": "Roghnaigh do thír agus do theanga. Socraíonn do thír an seachadadh, an t-airgeadra agus an cháin; socraíonn do theanga an chaoi a léitear an siopa.",
+    "no_country": "Níl aon tír ag teacht leis an gcuardach sin.",
+    "country_one": "tír",
+    "country_many": "tíortha",
+    "close": "Dún",
+    "region_na": "Meiriceá Thuaidh",
+    "region_eu": "An Eoraip",
+    "region_me": "An Meánoirthear",
+    "region_ap": "An Áise / An tAigéan Ciúin",
+    "select_prompt": "Roghnaigh tír chun réamhamharc a fháil ar an seachadadh, ar an airgeadra agus ar an teanga",
+    "preview_head": "Tá tú ag siopadóireacht ó {country}",
+    "row_ship": "Seachadadh",
+    "row_currency": "Airgeadra",
+    "row_vat": "Cáin & dleachtanna",
+    "row_lang": "Teanga an tsuímh",
+    "ship_line": "Seachadadh inrianaithe go {country}, 3–10 lá oibre de ghnáth. Saor in aisce thar {free}.",
+    "currency_eur": "Taispeántar na praghsanna in euro (EUR).",
+    "currency_local": "Tá na praghsanna táscach in euro (EUR). Úsáideann {country} {cur} — déanann do bhanc an t-iompú ag an tseiceáil amach.",
+    "vat_line": "Taispeántar aon dleachtanna nó cánacha do {country} ag an tseiceáil amach sula n-íocann tú.",
+    "lang_default": "an gnáthrogha do {country}",
+    "lang_change": "athraigh",
+    "trust_ship": "Seoltar go hidirnáisiúnta",
+    "trust_langs": "35 teanga",
+    "trust_eur": "Praghsáil tháscach in EUR",
+    "trust_secure": "Seiceáil amach slán",
+    "trust_return": "Ceart fillte 14 lá",
+    "change_later": "An tír nó an teanga mhícheart? Athraigh é am ar bith ó “Réigiún” sa roghchlár."
+  },
+  "hero": {
+    "eyebrow": "Teach Ayurveda teaghlaigh · Déanta san India, de réir na dtéacsanna clasaiceacha",
+    "title": "An traidisiún, ullmhaithe go dílis — agus duine ag seasamh leis ina ainm féin.",
+    "subtitle": "Leigheasanna, olaí, cosmaidí agus bianna barántúla Ayurvedacha, déanta san India faoi stiúir an Dr. Praveen Rathi agus seachadta ar fud an domhain. Luibheanna fíora, comhábhair oscailte, lipéadú soiléir — muinín is féidir leat a sheiceáil sula gceannaíonn tú.",
+    "cta_shop": "Siúil tríd an gcatalóg",
+    "cta_story": "Cuir aithne ar an teach",
+    "stat_products": "Táirgí fíorúla",
+    "stat_categories": "Catagóirí",
+    "stat_countries": "Tíortha a bhfreastalaítear orthu",
+    "credential": "Dr. Praveen Rathi · Stiúrthóir — ceaptha agus maoirsithe ag an bhfoinse, san India"
+  },
+  "sections": {
+    "ayurveda": "Ãivéarváda",
+    "cosmetics": "Cosmaidí",
+    "food": "Bia & Cothú",
+    "oils": "Olaí",
+    "aromatherapy": "Aramateiripe"
+  },
+  "shop": {
+    "title": "Gach táirge",
+    "subtitle": "Gach táirge Sangam Herbals, ar fáil ar fud an domhain anois.",
+    "all": "Gach táirge",
+    "filter": "Scagaire",
+    "sort": "Sórtáil",
+    "sort_featured": "Roghnaithe",
+    "sort_price_low": "Praghas: íseal go hard",
+    "sort_price_high": "Praghas: hard go híseal",
+    "sort_az": "Ainm A–Z",
+    "results": "táirgí",
+    "empty": "Níl aon táirgí ag teacht le do scagairí.",
+    "clear": "Glan scagairí",
+    "add": "Cuir sa chiseán",
+    "view": "Féach ar shonraí",
+    "from": "ó",
+    "in_stock": "I stoc",
+    "sku": "SKU",
+    "showing": "Á thaispeáint",
+    "loadmore": "Luchtaigh níos mó",
+    "added": "Added"
+  },
+  "product": {
+    "description": "Cur síos",
+    "details": "Sonraí",
+    "category": "Catagóir",
+    "related": "B'fhéidir go mbeadh suim agat freisin",
+    "back": "Ar ais go dtí an siopa",
+    "origin": "Déanta in India",
+    "ships": "Seoltar ar fud an domhain",
+    "unavailable": "Unavailable"
+  },
+  "heritage": {
+    "title": "Cúig mhíle bliain, in aon deoir amháin",
+    "body": "Ciallaíonn Sangam cumar — buaileadh na n-aibhneacha naofa. Is é Sangam Herbals an buaileadh idir eagna ársa Ayurvedach agus táirgeadh cúramach nua-aimseartha. Bunaithe faoi stiúir an Dr. Praveen Rathi, déantar ár bhfoirmlí ó luibheanna barántúla, olaí fuarbhrúite agus oidis a bhfuil meas orthu le fada, ullmhaithe agus lipéadaithe go soiléir anois do theaghlaigh ar fud an domhain.",
+    "pillar1_t": "Foirmlí barántúla",
+    "pillar1_b": "Churnas clasaiceacha, táibléid agus olaí ullmhaithe de réir téacsanna traidisiúnta Ãivéarvádacha.",
+    "pillar2_t": "Íon agus macánta",
+    "pillar2_b": "Comhábhair fhíora, cáilíocht mhacánta, gan breiseáin gan ghá.",
+    "pillar3_t": "Ón India go dtí an domhan",
+    "pillar3_b": "Foinsithe ag an mbunús agus seachadta ar fud an domhain."
+  },
+  "footer": {
+    "tagline": "Ayurveda barántúil, ar fud an domhain",
+    "shop": "Siopa",
+    "company": "Cuideachta",
+    "support": "Tacaíocht",
+    "newsletter": "Nuachtlitir",
+    "newsletter_sub": "Deasghnátha Ayurvedacha, earraí nua agus tairiscintí.",
+    "email_ph": "Do ríomhphost",
+    "subscribe": "Liostáil",
+    "rights": "Gach ceart ar cosaint.",
+    "shipping": "Seoladh ar fud an domhain",
+    "returns": "Tuairisceáin",
+    "privacy": "Príobháideacht",
+    "terms": "Téarmaí",
+    "made": "Ceardaithe san India · Seachadta ar fud an domhain",
+    "director": "Stiúrtha ag an Dr. Praveen Rathi — ceaptha agus maoirsithe ag an bhfoinse, san India."
+  },
+  "cart": {
+    "title": "Do chiseán",
+    "empty": "Tá do chiseán folamh.",
+    "total": "Iomlán",
+    "checkout": "Íoc anois",
+    "remove": "Bain",
+    "continue": "Lean ort ag siopadóireacht",
+    "add_more": "Cuir leis",
+    "free_ship": "le haghaidh seoladh saor in aisce",
+    "free_unlocked": "✓ Seoladh saor in aisce díghlasáilte",
+    "free_ship_progress": "Cuir {amount} leis le haghaidh seoladh saor in aisce"
+  },
+  "common": {
+    "currency_note": "Tá na praghsanna táscach agus taispeántar iad in airgeadra do thíre.",
+    "loading": "Ag lódáil…",
+    "change_region": "Réigiún"
+  },
+  "categories": {
+    "ayurveda": "Ãivéarváda",
+    "single-herb-churnas": "Churnas Aon-Luibhe",
+    "compound-churnas": "Churnas Comhdhúla",
+    "chyawanprash": "Chyawanprash",
+    "churna-tablets": "Táibléid Churna",
+    "classic-tablets": "Táibléid Clasaiceacha",
+    "cosmetics": "Cosmaidí",
+    "hair-care": "Cúram Gruaige",
+    "toothpastes": "Taosráin Fiacla",
+    "face-care": "Cúram Éadain",
+    "body-care": "Cúram Coirp",
+    "facial-toners": "Tonnairí Éadain",
+    "henna-hair-colour": "Dath Gruaige Henna",
+    "food-nutrition": "Bia & Cothú",
+    "indian-sweets": "Milseáin Indiacha",
+    "spices-seasonings": "Spíosraí & Blastáin",
+    "herbal-teas": "Taethaí Luibhe",
+    "natural-juices": "Súnna Nádúrtha",
+    "dried-fruits": "Torthaí Triomaithe",
+    "biscuits": "Brioscaí",
+    "cane-sugar": "Siúcra Cána",
+    "indian-tea": "Tae Indiach",
+    "oils": "Olaí",
+    "natural-oils": "Olaí Nádúrtha",
+    "ayurvedic-oils": "Olaí Ãivéarvádacha",
+    "aromatherapy": "Aramateiripe",
+    "incense": "Túis",
+    "perfume-oils": "Olaí cumhráin",
+    "hydrolats": "Hidrealáití",
+    "lozenges": "Lóiseanga"
+  },
+  "argument": {
+    "line": "Cúig mhíle bliain de chleachtas, coinnithe ag caighdeáin chruinne nua-aimseartha.",
+    "kicker": "Ár bprionsabal"
+  },
+  "streams": {
+    "title": "Siopáil de réir catagóire",
+    "stream": "Sruth"
+  },
+  "remedy": {
+    "kicker": "Táirge faoi thrácht"
+  },
+  "dispatch": {
+    "title": "Cláraigh dár nuachtlitir"
+  },
+  "proof": {
+    "certified": "Lipéadú macánta, oscailte",
+    "ships": "Seoltar go hidirnáisiúnta",
+    "eur": "Praghsáil tháscach",
+    "origin": "Déanta san India",
+    "langs": "35 teanga"
+  },
+  "edu": {
+    "explore": "Fiosraigh",
+    "shop": "Siopa",
+    "care_label": "Coinnithe i gcothromaíocht",
+    "learn_kicker": "Ayurveda, mínithe",
+    "learn_title": "Cad is Ayurveda ann?",
+    "learn_p1": "Is córas traidisiúnta folláine nádúrtha é Ayurveda a thosaigh san India timpeall 5,000 bliain ó shin. Tagann a ainm ó dhá fhocal Sanscrait: ayur, a chiallaíonn saol, agus veda, a chiallaíonn eolas. I gcroílár an chórais tá smaoineamh simplí amháin: tagann folláine ón gcorp agus ón intinn a choinneáil i gcothromaíocht.",
+    "learn_p2": "In ionad díriú ar réitigh thapa, breathnaíonn Ayurveda ar an duine ina iomláine agus ar rithim an tsaoil laethúil. Tarraingíonn sé ar phlandaí, ar luibheanna agus ar fhoirmlithe traidisiúnta, mar aon le gnáthaimh shimplí laethúla don aiste bia, don chodladh agus don fhéinchúram. Smaoinigh air mar chur chuige sean-mheasúil chun aire a thabhairt duit féin, go séimh agus go seasta.",
+    "learn_pr1_l": "Cothromaíocht",
+    "learn_pr1_t": "Féachann Ayurveda ar fholláine mar staid chothromaíochta, agus tá sé mar aidhm aige an corp agus an intinn a choinneáil seasta tríd na séasúir agus éilimh an tsaoil laethúil.",
+    "learn_pr2_l": "An duine iomlán",
+    "learn_pr2_t": "Breithníonn sé an duine ina iomláine, agus an aiste bia, an codladh, an gníomhaíocht agus an ghiúmar á gcur san áireamh seachas féachaint ar aon chuid amháin ina haonar.",
+    "learn_pr3_l": "Comhábhair nádúrtha",
+    "learn_pr3_t": "Tá a ullmhúcháin tógtha ó phlandaí, ó luibheanna, ó olaí agus ó chomhábhair nádúrtha eile, déanta le modhanna traidisiúnta a cuireadh ar aghaidh thar na glúine.",
+    "learn_pr4_l": "Deasghnáth laethúil",
+    "learn_pr4_t": "Maireann cuid mhór de Ayurveda i mbeagnósanna laethúla a dhéantar arís agus arís eile — na gníomhartha simplí cúraim a thacaíonn, le himeacht ama, le mothú beochta agus folláine laethúil.",
+    "dosha_kicker": "Bunús Ayurveda",
+    "dosha_title": "Na trí dosha",
+    "dosha_intro": "In Ayurveda, tá trí fhuinneamh ar a dtugtar doshas — Vata, Pitta agus Kapha — i láthair i ngach duine i meascán uathúil, agus is é an aidhm go simplí do mheascán féin a choinneáil i gcothromaíocht.",
+    "vata_el": "Aer & Spás",
+    "vata_essence": "Fuinneamh na gluaiseachta",
+    "vata_traits": "Is gnách go mbíonn cineálacha Vata éadrom, gasta agus cruthaitheach — beoga in intinn agus i gcorp nuair a bhíonn siad i gcothromaíocht.",
+    "vata_care": "In Ayurveda, coinnítear Vata seasta go traidisiúnta le teas, le gnáthamh agus le bianna agus olaí cothaitheacha talmhaithe.",
+    "pitta_el": "Tine & Uisce",
+    "pitta_essence": "Fuinneamh an chlaochlaithe",
+    "pitta_traits": "Is gnách go mbíonn cineálacha Pitta dírithe, díograiseach agus te, le fuinneamh géar agus tuiscint láidir ar chuspóir.",
+    "pitta_care": "In Ayurveda, coinnítear Pitta cothrom go traidisiúnta le bianna fionnuara, le gnáthaimh shocra agus le ham caite sa nádúr.",
+    "kapha_el": "Cré & Uisce",
+    "kapha_essence": "Fuinneamh na struchtúir",
+    "kapha_traits": "Is gnách go mbíonn cineálacha Kapha socair, seasta agus talmhaithe, le nádúr suaimhneach réchúiseach.",
+    "kapha_care": "In Ayurveda, coinnítear Kapha beoga go traidisiúnta le gluaiseacht, le spíosraí téimh agus le deasghnátha laethúla spreagúla.",
+    "about_kicker": "Maidir le Sangam Herbals",
+    "about_title": "Coimeádaí Ayurveda barántúla, déanta ag an bhfoinse",
+    "about_p1": "Is teach Ayurvedach faoi stiúir teaghlaigh é Sangam Herbals san India, a bunaíodh faoi threoir Dr. Praveen Rathi. Ullmhaítear gach foirmliú de réir téacsanna clasaiceacha Ayurvedacha, ag baint úsáide as fíorluibheanna agus olaí fuarbhrúite seachas aicearraí nó líontóirí sintéiseacha. Tá na hoidis sean; ní hamhlaidh do na caighdeáin a gcoinnímid leo iad.",
+    "about_p2": "Déantar gach rud san India, ag foinse na bplandaí agus an traidisiúin féin. Uaidh sin, lipéadaítear ár dtáirgí go hoscailte agus seachadtar iad ar fud an domhain. Creidimid gurb é an bealach is fearr le do mhuinín a thuilleamh ná a bheith soiléir faoinar a dhéanaimid agus conas a dhéanaimid é — agus ligean do na táirgí labhairt ar a son féin.",
+    "about_pr1_l": "Foirmlí barántúla",
+    "about_pr1_t": "Ullmhaítear oidis de réir téacsanna clasaiceacha Ayurvedacha, ar an mbealach a ndearnadh iad le glúine.",
+    "about_pr2_l": "Fíorchomhábhair",
+    "about_pr2_t": "Oibrímid le fíorluibheanna agus olaí fuarbhrúite, gan líontóirí sintéiseacha curtha leo ar mhaithe le caoithiúlacht.",
+    "about_pr3_l": "Déanta san India, ag an bhfoinse",
+    "about_pr3_t": "Ceardaítear gach táirge san India, áit a bhfásann na plandaí agus a thosaigh an traidisiún.",
+    "about_pr4_l": "Lipéadú macánta agus seachadadh ar fud an domhain",
+    "about_pr4_t": "Tá ár raon lipéadaithe go soiléir, leis na comhábhair agus an úsáid taispeánta go hoscailte, agus seoltar é ar fud an domhain.",
+    "concern_kicker": "Aimsigh do thúsphointe",
+    "concern_title": "Siopadóireacht de réir ábhar imní",
+    "concern_intro": "Nach bhfuil tú cinnte cá dtosóidh tú? Roghnaigh réimse laethúil a bhfuil tú buartha faoi, agus díreoimid thú ar na táirgí agus na traidisiúin a oireann.",
+    "c_digestion_l": "Díleá & Gut",
+    "c_digestion_d": "Díleá compordach agus cothromaíocht ghut laethúil — churnas clasaiceacha, spíosraí carmanacha agus meascáin séimhe ar nós Triphala agus Avipattikar.",
+    "c_immunity_l": "Imdhíonacht & Beocht",
+    "c_immunity_d": "Tonónna sean-mheasúla — chyawanprash, Amla, Tulsi agus Giloy — a bhfuil meas orthu go traidisiúnta in Ayurveda le haghaidh teacht aniar laethúil.",
+    "c_energy_l": "Neart & Fuinneamh",
+    "c_energy_d": "Luibheanna agus tonónna rasayana athnuachana — Shilajit, Shatavari, Bala agus foirmlí neirt clasaiceacha — le haghaidh stamína laethúil.",
+    "c_respiratory_l": "Riospráideach & Séasúrach",
+    "c_respiratory_d": "Compord scornaí, cléibhe agus séasúrach, ó Sitopaladi agus Mulethi go losainsí luibhe maolaitheacha.",
+    "c_stress_l": "Strus, Codladh & Intinn",
+    "c_stress_d": "Meascáin shuaimhneacha thalmhaithe le haghaidh fócais agus tráthnónta suaimhneacha — Brahmi, Shankhpushpi, Jatamansi agus caorthann corraigh.",
+    "c_joints_l": "Hailt & Matáin",
+    "c_joints_d": "Tacaíocht do choirp ghníomhacha agus do ghluaiseacht éasca — foirmlí Guggul agus olaí suathaireachta téimh ar nós Mahanarayan.",
+    "c_womens_l": "Folláine na mBan",
+    "c_womens_d": "Tacaíocht shéimh thraidisiúnta do chothromaíocht laethúil na mban — Shatavari, Ashoka agus tonónna clasaiceacha do mhná.",
+    "c_skin_l": "Craiceann & Aghaidh",
+    "c_skin_d": "Cúram aghaidhe agus coirp plandabhunaithe chomh maith le luibheanna íonaithe — glantóirí, tonóirí, hidreoláit, Neem, Turmeric agus Manjistha.",
+    "c_hair_l": "Gruaig & Plait",
+    "c_hair_d": "Cúram cothaitheach gruaige agus plaite — olaí Bhringraj agus Amla, seampúnna luibhe agus dath henna nádúrtha.",
+    "c_oral_l": "Cúram Béil",
+    "c_oral_d": "Cúram laethúil nádúrtha do na fiacla, do na drandail agus d'anáil úr — taos fiacla luibhe agus comhábhair shean-thástáilte ar nós Neem.",
+    "c_food_l": "Bia, Taenna & Spíosraí",
+    "c_food_d": "Taobh na cistine de Ayurveda — spíosraí agus masalas barántúla, taenna luibhe agus Indiacha, súnna, milseáin agus tuilleadh.",
+    "c_fragrance_l": "Cumhrán & Deasghnáth",
+    "c_fragrance_d": "Túis agus attars Indiacha buanseasmhacha chun do spás agus do dheasghnáth laethúil a chumhrú.",
+    "herb_kicker": "Oideachas comhábhar",
+    "herb_title": "Príomhluibheanna Ayurvedacha",
+    "herb_intro": "Treoir i ngnáthchaint ar na hocht luibh a chasfar ort is minice ar fud ár gcatalóige, agus an ról atá ag gach ceann acu i dtraidisiún Ayurvedach le fada.",
+    "herb_triphala_what": "Meascán clasaiceach de thrí thoradh thriomaithe, meilte le chéile ina aon phúdar amháin.",
+    "herb_triphala_trad": "In Ayurveda, úsáidtear go traidisiúnta é chun tacú le díleá laethúil agus cothromaíocht inmheánach shéimh.",
+    "herb_triphala_found": "Churnas & táibléid",
+    "herb_tulsi_what": "Duilleog chumhra ón bplanda basil naofa, a úsáidtear mar phúdar, i dtaenna agus i gcúram craicinn agus gruaige.",
+    "herb_tulsi_trad": "Meas air le fada i dtraidisiún Ayurvedach chun tacú le folláine laethúil agus mothú beochta.",
+    "herb_tulsi_found": "Churnas, taenna & cúram craicinn",
+    "herb_neem_what": "Duilleog shearbh ón gcrann neem, a úsáidtear mar phúdar agus i bhfoirmlí glantacháin craicinn agus gruaige.",
+    "herb_neem_trad": "Baintear é go traidisiúnta in Ayurveda le cúram craicinn laethúil agus snua glan cothrom.",
+    "herb_neem_found": "Churnas, cúram aghaidhe & gruaige",
+    "herb_amla_what": "Toradh beag glas géar, a úsáidtear mar phúdar, mar shú agus i dtáirgí cúraim gruaige.",
+    "herb_amla_trad": "Meas air go traidisiúnta in Ayurveda chun tacú le beocht laethúil agus le cúram na gruaige agus na plaite.",
+    "herb_amla_found": "Churnas, súnna & cúram gruaige",
+    "herb_brahmi_what": "Luibh bheag reathach, a thógtar mar phúdar nó i bhfoirm táibléid.",
+    "herb_brahmi_trad": "In Ayurveda, baintear é go traidisiúnta le fócas socair agus folláine mheabhrach laethúil.",
+    "herb_brahmi_found": "Churnas & táibléid",
+    "herb_chyawanprash_what": "Subh luibhe dorcha traidisiúnta tógtha timpeall amla agus meascán de go leor luibheanna agus spíosraí.",
+    "herb_chyawanprash_trad": "Tógtha le fada i dtraidisiún Ayurvedach mar thonón laethúil chun tacú le beocht agus folláine laethúil.",
+    "herb_chyawanprash_found": "Ayurveda",
+    "herb_turmeric_what": "Fréamh ór-bhuí, meilte ina phúdar spíosra te agus a úsáidtear i gcócaireacht, i súnna agus i gcúram craicinn.",
+    "herb_turmeric_trad": "Meas air go traidisiúnta in Ayurveda chun tacú le cothromaíocht laethúil agus le cúram an chraicinn.",
+    "herb_turmeric_found": "Spíosraí, churnas & cúram craicinn",
+    "herb_henna_what": "Duilleog mheilte ina phúdar mín glas a scaoileann dath nádúrtha dearg.",
+    "herb_henna_trad": "Úsáidtear le fada i dtraidisiún Ayurvedach agus Indiach mar chóireáil datha nádúrtha agus oiriúnaithe don ghruaig.",
+    "herb_henna_found": "Henna & cúram gruaige",
+    "start_kicker": "Nua le Ayurveda",
+    "start_title": "Tús a chur leis, déanta simplí",
+    "step1_l": "Foghlaim an bunús",
+    "step1_t": "Caith cúpla nóiméad ag tuiscint cad is Ayurveda ann — córas Indiach traidisiúnta folláine, cothromaíochta agus féinchúraim laethúil.",
+    "step2_l": "Aimsigh d'ábhar imní nó do chineál",
+    "step2_t": "Brabhsáil de réir an méid a bhfuil tú buartha faoi — craiceann, gruaig, díleá, gnáthamh laethúil — agus féach cé na traidisiúin agus comhábhair a oireann duit.",
+    "step3_l": "Tosaigh go simplí",
+    "step3_t": "Roghnaigh táirge amháin a oireann do do ghnáthamh, bain triail as go seasta, agus ná cuir tuilleadh leis ach amháin nuair a bhraitheann sé ceart.",
+    "faq1_q": "An bhfuil Ayurveda sábháilte, agus conas a úsáidim na táirgí?",
+    "faq1_a": "Déantar ár dtáirgí ó chomhábhair thraidisiúnta plandabhunaithe agus tagann treoracha soiléire leo le haghaidh úsáide laethúla. Mar réamhchúram ciallmhar, déan dul i gcomhairle le do dhochtúir sula gcuireann tú tús le haon rud nua má tá tú ag iompar clainne, ag tabhairt cíche, ag glacadh cógais, nó faoi chúram míochaine.",
+    "faq2_q": "Conas a roghnaím má tá mé go hiomlán nua leis seo?",
+    "faq2_a": "Tosaigh le táirge aonair amháin a oireann d'ábhar imní laethúil amháin — ar nós craicinn, gruaige nó cúraim laethúil — seachas roinnt a cheannach ag an am céanna. Míníonn gach táirge i ngnáthchaint cad é, conas a úsáideadh go traidisiúnta é, agus conas é a chur i bhfeidhm.",
+    "faq3_q": "An bhfuil na táirgí barántúil agus lipéadaithe i gceart?",
+    "faq3_a": "Déantar gach táirge san India faoi threoir Dr. Praveen Rathi, ag leanúint ullmhúchán traidisiúnta Ayurvedach agus caighdeáin cháilíochta agus lipéadaithe is infheidhme. Liostaítear comhábhair agus úsáid go hoscailte ar gach táirge ionas go mbeidh a fhios agat i gcónaí cad atá á fháil agat.",
+    "faq4_q": "An seolann sibh chuig mo thír?",
+    "faq4_a": "Tá — seolaimid go hidirnáisiúnta. Taispeántar amanna seachadta agus aon táillí nó dleachtanna a bhaineann le hábhar go soiléir ag an tseiceáil amach sula ndeimhníonn tú d'ordú."
+  },
+  "pdp": {
+    "back": "Ar ais chuig an siopa",
+    "good_for": "Maith do",
+    "what": "Cad é",
+    "benefits": "Úsáidtear go traidisiúnta chun tacú le",
+    "ingredients": "Príomhchomhábhair",
+    "how": "Conas é a úsáid",
+    "suited": "Oiriúnach do",
+    "details": "Sonraí",
+    "format": "Formáid",
+    "origin": "Bunús",
+    "india": "India",
+    "caution": "Eolas traidisiúnta Ayurvedach le haghaidh oideachais, ní comhairle mhíochaine. Má tá tú ag iompar clainne, ag tabhairt cíche, ag glacadh cógais nó faoi chúram míochaine, déan dul i gcomhairle le do dhochtúir roimh úsáid.",
+    "precautions": "Réamhchúraimí",
+    "related": "B'fhéidir gur mhaith leat freisin",
+    "transparency": "Gach comhábhar, liostaithe go hoscailte",
+    "routine": "Conas a oireann sé do do ghnáthamh",
+    "good_to_know": "Maith le fios",
+    "take_care": "Tabhair aire le do thoil má",
+    "why_kicker": "Cén fáth a gceannódh tú uainn",
+    "why_title": "An traidisiún, iompartha go dílis — agus déanta ag an bhfoinse",
+    "why_sub": "Ullmhaítear gach foirmle de réir na dtéacsanna clasaiceacha Ayurvedacha, ó luibheanna fíora agus olaí fuarbhrúite, déanta san India áit a bhfásann na luibheanna agus faoi stiúir an Dr. Praveen Rathi. Tuillimid do mhuinín ar an mbealach macánta: comhábhair oscailte, lipéadú soiléir, agus teach teaghlaigh a fhreagraíonn as gach baisc.",
+    "assure_title": "Ag ordú le muinín",
+    "ship_label": "Seachadadh ar fud an domhain",
+    "ship_text": "Seoladh rianaithe, ar fáil ar fud an domhain.",
+    "returns_label": "Lipéadú macánta",
+    "returns_text": "Liostaítear comhábhair agus úsáid thraidisiúnta go hoscailte ar gach táirge.",
+    "secure_label": "Déanta ag an bhfoinse",
+    "secure_text": "Ceardaithe san India de réir na dtéacsanna clasaiceacha Ayurvedacha, ansin lipéadaithe go soiléir.",
+    "help_label": "Anseo le cabhrú",
+    "help_text": "Ceisteanna agat sula gceannaíonn tú? Déan teagmháil linn ar WhatsApp, Telegram nó ríomhphost.",
+    "faq_title": "Ceisteanna coitianta",
+    "new_to": "Nua don Ayurveda?",
+    "new_to_cta": "Tosaigh leis na bunúsacha",
+    "qty_label": "Cainníocht",
+    "delivery_eu": "Seachadadh rianaithe ar fud an domhain",
+    "freeship_over": "Seachadadh saor in aisce os cionn {amount}",
+    "freeship_away": "Tá tú {amount} ó sheachadadh saor in aisce",
+    "freeship_unlocked": "✓ Seachadadh saor in aisce díghlasáilte",
+    "cta_guarantee": "Seiceáil amach shlán · 14 lá le haghaidh tuairisceáin · má thagann sé damáistithe nó murab ionann é agus an cur síos, cuirfimid ina cheart é",
+    "authority_quote": "Foirmlithe agus maoirsithe ag Dr. Praveen Rathi — \"Seasaim le gach baisc a dhéanaimid.\"",
+    "pairs_title": "Comhlánaíonn sé do ghnáthamh",
+    "pairs_sub": "Roghnaithe ón bhfócas folláine céanna — cuir compánach leis agus druid níos gaire do sheachadadh saor in aisce.",
+    "add_one": "Cuir leis",
+    "compare_title": "Cén fáth Sangam a roghnú",
+    "compare_sub": "Cad atá le lorg i raon barántúil Ayurveda — agus conas a sheasaimid an scrúdú.",
+    "compare_us": "Sangam Herbals",
+    "compare_them": "Gnáthluibheanna ollmhargaidh",
+    "compare_rows": [
+      {
+        "label": "Foirmlithe de réir téacsanna clasaiceacha Ayurveda",
+        "us": "Tá — de réir oidis thraidisiúnta",
+        "them": "Cumaisc dhílseánaigh go minic"
+      },
+      {
+        "label": "Gach comhábhar liostaithe go hoscailte",
+        "us": "Tá — go hiomlán",
+        "them": "Gan nochtadh go minic"
+      },
+      {
+        "label": "Fíorluibheanna agus olaí fuarbhrúite",
+        "us": "Tá — gan líontóirí gan ghá",
+        "them": "Athraíonn sé"
+      },
+      {
+        "label": "Déanta ag an bhfoinse san India",
+        "us": "Tá — áit a bhfásann na luibheanna",
+        "them": "Gan sonrú go minic"
+      },
+      {
+        "label": "Maoirsithe ag stiúrthóir ainmnithe",
+        "us": "Dr. Praveen Rathi",
+        "them": "Gan ainm"
+      }
+    ],
+    "faq5_q": "Cé chomh luath agus a thabharfaidh mé aon rud faoi deara?",
+    "faq5_a": "Go traidisiúnta tógtar luibheanna Ayurveda mar chuid de ghnáthamh laethúil seasta seachas mar réiteach tapa, agus déanann go leor daoine cuid chiúin dá lá díobh thar roinnt seachtainí. Athraíonn na torthaí ó dhuine go duine.",
+    "faq6_q": "Cé dó is fearr a oireann sé seo — agus cé ar cheart dó a bheith cúramach?",
+    "faq6_a": "Úsáidtear go traidisiúnta in Ayurveda é chun tacú le folláine laethúil. Má tá tú ag iompar clainne, ag tabhairt cíche, ag glacadh cógais nó faoi chúram míochaine, labhair le do dhochtúir le do thoil sula n-úsáideann tú é."
+  },
+  "trust": {
+    "bar": [
+      "Ullmhaithe de réir na dtéacsanna clasaiceacha Ayurvedacha",
+      "Déanta san India, ag foinse na luibheanna",
+      "Luibheanna fíora & olaí fuarbhrúite",
+      "Seoltar ar fud an domhain",
+      "Seiceáil amach shlán · 14 lá le haghaidh tuairisceáin"
+    ],
+    "std_kicker": "Ár gcaighdeáin",
+    "std_title": "Déanta go cúramach, rialaithe go dlúth",
+    "std_intro": "B'fhearr linn a thaispeáint duit conas a dhéantar táirge ná a rá leat go bhfuil sé go maith — liostaí comhábhar oscailte, lipéadú soiléir, agus an fhoinse as a dtagann sé. Ullmhaítear gach foirmle de réir na dtéacsanna clasaiceacha Ayurvedacha, ó luibheanna fíora agus olaí fuarbhrúite, gan aon rud curtha leis ar mhaithe le háis. Tá na hoidis na céadta bliain d'aois; tá an smacht a choinnímid orthu cruinn.",
+    "std_items": [
+      {
+        "label": "Luibheanna fíora, olaí fuarbhrúite",
+        "text": "Luibheanna agus olaí dílis brúite gan teas chun a gcarachtar a choinneáil slán — an planda féin, oibrithe ar an tseanmhodh, nár laghdaíodh riamh go bhfuil sé ina eastóscán gan ainm."
+      },
+      {
+        "label": "Gan líonadóirí sintéiseacha",
+        "text": "Ní mhéadaímid ár gcúrnaí, ár dtáibléid ná ár n-olaí le líonadóirí sintéiseacha, le ruaimeanna ná le breiseáin gan ghá. Bíonn san fhoirmle a éilíonn an t-oideas — gan a thuilleadh."
+      },
+      {
+        "label": "Ullmhaithe de réir modhanna clasaiceacha",
+        "text": "Leanann gach foirmliú na téacsanna clasaiceacha Ayurvedacha — na cionmhaireachtaí agus na modhanna céanna a tugadh anuas ó ghlúin go glúin, déanta mar a fhorordaíonn an traidisiún, baisc i ndiaidh baisce."
+      },
+      {
+        "label": "Comhábhair liostaithe go hoscailte",
+        "text": "Tá a liosta iomlán comhábhar, formáid agus cainníocht ag gabháil le gach táirge — gan rud ar bith folaithe taobh thiar de 'mheascán dílseánaigh' doiléir. Léigh go díreach a bhfuil istigh sula gceannaíonn tú, agus arís ar an lipéad."
+      },
+      {
+        "label": "Lipéadaithe go soiléir",
+        "text": "Tá ár raon lipéadaithe go soiléir, le faisnéis chomhábhair, úsáide agus stórála curtha i láthair go hoscailte de réir caighdeáin arda, agus seoltar é ar fud an domhain."
+      },
+      {
+        "label": "Comhsheasmhach, baisc i ndiaidh baisce",
+        "text": "Toisc go bhfuil na hábhair fíor agus an modh socraithe, is é an táirge a athordaíonn tú an táirge ar chuir tú do mhuinín ann an chéad uair. Coinníonn an cháilíocht seasmhach — ní hamháin ar lá maith."
+      },
+      {
+        "label": "Déanta san India, ag an bhfoinse",
+        "text": "Déanta san áit a bhfásann na plandaí agus inar tháinig an cleachtas chun cinn, faoi stiúir an Dr. Praveen Rathi — achar níos giorra idir luibh agus foirmliú, agus teach teaghlaigh atá freagrach as gach baisc."
+      },
+      {
+        "label": "Macánta faoinar a maímid",
+        "text": "Déanaimid cur síos ar ár dtáirgí i dtéarmaí traidisiúnta oideachasúla agus ní dhéanaimid maíomh leighis ar bith. Is é a gheallaimid rud sonrach: foirmlí barántúla, comhábhair fhíora, lipéadú oscailte, tacaíocht fhreagrúil."
+      }
+    ],
+    "g_kicker": "Ordaigh le muinín",
+    "g_title": "Tá do cheannach cosanta",
+    "g_promise": "Má thagann d'ordú damáistithe, neamhiomlán nó nach bhfuil sé mar a cuireadh síos air, cuirfimid ina cheart é — athsholáthar nó aisíocaíocht, gan díospóireacht.",
+    "g_items": [
+      {
+        "label": "Ceart fillte 14 lá",
+        "text": "Tá 14 lá agat ón seachadadh chun earraí gan oscailt a sheoladh ar ais le haghaidh aisíocaíochta. Comhlíonaimid é seo go hiomlán, le treoracha soiléire i ngach ordú."
+      },
+      {
+        "label": "Seiceáil amach shlán, criptithe",
+        "text": "Próiseáiltear gach íocaíocht thar nasc criptithe trí sholáthraithe seanbhunaithe. Ní fheicimid ná ní stórálaimid riamh sonraí iomlána do chárta — fanann do shonraí príobháideach."
+      },
+      {
+        "label": "Seachadadh rianaithe ar fud an domhain",
+        "text": "Seoltar orduithe ar fud an domhain le rianú ón seoladh go dtí an doras. Faigheann tú nasc rianaithe an nóiméad a fhágann do bheartán muid."
+      },
+      {
+        "label": "Lipéadú macánta, iomlán",
+        "text": "Tá gach comhábhar liostaithe go hoscailte ar an lipéad agus ar leathanach an táirge — gan líonadóirí sintéiseacha, gan bhreiseáin fholaithe, gan aon rud fágtha gan rá."
+      },
+      {
+        "label": "Tacaíocht dhaonna fhreagrúil",
+        "text": "Ceist agat roimh nó tar éis duit ceannach? Scríobh chugainn agus freagróidh fíordhuine go soiléir agus go pras — faoi do tháirgí a roghnú, a úsáid agus a stóráil."
+      },
+      {
+        "label": "Cáilíocht is féidir a rianú",
+        "text": "Déanta san India ag an bhfoinse, ó luibheanna fíora agus olaí fuarbhrúite, ullmhaithe faoi stiúir an Dr. Praveen Rathi. Is í an bharántúlacht an caighdeán, ní an eisceacht."
+      }
+    ],
+    "badges": [
+      {
+        "label": "Téacsanna clasaiceacha",
+        "text": "Leanann gach foirmle modh clasaiceach Ayurvedach — na luibheanna, na cóimheasa agus an t-ullmhúchán a fhorordaíonn na bunthéacsanna."
+      },
+      {
+        "label": "Déanta ag an bhfoinse",
+        "text": "Táirgthe san India san áit a bhfásann na luibheanna — ullmhúcháin fhíora, nár athchruthaíodh riamh ó phúdar allmhairithe in áit eile."
+      },
+      {
+        "label": "Comhábhair fhíora",
+        "text": "Luibheanna agus olaí fuarbhrúite dílis. Gan líonadóirí sintéiseacha, gan eastóscáin gan ainm, gan aicearraí."
+      },
+      {
+        "label": "Comhábhair oscailte",
+        "text": "Comhábhair iomlána, formáid agus cainníocht ar gach táirge agus lipéad — gan aon rud taobh thiar de 'mheascán dílseánaigh'."
+      },
+      {
+        "label": "Lipéadaithe go soiléir",
+        "text": "Ullmhaithe agus lipéadaithe go soiléir de réir caighdeáin arda, seoltar ar fud an domhain."
+      },
+      {
+        "label": "Dr. Praveen Rathi",
+        "text": "Teach Ayurvedach teaghlaigh, foirmlithe agus maoirsithe ag an Dr. Praveen Rathi — ag coinneáil dílseachta leis na téacsanna."
+      }
+    ],
+    "cred_title": "Muinín, de réir an tomhais",
+    "credibility": [
+      "358 foirmliú barántúil thar leigheasanna, olaí, cosmaidí agus bianna",
+      "Ullmhaithe de réir na dtéacsanna clasaiceacha Ayurvedacha, faoi stiúir an Dr. Praveen Rathi",
+      "Déanta san India, ag foinse na luibheanna",
+      "Luibheanna fíora agus olaí fuarbhrúite, gach comhábhar liostaithe go hoscailte",
+      "Lipéadaithe go soiléir, seachadta ar fud an domhain",
+      "Teanga folláine thraidisiúnta oideachasúil — gan maíomh leighis, riamh"
+    ],
+    "atc_reassure": "Seiceáil amach shlán · 14 lá le haghaidh tuairisceáin · Seoltar ar fud an domhain",
+    "faq": [
+      {
+        "q": "Cé a dhéanann Sangam Herbals, agus cá háit?",
+        "a": "Is teach teaghlaigh Ayurvedach é Sangam Herbals, foirmlithe agus maoirsithe ag an Dr. Praveen Rathi. Déantar gach rud san India, ag foinse na luibheanna, agus ullmhaítear é de réir na dtéacsanna clasaiceacha Ayurvedacha — ansin lipéadaítear go soiléir é de réir caighdeáin arda."
+      },
+      {
+        "q": "Conas a bheidh a fhios agam cad atá i ngach táirge i ndáiríre?",
+        "a": "Liostaíonn gach táirge a chomhábhair iomlána, a fhormáid agus a chainníocht — ar leathanach an táirge sula gceannaíonn tú, agus ar an lipéad nuair a thagann sé. Úsáidimid luibheanna fíora agus olaí fuarbhrúite, gan líonadóirí sintéiseacha agus gan aon rud folaithe taobh thiar de 'mheascán dílseánaigh' doiléir."
+      },
+      {
+        "q": "An bhfuil na táirgí seo lipéadaithe go soiléir?",
+        "a": "Tá. Tá ár raon lipéadaithe go soiléir, le faisnéis chomhábhair, úsáide agus stórála curtha i láthair go hoscailte de réir caighdeáin arda, agus seolaimid ar fud an domhain."
+      },
+      {
+        "q": "Cad a tharlaíonn má tá rud éigin mícheart le m'ordú, nó má athraím m'intinn?",
+        "a": "Má thagann d'ordú damáistithe, neamhiomlán nó murab ionann é agus an cur síos, cuirfimid ina cheart é — earra in ionad nó aisíocaíocht, gan díospóireacht. Agus tá 14 lá agat ón seachadadh chun earraí gan oscailt a sheoladh ar ais le haghaidh aisíocaíochta, le treoracha soiléire i ngach ordú."
+      }
+    ],
+    "safety_note": "Le haghaidh folláine agus cúraim thraidisiúnta amháin — ní leigheas é, agus ní ionadach é ar chomhairle leighis ghairmiúil. Léigh an lipéad, lean na treoracha, agus téigh i gcomhairle le do dhochtúir má tá tú ag iompar clainne, ag cothú linbh, ar chógas, nó ag bainistiú riocht sláinte. Déan tástáil phaiste roimh an gcéad úsáid áitiúil. Coinnigh as raon leanaí.",
+    "seals_title": "Ceannaigh le muinín",
+    "seals": [
+      {
+        "label": "Seiceáil amach criptithe slán",
+        "sub": "Próiseáilte trí sholáthraithe seanbhunaithe — ní stóráilimid riamh sonraí iomlána do chárta.",
+        "icon": "lock"
+      },
+      {
+        "label": "14 lá le haghaidh tuairisceáin",
+        "sub": "Cuir míreanna gan oscailt ar ais laistigh de 14 lá ón seachadadh le haghaidh aisíocaíochta.",
+        "icon": "return"
+      },
+      {
+        "label": "Seachadadh rianaithe ar fud an domhain",
+        "sub": "Seoltar ar fud an domhain le rianú, ón seoladh go dtí an doras.",
+        "icon": "parcel"
+      },
+      {
+        "label": "Déanta ag an bhfoinse",
+        "sub": "Ceardaithe san India mar a bhfásann na luibheanna, de réir na dtéacsanna clasaiceacha.",
+        "icon": "mortar"
+      },
+      {
+        "label": "Comhábhair oscailte",
+        "sub": "Liosta iomlán comhábhar ar gach táirge — gan aon rud i bhfolach.",
+        "icon": "label"
+      },
+      {
+        "label": "Duine ag seasamh leis ina ainm féin",
+        "sub": "Ceaptha agus maoirsithe ag an Dr. Praveen Rathi.",
+        "icon": "person"
+      }
+    ]
+  },
+  "seo": {
+    "description": "Leigheasanna, cosmaidí, olaí agus bianna barántúla Ayurvedacha — ullmhaithe de réir na dtéacsanna clasaiceacha, déanta san India faoin Dr. Praveen Rathi, agus seachadta ar fud an domhain.",
+    "title": "Sangam Herbals — Ayurveda Barántúil, ar fud an Domhain"
+  },
+  "river": {
+    "sub": "Is é Sangam comhrac na n-uiscí naofa — agus an tseanchleachta leis an gceird nua-aimseartha chúramach. Aimsigh leabharlann na n-attar: 32 chumhrán ola Indiacha a mhaireann go fada.",
+    "kicker": "An Cumar",
+    "quote": "Áit a ndéanann dhá abhainn aon leigheas amháin.",
+    "cta": "Brabhsáil leabharlann na n-attar →"
+  },
+  "founder": {
+    "eyebrow": "Nóta ónár stiúrthóir",
+    "heading": "Seasaim le gach baisc a dhéanaimid.",
+    "paragraphs": [
+      "Níor tugadh Ayurveda do mo theaghlach mar ghnó. Tugadh anuas é mar fhreagracht — bealach le leigheasanna a ullmhú go díreach mar a leagann na téacsanna clasaiceacha amach, as luibheanna fíora agus olaí brúite fuar, gan aon rud curtha leis ar mhaithe le háis. Sin an t-aon bhealach a bhfuil a fhios agam conas iad a dhéanamh, agus an t-aon bhealach a ndéanfaidh mé é.",
+      "Déantar gach rud a sheolaimid amach sa domhan anseo san India, ag foinse na bplandaí agus an chleachtais féin. Oibrím leis na coibhneasa agus na modhanna céanna a leanadh leis na glúnta, agus coinním gach foirmle ag caighdeáin atá cruinn — mar ní leithscéal é go bhfuil an t-oideas sean chun an déanamh a bheith neamhchúramach.",
+      "Roghnaigh mé m'ainm a chur ar an teach seo, agus ar an leathanach seo, ar chúis shimplí: nuair a théann rud isteach i do chorp nó ar do chraiceann, tá sé tuillte agat fios a bheith agat cé atá ag seasamh taobh thiar de. Léigh na comhábhair iomlána sula gceannaíonn tú. Scríobh chugainn má tá aon rud doiléir. Agus mura bhfuil táirge ceart duit, abair linn, agus cuirfimid ina cheart é."
+    ],
+    "signature": "Praveen Rathi",
+    "credential": "Dr. Praveen Rathi · Stiúrthóir, Sangam Herbals — teach Ayurveda teaghlaigh a ullmhaíonn leigheasanna de réir na dtéacsanna clasaiceacha, déanta san India"
+  },
+  "promise": {
+    "kicker": "Cén fáth a ndéanaimid iad seo",
+    "title": "B'fhearr linn díolachán a chailleadh ná é a áibhéiliú.",
+    "text": "Táimid ann chun traidisiún gan bhriseadh 5,000 bliain a iompar isteach i dtithe ar fud an domhain gan é a chaolú — ag ullmhú gach leigheas de réir na dtéacsanna clasaiceacha Ayurvedacha, ó luibheanna fíora agus olaí fuarbhrúite, déanta ag an bhfoinse san India agus freagartha as in ainm. Mar sin, taispeánaimid duit go díreach cad atá istigh agus conas a dhéantar é, liostaímid gach comhábhar go hoscailte, agus ní dhéanaimid aon éilimh leighis. Is é an barántúlacht ár gcaighdeán, ní ár n-eisceacht."
+  }
+}

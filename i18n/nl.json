@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "lang": "nl",
+    "native": "Nederlands",
+    "dir": "ltr"
+  },
+  "nav": {
+    "home": "Home",
+    "shop": "Winkel",
+    "catalog": "Catalogus",
+    "about": "Over ons",
+    "heritage": "Over ons",
+    "contact": "Contact",
+    "search": "Producten zoeken",
+    "learn": "Leren"
+  },
+  "gate": {
+    "title": "Welkom bij Sangam Herbals",
+    "subtitle": "Authentieke Ayurveda, gemaakt in India — kies uw land en taal",
+    "choose_region": "Kies uw land",
+    "choose_language": "Kies uw taal",
+    "continue": "Winkel betreden",
+    "filter": "Landen zoeken",
+    "country_hint": "Kies uw land en taal. Uw land bepaalt levering, valuta en belasting; uw taal bepaalt hoe de winkel leesbaar is.",
+    "no_country": "Geen land komt overeen met die zoekopdracht.",
+    "country_one": "land",
+    "country_many": "landen",
+    "close": "Sluiten",
+    "region_na": "Noord-Amerika",
+    "region_eu": "Europa",
+    "region_me": "Midden-Oosten",
+    "region_ap": "Azië / Pacific",
+    "select_prompt": "Selecteer een land om verzending, valuta en taal te bekijken",
+    "preview_head": "U winkelt vanuit {country}",
+    "row_ship": "Verzending",
+    "row_currency": "Valuta",
+    "row_vat": "Belasting & invoerrechten",
+    "row_lang": "Taal van de site",
+    "ship_line": "Verzending met track and trace naar {country}, doorgaans 3–10 werkdagen. Gratis vanaf {free}.",
+    "currency_eur": "Prijzen weergegeven in euro's (EUR).",
+    "currency_local": "Prijzen zijn indicatief in euro's (EUR). {country} gebruikt {cur} — uw bank rekent om bij het afrekenen.",
+    "vat_line": "Eventuele invoerrechten of belastingen voor {country} worden bij het afrekenen getoond voordat u betaalt.",
+    "lang_default": "de gebruikelijke keuze voor {country}",
+    "lang_change": "wijzigen",
+    "trust_ship": "Internationale verzending",
+    "trust_langs": "35 talen",
+    "trust_eur": "Indicatieve prijzen in EUR",
+    "trust_secure": "Veilig afrekenen",
+    "trust_return": "14 dagen retourrecht",
+    "change_later": "Verkeerd land of verkeerde taal? Wijzig dit op elk moment via “Regio” in het menu."
+  },
+  "hero": {
+    "eyebrow": "Een ayurvedisch familiehuis · Gemaakt in India, volgens de klassieke teksten",
+    "title": "De traditie, getrouw bereid — en met naam en toenaam verantwoord.",
+    "subtitle": "Authentieke ayurvedische remedies, oliën, cosmetica en voedingsmiddelen, gemaakt in India onder leiding van Dr. Praveen Rathi en wereldwijd geleverd. Echte kruiden, transparante ingrediënten, heldere etikettering — vertrouwen dat u kunt controleren vóór u koopt.",
+    "cta_shop": "Bekijk de catalogus",
+    "cta_story": "Maak kennis met het huis",
+    "stat_products": "Authentieke producten",
+    "stat_categories": "Categorieën",
+    "stat_countries": "Landen bediend",
+    "credential": "Dr. Praveen Rathi · Directeur — geformuleerd en begeleid aan de bron, in India"
+  },
+  "sections": {
+    "ayurveda": "Ayurveda",
+    "cosmetics": "Cosmetica",
+    "food": "Voeding & Gezondheid",
+    "oils": "Oliën",
+    "aromatherapy": "Aromatherapie"
+  },
+  "shop": {
+    "title": "Alle producten",
+    "subtitle": "Elk Sangam Herbals-product, nu wereldwijd verkrijgbaar.",
+    "all": "Alle producten",
+    "filter": "Filteren",
+    "sort": "Sorteren",
+    "sort_featured": "Uitgelicht",
+    "sort_price_low": "Prijs: laag naar hoog",
+    "sort_price_high": "Prijs: hoog naar laag",
+    "sort_az": "Naam A–Z",
+    "results": "producten",
+    "empty": "Geen producten komen overeen met uw filters.",
+    "clear": "Filters wissen",
+    "add": "In winkelwagen",
+    "view": "Details bekijken",
+    "from": "vanaf",
+    "in_stock": "Op voorraad",
+    "sku": "Artikelnummer",
+    "showing": "Weergave",
+    "loadmore": "Meer laden",
+    "added": "Added"
+  },
+  "product": {
+    "description": "Omschrijving",
+    "details": "Details",
+    "category": "Categorie",
+    "related": "Misschien ook interessant",
+    "back": "Terug naar de winkel",
+    "origin": "Gemaakt in India",
+    "ships": "Wereldwijde verzending",
+    "unavailable": "Unavailable"
+  },
+  "heritage": {
+    "title": "Vijfduizend jaar, in één druppel",
+    "body": "Sangam betekent samenvloeiing — de ontmoeting van heilige rivieren. Sangam Herbals is de ontmoeting van oude ayurvedische wijsheid en zorgvuldige, moderne productie. Opgericht onder leiding van Dr. Praveen Rathi, worden onze formuleringen gemaakt van authentieke kruiden, koudgeperste oliën en eeuwenoude recepten, nu bereid en helder geëtiketteerd voor huishoudens over de hele wereld.",
+    "pillar1_t": "Authentieke formules",
+    "pillar1_b": "Klassieke churnas, tabletten en oliën, bereid volgens traditionele Ayurvedische geschriften.",
+    "pillar2_t": "Puur & eerlijk",
+    "pillar2_b": "Echte ingrediënten, eerlijke kwaliteit, geen overbodige toevoegingen.",
+    "pillar3_t": "Van India naar de wereld",
+    "pillar3_b": "Bij de bron gewonnen en wereldwijd geleverd."
+  },
+  "footer": {
+    "tagline": "Authentieke Ayurveda, wereldwijd",
+    "shop": "Winkel",
+    "company": "Bedrijf",
+    "support": "Klantenservice",
+    "newsletter": "Nieuwsbrief",
+    "newsletter_sub": "Ayurvedische rituelen, nieuwe producten en aanbiedingen.",
+    "email_ph": "Uw e-mailadres",
+    "subscribe": "Inschrijven",
+    "rights": "Alle rechten voorbehouden.",
+    "shipping": "Wereldwijde verzending",
+    "returns": "Retourneren",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "made": "Vervaardigd in India · Wereldwijd geleverd",
+    "director": "Onder leiding van Dr. Praveen Rathi — geformuleerd en begeleid aan de bron, in India."
+  },
+  "cart": {
+    "title": "Uw winkelwagen",
+    "empty": "Uw winkelwagen is leeg.",
+    "total": "Totaal",
+    "checkout": "Afrekenen",
+    "remove": "Verwijderen",
+    "continue": "Verder winkelen",
+    "add_more": "Voeg toe",
+    "free_ship": "voor gratis verzending",
+    "free_unlocked": "✓ Gratis verzending vrijgespeeld",
+    "free_ship_progress": "Voeg {amount} toe voor gratis verzending"
+  },
+  "common": {
+    "currency_note": "De prijzen zijn indicatief en worden weergegeven in de valuta van uw land.",
+    "loading": "Laden…",
+    "change_region": "Regio"
+  },
+  "categories": {
+    "ayurveda": "Ayurveda",
+    "single-herb-churnas": "Enkelvoudige kruidenchurnas",
+    "compound-churnas": "Samengestelde churnas",
+    "chyawanprash": "Chyawanprash",
+    "churna-tablets": "Churna-tabletten",
+    "classic-tablets": "Klassieke tabletten",
+    "cosmetics": "Cosmetica",
+    "hair-care": "Haarverzorging",
+    "toothpastes": "Tandpasta's",
+    "face-care": "Gezichtsverzorging",
+    "body-care": "Lichaamsverzorging",
+    "facial-toners": "Gezichtstoners",
+    "henna-hair-colour": "Henna haarkleuring",
+    "food-nutrition": "Voeding & Gezondheid",
+    "indian-sweets": "Indiase zoetwaren",
+    "spices-seasonings": "Specerijen & Kruiden",
+    "herbal-teas": "Kruidenthee",
+    "natural-juices": "Natuurlijke sappen",
+    "dried-fruits": "Gedroogd fruit",
+    "biscuits": "Koekjes",
+    "cane-sugar": "Rietsuiker",
+    "indian-tea": "Indiase thee",
+    "oils": "Oliën",
+    "natural-oils": "Natuurlijke oliën",
+    "ayurvedic-oils": "Ayurvedische oliën",
+    "aromatherapy": "Aromatherapie",
+    "incense": "Wierook",
+    "perfume-oils": "Parfumolie",
+    "hydrolats": "Hydrolaten",
+    "lozenges": "Zuigtabletten"
+  },
+  "argument": {
+    "line": "Vijfduizend jaar praktijk, gehandhaafd volgens strenge moderne normen.",
+    "kicker": "Ons principe"
+  },
+  "streams": {
+    "title": "Shop per categorie",
+    "stream": "Stroom"
+  },
+  "remedy": {
+    "kicker": "Uitgelicht product"
+  },
+  "dispatch": {
+    "title": "Meld u aan voor onze nieuwsbrief"
+  },
+  "proof": {
+    "certified": "Eerlijke, transparante etikettering",
+    "ships": "Internationale verzending",
+    "eur": "Indicatieve prijzen",
+    "origin": "Gemaakt in India",
+    "langs": "35 talen"
+  },
+  "edu": {
+    "explore": "Ontdekken",
+    "shop": "Winkel",
+    "care_label": "In balans gehouden",
+    "learn_kicker": "Ayurveda, uitgelegd",
+    "learn_title": "Wat is Ayurveda?",
+    "learn_p1": "Ayurveda is een traditioneel systeem van natuurlijk welzijn dat ongeveer 5.000 jaar geleden in India is ontstaan. De naam komt van twee Sanskrietwoorden: ayur, wat leven betekent, en veda, wat kennis betekent. De kern is één eenvoudig idee: welzijn ontstaat door lichaam en geest in balans te houden.",
+    "learn_p2": "In plaats van zich te richten op snelle oplossingen, kijkt Ayurveda naar de hele mens en het ritme van het dagelijks leven. Het put uit planten, kruiden en traditionele formuleringen, naast eenvoudige dagelijkse routines voor voeding, slaap en zelfzorg. Zie het als een beproefde manier om goed voor jezelf te zorgen, mild en consistent.",
+    "learn_pr1_l": "Balans",
+    "learn_pr1_t": "Ayurveda ziet welzijn als een staat van balans en streeft ernaar lichaam en geest stabiel te houden door de seizoenen heen en bij de eisen van het dagelijks leven.",
+    "learn_pr2_l": "Hele mens",
+    "learn_pr2_t": "Het beschouwt de mens als geheel en houdt rekening met voeding, slaap, activiteit en stemming, in plaats van naar één onderdeel afzonderlijk te kijken.",
+    "learn_pr3_l": "Natuurlijke ingrediënten",
+    "learn_pr3_t": "De bereidingen zijn opgebouwd uit planten, kruiden, oliën en andere natuurlijke ingrediënten, gemaakt volgens traditionele methoden die over generaties zijn doorgegeven.",
+    "learn_pr4_l": "Dagelijks ritueel",
+    "learn_pr4_t": "Veel van Ayurveda leeft in kleine, herhaalde dagelijkse gewoonten — de eenvoudige handelingen van zorg die na verloop van tijd een gevoel van vitaliteit en alledaags welzijn ondersteunen.",
+    "dosha_kicker": "Ayurveda basis",
+    "dosha_title": "De drie dosha's",
+    "dosha_intro": "In Ayurveda zijn drie energieën, bekend als dosha's — Vata, Pitta en Kapha — bij iedereen aanwezig in een unieke samenstelling, en het doel is simpelweg om jouw eigen mix in balans te houden.",
+    "vata_el": "Lucht & Ruimte",
+    "vata_essence": "De energie van beweging",
+    "vata_traits": "Vata-types zijn doorgaans licht, snel en creatief — levendig van geest en lichaam wanneer ze in balans zijn.",
+    "vata_care": "In Ayurveda wordt Vata van oudsher stabiel gehouden met warmte, routine en aardende, voedzame voeding en oliën.",
+    "pitta_el": "Vuur & Water",
+    "pitta_essence": "De energie van transformatie",
+    "pitta_traits": "Pitta-types zijn doorgaans gefocust, gedreven en warm, met scherpe energie en een sterk gevoel voor doel.",
+    "pitta_care": "In Ayurveda wordt Pitta van oudsher in balans gehouden met verkoelende voeding, kalme routines en tijd in de natuur.",
+    "kapha_el": "Aarde & Water",
+    "kapha_essence": "De energie van structuur",
+    "kapha_traits": "Kapha-types zijn doorgaans kalm, stabiel en geaard, met een evenwichtige, makkelijke aard.",
+    "kapha_care": "In Ayurveda wordt Kapha van oudsher levendig gehouden met beweging, verwarmende specerijen en energiegevende dagelijkse rituelen.",
+    "about_kicker": "Over Sangam Herbals",
+    "about_title": "Een hoeder van authentieke Ayurveda, gemaakt bij de bron",
+    "about_p1": "Sangam Herbals is een Ayurvedisch familiebedrijf in India, opgericht onder leiding van Dr. Praveen Rathi. Elke formulering wordt bereid volgens klassieke Ayurvedische teksten, met echte kruiden en koudgeperste oliën in plaats van kortere wegen of synthetische vulstoffen. De recepten zijn oud; de normen waaraan wij ze houden niet.",
+    "about_p2": "Alles wordt gemaakt in India, bij de bron van de planten en de traditie zelf. Vanaf daar worden onze producten transparant geëtiketteerd en wereldwijd geleverd. Wij geloven dat de beste manier om uw vertrouwen te verdienen is om eerlijk te zijn over wat we maken en hoe we het maken — en de producten voor zichzelf te laten spreken.",
+    "about_pr1_l": "Authentieke formules",
+    "about_pr1_t": "Recepten worden bereid volgens klassieke Ayurvedische teksten, zoals ze al generaties lang worden gemaakt.",
+    "about_pr2_l": "Echte ingrediënten",
+    "about_pr2_t": "Wij werken met echte kruiden en koudgeperste oliën, zonder synthetische vulstoffen voor het gemak.",
+    "about_pr3_l": "Gemaakt in India, aan de bron",
+    "about_pr3_t": "Elk product wordt vervaardigd in India, waar de planten groeien en de traditie is ontstaan.",
+    "about_pr4_l": "Eerlijke etikettering & wereldwijde levering",
+    "about_pr4_t": "Ons assortiment is helder geëtiketteerd, met ingrediënten en gebruik transparant weergegeven, en wordt wereldwijd verzonden.",
+    "concern_kicker": "Vind je startpunt",
+    "concern_title": "Winkel per wens",
+    "concern_intro": "Niet zeker waar te beginnen? Kies een alledaags gebied dat u belangrijk vindt, en wij wijzen u de producten en tradities die daarbij passen.",
+    "c_digestion_l": "Spijsvertering & Darmen",
+    "c_digestion_d": "Comfortabele spijsvertering en alledaagse darmbalans — klassieke churna's, windverdrijvende specerijen en milde mengsels zoals Triphala en Avipattikar.",
+    "c_immunity_l": "Immuniteit & Vitaliteit",
+    "c_immunity_d": "Beproefde tonica — Chyawanprash, Amla, Tulsi en Giloy — van oudsher gewaardeerd in Ayurveda voor alledaagse weerbaarheid.",
+    "c_energy_l": "Kracht & Energie",
+    "c_energy_d": "Verjongende rasayana-kruiden en tonica — Shilajit, Shatavari, Bala en klassieke krachtformules — voor alledaagse uithouding.",
+    "c_respiratory_l": "Luchtwegen & Seizoen",
+    "c_respiratory_d": "Comfort voor keel, borst en seizoen, van Sitopaladi en Mulethi tot verzachtende kruidenzuigtabletten.",
+    "c_stress_l": "Stress, Slaap & Geest",
+    "c_stress_d": "Kalmerende, aardende mengsels voor focus en rustige avonden — Brahmi, Shankhpushpi, Jatamansi en valeriaan.",
+    "c_joints_l": "Gewrichten & Spieren",
+    "c_joints_d": "Ondersteuning voor actieve lichamen en soepele beweging — Guggul-formules en verwarmende massageoliën zoals Mahanarayan.",
+    "c_womens_l": "Welzijn van vrouwen",
+    "c_womens_d": "Milde, traditionele ondersteuning voor de alledaagse balans van vrouwen — Shatavari, Ashoka en klassieke vrouwentonica.",
+    "c_skin_l": "Huid & Gezicht",
+    "c_skin_d": "Plantaardige verzorging voor gezicht en lichaam plus zuiverende kruiden — reinigers, toners, hydrolaten, Neem, Turmeric en Manjistha.",
+    "c_hair_l": "Haar & Hoofdhuid",
+    "c_hair_d": "Voedende verzorging voor haar en hoofdhuid — Bhringraj- en Amla-oliën, kruidenshampoos en natuurlijke Henna-kleur.",
+    "c_oral_l": "Mondverzorging",
+    "c_oral_d": "Natuurlijke dagelijkse verzorging voor tanden, tandvlees en een frisse adem — kruidentandpasta's en beproefde ingrediënten zoals Neem.",
+    "c_food_l": "Voeding, Thee & Specerijen",
+    "c_food_d": "De keukenkant van Ayurveda — authentieke specerijen en masala's, kruidenthee en Indiase thee, sappen, zoetigheden en meer.",
+    "c_fragrance_l": "Geur & Ritueel",
+    "c_fragrance_d": "Wierook en langhoudende Indiase attars om uw ruimte en alledaagse ritueel te parfumeren.",
+    "herb_kicker": "Kennis over ingrediënten",
+    "herb_title": "Belangrijke Ayurvedische kruiden",
+    "herb_intro": "Een gids in begrijpelijke taal over de acht kruiden die u het vaakst tegenkomt in ons assortiment, en de rol die elk daarvan al lang vervult in de Ayurvedische traditie.",
+    "herb_triphala_what": "Een klassiek mengsel van drie gedroogde vruchten, samen gemalen tot één poeder.",
+    "herb_triphala_trad": "In Ayurveda van oudsher gebruikt ter ondersteuning van de alledaagse spijsvertering en een milde innerlijke balans.",
+    "herb_triphala_found": "Churna's & tabletten",
+    "herb_tulsi_what": "Een aromatisch blad van de heilige basilicumplant, gebruikt als poeder, in thee en in huid- en haarverzorging.",
+    "herb_tulsi_trad": "Al lang gewaardeerd in de Ayurvedische traditie ter ondersteuning van alledaags welzijn en een gevoel van vitaliteit.",
+    "herb_tulsi_found": "Churna's, thee & huidverzorging",
+    "herb_neem_what": "Een bitter blad van de neemboom, gebruikt als poeder en in reinigende huid- en haarformules.",
+    "herb_neem_trad": "Van oudsher in Ayurveda geassocieerd met alledaagse huidverzorging en een schone, gebalanceerde teint.",
+    "herb_neem_found": "Churna's, gezichts- & haarverzorging",
+    "herb_amla_what": "Een kleine, zure groene vrucht, gebruikt als poeder, sap en in haarverzorgingsproducten.",
+    "herb_amla_trad": "Van oudsher gewaardeerd in Ayurveda ter ondersteuning van alledaagse vitaliteit en de verzorging van haar en hoofdhuid.",
+    "herb_amla_found": "Churna's, sappen & haarverzorging",
+    "herb_brahmi_what": "Een klein kruipend kruid, ingenomen als poeder of in tabletvorm.",
+    "herb_brahmi_trad": "In Ayurveda van oudsher geassocieerd met kalme focus en alledaags mentaal welzijn.",
+    "herb_brahmi_found": "Churna's & tabletten",
+    "herb_chyawanprash_what": "Een traditionele donkere kruidenjam opgebouwd rond Amla en een mengsel van vele kruiden en specerijen.",
+    "herb_chyawanprash_trad": "Al lang ingenomen in de Ayurvedische traditie als dagelijks tonicum ter ondersteuning van alledaagse vitaliteit en welzijn.",
+    "herb_chyawanprash_found": "Ayurveda",
+    "herb_turmeric_what": "Een goudgele wortel, gemalen tot een warm specerijpoeder en gebruikt in de keuken, in sappen en in huidverzorging.",
+    "herb_turmeric_trad": "Van oudsher gewaardeerd in Ayurveda ter ondersteuning van alledaagse balans en de verzorging van de huid.",
+    "herb_turmeric_found": "Specerijen, churna's & huidverzorging",
+    "herb_henna_what": "Een blad gemalen tot een fijn groen poeder dat een natuurlijke roodachtige kleur afgeeft.",
+    "herb_henna_trad": "Al lang gebruikt in de Ayurvedische en Indiase traditie als natuurlijke kleuring en verzorgende behandeling voor het haar.",
+    "herb_henna_found": "Henna & haarverzorging",
+    "start_kicker": "Nieuw met Ayurveda",
+    "start_title": "Beginnen, eenvoudig gemaakt",
+    "step1_l": "Leer de basis",
+    "step1_t": "Besteed een paar minuten aan het begrijpen van wat Ayurveda is — een traditioneel Indiaas systeem van alledaags welzijn, balans en zelfzorg.",
+    "step2_l": "Vind je wens of type",
+    "step2_t": "Blader op wat u belangrijk vindt — huid, haar, spijsvertering, dagelijkse routine — en zie welke tradities en ingrediënten bij u passen.",
+    "step3_l": "Begin eenvoudig",
+    "step3_t": "Kies één product dat bij uw routine past, gebruik het consistent, en voeg pas meer toe wanneer het goed voelt.",
+    "faq1_q": "Is Ayurveda veilig, en hoe gebruik ik de producten?",
+    "faq1_a": "Onze producten zijn gemaakt van traditionele plantaardige ingrediënten en worden geleverd met duidelijke aanwijzingen voor dagelijks gebruik. Als verstandige voorzorgsmaatregel raden wij u aan uw arts te raadplegen voordat u met iets nieuws begint als u zwanger bent, borstvoeding geeft, medicatie gebruikt of onder medische behandeling staat.",
+    "faq2_q": "Hoe kies ik als ik hier helemaal nieuw in ben?",
+    "faq2_a": "Begin met één enkel product dat aansluit bij één alledaagse wens — zoals huid, haar of dagelijkse verzorging — in plaats van meerdere tegelijk te kopen. Elk product legt in begrijpelijke taal uit wat het is, hoe het van oudsher is gebruikt en hoe u het toepast.",
+    "faq3_q": "Zijn de producten authentiek en correct geëtiketteerd?",
+    "faq3_a": "Elk product wordt in India gemaakt onder leiding van Dr. Praveen Rathi, volgens traditionele Ayurvedische bereiding en de geldende kwaliteits- en etiketteringsnormen. Ingrediënten en gebruik staan open vermeld op elk product, zodat u altijd weet wat u krijgt.",
+    "faq4_q": "Leveren jullie aan mijn land?",
+    "faq4_a": "Ja — wij verzenden internationaal. Levertijden en eventuele toepasselijke kosten of rechten worden duidelijk getoond bij het afrekenen voordat u uw bestelling bevestigt."
+  },
+  "pdp": {
+    "back": "Terug naar de winkel",
+    "good_for": "Goed voor",
+    "what": "Wat het is",
+    "benefits": "Van oudsher gebruikt ter ondersteuning van",
+    "ingredients": "Belangrijke ingrediënten",
+    "how": "Hoe te gebruiken",
+    "suited": "Geschikt voor",
+    "details": "Details",
+    "format": "Vorm",
+    "origin": "Herkomst",
+    "india": "India",
+    "caution": "Traditionele Ayurvedische informatie ter educatie, geen medisch advies. Als u zwanger bent, borstvoeding geeft, medicatie gebruikt of onder medische behandeling staat, raadpleeg dan uw arts voor gebruik.",
+    "precautions": "Voorzorgsmaatregelen",
+    "related": "Misschien vindt u dit ook leuk",
+    "transparency": "Elk ingrediënt, openlijk vermeld",
+    "routine": "Hoe het in je routine past",
+    "good_to_know": "Goed om te weten",
+    "take_care": "Let op als",
+    "why_kicker": "Waarom bij ons kopen",
+    "why_title": "De traditie, getrouw voortgezet — en gemaakt bij de bron",
+    "why_sub": "Elke formule wordt bereid volgens de klassieke ayurvedische teksten, van echte kruiden en koudgeperste oliën, gemaakt in India waar de kruiden groeien en geleid door Dr. Praveen Rathi. Wij verdienen uw vertrouwen op de eerlijke manier: transparante ingrediënten, heldere etikettering, en een familiehuis dat instaat voor elke partij.",
+    "assure_title": "Met een gerust hart bestellen",
+    "ship_label": "Wereldwijde levering",
+    "ship_text": "Verzending met tracering, wereldwijd beschikbaar.",
+    "returns_label": "Eerlijke etikettering",
+    "returns_text": "Ingrediënten en traditioneel gebruik staan bij elk product openlijk vermeld.",
+    "secure_label": "Gemaakt bij de bron",
+    "secure_text": "Vervaardigd in India volgens klassieke ayurvedische teksten, daarna helder geëtiketteerd.",
+    "help_label": "Klaar om te helpen",
+    "help_text": "Vragen voordat je koopt? Bereik ons via WhatsApp, Telegram of e-mail.",
+    "faq_title": "Veelgestelde vragen",
+    "new_to": "Nieuw met Ayurveda?",
+    "new_to_cta": "Begin bij de basis",
+    "qty_label": "Aantal",
+    "delivery_eu": "Wereldwijde levering met tracering",
+    "freeship_over": "Gratis levering vanaf {amount}",
+    "freeship_away": "U bent nog {amount} verwijderd van gratis levering",
+    "freeship_unlocked": "✓ Gratis levering vrijgespeeld",
+    "cta_guarantee": "Veilig afrekenen · 14 dagen retourrecht · als het beschadigd of niet zoals omschreven aankomt, lossen wij het op",
+    "authority_quote": "Samengesteld en begeleid door Dr. Praveen Rathi — \"Ik sta in voor elke batch die we maken.\"",
+    "pairs_title": "Maakt je routine compleet",
+    "pairs_sub": "Samengesteld vanuit dezelfde focus op welzijn — voeg een metgezel toe en kom dichter bij gratis levering.",
+    "add_one": "Toevoegen",
+    "compare_title": "Waarom kiezen voor Sangam",
+    "compare_sub": "Waar je op moet letten bij een authentiek Ayurvedisch assortiment — en hoe wij ons verhouden.",
+    "compare_us": "Sangam Herbals",
+    "compare_them": "Doorsnee kruidenproduct uit de massamarkt",
+    "compare_rows": [
+      {
+        "label": "Samengesteld volgens klassieke Ayurvedische teksten",
+        "us": "Ja — volgens traditionele recepten",
+        "them": "Vaak eigen mengsels"
+      },
+      {
+        "label": "Elk ingrediënt openlijk vermeld",
+        "us": "Ja — volledig",
+        "them": "Regelmatig niet bekendgemaakt"
+      },
+      {
+        "label": "Echte kruiden en koudgeperste oliën",
+        "us": "Ja — zonder overbodige vulstoffen",
+        "them": "Wisselend"
+      },
+      {
+        "label": "Gemaakt bij de bron in India",
+        "us": "Ja — waar de kruiden groeien",
+        "them": "Vaak niet vermeld"
+      },
+      {
+        "label": "Begeleid door een bij naam genoemde directeur",
+        "us": "Dr. Praveen Rathi",
+        "them": "Anoniem"
+      }
+    ],
+    "faq5_q": "Hoe snel merk ik iets?",
+    "faq5_a": "Ayurvedische kruiden worden van oudsher ingenomen als onderdeel van een vaste dagelijkse routine in plaats van als snelle oplossing, en veel mensen maken ze gedurende meerdere weken een rustig onderdeel van hun dag. De resultaten verschillen van persoon tot persoon.",
+    "faq6_q": "Voor wie is dit het meest geschikt — en wie moet voorzichtig zijn?",
+    "faq6_a": "Het wordt in de Ayurveda van oudsher gebruikt ter ondersteuning van het dagelijks welzijn. Als je zwanger bent, borstvoeding geeft, medicijnen gebruikt of onder medische behandeling staat, overleg dan vóór gebruik met je arts."
+  },
+  "trust": {
+    "bar": [
+      "Bereid volgens klassieke Ayurvedische teksten",
+      "Gemaakt in India, bij de bron van de kruiden",
+      "Echte kruiden & koudgeperste oliën",
+      "Wereldwijde verzending",
+      "Veilig afrekenen · 14 dagen retourrecht"
+    ],
+    "std_kicker": "Onze standaarden",
+    "std_title": "Goed gemaakt, nauwgezet gecontroleerd",
+    "std_intro": "Wij laten u liever zien hoe een product wordt gemaakt dan u te vertellen dat het goed is — transparante ingrediëntenlijsten, heldere etikettering, en de bron waar het vandaan komt. Elke formulering wordt bereid volgens klassieke ayurvedische teksten, van echte kruiden en koudgeperste oliën, zonder dat er iets is toegevoegd voor het gemak. De recepten zijn eeuwenoud; de discipline waarmee we ze handhaven is exact.",
+    "std_items": [
+      {
+        "label": "Echte kruiden, koudgeperste oliën",
+        "text": "Authentieke botanicals en oliën die zonder warmte worden geperst om hun karakter te behouden — de plant zelf, op traditionele wijze bewerkt, nooit teruggebracht tot anoniem extract."
+      },
+      {
+        "label": "Geen synthetische vulstoffen",
+        "text": "We vullen onze churnas, tabletten en oliën niet aan met synthetische vulstoffen, kleurstoffen of overbodige toevoegingen. Een formule bevat wat het recept voorschrijft — niets meer."
+      },
+      {
+        "label": "Bereid volgens klassieke methoden",
+        "text": "Elke formulering volgt de klassieke Ayurvedische teksten — dezelfde verhoudingen en methoden die generaties lang zijn doorgegeven, gemaakt zoals de traditie voorschrijft, batch na batch."
+      },
+      {
+        "label": "Ingrediënten open vermeld",
+        "text": "Elk product draagt zijn volledige ingrediëntenlijst, vorm en hoeveelheid — niets verborgen achter een vage 'gepatenteerde melange'. Lees precies wat erin zit voordat u koopt, en nogmaals op het etiket."
+      },
+      {
+        "label": "Helder geëtiketteerd",
+        "text": "Ons assortiment is helder geëtiketteerd, met informatie over ingrediënten, gebruik en bewaring transparant en volgens hoge normen weergegeven, en wordt wereldwijd verzonden."
+      },
+      {
+        "label": "Consistent, batch na batch",
+        "text": "Omdat de grondstoffen echt zijn en de methode vastligt, is het product dat u opnieuw bestelt hetzelfde product dat u de eerste keer vertrouwde. De kwaliteit blijft constant — niet alleen op een goede dag."
+      },
+      {
+        "label": "Gemaakt in India, bij de bron",
+        "text": "Gemaakt waar de planten groeien en de praktijk is ontstaan, onder leiding van Dr. Praveen Rathi — een kortere afstand tussen kruid en formulering, en een familiehuis dat verantwoording aflegt voor elke batch."
+      },
+      {
+        "label": "Helder over wat we niet beweren",
+        "text": "We beschrijven onze producten in traditionele, educatieve termen en doen geen medische claims. Wat we beloven is specifiek: authentieke formules, echte ingrediënten, open etikettering, betrokken ondersteuning."
+      }
+    ],
+    "g_kicker": "Bestel met vertrouwen",
+    "g_title": "Uw aankoop is beschermd",
+    "g_promise": "Als uw bestelling beschadigd, onvolledig of niet zoals omschreven aankomt, maken we het in orde — vervanging of terugbetaling, zonder discussie.",
+    "g_items": [
+      {
+        "label": "14 dagen herroepingsrecht",
+        "text": "U heeft 14 dagen vanaf levering om ongeopende artikelen te retourneren voor een terugbetaling. Wij komen dit volledig na, met duidelijke instructies bij elke bestelling."
+      },
+      {
+        "label": "Veilig, versleuteld afrekenen",
+        "text": "Elke betaling wordt verwerkt via een versleutelde verbinding bij gevestigde aanbieders. Wij zien of bewaren nooit uw volledige kaartgegevens — uw gegevens blijven privé."
+      },
+      {
+        "label": "Wereldwijde levering met tracering",
+        "text": "Bestellingen worden wereldwijd verzonden met tracering, van verzending tot voordeur. U ontvangt een trackinglink op het moment dat uw pakket bij ons vertrekt."
+      },
+      {
+        "label": "Eerlijke, volledige etikettering",
+        "text": "Elk ingrediënt staat open vermeld op het etiket en de productpagina — geen synthetische vulstoffen, geen verborgen toevoegingen, niets onvermeld."
+      },
+      {
+        "label": "Betrokken persoonlijke ondersteuning",
+        "text": "Een vraag voor of na uw aankoop? Schrijf ons en een echte persoon antwoordt, helder en snel — over kiezen, gebruiken en bewaren van uw producten."
+      },
+      {
+        "label": "Kwaliteit die u kunt herleiden",
+        "text": "Gemaakt in India bij de bron, uit echte botanicals en koudgeperste oliën, bereid onder leiding van Dr. Praveen Rathi. Authenticiteit is de standaard, niet de uitzondering."
+      }
+    ],
+    "badges": [
+      {
+        "label": "Klassieke teksten",
+        "text": "Elke formule volgt de klassieke Ayurvedische methode — de kruiden, verhoudingen en bereiding die de bronteksten voorschrijven."
+      },
+      {
+        "label": "Gemaakt bij de bron",
+        "text": "Geproduceerd in India waar de kruiden groeien — echte bereidingen, nooit elders gereconstitueerd uit geïmporteerd poeder."
+      },
+      {
+        "label": "Echte ingrediënten",
+        "text": "Authentieke botanicals en koudgeperste oliën. Geen synthetische vulstoffen, geen anonieme extracten, geen kortere wegen."
+      },
+      {
+        "label": "Open ingrediënten",
+        "text": "Volledige ingrediënten, vorm en hoeveelheid op elk product en etiket — niets achter een 'gepatenteerde melange'."
+      },
+      {
+        "label": "Helder geëtiketteerd",
+        "text": "Bereid en helder geëtiketteerd volgens hoge normen, wereldwijd verzonden."
+      },
+      {
+        "label": "Dr. Praveen Rathi",
+        "text": "Een Ayurvedisch familiehuis, geformuleerd en begeleid door Dr. Praveen Rathi — trouw aan de teksten."
+      }
+    ],
+    "cred_title": "Vertrouwen, in cijfers",
+    "credibility": [
+      "358 authentieke formuleringen verspreid over remedies, oliën, cosmetica en voeding",
+      "Bereid volgens klassieke Ayurvedische teksten, onder leiding van Dr. Praveen Rathi",
+      "Gemaakt in India, bij de bron van de kruiden",
+      "Echte kruiden en koudgeperste oliën, elk ingrediënt open vermeld",
+      "Helder geëtiketteerd, wereldwijd geleverd",
+      "Traditionele, educatieve welzijnstaal — nooit medische claims"
+    ],
+    "atc_reassure": "Veilig afrekenen · 14 dagen retourrecht · Wereldwijde verzending",
+    "faq": [
+      {
+        "q": "Wie maakt Sangam Herbals, en waar?",
+        "a": "Sangam Herbals is een ayurvedisch familiehuis, geformuleerd en begeleid door Dr. Praveen Rathi. Alles wordt gemaakt in India, bij de bron van de kruiden, en bereid volgens klassieke ayurvedische teksten — daarna helder geëtiketteerd volgens hoge normen."
+      },
+      {
+        "q": "Hoe weet ik wat er precies in elk product zit?",
+        "a": "Elk product vermeldt zijn volledige ingrediënten, vorm en hoeveelheid — op de productpagina voordat u koopt, en op het etiket wanneer het aankomt. We gebruiken echte kruiden en koudgeperste oliën, zonder synthetische vulstoffen en zonder iets verborgen achter een vage 'gepatenteerde melange'."
+      },
+      {
+        "q": "Zijn deze producten helder geëtiketteerd?",
+        "a": "Ja. Ons assortiment is helder geëtiketteerd, met informatie over ingrediënten, gebruik en bewaring transparant en volgens hoge normen weergegeven, en wij verzenden wereldwijd."
+      },
+      {
+        "q": "Wat als er iets mis is met mijn bestelling, of ik van gedachten verander?",
+        "a": "Als uw bestelling beschadigd, incompleet of niet zoals omschreven aankomt, lossen wij het op — vervanging of terugbetaling, zonder discussie. En u heeft 14 dagen vanaf levering om ongeopende artikelen te retourneren voor een terugbetaling, met duidelijke instructies bij elke bestelling."
+      }
+    ],
+    "safety_note": "Uitsluitend voor welzijn en traditionele verzorging — geen geneesmiddel, en geen vervanging voor professioneel medisch advies. Lees het etiket, volg de aanwijzingen, en raadpleeg uw arts als u zwanger bent, borstvoeding geeft, medicatie gebruikt of een gezondheidsaandoening heeft. Voer een huidtest uit voor het eerste gebruik op de huid. Buiten bereik van kinderen houden.",
+    "seals_title": "Koop met vertrouwen",
+    "seals": [
+      {
+        "label": "Veilige versleutelde betaling",
+        "sub": "Verwerkt via gevestigde aanbieders — wij bewaren nooit uw volledige kaartgegevens.",
+        "icon": "lock"
+      },
+      {
+        "label": "14 dagen retourrecht",
+        "sub": "Retourneer ongeopende artikelen binnen 14 dagen na levering voor terugbetaling.",
+        "icon": "return"
+      },
+      {
+        "label": "Wereldwijde levering met tracering",
+        "sub": "Wereldwijd verzonden met tracering, van verzending tot voordeur.",
+        "icon": "parcel"
+      },
+      {
+        "label": "Gemaakt aan de bron",
+        "sub": "Vervaardigd in India waar de kruiden groeien, volgens de klassieke teksten.",
+        "icon": "mortar"
+      },
+      {
+        "label": "Transparante ingrediënten",
+        "sub": "Volledige ingrediëntenlijst op elk product — niets verborgen.",
+        "icon": "label"
+      },
+      {
+        "label": "Met naam en toenaam verantwoord",
+        "sub": "Geformuleerd en begeleid door Dr. Praveen Rathi.",
+        "icon": "person"
+      }
+    ]
+  },
+  "seo": {
+    "description": "Authentieke ayurvedische remedies, cosmetica, oliën en voedingsmiddelen — bereid volgens klassieke teksten, gemaakt in India onder Dr. Praveen Rathi, en wereldwijd geleverd.",
+    "title": "Sangam Herbals — Authentieke Ayurveda, Wereldwijd"
+  },
+  "river": {
+    "sub": "Sangam is het samenkomen van heilige wateren — en van eeuwenoude praktijk met zorgvuldig, modern vakmanschap. Ontdek de attar-bibliotheek: 32 langdurige Indiase olieparfums.",
+    "kicker": "De Samenvloeiing",
+    "quote": "Waar twee rivieren samenkomen tot één middel.",
+    "cta": "Blader door de attar-bibliotheek →"
+  },
+  "founder": {
+    "eyebrow": "Een bericht van onze directeur",
+    "heading": "Ik sta in voor elke partij die wij maken.",
+    "paragraphs": [
+      "Ayurveda werd niet als bedrijf aan mijn familie overgedragen. Het werd doorgegeven als een verantwoordelijkheid — een manier om middelen precies te bereiden zoals de klassieke teksten voorschrijven, van echte kruiden en koudgeperste oliën, zonder iets toe te voegen voor het gemak. Dat is de enige manier waarop ik ze weet te maken, en de enige manier waarop ik ze zal maken.",
+      "Alles wat wij de wereld in sturen, wordt hier in India gemaakt, bij de bron van de planten en de praktijk zelf. Ik werk volgens dezelfde verhoudingen en methoden die al generaties lang worden gevolgd, en ik houd elke formulering aan normen die exact zijn — want dat een recept oud is, is geen excuus voor een slordige bereiding.",
+      "Ik heb ervoor gekozen om mijn naam aan dit huis te verbinden, en aan deze pagina, om een eenvoudige reden: wanneer iets in uw lichaam of op uw huid terechtkomt, verdient u te weten wie ervoor instaat. Lees de volledige ingrediënten voordat u koopt. Schrijf ons als er iets onduidelijk is. En als een product niet bij u past, laat het ons weten, dan maken wij het in orde."
+    ],
+    "signature": "Praveen Rathi",
+    "credential": "Dr. Praveen Rathi · Directeur, Sangam Herbals — een ayurvedisch familiehuis dat middelen bereidt volgens de klassieke teksten, gemaakt in India"
+  },
+  "promise": {
+    "kicker": "Waarom wij deze maken",
+    "title": "Wij verliezen liever een verkoop dan dat wij er een overdrijven.",
+    "text": "Wij bestaan om een ononderbroken traditie van 5.000 jaar over te brengen naar huizen over de hele wereld zonder haar te verwateren — door elke remedie te bereiden volgens de klassieke ayurvedische teksten, van echte kruiden en koudgeperste oliën, gemaakt bij de bron in India en met naam verantwoord. Daarom laten wij u precies zien wat erin zit en hoe het wordt gemaakt, vermelden wij elk ingrediënt transparant, en doen wij geen medische beweringen. Authenticiteit is onze standaard, niet onze uitzondering."
+  }
+}

@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://esm.sh; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://images.weserv.nl https://ir.ozone.ru https://*.supabase.co; connect-src 'self' https://*.supabase.co https://esm.sh; base-uri 'self'; form-action 'self'; object-src 'none'" />
+  <title>Sangam Herbals — Admin</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/admin.css" />
+  <script src="assets/config.js"></script>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <header class="topbar" id="topbar" hidden>
+    <span class="topbar__brand">
+      <img class="topbar__logo" src="assets/logo.svg" alt="" aria-hidden="true" />
+      <span>
+        <span class="topbar__name">Sangam Herbals</span>
+        <span class="topbar__tag">Admin Panel</span>
+      </span>
+    </span>
+    <nav class="topbar__nav" id="topbar-nav">
+      <button class="topbar__tab is-active" id="nav-products" type="button">Products</button>
+      <button class="topbar__tab" id="nav-orders" type="button">Orders</button>
+      <button class="topbar__tab" id="nav-settings" type="button">Settings</button>
+    </nav>
+    <span class="topbar__spacer"></span>
+    <span class="topbar__user" id="who"></span>
+    <button class="btn btn--ghost btn--sm" id="signout-btn" type="button">Sign out</button>
+  </header>
+
+  <main id="root">
+
+    <!-- NOT CONFIGURED -->
+    <section class="center-stage" id="view-notconfigured" hidden>
+      <div class="card notice-card">
+        <img class="auth-card__logo" src="assets/logo.svg" alt="Sangam Herbals" />
+        <p class="auth-card__kicker">Sangam Herbals · Admin</p>
+        <h1 class="auth-card__title">Backend not configured</h1>
+        <p>Fill in <code>assets/config.js</code> with your Supabase URL and anon key, then follow the steps in <kbd>BACKEND.md</kbd>.</p>
+      </div>
+    </section>
+
+    <!-- LOGIN -->
+    <section class="center-stage" id="view-login" hidden>
+      <div class="card auth-card">
+        <img class="auth-card__logo" src="assets/logo.svg" alt="Sangam Herbals" />
+        <p class="auth-card__kicker">Sangam Herbals · Admin</p>
+        <h1 class="auth-card__title">Sign in</h1>
+        <p class="auth-card__lede">Manage the catalogue — products, prices, images and details.</p>
+        <form class="auth-form" id="login-form" novalidate>
+          <div class="field">
+            <label for="login-email">Email</label>
+            <input class="inp" id="login-email" type="email" autocomplete="username" required placeholder="admin@sangamherbals.com" />
+          </div>
+          <div class="field">
+            <label for="login-password">Password</label>
+            <input class="inp" id="login-password" type="password" autocomplete="current-password" required placeholder="••••••••" />
+          </div>
+          <div class="auth-error" id="login-error" role="alert" hidden></div>
+          <button class="btn btn--solid btn--full" id="login-submit" type="submit">Sign in</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="shell" id="view-dashboard" hidden>
+
+      <!-- Stats row -->
+      <div class="stats-row">
+        <div class="stat-card">
+          <span class="stat-card__num" id="stat-total">—</span>
+          <span class="stat-card__lbl">Total products</span>
+        </div>
+        <div class="stat-card stat-card--green">
+          <span class="stat-card__num" id="stat-active">—</span>
+          <span class="stat-card__lbl">Active (live)</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card__num" id="stat-hidden">—</span>
+          <span class="stat-card__lbl">Hidden</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card__num" id="stat-nosection">—</span>
+          <span class="stat-card__lbl">No section</span>
+        </div>
+      </div>
+
+      <!-- Toolbar -->
+      <div class="toolbar toolbar--stacked">
+        <div class="toolbar__row1">
+          <h1 class="toolbar__title">Products</h1>
+          <span class="toolbar__count" id="prod-count"></span>
+          <span class="toolbar__spacer"></span>
+          <button class="btn btn--solid" id="new-btn" type="button">＋ Add product</button>
+        </div>
+        <div class="toolbar__row2">
+          <!-- Active / Hidden tabs -->
+          <div class="filter-tabs" id="prod-filter-tabs" role="tablist" aria-label="Filter products">
+            <button class="filter-tab is-active" role="tab" data-filter="all" type="button">All</button>
+            <button class="filter-tab" role="tab" data-filter="active" type="button">Active</button>
+            <button class="filter-tab" role="tab" data-filter="hidden" type="button">Hidden</button>
+          </div>
+          <!-- Section filter -->
+          <select class="sel sel--compact" id="section-filter" aria-label="Filter by section">
+            <option value="">All sections</option>
+            <option value="ayurveda">Ayurveda</option>
+            <option value="cosmetics">Cosmetics</option>
+            <option value="food">Food &amp; Nutrition</option>
+            <option value="oils">Oils</option>
+            <option value="aromatherapy">Aromatherapy</option>
+          </select>
+          <!-- Search -->
+          <label class="search">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <input id="search" type="search" placeholder="Search title or SKU…" aria-label="Search products" />
+          </label>
+        </div>
+      </div>
+
+      <div class="plist" id="plist" aria-live="polite">
+        <div class="list-loading">Loading products…</div>
+      </div>
+    </section>
+
+    <!-- ORDERS -->
+    <section class="shell" id="view-orders" hidden>
+
+      <!-- Order stats -->
+      <div class="stats-row">
+        <div class="stat-card">
+          <span class="stat-card__num" id="stat-orders-total">—</span>
+          <span class="stat-card__lbl">Total orders</span>
+        </div>
+        <div class="stat-card stat-card--amber">
+          <span class="stat-card__num" id="stat-orders-pending">—</span>
+          <span class="stat-card__lbl">Pending / Paid</span>
+        </div>
+        <div class="stat-card stat-card--green">
+          <span class="stat-card__num" id="stat-orders-dispatched">—</span>
+          <span class="stat-card__lbl">Dispatched</span>
+        </div>
+        <div class="stat-card stat-card--green">
+          <span class="stat-card__num" id="stat-orders-revenue">—</span>
+          <span class="stat-card__lbl">Total revenue</span>
+        </div>
+      </div>
+
+      <!-- Toolbar -->
+      <div class="toolbar toolbar--stacked">
+        <div class="toolbar__row1">
+          <h1 class="toolbar__title">Orders</h1>
+          <span class="toolbar__count" id="order-count"></span>
+          <span class="toolbar__spacer"></span>
+          <button class="btn btn--ghost btn--sm" id="orders-refresh" type="button">↻ Refresh</button>
+        </div>
+        <div class="toolbar__row2">
+          <div class="filter-tabs" id="order-filter-tabs" role="tablist" aria-label="Filter orders">
+            <button class="filter-tab is-active" role="tab" data-filter="all" type="button">All</button>
+            <button class="filter-tab" role="tab" data-filter="pending" type="button">Pending</button>
+            <button class="filter-tab" role="tab" data-filter="paid" type="button">Paid</button>
+            <button class="filter-tab" role="tab" data-filter="confirmed" type="button">Confirmed</button>
+            <button class="filter-tab" role="tab" data-filter="dispatched" type="button">Dispatched</button>
+            <button class="filter-tab" role="tab" data-filter="delivered" type="button">Delivered</button>
+            <button class="filter-tab" role="tab" data-filter="cancelled" type="button">Cancelled</button>
+          </div>
+          <label class="search">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <input id="order-search" type="search" placeholder="Search name or email…" aria-label="Search orders" />
+          </label>
+        </div>
+      </div>
+
+      <div class="olist" id="olist" aria-live="polite">
+        <div class="list-loading">Loading orders…</div>
+      </div>
+    </section>
+
+    <!-- SETTINGS -->
+    <section class="shell" id="view-settings" hidden>
+
+      <div class="toolbar toolbar--stacked" style="border-bottom:none;margin-bottom:0">
+        <div class="toolbar__row1">
+          <h1 class="toolbar__title">Settings</h1>
+        </div>
+      </div>
+
+      <div class="settings-grid">
+
+        <!-- ── Catalog Import ──────────────────────────────────── -->
+        <div class="scard">
+          <h2 class="scard__h">Import Catalog</h2>
+          <p class="scard__desc">Sync all <strong>358 products</strong> + dosha tags from <code>data/catalog.json</code> into Supabase. Safe to run multiple times (upsert). Products already in Supabase will be updated; new ones added.</p>
+          <div id="import-progress" class="import-progress" hidden>
+            <div class="import-progress__bar"><div class="import-progress__fill" id="import-fill"></div></div>
+            <span class="import-progress__label" id="import-label">0 / 358</span>
+          </div>
+          <div class="scard__foot">
+            <button class="btn btn--primary" id="btn-import" type="button">Import catalog now</button>
+            <span class="scard__status" id="import-status"></span>
+          </div>
+        </div>
+
+        <!-- ── Featured Product ──────────────────────────────────── -->
+        <div class="scard">
+          <h2 class="scard__h">Featured Product</h2>
+          <p class="scard__desc">The product shown in the homepage spotlight. Enter its numeric ID (from the product list).</p>
+          <label class="field-row">
+            <span class="field-row__label">Product ID</span>
+            <input class="inp" id="featured-id" type="text" placeholder="296624096" maxlength="40" />
+          </label>
+          <div id="featured-preview" class="scard__preview" hidden>
+            <img id="featured-img" src="" alt="" />
+            <span id="featured-name"></span>
+          </div>
+          <div class="scard__foot">
+            <button class="btn btn--primary" id="btn-save-featured" type="button">Save featured product</button>
+            <span class="scard__status" id="featured-status"></span>
+          </div>
+        </div>
+
+        <!-- ── FX Rate ──────────────────────────────────── -->
+        <div class="scard">
+          <h2 class="scard__h">EUR / RUB Rate</h2>
+          <p class="scard__desc">Indicative exchange rate used to convert Russian ruble prices to EUR on the storefront. Example: <code>0.011</code> means ₽1 = €0.011.</p>
+          <label class="field-row">
+            <span class="field-row__label">Rate (RUB → EUR)</span>
+            <input class="inp" id="fx-rate" type="number" step="0.0001" min="0.0001" max="1" placeholder="0.011" />
+          </label>
+          <div class="scard__foot">
+            <button class="btn btn--primary" id="btn-save-fx" type="button">Save rate</button>
+            <span class="scard__status" id="fx-status"></span>
+          </div>
+        </div>
+
+        <!-- ── Site Notice ──────────────────────────────────── -->
+        <div class="scard">
+          <h2 class="scard__h">Site Notice Banner</h2>
+          <p class="scard__desc">A thin banner shown across the top of every storefront page. Useful for shipping announcements, holiday closures, or promotions.</p>
+          <label class="field-row field-row--toggle">
+            <span class="field-row__label">Enabled</span>
+            <input id="notice-enabled" type="checkbox" />
+          </label>
+          <label class="field-row">
+            <span class="field-row__label">Message</span>
+            <textarea class="inp inp--ta" id="notice-text" rows="3" placeholder="We are currently dispatching orders within 5–7 business days."></textarea>
+          </label>
+          <div class="scard__foot">
+            <button class="btn btn--primary" id="btn-save-notice" type="button">Save notice</button>
+            <span class="scard__status" id="notice-status"></span>
+          </div>
+        </div>
+
+      </div><!-- /.settings-grid -->
+    </section>
+
+  </main>
+
+  <!-- TOASTS -->
+  <div class="toasts" id="toasts" aria-live="polite" aria-atomic="false"></div>
+
+  <!-- CONFIRM MODAL (reused) -->
+  <div class="modal" id="confirm-modal" hidden>
+    <div class="modal__scrim" id="confirm-scrim"></div>
+    <div class="modal__panel" role="alertdialog" aria-modal="true" aria-labelledby="confirm-title" style="max-width:420px">
+      <div class="modal__head">
+        <div>
+          <div class="modal__sub" id="confirm-sub">Confirm action</div>
+          <h2 class="modal__title" id="confirm-title">Are you sure?</h2>
+        </div>
+      </div>
+      <div class="modal__body" style="gap:.8rem">
+        <p id="confirm-msg" style="font-size:13.5px;color:var(--ink-soft);line-height:1.6"></p>
+      </div>
+      <div class="modal__foot">
+        <button class="btn btn--ghost" id="confirm-cancel" type="button">Cancel</button>
+        <button class="btn btn--danger" id="confirm-ok" type="button" style="margin-left:auto">Delete</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ORDER DETAIL MODAL -->
+  <div class="modal" id="order-modal" hidden>
+    <div class="modal__scrim" id="order-modal-scrim"></div>
+    <div class="modal__panel" role="dialog" aria-modal="true" aria-label="Order detail" style="max-width:640px">
+      <div class="modal__head">
+        <div>
+          <div class="modal__sub">Order detail</div>
+          <h2 class="modal__title" id="order-modal-title">Order</h2>
+        </div>
+        <span style="flex:1"></span>
+        <button class="modal__close" id="order-modal-close" type="button" aria-label="Close">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <div class="modal__body" id="order-modal-body" style="gap:1.2rem"></div>
+    </div>
+  </div>
+
+  <script type="module" src="assets/admin.js"></script>
+</body>
+</html>

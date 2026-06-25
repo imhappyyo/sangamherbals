@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "lang": "sk",
+    "native": "Slovenčina",
+    "dir": "ltr"
+  },
+  "nav": {
+    "home": "Domov",
+    "shop": "Obchod",
+    "catalog": "Katalóg",
+    "about": "O nás",
+    "heritage": "O nás",
+    "contact": "Kontakt",
+    "search": "Vyhľadať produkty",
+    "learn": "Spoznať"
+  },
+  "gate": {
+    "title": "Vitajte v Sangam Herbals",
+    "subtitle": "Autentická ajurvéda, vyrobená v Indii — vyberte si svoju krajinu a jazyk",
+    "choose_region": "Vyberte svoju krajinu",
+    "choose_language": "Vyberte si jazyk",
+    "continue": "Vstúpiť do obchodu",
+    "filter": "Hľadať krajiny",
+    "country_hint": "Vyberte si krajinu a jazyk. Vaša krajina určuje doručenie, menu a dane; váš jazyk určuje, ako sa obchod zobrazuje.",
+    "no_country": "Tomuto hľadaniu nezodpovedá žiadna krajina.",
+    "country_one": "krajina",
+    "country_many": "krajín",
+    "close": "Zavrieť",
+    "region_na": "Severná Amerika",
+    "region_eu": "Európa",
+    "region_me": "Blízky východ",
+    "region_ap": "Ázia / Pacifik",
+    "select_prompt": "Vyberte krajinu a zobrazte si dopravu, menu a jazyk",
+    "preview_head": "Nakupujete z krajiny {country}",
+    "row_ship": "Doprava",
+    "row_currency": "Mena",
+    "row_vat": "Dane a clá",
+    "row_lang": "Jazyk stránky",
+    "ship_line": "Sledované doručenie do krajiny {country}, zvyčajne 3–10 pracovných dní. Zadarmo pri nákupe nad {free}.",
+    "currency_eur": "Ceny sú uvedené v eurách (EUR).",
+    "currency_local": "Ceny sú orientačné v eurách (EUR). Krajina {country} používa menu {cur} — vaša banka prepočíta sumu pri platbe.",
+    "vat_line": "Prípadné clá alebo dane pre krajinu {country} sa zobrazia pri platbe ešte pred jej uhradením.",
+    "lang_default": "obvyklá voľba pre krajinu {country}",
+    "lang_change": "zmeniť",
+    "trust_ship": "Doručujeme medzinárodne",
+    "trust_langs": "35 jazykov",
+    "trust_eur": "Orientačné ceny v EUR",
+    "trust_secure": "Bezpečná platba",
+    "trust_return": "14-dňové vrátenie",
+    "change_later": "Nesprávna krajina alebo jazyk? Kedykoľvek to zmeníte cez „Región“ v menu."
+  },
+  "hero": {
+    "eyebrow": "Rodinný ajurvédsky dom · Vyrobené v Indii podľa klasických textov",
+    "title": "Tradícia, pripravená verne — a zaručená menom.",
+    "subtitle": "Autentické ajurvédske prípravky, oleje, kozmetika a potraviny vyrobené v Indii pod vedením Dr. Praveena Rathiho a doručované do celého sveta. Pravé bylinky, otvorené zloženie, jasné označovanie — dôvera, ktorú si môžete overiť ešte pred nákupom.",
+    "cta_shop": "Prehliadnuť katalóg",
+    "cta_story": "Spoznajte náš dom",
+    "stat_products": "Autentických produktov",
+    "stat_categories": "Kategórií",
+    "stat_countries": "Obsluhované krajiny",
+    "credential": "Dr. Praveen Rathi · Riaditeľ — formulované a dohliadané priamo pri zdroji, v Indii"
+  },
+  "sections": {
+    "ayurveda": "Ájurvéda",
+    "cosmetics": "Kozmetika",
+    "food": "Potraviny a výživa",
+    "oils": "Oleje",
+    "aromatherapy": "Aromaterapia"
+  },
+  "shop": {
+    "title": "Všetky produkty",
+    "subtitle": "Každý produkt Sangam Herbals je teraz dostupný na celom svete.",
+    "all": "Všetky produkty",
+    "filter": "Filtrovať",
+    "sort": "Zoradiť",
+    "sort_featured": "Odporúčané",
+    "sort_price_low": "Cena: od najnižšej",
+    "sort_price_high": "Cena: od najvyššej",
+    "sort_az": "Názov A–Z",
+    "results": "produktov",
+    "empty": "Žiadne produkty nezodpovedajú vašim filtrám.",
+    "clear": "Zrušiť filtre",
+    "add": "Pridať do košíka",
+    "view": "Zobraziť detail",
+    "from": "od",
+    "in_stock": "Skladom",
+    "sku": "Kód produktu",
+    "showing": "Zobrazené",
+    "loadmore": "Načítať viac",
+    "added": "Added"
+  },
+  "product": {
+    "description": "Popis",
+    "details": "Podrobnosti",
+    "category": "Kategória",
+    "related": "Mohlo by vás zaujímať",
+    "back": "Späť do obchodu",
+    "origin": "Vyrobené v Indii",
+    "ships": "Doručujeme celosvetovo",
+    "unavailable": "Unavailable"
+  },
+  "heritage": {
+    "title": "Päťtisíc rokov v jednej kvapke",
+    "body": "Sangam znamená sútok — stretnutie posvätných riek. Sangam Herbals je stretnutím dávnej ajurvédskej múdrosti a starostlivej, modernej výroby. Naše receptúry, vytvorené pod vedením Dr. Praveena Rathiho, sa pripravujú z autentických byliniek, za studena lisovaných olejov a časom overených receptov, ktoré sa dnes pripravujú a jasne označujú pre domácnosti po celom svete.",
+    "pillar1_t": "Autentické receptúry",
+    "pillar1_b": "Klasické čurny, tablety a oleje pripravované podľa tradičných ájurvédskych textov.",
+    "pillar2_t": "Čisté a poctivé",
+    "pillar2_b": "Skutočné zložky, poctivá kvalita, žiadne zbytočné prísady.",
+    "pillar3_t": "Z Indie do sveta",
+    "pillar3_b": "Získané v mieste pôvodu a doručované do celého sveta."
+  },
+  "footer": {
+    "tagline": "Autentická Ajurvéda, celosvetovo",
+    "shop": "Obchod",
+    "company": "Spoločnosť",
+    "support": "Podpora",
+    "newsletter": "Newsletter",
+    "newsletter_sub": "Ajurvédske rituály, novinky a ponuky.",
+    "email_ph": "Váš e-mail",
+    "subscribe": "Odoberať",
+    "rights": "Všetky práva vyhradené.",
+    "shipping": "Celosvetové doručovanie",
+    "returns": "Vrátenie tovaru",
+    "privacy": "Ochrana súkromia",
+    "terms": "Podmienky",
+    "made": "Vyrobené v Indii · Doručované do celého sveta",
+    "director": "Pod vedením Dr. Praveena Rathiho — formulované a dohliadané priamo pri zdroji, v Indii."
+  },
+  "cart": {
+    "title": "Váš košík",
+    "empty": "Váš košík je prázdny.",
+    "total": "Celková suma",
+    "checkout": "Pokračovať k platbe",
+    "remove": "Odstrániť",
+    "continue": "Pokračovať v nákupe",
+    "add_more": "Pridať",
+    "free_ship": "pre dopravu zdarma",
+    "free_unlocked": "✓ Doprava zdarma odomknutá",
+    "free_ship_progress": "Pridajte {amount} pre dopravu zdarma"
+  },
+  "common": {
+    "currency_note": "Ceny sú orientačné a zobrazujú sa v mene vašej krajiny.",
+    "loading": "Načítava sa…",
+    "change_region": "Región"
+  },
+  "categories": {
+    "ayurveda": "Ájurvéda",
+    "single-herb-churnas": "Jednobylinkové čurny",
+    "compound-churnas": "Zložené čurny",
+    "chyawanprash": "Čyavanpraš",
+    "churna-tablets": "Čurnové tablety",
+    "classic-tablets": "Klasické tablety",
+    "cosmetics": "Kozmetika",
+    "hair-care": "Starostlivosť o vlasy",
+    "toothpastes": "Zubné pasty",
+    "face-care": "Starostlivosť o tvár",
+    "body-care": "Starostlivosť o telo",
+    "facial-toners": "Pleťové tonery",
+    "henna-hair-colour": "Farba na vlasy s hennou",
+    "food-nutrition": "Potraviny a výživa",
+    "indian-sweets": "Indické sladkosti",
+    "spices-seasonings": "Korenie a dochucovadlá",
+    "herbal-teas": "Bylinné čaje",
+    "natural-juices": "Prírodné šťavy",
+    "dried-fruits": "Sušené ovocie",
+    "biscuits": "Sušienky",
+    "cane-sugar": "Trstinový cukor",
+    "indian-tea": "Indický čaj",
+    "oils": "Oleje",
+    "natural-oils": "Prírodné oleje",
+    "ayurvedic-oils": "Ájurvédske oleje",
+    "aromatherapy": "Aromaterapia",
+    "incense": "Vonné tyčinky",
+    "perfume-oils": "Parfumové oleje",
+    "hydrolats": "Hydroláty",
+    "lozenges": "Pastilky"
+  },
+  "argument": {
+    "line": "Päťtisíc rokov praxe, držané na náročných moderných štandardoch.",
+    "kicker": "Náš princíp"
+  },
+  "streams": {
+    "title": "Nakupujte podľa kategórie",
+    "stream": "Prúd"
+  },
+  "remedy": {
+    "kicker": "Odporúčaný produkt"
+  },
+  "dispatch": {
+    "title": "Prihláste sa na odber noviniek"
+  },
+  "proof": {
+    "certified": "Poctivé, otvorené označenie",
+    "ships": "Doručujeme medzinárodne",
+    "eur": "Orientačné ceny",
+    "origin": "Vyrobené v Indii",
+    "langs": "35 jazykov"
+  },
+  "edu": {
+    "explore": "Objavovať",
+    "shop": "Obchod",
+    "care_label": "Udržiavané v rovnováhe",
+    "learn_kicker": "Ájurvéda, vysvetlená",
+    "learn_title": "Čo je ájurvéda?",
+    "learn_p1": "Ájurvéda je tradičný systém prirodzeného wellbeingu, ktorý vznikol v Indii približne pred 5 000 rokmi. Jej názov pochádza z dvoch sanskritských slov: ayur, čo znamená život, a veda, čo znamená poznanie. V jej jadre stojí jedna jednoduchá myšlienka: wellbeing vychádza z udržiavania tela a mysle v rovnováhe.",
+    "learn_p2": "Namiesto rýchlych riešení sa ájurvéda pozerá na celého človeka a rytmus každodenného života. Vychádza z rastlín, bylín a tradičných receptúr spolu s jednoduchými dennými rutinami pre stravu, spánok a starostlivosť o seba. Predstavte si ju ako rokmi overený prístup k starostlivosti o seba samého, jemný a konzistentný.",
+    "learn_pr1_l": "Rovnováha",
+    "learn_pr1_t": "Ájurvéda vníma wellbeing ako stav rovnováhy a snaží sa udržiavať telo a myseľ stabilné počas ročných období aj nárokov každodenného života.",
+    "learn_pr2_l": "Celý človek",
+    "learn_pr2_t": "Posudzuje človeka ako celok, berie do úvahy stravu, spánok, aktivitu a náladu, namiesto toho, aby sa pozerala na jednu časť izolovane.",
+    "learn_pr3_l": "Prírodné zložky",
+    "learn_pr3_t": "Jej prípravky sú postavené na rastlinách, bylinách, olejoch a ďalších prírodných zložkách, vyrobené tradičnými metódami odovzdávanými po generácie.",
+    "learn_pr4_l": "Denný rituál",
+    "learn_pr4_t": "Veľká časť ájurvédy spočíva v malých, opakovaných každodenných zvykoch — jednoduchých úkonoch starostlivosti, ktoré časom podporujú pocit vitality a každodenného wellbeingu.",
+    "dosha_kicker": "Základy ájurvédy",
+    "dosha_title": "Tri doše",
+    "dosha_intro": "V ájurvéde sú tri energie známe ako doše — Vata, Pitta a Kapha — prítomné v každom človeku v jedinečnej kombinácii a cieľom je jednoducho udržiavať vašu vlastnú zmes v rovnováhe.",
+    "vata_el": "Vzduch & priestor",
+    "vata_essence": "Energia pohybu",
+    "vata_traits": "Typy Vata bývajú ľahké, rýchle a kreatívne — živé na duchu aj na tele, keď sú v rovnováhe.",
+    "vata_care": "V ájurvéde sa Vata tradične udržiava v stabilite teplom, rutinou a uzemňujúcou, výživnou stravou a olejmi.",
+    "pitta_el": "Oheň & voda",
+    "pitta_essence": "Energia premeny",
+    "pitta_traits": "Typy Pitta bývajú sústredené, cieľavedomé a vrúcne, s ostrou energiou a silným pocitom zmyslu.",
+    "pitta_care": "V ájurvéde sa Pitta tradične udržiava v rovnováhe ochladzujúcou stravou, pokojnými rutinami a časom stráveným v prírode.",
+    "kapha_el": "Zem & voda",
+    "kapha_essence": "Energia štruktúry",
+    "kapha_traits": "Typy Kapha bývajú pokojné, stabilné a uzemnené, s vyrovnanou, pohodovou povahou.",
+    "kapha_care": "V ájurvéde sa Kapha tradične udržiava v živosti pohybom, hrejivými koreninami a povzbudzujúcimi dennými rituálmi.",
+    "about_kicker": "O Sangam Herbals",
+    "about_title": "Strážca autentickej ájurvédy, vyrobenej pri zdroji",
+    "about_p1": "Sangam Herbals je rodinný ájurvédsky dom v Indii, založený pod vedením Dr. Praveen Rathi. Každá receptúra je pripravovaná podľa klasických ájurvédskych textov, s použitím skutočných bylín a za studena lisovaných olejov namiesto skratiek či syntetických plnív. Recepty sú staré; štandardy, podľa ktorých ich dodržiavame, nie sú.",
+    "about_p2": "Všetko sa vyrába v Indii, v mieste pôvodu rastlín aj samotnej tradície. Odtiaľ sú naše produkty otvorene označené a doručované do celého sveta. Veríme, že najlepší spôsob, ako si získať vašu dôveru, je byť úprimní v tom, čo vyrábame a ako to vyrábame — a nechať produkty hovoriť samy za seba.",
+    "about_pr1_l": "Autentické receptúry",
+    "about_pr1_t": "Recepty sú pripravované podľa klasických ájurvédskych textov, tak ako sa vyrábajú po generácie.",
+    "about_pr2_l": "Skutočné zložky",
+    "about_pr2_t": "Pracujeme s pravými bylinami a za studena lisovanými olejmi, bez pridaných syntetických plnív pre pohodlie.",
+    "about_pr3_l": "Vyrobené v Indii, pri zdroji",
+    "about_pr3_t": "Každý produkt je vyrobený v Indii, kde rastú rastliny a kde tradícia vznikla.",
+    "about_pr4_l": "Čestné označovanie a celosvetové doručovanie",
+    "about_pr4_t": "Náš sortiment je jasne označený, so zložením a spôsobom použitia uvedenými otvorene, a doručujeme ho do celého sveta.",
+    "concern_kicker": "Nájdite svoj východiskový bod",
+    "concern_title": "Nakupovať podľa potreby",
+    "concern_intro": "Neviete, kde začať? Vyberte si oblasť každodenného života, na ktorej vám záleží, a my vám odporučíme produkty a tradície, ktoré sa k nej hodia.",
+    "c_digestion_l": "Trávenie & črevá",
+    "c_digestion_d": "Pohodlné trávenie a každodenná črevná rovnováha — klasické čurny, vetropudné koreniny a jemné zmesi ako Triphala a Avipattikar.",
+    "c_immunity_l": "Imunita & vitalita",
+    "c_immunity_d": "Rokmi overené toniká — Chyawanprash, Amla, Tulsi a Giloy — v ájurvéde tradične cenené pre každodennú odolnosť.",
+    "c_energy_l": "Sila & energia",
+    "c_energy_d": "Omladzujúce rasájanové byliny a toniká — Shilajit, Shatavari, Bala a klasické posilňujúce receptúry — pre každodennú výdrž.",
+    "c_respiratory_l": "Dýchanie & sezónna pohoda",
+    "c_respiratory_d": "Pohoda pre hrdlo, hrudník a v každom ročnom období, od Sitopaladi a Mulethi až po upokojujúce bylinné pastilky.",
+    "c_stress_l": "Stres, spánok & myseľ",
+    "c_stress_d": "Upokojujúce, uzemňujúce zmesi pre sústredenie a pokojné večery — Brahmi, Shankhpushpi, Jatamansi a valeriána.",
+    "c_joints_l": "Kĺby & svaly",
+    "c_joints_d": "Podpora pre aktívne telá a ľahký pohyb — receptúry Guggul a hrejivé masážne oleje ako Mahanarayan.",
+    "c_womens_l": "Ženský wellbeing",
+    "c_womens_d": "Jemná, tradičná podpora pre každodennú rovnováhu žien — Shatavari, Ashoka a klasické ženské toniká.",
+    "c_skin_l": "Pleť & tvár",
+    "c_skin_d": "Rastlinná starostlivosť o tvár a telo plus očisťujúce byliny — čistiace prípravky, tonery, hydroláty, Neem, Turmeric a Manjistha.",
+    "c_hair_l": "Vlasy & pokožka hlavy",
+    "c_hair_d": "Vyživujúca starostlivosť o vlasy a pokožku hlavy — oleje Bhringraj a Amla, bylinné šampóny a prírodná farba Henna.",
+    "c_oral_l": "Ústna starostlivosť",
+    "c_oral_d": "Prírodná každodenná starostlivosť o zuby, ďasná a svieži dych — bylinné zubné pasty a časom overené zložky ako Neem.",
+    "c_food_l": "Potraviny, čaje & koreniny",
+    "c_food_d": "Kuchynská stránka ájurvédy — autentické koreniny a masaly, bylinné a indické čaje, šťavy, sladkosti a ďalšie.",
+    "c_fragrance_l": "Vône & rituál",
+    "c_fragrance_d": "Vonné tyčinky a dlhotrvajúce indické attary, ktoré prevoňajú váš priestor a každodenný rituál.",
+    "herb_kicker": "Vzdelávanie o zložkách",
+    "herb_title": "Kľúčové ájurvédske byliny",
+    "herb_intro": "Sprievodca jednoduchým jazykom po ôsmich bylinách, s ktorými sa v našom katalógu stretnete najčastejšie, a po úlohe, akú každá z nich odjakživa zastáva v ájurvédskej tradícii.",
+    "herb_triphala_what": "Klasická zmes troch sušených plodov, zomletých dohromady do jediného prášku.",
+    "herb_triphala_trad": "V ájurvéde sa tradične používa na podporu každodenného trávenia a jemnej vnútornej rovnováhy.",
+    "herb_triphala_found": "Čurny & tablety",
+    "herb_tulsi_what": "Aromatický list z rastliny posvätnej bazalky, používaný ako prášok, v čajoch a v starostlivosti o pleť a vlasy.",
+    "herb_tulsi_trad": "V ájurvédskej tradícii dlho cenený na podporu každodenného wellbeingu a pocitu vitality.",
+    "herb_tulsi_found": "Čurny, čaje & starostlivosť o pleť",
+    "herb_neem_what": "Horký list zo stromu Neem, používaný ako prášok a v očisťujúcich receptúrach na pleť a vlasy.",
+    "herb_neem_trad": "V ájurvéde tradične spájaný s každodennou starostlivosťou o pleť a čistou, vyrovnanou pleťou.",
+    "herb_neem_found": "Čurny, starostlivosť o tvár & vlasy",
+    "herb_amla_what": "Malý, kyslý zelený plod, používaný ako prášok, šťava a vo výrobkoch na starostlivosť o vlasy.",
+    "herb_amla_trad": "V ájurvéde tradične cenený na podporu každodennej vitality a starostlivosti o vlasy a pokožku hlavy.",
+    "herb_amla_found": "Čurny, šťavy & starostlivosť o vlasy",
+    "herb_brahmi_what": "Malá plazivá bylina, užívaná ako prášok alebo vo forme tabliet.",
+    "herb_brahmi_trad": "V ájurvéde tradične spájaná s pokojným sústredením a každodenným duševným wellbeingom.",
+    "herb_brahmi_found": "Čurny & tablety",
+    "herb_chyawanprash_what": "Tradičný tmavý bylinný džem postavený na Amla a zmesi mnohých bylín a korenín.",
+    "herb_chyawanprash_trad": "V ájurvédskej tradícii dlho užívaný ako denné tonikum na podporu každodennej vitality a wellbeingu.",
+    "herb_chyawanprash_found": "Ájurvéda",
+    "herb_turmeric_what": "Zlatožltý koreň, zomletý na hrejivý koreninový prášok a používaný v kuchyni, v šťavách a v starostlivosti o pleť.",
+    "herb_turmeric_trad": "V ájurvéde tradične cenený na podporu každodennej rovnováhy a starostlivosti o pleť.",
+    "herb_turmeric_found": "Koreniny, čurny & starostlivosť o pleť",
+    "herb_henna_what": "List zomletý na jemný zelený prášok, ktorý uvoľňuje prirodzenú červenkastú farbu.",
+    "herb_henna_trad": "V ájurvédskej a indickej tradícii dlho používaná ako prírodná farba a kondicionujúca starostlivosť o vlasy.",
+    "herb_henna_found": "Henna & starostlivosť o vlasy",
+    "start_kicker": "Nováčik v ájurvéde",
+    "start_title": "Začať jednoducho",
+    "step1_l": "Naučte sa základy",
+    "step1_t": "Venujte pár minút pochopeniu toho, čo je ájurvéda — tradičný indický systém každodenného wellbeingu, rovnováhy a starostlivosti o seba.",
+    "step2_l": "Nájdite svoju potrebu alebo typ",
+    "step2_t": "Prechádzajte podľa toho, na čom vám záleží — pleť, vlasy, trávenie, denná rutina — a zistite, ktoré tradície a zložky sa k vám hodia.",
+    "step3_l": "Začnite jednoducho",
+    "step3_t": "Vyberte si jeden produkt, ktorý vyhovuje vašej rutine, vyskúšajte ho pravidelne a ďalšie pridávajte až vtedy, keď to bude správne.",
+    "faq1_q": "Je ájurvéda bezpečná a ako produkty používať?",
+    "faq1_a": "Naše produkty sú vyrobené z tradičných rastlinných zložiek a obsahujú jasné pokyny na každodenné použitie. Ako rozumné opatrenie sa pred začatím čohokoľvek nového poraďte so svojím lekárom, ak ste tehotná, dojčíte, užívate lieky alebo ste v lekárskej starostlivosti.",
+    "faq2_q": "Ako si vybrať, ak som v tom úplný nováčik?",
+    "faq2_a": "Začnite jedným produktom, ktorý zodpovedá jednej každodennej potrebe — napríklad pleť, vlasy alebo denná starostlivosť — namiesto toho, aby ste si kúpili niekoľko naraz. Každý produkt jednoduchým jazykom vysvetľuje, čo to je, ako sa tradične používal a ako ho aplikovať.",
+    "faq3_q": "Sú produkty autentické a riadne označené?",
+    "faq3_a": "Každý produkt je vyrobený v Indii pod vedením Dr. Praveen Rathi, podľa tradičnej ájurvédskej prípravy a platných noriem kvality a označovania. Zložky a použitie sú otvorene uvedené na každom produkte, takže vždy viete, čo dostávate.",
+    "faq4_q": "Doručujete do mojej krajiny?",
+    "faq4_a": "Áno — doručujeme medzinárodne. Doby doručenia a prípadné poplatky či clá sú jasne zobrazené pri pokladni ešte pred potvrdením vašej objednávky."
+  },
+  "pdp": {
+    "back": "Späť do obchodu",
+    "good_for": "Vhodné pre",
+    "what": "Čo to je",
+    "benefits": "Tradične používané na podporu",
+    "ingredients": "Kľúčové zložky",
+    "how": "Ako používať",
+    "suited": "Vhodné pre",
+    "details": "Detaily",
+    "format": "Forma",
+    "origin": "Pôvod",
+    "india": "India",
+    "caution": "Tradičné ájurvédske informácie na vzdelávacie účely, nie lekárska rada. Ak ste tehotná, dojčíte, užívate lieky alebo ste v lekárskej starostlivosti, pred použitím sa prosím poraďte so svojím lekárom.",
+    "precautions": "Upozornenia",
+    "related": "Mohlo by sa vám páčiť",
+    "transparency": "Každá zložka, otvorene uvedená",
+    "routine": "Ako zapadne do vašej rutiny",
+    "good_to_know": "Dobré vedieť",
+    "take_care": "Dbajte na opatrnosť, ak",
+    "why_kicker": "Prečo nakupovať u nás",
+    "why_title": "Tradícia, nesená verne — a vyrobená pri zdroji",
+    "why_sub": "Každá receptúra je pripravená podľa klasických ajurvédskych textov, z pravých byliniek a za studena lisovaných olejov, vyrobená v Indii, kde bylinky rastú, a pod vedením Dr. Praveena Rathiho. Vašu dôveru si získavame čestne: otvorené zloženie, jasné označovanie a rodinný dom, ktorý ručí za každú šaržu.",
+    "assure_title": "Nákup s istotou",
+    "ship_label": "Celosvetové doručovanie",
+    "ship_text": "Sledovaná zásielka, dostupná celosvetovo.",
+    "returns_label": "Čestné označovanie",
+    "returns_text": "Zloženie a tradičné použitie sú otvorene uvedené pri každom produkte.",
+    "secure_label": "Vyrobené pri zdroji",
+    "secure_text": "Vyrobené v Indii podľa klasických ajurvédskych textov a následne jasne označené.",
+    "help_label": "Sme tu pre vás",
+    "help_text": "Otázky pred nákupom? Napíšte nám na WhatsApp, Telegram alebo e-mail.",
+    "faq_title": "Často kladené otázky",
+    "new_to": "Ájurvéda je pre vás nová?",
+    "new_to_cta": "Začnite so základmi",
+    "qty_label": "Množstvo",
+    "delivery_eu": "Sledované celosvetové doručovanie",
+    "freeship_over": "Doprava zdarma nad {amount}",
+    "freeship_away": "K doprave zdarma vám chýba {amount}",
+    "freeship_unlocked": "✓ Doprava zdarma odomknutá",
+    "cta_guarantee": "Bezpečná pokladňa · 14-dňové vrátenie · ak zásielka dorazí poškodená alebo nezodpovedá popisu, napravíme to",
+    "authority_quote": "Vyvinuté a dozorované Dr. Praveen Rathi — „Ručím za každú šaržu, ktorú vyrobíme.“",
+    "pairs_title": "Doplní vašu rutinu",
+    "pairs_sub": "Vybrané s rovnakým dôrazom na pohodu — pridajte doplnok a priblížte sa k doprave zdarma.",
+    "add_one": "Pridať",
+    "compare_title": "Prečo si vybrať Sangam",
+    "compare_sub": "Na čo si dať pozor pri autentickej ajurvédskej rade — a ako v tom obstojíme my.",
+    "compare_us": "Sangam Herbals",
+    "compare_them": "Bežný masový bylinný produkt",
+    "compare_rows": [
+      {
+        "label": "Vyvinuté podľa klasických ajurvédskych textov",
+        "us": "Áno — podľa tradičných receptúr",
+        "them": "Často vlastné zmesi"
+      },
+      {
+        "label": "Každá zložka otvorene uvedená",
+        "us": "Áno — v plnom rozsahu",
+        "them": "Často neuvedené"
+      },
+      {
+        "label": "Skutočné byliny a za studena lisované oleje",
+        "us": "Áno — bez zbytočných plnív",
+        "them": "Líši sa"
+      },
+      {
+        "label": "Vyrobené priamo pri zdroji v Indii",
+        "us": "Áno — tam, kde byliny rastú",
+        "them": "Často neuvedené"
+      },
+      {
+        "label": "Pod dohľadom konkrétneho riaditeľa",
+        "us": "Dr. Praveen Rathi",
+        "them": "Anonymné"
+      }
+    ],
+    "faq5_q": "Ako skoro niečo spozorujem?",
+    "faq5_a": "Ajurvédske byliny sa tradične užívajú ako súčasť ustáleného každodenného režimu, nie ako rýchle riešenie, a mnohí ľudia si z nich urobia tichú súčasť svojho dňa počas niekoľkých týždňov. Výsledky sa líšia od človeka k človeku.",
+    "faq6_q": "Pre koho je to najvhodnejšie — a kto by mal byť opatrný?",
+    "faq6_a": "Tradične sa v ajurvéde používa na podporu každodennej pohody. Ak ste tehotná, dojčíte, užívate lieky alebo ste v lekárskej starostlivosti, pred použitím sa prosím poraďte so svojím lekárom."
+  },
+  "trust": {
+    "bar": [
+      "Pripravené podľa klasických ájurvédskych textov",
+      "Vyrobené v Indii, pri zdroji bylín",
+      "Skutočné byliny & za studena lisované oleje",
+      "Doručujeme celosvetovo",
+      "Bezpečná pokladňa · 14-dňové vrátenie"
+    ],
+    "std_kicker": "Naše štandardy",
+    "std_title": "Vyrobené poctivo, kontrolované dôsledne",
+    "std_intro": "Radšej vám ukážeme, ako sa produkt vyrába, než aby sme vám tvrdili, že je dobrý — otvorené zoznamy zložiek, jasné označovanie a zdroj, z ktorého pochádza. Každá receptúra je pripravená podľa klasických ajurvédskych textov, z pravých byliniek a za studena lisovaných olejov, bez čohokoľvek pridaného pre pohodlie. Recepty sú stáročia staré; disciplína, s ktorou ich dodržiavame, je presná.",
+    "std_items": [
+      {
+        "label": "Skutočné byliny, za studena lisované oleje",
+        "text": "Pravé rastliny a oleje lisované bez tepla, aby si zachovali svoj charakter — samotná rastlina, spracovaná tradičným spôsobom, nikdy zredukovaná na anonymný extrakt."
+      },
+      {
+        "label": "Žiadne syntetické plnidlá",
+        "text": "Naše čúrny, tablety a oleje neriedime syntetickými plnidlami, farbivami ani zbytočnými prísadami. Receptúra obsahuje to, čo predpisuje recept — nič viac."
+      },
+      {
+        "label": "Pripravené klasickými metódami",
+        "text": "Každá receptúra sa riadi klasickými ájurvédskymi textami — rovnaké pomery a postupy odovzdávané po generácie, pripravené tak, ako predpisuje tradícia, šarža za šaržou."
+      },
+      {
+        "label": "Otvorene uvedené zloženie",
+        "text": "Každý produkt nesie úplný zoznam zložiek, formu a množstvo — nič skryté za neurčitou „patentovanou zmesou“. Presne si prečítate, čo je vo vnútri, ešte pred nákupom aj znova na obale."
+      },
+      {
+        "label": "Jasne označené",
+        "text": "Náš sortiment je jasne označený, s informáciami o zložení, použití a skladovaní uvedenými otvorene a na vysokej úrovni, a doručujeme ho do celého sveta."
+      },
+      {
+        "label": "Konzistentné, šarža za šaržou",
+        "text": "Keďže sú vstupy skutočné a metóda pevne daná, produkt, ktorý si objednáte znova, je ten istý produkt, ktorému ste dôverovali prvýkrát. Kvalita zostáva stála — nielen v dobrý deň."
+      },
+      {
+        "label": "Vyrobené v Indii, pri zdroji",
+        "text": "Vyrobené tam, kde rastliny rastú a kde prax vznikla, pod vedením Dr. Praveena Rathiho — kratšia vzdialenosť medzi bylinou a receptúrou a rodinný dom zodpovedný za každú šaržu."
+      },
+      {
+        "label": "Otvorene o tom, čo netvrdíme",
+        "text": "Naše produkty popisujeme tradičným, vzdelávacím jazykom a neuvádzame žiadne medicínske tvrdenia. To, čo sľubujeme, je konkrétne: autentické receptúry, skutočné zložky, otvorené označovanie, pohotová podpora."
+      }
+    ],
+    "g_kicker": "Objednávajte s istotou",
+    "g_title": "Váš nákup je chránený",
+    "g_promise": "Ak vaša objednávka dorazí poškodená, neúplná alebo nezodpovedá popisu, dáme to do poriadku — výmena alebo vrátenie peňazí, bez diskusií.",
+    "g_items": [
+      {
+        "label": "14-dňové právo na vrátenie",
+        "text": "Na vrátenie neotvorených produktov a získanie peňazí späť máte 14 dní od doručenia. Túto možnosť plne rešpektujeme a v každej objednávke nájdete jasné pokyny."
+      },
+      {
+        "label": "Bezpečná, šifrovaná platba",
+        "text": "Každá platba prebieha cez šifrované spojenie prostredníctvom zavedených poskytovateľov. Nikdy nevidíme ani neukladáme úplné údaje o vašej karte — vaše údaje zostávajú súkromné."
+      },
+      {
+        "label": "Sledované celosvetové doručovanie",
+        "text": "Objednávky odosielame do celého sveta so sledovaním od odoslania až k vašim dverám. Odkaz na sledovanie dostanete v okamihu, keď zásielka opustí naše priestory."
+      },
+      {
+        "label": "Poctivé, úplné označovanie",
+        "text": "Každá zložka je otvorene uvedená na obale aj na stránke produktu — žiadne syntetické plnidlá, žiadne skryté prídavky, nič nevyslovené."
+      },
+      {
+        "label": "Pohotová ľudská podpora",
+        "text": "Máte otázku pred nákupom alebo po ňom? Napíšte nám a odpovie skutočný človek, jasne a rýchlo — o výbere, používaní a skladovaní vašich produktov."
+      },
+      {
+        "label": "Kvalita, ktorú možno vystopovať",
+        "text": "Vyrobené v Indii pri zdroji, zo skutočných rastlín a za studena lisovaných olejov, pripravené pod vedením Dr. Praveena Rathiho. Autenticita je štandard, nie výnimka."
+      }
+    ],
+    "badges": [
+      {
+        "label": "Klasické texty",
+        "text": "Každá receptúra sa riadi klasickou ájurvédskou metódou — byliny, pomery a príprava, ktoré predpisujú pôvodné texty."
+      },
+      {
+        "label": "Vyrobené pri zdroji",
+        "text": "Vyrobené v Indii, kde byliny rastú — skutočné prípravky, nikdy nezostavené z dovezeného prášku inde."
+      },
+      {
+        "label": "Skutočné zložky",
+        "text": "Pravé rastliny a za studena lisované oleje. Žiadne syntetické plnidlá, žiadne anonymné extrakty, žiadne skratky."
+      },
+      {
+        "label": "Otvorené zloženie",
+        "text": "Úplné zloženie, forma a množstvo na každom produkte aj obale — nič za „patentovanou zmesou“."
+      },
+      {
+        "label": "Jasne označené",
+        "text": "Pripravené a jasne označené na vysokej úrovni, doručované do celého sveta."
+      },
+      {
+        "label": "Dr. Praveen Rathi",
+        "text": "Rodinný ájurvédsky dom, formulovaný a dozorovaný Dr. Praveenom Rathim — verný textom."
+      }
+    ],
+    "cred_title": "Dôvera, podľa miery",
+    "credibility": [
+      "358 autentických receptúr naprieč prípravkami, olejmi, kozmetikou a potravinami",
+      "Pripravené podľa klasických ájurvédskych textov, pod vedením Dr. Praveena Rathiho",
+      "Vyrobené v Indii, pri zdroji bylín",
+      "Skutočné byliny a za studena lisované oleje, každá zložka otvorene uvedená",
+      "Jasne označené, doručované celosvetovo",
+      "Tradičný, vzdelávací jazyk o wellbeingu — nikdy žiadne medicínske tvrdenia"
+    ],
+    "atc_reassure": "Bezpečná pokladňa · 14-dňové vrátenie · Doručujeme celosvetovo",
+    "faq": [
+      {
+        "q": "Kto vyrába Sangam Herbals a kde?",
+        "a": "Sangam Herbals je rodinný ajurvédsky dom, ktorého receptúry vytvára a dohliada na ne Dr. Praveen Rathi. Všetko sa vyrába v Indii, v mieste pôvodu byliniek, a pripravuje sa podľa klasických ajurvédskych textov — a následne sa jasne označuje na vysokej úrovni."
+      },
+      {
+        "q": "Ako zistím, čo presne je v každom produkte?",
+        "a": "Každý produkt uvádza svoje úplné zloženie, formu a množstvo — na stránke produktu ešte pred nákupom a na obale po jeho doručení. Používame skutočné byliny a za studena lisované oleje, bez syntetických plnidiel a bez čohokoľvek skrytého za neurčitou „patentovanou zmesou“."
+      },
+      {
+        "q": "Sú tieto produkty jasne označené?",
+        "a": "Áno. Náš sortiment je jasne označený, s informáciami o zložení, použití a skladovaní uvedenými otvorene a na vysokej úrovni, a doručujeme do celého sveta."
+      },
+      {
+        "q": "Čo ak je s mojou objednávkou niečo v neporiadku alebo si to rozmyslím?",
+        "a": "Ak vaša objednávka dorazí poškodená, neúplná alebo nezodpovedá popisu, napravíme to — výmena alebo vrátenie peňazí, bez diskusií. A na vrátenie neotvorených produktov a získanie peňazí späť máte 14 dní od doručenia, s jasnými pokynmi v každej objednávke."
+      }
+    ],
+    "safety_note": "Len pre wellbeing a tradičnú starostlivosť — nie je to liek a nenahrádza odbornú lekársku radu. Prečítajte si obal, dodržiavajte pokyny a poraďte sa so svojím lekárom, ak ste tehotná, dojčíte, užívate lieky alebo riešite zdravotný stav. Pred prvým použitím na pokožku vykonajte test na malej ploche. Uchovávajte mimo dosahu detí.",
+    "seals_title": "Nakupujte s istotou",
+    "seals": [
+      {
+        "label": "Bezpečná šifrovaná platba",
+        "sub": "Spracované cez zavedených poskytovateľov — vaše úplné údaje o karte nikdy neukladáme.",
+        "icon": "lock"
+      },
+      {
+        "label": "14-dňové vrátenie",
+        "sub": "Neotvorené položky vráťte do 14 dní od doručenia a získate peniaze späť.",
+        "icon": "return"
+      },
+      {
+        "label": "Sledované celosvetové doručovanie",
+        "sub": "Doručované do celého sveta so sledovaním, od odoslania až k vašim dverám.",
+        "icon": "parcel"
+      },
+      {
+        "label": "Vyrobené pri zdroji",
+        "sub": "Vyrobené v Indii, kde rastú byliny, podľa klasických textov.",
+        "icon": "mortar"
+      },
+      {
+        "label": "Otvorené zloženie",
+        "sub": "Úplný zoznam zložiek na každom produkte — nič skryté.",
+        "icon": "label"
+      },
+      {
+        "label": "Zaručené menom",
+        "sub": "Formulované a dohliadané Dr. Praveenom Rathim.",
+        "icon": "person"
+      }
+    ]
+  },
+  "seo": {
+    "description": "Autentické ajurvédske prípravky, kozmetika, oleje a potraviny — pripravené podľa klasických textov, vyrobené v Indii pod vedením Dr. Praveena Rathiho a doručované do celého sveta.",
+    "title": "Sangam Herbals — Autentická Ajurvéda, celosvetovo"
+  },
+  "river": {
+    "sub": "Sangam je stretnutie posvätných vôd — a dávnej praxe so starostlivým, moderným remeslom. Objavte knižnicu attarov: 32 dlhotrvajúcich indických olejových parfumov.",
+    "kicker": "Sútok",
+    "quote": "Kde sa dve rieky stávajú jedným liekom.",
+    "cta": "Prehliadnuť knižnicu attarov →"
+  },
+  "founder": {
+    "eyebrow": "Slovo od nášho riaditeľa",
+    "heading": "Za každú dávku, ktorú vyrobíme, sa zaručujem.",
+    "paragraphs": [
+      "Ajurvéda nebola mojej rodine odovzdaná ako podnikanie. Bola odovzdaná ako zodpovednosť — spôsob prípravy prípravkov presne tak, ako to stanovujú klasické texty, zo skutočných bylín a za studena lisovaných olejov, bez čohokoľvek pridaného pre pohodlie. To je jediný spôsob, akým ich viem pripraviť, a jediný, akým ich pripravovať budem.",
+      "Všetko, čo posielame do sveta, sa vyrába tu, v Indii, v mieste pôvodu rastlín aj samotnej praxe. Pracujem s rovnakými pomermi a postupmi, ktoré sa dodržiavajú po generácie, a každú receptúru držím na presných štandardoch — pretože to, že je recept starý, nie je ospravedlnením pre nedbalú výrobu.",
+      "Rozhodol som sa pripojiť svoje meno k tomuto domu a k tejto stránke z jednoduchého dôvodu: keď niečo vchádza do vášho tela alebo na vašu pokožku, zaslúžite si vedieť, kto za tým stojí. Pred nákupom si prečítajte celé zloženie. Napíšte nám, ak je niečo nejasné. A ak vám produkt nevyhovuje, povedzte nám to a my to napravíme."
+    ],
+    "signature": "Praveen Rathi",
+    "credential": "Dr. Praveen Rathi · Riaditeľ, Sangam Herbals — rodinný ajurvédsky dom pripravujúci prípravky podľa klasických textov, vyrobené v Indii"
+  },
+  "promise": {
+    "kicker": "Prečo to vyrábame",
+    "title": "Radšej prídeme o predaj, než aby sme ho zveličili.",
+    "text": "Existujeme preto, aby sme nepretržitú 5 000-ročnú tradíciu priniesli do domovov po celom svete bez toho, aby sme ju zriedili — pripravujúc každý prípravok podľa klasických ajurvédskych textov, z pravých byliniek a za studena lisovaných olejov, vyrobený v mieste pôvodu v Indii a zaručený menom. Preto vám presne ukazujeme, čo je vo vnútri a ako sa to vyrába, otvorene uvádzame každú zložku a nerobíme žiadne medicínske tvrdenia. Autentickosť je naším štandardom, nie výnimkou."
+  }
+}

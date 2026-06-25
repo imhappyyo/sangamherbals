@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "lang": "hu",
+    "native": "Magyar",
+    "dir": "ltr"
+  },
+  "nav": {
+    "home": "Főoldal",
+    "shop": "Webáruház",
+    "catalog": "Katalógus",
+    "about": "Rólunk",
+    "heritage": "Rólunk",
+    "contact": "Kapcsolat",
+    "search": "Termékek keresése",
+    "learn": "Tudástár"
+  },
+  "gate": {
+    "title": "Üdvözöljük a Sangam Herbals világában",
+    "subtitle": "Hiteles ájurvéda, Indiában készítve — válassza ki országát és nyelvét",
+    "choose_region": "Válassza ki országát",
+    "choose_language": "Válassza ki a nyelvet",
+    "continue": "Belépés az áruházba",
+    "filter": "Országok keresése",
+    "country_hint": "Válassza ki országát és nyelvét. Az ország határozza meg a szállítást, a pénznemet és az adót; a nyelv pedig azt, hogyan jelenik meg az áruház.",
+    "no_country": "Nincs a keresésnek megfelelő ország.",
+    "country_one": "ország",
+    "country_many": "ország",
+    "close": "Bezárás",
+    "region_na": "Észak-Amerika",
+    "region_eu": "Európa",
+    "region_me": "Közel-Kelet",
+    "region_ap": "Ázsia / Csendes-óceáni térség",
+    "select_prompt": "Válasszon ki egy országot a szállítás, pénznem és nyelv előnézetéhez",
+    "preview_head": "Ön innen vásárol: {country}",
+    "row_ship": "Szállítás",
+    "row_currency": "Pénznem",
+    "row_vat": "Adók és vámok",
+    "row_lang": "Az oldal nyelve",
+    "ship_line": "Nyomon követhető kézbesítés ide: {country}, jellemzően 3–10 munkanap. {free} felett ingyenes.",
+    "currency_eur": "Az árak euróban (EUR) jelennek meg.",
+    "currency_local": "Az árak tájékoztató jelleggel, euróban (EUR) szerepelnek. {country} pénzneme a(z) {cur} — a bankja a fizetésnél vált át.",
+    "vat_line": "A(z) {country} esetében felmerülő vámokat vagy adókat a fizetésnél, a fizetés előtt feltüntetjük.",
+    "lang_default": "a szokásos választás {country} esetében",
+    "lang_change": "módosítás",
+    "trust_ship": "Nemzetközi szállítás",
+    "trust_langs": "35 nyelv",
+    "trust_eur": "Tájékoztató jellegű EUR-árak",
+    "trust_secure": "Biztonságos fizetés",
+    "trust_return": "14 napos visszaküldés",
+    "change_later": "Rossz országot vagy nyelvet választott? Bármikor módosíthatja a menü „Régió” pontjánál."
+  },
+  "hero": {
+    "eyebrow": "Családi ájurvédikus ház · Indiában készül, a klasszikus szövegek szerint",
+    "title": "A hagyomány, hűségesen elkészítve — és névvel felelve érte.",
+    "subtitle": "Autentikus ájurvédikus gyógykészítmények, olajok, kozmetikumok és élelmiszerek, Indiában készítve Dr. Praveen Rathi irányításával, és világszerte szállítva. Valódi gyógynövények, nyílt összetevők, átlátható címkézés — olyan bizalom, amit vásárlás előtt ellenőrizhetsz.",
+    "cta_shop": "A katalógus böngészése",
+    "cta_story": "Ismerje meg a házat",
+    "stat_products": "Hiteles termék",
+    "stat_categories": "Kategória",
+    "stat_countries": "Kiszolgált országok",
+    "credential": "Dr. Praveen Rathi · Igazgató — a forrásnál, Indiában formulázva és felügyelve"
+  },
+  "sections": {
+    "ayurveda": "Ajurvéda",
+    "cosmetics": "Kozmetikumok",
+    "food": "Élelmiszer és táplálkozás",
+    "oils": "Olajok",
+    "aromatherapy": "Aromaterápia"
+  },
+  "shop": {
+    "title": "Összes termék",
+    "subtitle": "Minden Sangam Herbals termék, mostantól világszerte elérhető.",
+    "all": "Összes termék",
+    "filter": "Szűrés",
+    "sort": "Rendezés",
+    "sort_featured": "Kiemelt",
+    "sort_price_low": "Ár: növekvő",
+    "sort_price_high": "Ár: csökkenő",
+    "sort_az": "Név A–Z",
+    "results": "termék",
+    "empty": "Nincs a szűrőknek megfelelő termék.",
+    "clear": "Szűrők törlése",
+    "add": "Kosárba",
+    "view": "Részletek megtekintése",
+    "from": "tól",
+    "in_stock": "Készleten",
+    "sku": "Cikkszám",
+    "showing": "Megjelenítve",
+    "loadmore": "Továbbiak betöltése",
+    "added": "Added"
+  },
+  "product": {
+    "description": "Leírás",
+    "details": "Részletek",
+    "category": "Kategória",
+    "related": "Ezek is érdekelhetik",
+    "back": "Vissza az áruházba",
+    "origin": "Indiai gyártmány",
+    "ships": "Világszerte szállítjuk",
+    "unavailable": "Unavailable"
+  },
+  "heritage": {
+    "title": "Ötezer év — egyetlen cseppben",
+    "body": "A Sangam jelentése összefolyás — a szent folyók találkozása. A Sangam Herbals az ősi ájurvédikus bölcsesség és a gondos, modern előállítás találkozása. Dr. Praveen Rathi irányításával alapítva, készítményeink autentikus gyógynövényekből, hidegen sajtolt olajokból és időtálló receptekből készülnek, mostantól a világ otthonai számára előállítva és átláthatóan címkézve.",
+    "pillar1_t": "Hiteles receptúrák",
+    "pillar1_b": "Klasszikus churna-keverékek, tabletták és olajok, hagyományos ajurvédikus szövegek szerint készítve.",
+    "pillar2_t": "Tiszta és őszinte",
+    "pillar2_b": "Valódi összetevők, őszinte minőség, fölösleges adalékok nélkül.",
+    "pillar3_t": "Indiától a világig",
+    "pillar3_b": "Az eredet helyén beszerezve, világszerte szállítva."
+  },
+  "footer": {
+    "tagline": "Autentikus ájurvéda, világszerte",
+    "shop": "Webáruház",
+    "company": "Cég",
+    "support": "Ügyfélszolgálat",
+    "newsletter": "Hírlevél",
+    "newsletter_sub": "Ájurvédikus rituálék, újdonságok és ajánlatok.",
+    "email_ph": "E-mail-cím",
+    "subscribe": "Feliratkozás",
+    "rights": "Minden jog fenntartva.",
+    "shipping": "Világszerte szállítjuk",
+    "returns": "Visszaküldés",
+    "privacy": "Adatvédelem",
+    "terms": "Felhasználási feltételek",
+    "made": "Indiában készítve · Világszerte szállítva",
+    "director": "Dr. Praveen Rathi irányításával — a forrásnál, Indiában formulázva és felügyelve."
+  },
+  "cart": {
+    "title": "Kosara",
+    "empty": "A kosár üres.",
+    "total": "Összesen",
+    "checkout": "Megrendelés",
+    "remove": "Eltávolítás",
+    "continue": "Vásárlás folytatása",
+    "add_more": "Hozzáadás",
+    "free_ship": "az ingyenes szállításért",
+    "free_unlocked": "✓ Ingyenes szállítás feloldva",
+    "free_ship_progress": "Adj hozzá még {amount} értékben az ingyenes szállításért"
+  },
+  "common": {
+    "currency_note": "Az árak tájékoztató jellegűek, és az Ön országának pénznemében jelennek meg.",
+    "loading": "Betöltés…",
+    "change_region": "Régió"
+  },
+  "categories": {
+    "ayurveda": "Ajurvéda",
+    "single-herb-churnas": "Egykomponensű Churna-keverékek",
+    "compound-churnas": "Összetett Churna-keverékek",
+    "chyawanprash": "Chyawanprash",
+    "churna-tablets": "Churna-tabletták",
+    "classic-tablets": "Klasszikus tabletták",
+    "cosmetics": "Kozmetikumok",
+    "hair-care": "Hajápolás",
+    "toothpastes": "Fogkrémek",
+    "face-care": "Arcápolás",
+    "body-care": "Testápolás",
+    "facial-toners": "Arctónikumok",
+    "henna-hair-colour": "Henna hajfesték",
+    "food-nutrition": "Élelmiszer és táplálkozás",
+    "indian-sweets": "Indiai édességek",
+    "spices-seasonings": "Fűszerek és ízesítők",
+    "herbal-teas": "Gyógynövényes teák",
+    "natural-juices": "Természetes gyümölcslevek",
+    "dried-fruits": "Aszalt gyümölcsök",
+    "biscuits": "Kekszek",
+    "cane-sugar": "Nádcukor",
+    "indian-tea": "Indiai tea",
+    "oils": "Olajok",
+    "natural-oils": "Természetes olajok",
+    "ayurvedic-oils": "Ajurvédikus olajok",
+    "aromatherapy": "Aromaterápia",
+    "incense": "Füstölők",
+    "perfume-oils": "Parfümolajok",
+    "hydrolats": "Hidrolátumok",
+    "lozenges": "Pasztillák"
+  },
+  "argument": {
+    "line": "Ötezer év gyakorlata, pontos modern szabványokhoz tartva.",
+    "kicker": "Alapelvünk"
+  },
+  "streams": {
+    "title": "Vásárlás kategória szerint",
+    "stream": "Folyam"
+  },
+  "remedy": {
+    "kicker": "Kiemelt termék"
+  },
+  "dispatch": {
+    "title": "Iratkozzon fel hírlevelünkre"
+  },
+  "proof": {
+    "certified": "Őszinte, nyílt címkézés",
+    "ships": "Nemzetközi szállítás",
+    "eur": "Tájékoztató jellegű árak",
+    "origin": "Indiai gyártmány",
+    "langs": "35 nyelv"
+  },
+  "edu": {
+    "explore": "Felfedezés",
+    "shop": "Vásárlás",
+    "care_label": "Egyensúlyban tartva",
+    "learn_kicker": "Az Ájurvéda, közérthetően",
+    "learn_title": "Mi az Ájurvéda?",
+    "learn_p1": "Az Ájurvéda a természetes jóllét hagyományos rendszere, amely körülbelül 5000 évvel ezelőtt alakult ki Indiában. A neve két szanszkrit szóból ered: ayur, ami életet, és veda, ami tudást jelent. A lényege egyetlen egyszerű gondolat: a jóllét abból fakad, hogy a testet és az elmét egyensúlyban tartjuk.",
+    "learn_p2": "A gyors megoldások helyett az Ájurvéda az egész embert és a mindennapi élet ritmusát nézi. Növényekre, gyógynövényekre és hagyományos készítményekre épít, valamint a táplálkozás, az alvás és az önápolás egyszerű napi rutinjaira. Tekintsen rá úgy, mint az önmagáról való gondoskodás időtálló módjára — finoman és következetesen.",
+    "learn_pr1_l": "Egyensúly",
+    "learn_pr1_t": "Az Ájurvéda a jóllétet az egyensúly állapotának tekinti, és arra törekszik, hogy a testet és az elmét kiegyensúlyozottan tartsa az évszakok váltakozása és a mindennapi élet kihívásai közepette.",
+    "learn_pr2_l": "Az egész ember",
+    "learn_pr2_t": "Az embert egészében szemléli, figyelembe véve a táplálkozást, az alvást, a tevékenységet és a hangulatot, ahelyett, hogy bármely részt önmagában vizsgálna.",
+    "learn_pr3_l": "Természetes összetevők",
+    "learn_pr3_t": "Készítményei növényekből, gyógynövényekből, olajokból és más természetes összetevőkből állnak, nemzedékeken át öröklődő hagyományos módszerekkel készítve.",
+    "learn_pr4_l": "Napi rituálé",
+    "learn_pr4_t": "Az Ájurvéda jó része apró, ismétlődő napi szokásokban él — a gondoskodás egyszerű mozzanataiban, amelyek idővel a vitalitás és a mindennapi jóllét érzetét támogatják.",
+    "dosha_kicker": "Az Ájurvéda alapjai",
+    "dosha_title": "A három dosa",
+    "dosha_intro": "Az Ájurvédában három energia, az úgynevezett dosák — Vata, Pitta és Kapha — egyedi keverékben minden emberben jelen van, és a cél egyszerűen az, hogy a saját keverékünket egyensúlyban tartsuk.",
+    "vata_el": "Levegő & Tér",
+    "vata_essence": "A mozgás energiája",
+    "vata_traits": "A Vata-típusúak általában könnyedek, gyorsak és kreatívak — egyensúlyban élénk elméjűek és testűek.",
+    "vata_care": "Az Ájurvédában a Vatát hagyományosan melegséggel, rendszerességgel, valamint tápláló, földhözragadt ételekkel és olajokkal tartják kiegyensúlyozottan.",
+    "pitta_el": "Tűz & Víz",
+    "pitta_essence": "Az átalakulás energiája",
+    "pitta_traits": "A Pitta-típusúak általában összpontosítottak, céltudatosak és melegek, éles energiával és erős célérzettel.",
+    "pitta_care": "Az Ájurvédában a Pittát hagyományosan hűsítő ételekkel, nyugodt rutinokkal és a természetben töltött idővel tartják egyensúlyban.",
+    "kapha_el": "Föld & Víz",
+    "kapha_essence": "A struktúra energiája",
+    "kapha_traits": "A Kapha-típusúak általában nyugodtak, kiegyensúlyozottak és stabilak, higgadt, könnyed természettel.",
+    "kapha_care": "Az Ájurvédában a Kaphát hagyományosan mozgással, melegítő fűszerekkel és energizáló napi rituálékkal tartják élénken.",
+    "about_kicker": "A Sangam Herbals-ról",
+    "about_title": "A hiteles Ájurvéda őrzője, a forrásnál készítve",
+    "about_p1": "A Sangam Herbals egy családi vezetésű Ájurvédikus műhely Indiában, amelyet Dr. Praveen Rathi irányításával alapítottak. Minden készítmény a klasszikus Ájurvédikus szövegek szerint készül, valódi gyógynövényekkel és hidegen sajtolt olajokkal, kompromisszumok és szintetikus töltőanyagok nélkül. A receptek régiek; az általunk támasztott mércék nem azok.",
+    "about_p2": "Minden Indiában készül, a növények és maga a hagyomány forrásánál. Onnan termékeinket nyíltan címkézve és világszerte szállítjuk. Hisszük, hogy a bizalmad elnyerésének legjobb módja, ha őszintén beszélünk arról, mit készítünk és hogyan — és hagyjuk, hogy a termékek magukért beszéljenek.",
+    "about_pr1_l": "Hiteles receptek",
+    "about_pr1_t": "A receptek a klasszikus Ájurvédikus szövegek szerint készülnek, úgy, ahogyan nemzedékek óta.",
+    "about_pr2_l": "Valódi összetevők",
+    "about_pr2_t": "Valódi gyógynövényekkel és hidegen sajtolt olajokkal dolgozunk, a kényelem kedvéért hozzáadott szintetikus töltőanyagok nélkül.",
+    "about_pr3_l": "Indiában készült, a forrásnál",
+    "about_pr3_t": "Minden termék Indiában készül, ahol a növények teremnek és ahol a hagyomány kezdődött.",
+    "about_pr4_l": "Őszinte címkézés és világszintű szállítás",
+    "about_pr4_t": "Termékkínálatunk átláthatóan címkézett, az összetevők és a használat nyíltan feltüntetve, és világszerte szállítjuk.",
+    "concern_kicker": "Találja meg a kiindulópontját",
+    "concern_title": "Vásárlás igény szerint",
+    "concern_intro": "Nem tudja, hol kezdje? Válasszon egy mindennapi területet, amely fontos Önnek, és megmutatjuk a hozzá illő termékeket és hagyományokat.",
+    "c_digestion_l": "Emésztés & Bélrendszer",
+    "c_digestion_d": "Kellemes emésztés és mindennapi bélrendszeri egyensúly — klasszikus churnák, szélhajtó fűszerek és gyengéd keverékek, mint a Triphala és az Avipattikar.",
+    "c_immunity_l": "Immunitás & Vitalitás",
+    "c_immunity_d": "Időtálló tonikok — chyawanprash, Amla, Tulsi és Giloy —, amelyeket az Ájurvédában hagyományosan a mindennapi ellenálló képesség miatt becsülnek.",
+    "c_energy_l": "Erő & Energia",
+    "c_energy_d": "Megújító rasayana gyógynövények és tonikok — Shilajit, Shatavari, Bala és klasszikus erősítő receptek — a mindennapi állóképességért.",
+    "c_respiratory_l": "Légzés & Szezonális",
+    "c_respiratory_d": "Torok, mellkas és szezonális komfort, a Sitopaladi és a Mulethi készítményektől a nyugtató gyógynövényes pasztilláig.",
+    "c_stress_l": "Stressz, Alvás & Elme",
+    "c_stress_d": "Nyugtató, földhözragadt keverékek a koncentrációért és a pihentető estékért — Brahmi, Shankhpushpi, Jatamansi és macskagyökér.",
+    "c_joints_l": "Ízületek & Izmok",
+    "c_joints_d": "Támogatás az aktív testnek és a könnyed mozgásnak — Guggul receptek és melegítő masszázsolajok, mint a Mahanarayan.",
+    "c_womens_l": "Női jóllét",
+    "c_womens_d": "Gyengéd, hagyományos támogatás a nők mindennapi egyensúlyához — Shatavari, Ashoka és klasszikus női tonikok.",
+    "c_skin_l": "Bőr & Arc",
+    "c_skin_d": "Növényi alapú arc- és testápolás, valamint tisztító gyógynövények — tisztítók, tonikok, hidrolátok, Neem, Turmeric és Manjistha.",
+    "c_hair_l": "Haj & Fejbőr",
+    "c_hair_d": "Tápláló haj- és fejbőrápolás — Bhringraj és Amla olajok, gyógynövényes samponok és természetes Henna szín.",
+    "c_oral_l": "Szájápolás",
+    "c_oral_d": "Természetes napi ápolás a fogaknak, az ínynek és a friss leheletnek — gyógynövényes fogkrémek és bevált összetevők, mint a Neem.",
+    "c_food_l": "Élelmiszer, Teák & Fűszerek",
+    "c_food_d": "Az Ájurvéda konyhai oldala — hiteles fűszerek és masalák, gyógynövényes és indiai teák, levek, édességek és még sok más.",
+    "c_fragrance_l": "Illat & Rituálé",
+    "c_fragrance_d": "Füstölők és tartós indiai attarok, hogy illattal töltsék meg terét és mindennapi rituáléját.",
+    "herb_kicker": "Összetevők ismertetése",
+    "herb_title": "Kulcsfontosságú Ájurvédikus gyógynövények",
+    "herb_intro": "Közérthető útmutató a nyolc gyógynövényhez, amelyekkel kínálatunkban a leggyakrabban találkozik, és arról, milyen szerepet tölt be mindegyik régóta az Ájurvédikus hagyományban.",
+    "herb_triphala_what": "Három szárított gyümölcs klasszikus keveréke, együtt egyetlen porrá őrölve.",
+    "herb_triphala_trad": "Az Ájurvédában hagyományosan a mindennapi emésztés és a gyengéd belső egyensúly támogatására használják.",
+    "herb_triphala_found": "Churnák & tabletták",
+    "herb_tulsi_what": "A szent bazsalikom növény aromás levele, amelyet porként, teákban, valamint bőr- és hajápolásban használnak.",
+    "herb_tulsi_trad": "Az Ájurvédikus hagyományban régóta becsülik a mindennapi jóllét és a vitalitás érzetének támogatásáért.",
+    "herb_tulsi_found": "Churnák, teák & bőrápolás",
+    "herb_neem_what": "A neemfa keserű levele, amelyet porként és számos tisztító bőr- és hajápoló készítményben használnak.",
+    "herb_neem_trad": "Az Ájurvédában hagyományosan a mindennapi bőrápoláshoz és a tiszta, kiegyensúlyozott arcbőrhöz kötik.",
+    "herb_neem_found": "Churnák, arc- & hajápolás",
+    "herb_amla_what": "Egy kicsi, savanyú zöld gyümölcs, amelyet porként, lében és hajápoló termékekben használnak.",
+    "herb_amla_trad": "Az Ájurvédában hagyományosan a mindennapi vitalitás, valamint a haj és a fejbőr ápolásának támogatásáért becsülik.",
+    "herb_amla_found": "Churnák, levek & hajápolás",
+    "herb_brahmi_what": "Egy kicsi, kúszó gyógynövény, amelyet porként vagy tabletta formájában fogyasztanak.",
+    "herb_brahmi_trad": "Az Ájurvédában hagyományosan a nyugodt összpontosításhoz és a mindennapi mentális jólléthez kötik.",
+    "herb_brahmi_found": "Churnák & tabletták",
+    "herb_chyawanprash_what": "Hagyományos sötét gyógynövényes lekvár, amely az amla és számos gyógynövény és fűszer keveréke köré épül.",
+    "herb_chyawanprash_trad": "Az Ájurvédikus hagyományban régóta napi tonikként fogyasztják a mindennapi vitalitás és jóllét támogatására.",
+    "herb_chyawanprash_found": "Ájurvéda",
+    "herb_turmeric_what": "Egy aranysárga gyökér, amelyet meleg fűszerporrá őrölnek, és főzéshez, levekhez és bőrápoláshoz használnak.",
+    "herb_turmeric_trad": "Az Ájurvédában hagyományosan a mindennapi egyensúly és a bőr ápolásának támogatásáért becsülik.",
+    "herb_turmeric_found": "Fűszerek, churnák & bőrápolás",
+    "herb_henna_what": "Egy levél, amelyet finom zöld porrá őrölnek, és amely természetes vöröses színt szabadít fel.",
+    "herb_henna_trad": "Az Ájurvédikus és indiai hagyományban régóta természetes hajszínezőként és ápoló kezelésként használják.",
+    "herb_henna_found": "Henna & hajápolás",
+    "start_kicker": "Újonc az Ájurvédában",
+    "start_title": "A kezdés, egyszerűen",
+    "step1_l": "Ismerje meg az alapokat",
+    "step1_t": "Szánjon néhány percet annak megértésére, mi is az Ájurvéda — a mindennapi jóllét, egyensúly és önápolás hagyományos indiai rendszere.",
+    "step2_l": "Találja meg igényét vagy típusát",
+    "step2_t": "Böngésszen aszerint, ami fontos Önnek — bőr, haj, emésztés, napi rutin —, és nézze meg, mely hagyományok és összetevők illenek Önhöz.",
+    "step3_l": "Kezdje egyszerűen",
+    "step3_t": "Válasszon egyetlen terméket, amely illik a rutinjához, használja következetesen, és csak akkor adjon hozzá továbbiakat, ha jónak érzi.",
+    "faq1_q": "Biztonságos-e az Ájurvéda, és hogyan használjam a termékeket?",
+    "faq1_a": "Termékeink hagyományos növényi alapú összetevőkből készülnek, és világos használati útmutatóval érkeznek a mindennapi használathoz. Észszerű óvintézkedésként kérjük, konzultáljon orvosával, mielőtt bármi újat kezdene, ha terhes, szoptat, gyógyszert szed vagy orvosi kezelés alatt áll.",
+    "faq2_q": "Hogyan válasszak, ha teljesen új ez számomra?",
+    "faq2_a": "Kezdje egyetlen termékkel, amely egy mindennapi igényéhez illik — például bőr, haj vagy napi ápolás —, ahelyett, hogy egyszerre többet vásárolna. Minden termék közérthetően elmagyarázza, hogy mi az, hagyományosan hogyan használták, és hogyan kell alkalmazni.",
+    "faq3_q": "Hitelesek és megfelelően címkézettek a termékek?",
+    "faq3_a": "Minden termék Indiában készül Dr. Praveen Rathi irányításával, a hagyományos Ájurvédikus készítési eljárást, valamint a vonatkozó minőségi és címkézési szabványokat követve. Az összetevőket és a használatot minden terméken nyíltan feltüntetjük, így mindig tudja, mit kap.",
+    "faq4_q": "Szállítanak az országomba?",
+    "faq4_a": "Igen — nemzetközileg is szállítunk. A szállítási idők, valamint az esetleges díjak vagy vámok a megrendelés véglegesítése előtt, a pénztárnál egyértelműen feltüntetésre kerülnek."
+  },
+  "pdp": {
+    "back": "Vissza a boltba",
+    "good_for": "Jó erre",
+    "what": "Mi ez",
+    "benefits": "Hagyományosan ennek támogatására használják",
+    "ingredients": "Fő összetevők",
+    "how": "Használata",
+    "suited": "Kinek ajánlott",
+    "details": "Részletek",
+    "format": "Kiszerelés",
+    "origin": "Származás",
+    "india": "India",
+    "caution": "Hagyományos Ájurvédikus információ oktatási céllal, nem orvosi tanács. Ha terhes, szoptat, gyógyszert szed vagy orvosi kezelés alatt áll, kérjük, használat előtt konzultáljon orvosával.",
+    "precautions": "Óvintézkedések",
+    "related": "Ezek is tetszhetnek",
+    "transparency": "Minden összetevő nyíltan feltüntetve",
+    "routine": "Hogyan illeszkedik a rutinodba",
+    "good_to_know": "Jó tudni",
+    "take_care": "Legyél óvatos, ha",
+    "why_kicker": "Miért nálunk vásárolj",
+    "why_title": "A hagyomány, hűségesen továbbvíve — és a forrásnál készítve",
+    "why_sub": "Minden formula a klasszikus ájurvédikus szövegek szerint készül, valódi gyógynövényekből és hidegen sajtolt olajokból, Indiában, ahol a gyógynövények teremnek, Dr. Praveen Rathi irányításával. A bizalmadat tisztességes úton érdemeljük ki: nyílt összetevők, átlátható címkézés, és egy családi ház, amely minden tételért felel.",
+    "assure_title": "Vásárolj nyugodt szívvel",
+    "ship_label": "Világszintű szállítás",
+    "ship_text": "Nyomon követhető szállítás, világszerte elérhető.",
+    "returns_label": "Őszinte címkézés",
+    "returns_text": "Az összetevők és a hagyományos felhasználás minden terméknél nyíltan fel van tüntetve.",
+    "secure_label": "A forrásnál készítve",
+    "secure_text": "Indiában készítve a klasszikus ájurvédikus szövegek szerint, majd átláthatóan címkézve.",
+    "help_label": "Segítünk neked",
+    "help_text": "Kérdésed van vásárlás előtt? Elérsz minket WhatsAppon, Telegramon vagy e-mailben.",
+    "faq_title": "Gyakran ismételt kérdések",
+    "new_to": "Új vagy az ájurvédában?",
+    "new_to_cta": "Kezdd az alapokkal",
+    "qty_label": "Mennyiség",
+    "delivery_eu": "Nyomon követhető világszintű szállítás",
+    "freeship_over": "Ingyenes szállítás {amount} felett",
+    "freeship_away": "Már csak {amount} hiányzik az ingyenes szállításhoz",
+    "freeship_unlocked": "✓ Ingyenes szállítás feloldva",
+    "cta_guarantee": "Biztonságos fizetés · 14 napos visszaküldés · ha sérülten vagy nem a leírásnak megfelelően érkezik, rendbe hozzuk",
+    "authority_quote": "Dr. Praveen Rathi által összeállítva és felügyelve – „Minden egyes tételért, amit készítünk, én felelek.\"",
+    "pairs_title": "Kiegészíti a rutinodat",
+    "pairs_sub": "Ugyanazzal a jólléti fókusszal válogatva — adj hozzá egy kiegészítő terméket, és kerülj közelebb az ingyenes szállításhoz.",
+    "add_one": "Hozzáadás",
+    "compare_title": "Miért válaszd a Sangamot",
+    "compare_sub": "Mire érdemes figyelni egy hiteles ájurvédikus termékcsaládnál – és hogyan állunk mi.",
+    "compare_us": "Sangam Herbals",
+    "compare_them": "Tipikus tömegpiaci gyógynövénykészítmény",
+    "compare_rows": [
+      {
+        "label": "Klasszikus ájurvédikus szövegek szerint összeállítva",
+        "us": "Igen – hagyományos receptek alapján",
+        "them": "Gyakran titkos keverékek"
+      },
+      {
+        "label": "Minden összetevő nyíltan feltüntetve",
+        "us": "Igen – teljes körűen",
+        "them": "Gyakran nincs feltüntetve"
+      },
+      {
+        "label": "Valódi gyógynövények és hidegen sajtolt olajok",
+        "us": "Igen – felesleges töltőanyagok nélkül",
+        "them": "Változó"
+      },
+      {
+        "label": "A forrásnál, Indiában készül",
+        "us": "Igen – ott, ahol a gyógynövények teremnek",
+        "them": "Gyakran nincs megadva"
+      },
+      {
+        "label": "Megnevezett szakmai vezető felügyeli",
+        "us": "Dr. Praveen Rathi",
+        "them": "Névtelen"
+      }
+    ],
+    "faq5_q": "Mennyi idő múlva veszek észre bármit is?",
+    "faq5_a": "Az ájurvédikus gyógynövényeket hagyományosan egy kiegyensúlyozott napi rutin részeként alkalmazzák, nem pedig gyors megoldásként, és sokan a hétköznapjaik csendes részévé teszik őket több héten át. Az eredmények személyenként eltérőek lehetnek.",
+    "faq6_q": "Kinek ajánlott leginkább – és kinek kell óvatosnak lennie?",
+    "faq6_a": "Az ájurvédában hagyományosan a mindennapi jóllét támogatására használják. Ha várandós vagy, szoptatsz, gyógyszert szedsz vagy orvosi kezelés alatt állsz, kérjük, használat előtt egyeztess orvosoddal."
+  },
+  "trust": {
+    "bar": [
+      "Klasszikus ájurvédikus szövegek szerint készítve",
+      "Indiában készül, a gyógynövények forrásánál",
+      "Valódi gyógynövények & hidegen sajtolt olajok",
+      "Világszerte szállítjuk",
+      "Biztonságos fizetés · 14 napos visszaküldés"
+    ],
+    "std_kicker": "Az alapelveink",
+    "std_title": "Jól készítve, szorosan ellenőrizve",
+    "std_intro": "Inkább megmutatjuk, hogyan készül egy termék, mintsem azt mondanánk, hogy jó — nyílt összetevőlisták, átlátható címkézés, és az eredet, ahonnan származik. Minden készítmény a klasszikus ájurvédikus szövegek szerint készül, valódi gyógynövényekből és hidegen sajtolt olajokból, a kényelem kedvéért semmi hozzáadva. A receptek évszázadosak; az a fegyelem, amelyhez tartjuk őket, pontos.",
+    "std_items": [
+      {
+        "label": "Valódi gyógynövények, hidegen sajtolt olajok",
+        "text": "Eredeti növényi alapanyagok és hő nélkül sajtolt olajok, amelyek megőrzik jellegüket — maga a növény, hagyományos módon feldolgozva, sosem egyszerű, jellegtelen kivonattá lebutítva."
+      },
+      {
+        "label": "Szintetikus töltőanyagok nélkül",
+        "text": "Churnáinkat, tablettáinkat és olajainkat nem dúsítjuk szintetikus töltőanyagokkal, festékekkel vagy felesleges adalékokkal. Egy formula azt tartalmazza, amit a recept előír — semmi többet."
+      },
+      {
+        "label": "Klasszikus módszerek szerint készítve",
+        "text": "Minden készítmény a klasszikus ájurvédikus szövegeket követi — ugyanazokat az arányokat és módszereket, amelyeket nemzedékeken át adtak tovább, úgy elkészítve, ahogyan a hagyomány előírja, tételről tételre."
+      },
+      {
+        "label": "Az összetevők nyíltan feltüntetve",
+        "text": "Minden termék a teljes összetevő-listáját, kiszerelését és mennyiségét viseli — semmi sincs elrejtve egy homályos „szabadalmaztatott keverék” mögé. Pontosan elolvashatja, mi van benne, mielőtt megveszi, és újra a címkén is."
+      },
+      {
+        "label": "Átláthatóan címkézve",
+        "text": "Termékkínálatunk átláthatóan címkézett, az összetevőkre, használatra és tárolásra vonatkozó információkkal, amelyek nyíltan és magas színvonalon vannak feltüntetve, és világszerte szállítjuk."
+      },
+      {
+        "label": "Egyöntetű, tételről tételre",
+        "text": "Mivel az alapanyagok valódiak és a módszer rögzített, az újrarendelt termék ugyanaz a termék, amelyben először megbízott. A minőség állandó marad — nem csak egy jó napon."
+      },
+      {
+        "label": "Indiában készül, a forrásnál",
+        "text": "Ott készül, ahol a növények nőnek és a gyakorlat eredetét vette, Dr. Praveen Rathi irányítása alatt — rövidebb az út a gyógynövénytől a készítményig, és egy családi ház felel minden egyes tételért."
+      },
+      {
+        "label": "Őszintén arról, amit nem állítunk",
+        "text": "Termékeinket hagyományos, ismeretterjesztő kifejezésekkel írjuk le, és semmiféle gyógyászati állítást nem teszünk. Amit ígérünk, az pontosan körülhatárolt: hiteles formulák, valódi összetevők, nyílt címkézés, készséges ügyfélszolgálat."
+      }
+    ],
+    "g_kicker": "Vásároljon nyugodtan",
+    "g_title": "Vásárlása védelem alatt áll",
+    "g_promise": "Ha rendelése sérülten, hiányosan vagy a leírtaktól eltérően érkezik, rendbe hozzuk — csere vagy visszatérítés, vita nélkül.",
+    "g_items": [
+      {
+        "label": "14 napos elállási jog",
+        "text": "A kézhezvételtől számítva 14 napod van a felbontatlan termékek visszaküldésére és a vételár visszatérítésére. Ezt teljes mértékben tiszteletben tartjuk, minden rendeléshez egyértelmű útmutatóval."
+      },
+      {
+        "label": "Biztonságos, titkosított fizetés",
+        "text": "Minden fizetés titkosított kapcsolaton, bejáratott szolgáltatókon keresztül történik. Sosem látjuk vagy tároljuk a teljes kártyaadatait — adatai bizalmasak maradnak."
+      },
+      {
+        "label": "Nyomon követhető világszintű szállítás",
+        "text": "A rendeléseket világszerte szállítjuk nyomon követéssel, a feladástól a küszöbig. Egy nyomon követési linket kapsz abban a pillanatban, amikor a csomag elhagy minket."
+      },
+      {
+        "label": "Őszinte, teljes körű címkézés",
+        "text": "Minden összetevő nyíltan fel van tüntetve a címkén és a termékoldalon — semmilyen szintetikus töltőanyag, semmilyen rejtett kiegészítés, semmi sem marad ki."
+      },
+      {
+        "label": "Készséges, emberi ügyfélszolgálat",
+        "text": "Kérdése van a vásárlás előtt vagy után? Írjon nekünk, és egy valódi ember válaszol, érthetően és gyorsan — a termékek kiválasztásáról, használatáról és tárolásáról."
+      },
+      {
+        "label": "Visszakövethető minőség",
+        "text": "Indiában készül, a forrásnál, valódi növényi alapanyagokból és hidegen sajtolt olajokból, Dr. Praveen Rathi irányítása alatt. A hitelesség a mérce, nem a kivétel."
+      }
+    ],
+    "badges": [
+      {
+        "label": "Klasszikus szövegek",
+        "text": "Minden formula a klasszikus ájurvédikus módszert követi — a gyógynövényeket, arányokat és elkészítést, amelyet a forrásszövegek előírnak."
+      },
+      {
+        "label": "A forrásnál készítve",
+        "text": "Indiában készül, ahol a gyógynövények nőnek — valódi készítmények, sosem máshol, importált porból összeállítva."
+      },
+      {
+        "label": "Valódi összetevők",
+        "text": "Eredeti növényi alapanyagok és hidegen sajtolt olajok. Szintetikus töltőanyagok nélkül, jellegtelen kivonatok nélkül, megalkuvás nélkül."
+      },
+      {
+        "label": "Nyílt összetevők",
+        "text": "Teljes összetevők, kiszerelés és mennyiség minden terméken és címkén — semmi sem rejlik egy „szabadalmaztatott keverék” mögött."
+      },
+      {
+        "label": "Átláthatóan címkézve",
+        "text": "Magas színvonalon elkészítve és átláthatóan címkézve, világszerte szállítva."
+      },
+      {
+        "label": "Dr. Praveen Rathi",
+        "text": "Egy családi ájurvédikus ház, Dr. Praveen Rathi által megalkotva és felügyelve — hűségben a szövegekhez."
+      }
+    ],
+    "cred_title": "Bizalom, mérce szerint",
+    "credibility": [
+      "358 hiteles készítmény gyógymódok, olajok, kozmetikumok és élelmiszerek terén",
+      "Klasszikus ájurvédikus szövegek szerint, Dr. Praveen Rathi irányítása alatt készítve",
+      "Indiában készül, a gyógynövények forrásánál",
+      "Valódi gyógynövények és hidegen sajtolt olajok, minden összetevő nyíltan feltüntetve",
+      "Átláthatóan címkézve, világszerte szállítva",
+      "Hagyományos, ismeretterjesztő, jólléti nyelvezet — gyógyászati állítások nélkül, mindenkor"
+    ],
+    "atc_reassure": "Biztonságos fizetés · 14 napos visszaküldés · Világszerte szállítjuk",
+    "faq": [
+      {
+        "q": "Ki készíti a Sangam Herbals termékeit, és hol?",
+        "a": "A Sangam Herbals egy családi ájurvédikus ház, amelyet Dr. Praveen Rathi állít össze és felügyel. Minden Indiában készül, a gyógynövények forrásánál, a klasszikus ájurvédikus szövegek szerint elkészítve — majd magas színvonalon, átláthatóan címkézve."
+      },
+      {
+        "q": "Honnan tudom, hogy valójában mi van az egyes termékekben?",
+        "a": "Minden termék feltünteti a teljes összetevőit, kiszerelését és mennyiségét — a termékoldalon, mielőtt megveszi, és a címkén, amikor megérkezik. Valódi gyógynövényeket és hidegen sajtolt olajokat használunk, szintetikus töltőanyagok nélkül, és semmi sincs elrejtve egy homályos „szabadalmaztatott keverék” mögé."
+      },
+      {
+        "q": "Átláthatóan vannak címkézve ezek a termékek?",
+        "a": "Igen. Termékkínálatunk átláthatóan címkézett, az összetevőkre, használatra és tárolásra vonatkozó információkkal, amelyek nyíltan és magas színvonalon vannak feltüntetve, és világszerte szállítunk."
+      },
+      {
+        "q": "Mi van, ha valami nem stimmel a rendelésemmel, vagy meggondolom magam?",
+        "a": "Ha a rendelésed sérülten, hiányosan vagy nem a leírásnak megfelelően érkezik, rendbe hozzuk — csere vagy visszatérítés, vita nélkül. Ezenkívül a kézhezvételtől számítva 14 napod van a felbontatlan termékek visszaküldésére és a vételár visszatérítésére, minden rendeléshez egyértelmű útmutatóval."
+      }
+    ],
+    "safety_note": "Kizárólag jólléti és hagyományos ápolási célokra — nem gyógyszer, és nem helyettesíti a szakorvosi tanácsot. Olvassa el a címkét, kövesse az útmutatást, és forduljon orvosához, ha terhes, szoptat, gyógyszert szed, vagy valamilyen egészségi állapotot kezel. Az első helyi alkalmazás előtt végezzen bőrpróbát. Gyermekektől elzárva tartandó.",
+    "seals_title": "Vásároljon nyugodt szívvel",
+    "seals": [
+      {
+        "label": "Biztonságos, titkosított fizetés",
+        "sub": "Bevált szolgáltatókon keresztül feldolgozva — kártyaadatait soha nem tároljuk teljes körűen.",
+        "icon": "lock"
+      },
+      {
+        "label": "14 napos visszaküldés",
+        "sub": "A bontatlan termékeket a kézhezvételtől számított 14 napon belül visszaküldheti és visszatérítjük.",
+        "icon": "return"
+      },
+      {
+        "label": "Nyomon követhető világszintű szállítás",
+        "sub": "Világszerte szállítva nyomon követéssel, a feladástól a küszöbig.",
+        "icon": "parcel"
+      },
+      {
+        "label": "A forrásnál készülve",
+        "sub": "Indiában készül, ahol a gyógynövények nőnek, a klasszikus szövegek szerint.",
+        "icon": "mortar"
+      },
+      {
+        "label": "Nyílt összetevők",
+        "sub": "Teljes összetevőlista minden terméken — semmit sem rejtünk el.",
+        "icon": "label"
+      },
+      {
+        "label": "Névvel felelve érte",
+        "sub": "Dr. Praveen Rathi által formulázva és felügyelve.",
+        "icon": "person"
+      }
+    ]
+  },
+  "seo": {
+    "description": "Autentikus ájurvédikus gyógykészítmények, kozmetikumok, olajok és élelmiszerek — a klasszikus szövegek szerint elkészítve, Indiában Dr. Praveen Rathi irányításával, és világszerte szállítva.",
+    "title": "Sangam Herbals — Autentikus ájurvéda, világszerte"
+  },
+  "river": {
+    "sub": "A Sangam a szent vizek találkozása — és az ősi gyakorlaté a gondos, modern mesterségbeli tudással. Fedezze fel az attar-gyűjteményt: 32 tartós indiai olajparfüm.",
+    "kicker": "Az összefolyás",
+    "quote": "Ahol két folyó egyetlen gyógymóddá válik.",
+    "cta": "Az attar-gyűjtemény böngészése →"
+  },
+  "founder": {
+    "eyebrow": "Igazgatónk üzenete",
+    "heading": "Minden tételért, amelyet készítünk, személyesen felelek.",
+    "paragraphs": [
+      "Az ájurvédát nem üzletként adták át a családomnak. Felelősségként adták tovább — a készítmények elkészítésének módjaként, pontosan úgy, ahogyan a klasszikus szövegek előírják, valódi gyógynövényekből és hidegen sajtolt olajokból, semmit sem adva hozzá a kényelem kedvéért. Csak így tudom elkészíteni őket, és csak így fogom.",
+      "Minden, amit a világba küldünk, itt, Indiában készül, a növények és maga a gyakorlat forrásánál. Ugyanazokkal az arányokkal és módszerekkel dolgozom, amelyeket generációkon át követtek, és minden készítményt pontos szabványokhoz tartok — mert attól, hogy egy recept régi, még nem lehet hanyagul elkészíteni.",
+      "Egyszerű okból döntöttem úgy, hogy a nevemet adom ehhez a házhoz és ehhez az oldalhoz: ha valami a testébe kerül vagy a bőrére, megérdemli, hogy tudja, ki áll mögötte. Vásárlás előtt olvassa el a teljes összetevőlistát. Írjon nekünk, ha valami nem világos. És ha egy termék nem felel meg Önnek, mondja el, és helyrehozzuk."
+    ],
+    "signature": "Praveen Rathi",
+    "credential": "Dr. Praveen Rathi · A Sangam Herbals igazgatója — családi ájurvédikus ház, amely a klasszikus szövegek szerint készít készítményeket, Indiában gyártva"
+  },
+  "promise": {
+    "kicker": "Miért készítjük ezeket",
+    "title": "Inkább elveszítünk egy eladást, mintsem hogy túlzásba essünk.",
+    "text": "Azért létezünk, hogy egy 5000 éves töretlen hagyományt a világ otthonaiba vigyünk anélkül, hogy felhígítanánk — minden készítményt a klasszikus ájurvédikus szövegek szerint, valódi gyógynövényekből és hidegen sajtolt olajokból, az indiai forrásnál előállítva, és névvel vállalva. Ezért pontosan megmutatjuk, mi van benne és hogyan készül, minden összetevőt nyíltan felsorolunk, és semmilyen orvosi állítást nem teszünk. Az autentikusság a mércénk, nem a kivétel."
+  }
+}

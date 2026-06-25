@@ -1,0 +1,17 @@
+{
+  "palette": {
+    "bg": "#FAF8F3",
+    "bg_alt": "#F2EDE3",
+    "surface": "#FFFFFF",
+    "ink": "#1C2B1E",
+    "ink_soft": "#5C6B52",
+    "primary": "#4A7C59",
+    "primary_deep": "#2D5240",
+    "accent": "#C8693A",
+    "gold": "#B8953A"
+  },
+  "font_display": "Cormorant Garamond",
+  "font_body": "DM Sans",
+  "rationale": "Sangam Herbals occupies the tension between ancient Ayurvedic ritual and contemporary European luxury — so the token system leans into warm off-whites and deep forest greens that feel pulled from bark, leaf, and raw turmeric rather than a mood board. The saffron accent (accent) is restrained to moments of intent — CTAs, price highlights, hover states — so it reads as precious, not decorative noise. Gold is reserved for premium tier and editorial moments, keeping the hierarchy legible at a glance across a dense EU-market product catalogue.",
+  "motion": "Scroll-driven reveals use a slow vertical fade-and-rise (opacity 0→1, translateY 24px→0, duration 680ms, cubic-bezier 0.22 1 0.36 1) so content feels like it's growing up from the earth rather than flying in. Product card hovers lift with a subtle box-shadow bloom and a 2% scale on the image container — no harsh borders, just depth — using a 240ms ease-out to keep it tactile without feeling playful. Parallax is used sparingly on full-bleed botanical photography at 0.15× scroll ratio, giving a sense of depth and slow breath without inducing motion sickness on long catalogue pages."
+}

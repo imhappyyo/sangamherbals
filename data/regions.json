@@ -1,0 +1,818 @@
+{
+  "languages": [
+    {
+      "code": "bg",
+      "name": "Bulgarian",
+      "native": "Български"
+    },
+    {
+      "code": "hr",
+      "name": "Croatian",
+      "native": "Hrvatski"
+    },
+    {
+      "code": "cs",
+      "name": "Czech",
+      "native": "Čeština"
+    },
+    {
+      "code": "da",
+      "name": "Danish",
+      "native": "Dansk"
+    },
+    {
+      "code": "nl",
+      "name": "Dutch",
+      "native": "Nederlands"
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "native": "English"
+    },
+    {
+      "code": "et",
+      "name": "Estonian",
+      "native": "Eesti"
+    },
+    {
+      "code": "fi",
+      "name": "Finnish",
+      "native": "Suomi"
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "native": "Français"
+    },
+    {
+      "code": "de",
+      "name": "German",
+      "native": "Deutsch"
+    },
+    {
+      "code": "el",
+      "name": "Greek",
+      "native": "Ελληνικά"
+    },
+    {
+      "code": "hu",
+      "name": "Hungarian",
+      "native": "Magyar"
+    },
+    {
+      "code": "ga",
+      "name": "Irish",
+      "native": "Gaeilge"
+    },
+    {
+      "code": "is",
+      "name": "Icelandic",
+      "native": "Íslenska"
+    },
+    {
+      "code": "it",
+      "name": "Italian",
+      "native": "Italiano"
+    },
+    {
+      "code": "lv",
+      "name": "Latvian",
+      "native": "Latviešu"
+    },
+    {
+      "code": "lt",
+      "name": "Lithuanian",
+      "native": "Lietuvių"
+    },
+    {
+      "code": "mt",
+      "name": "Maltese",
+      "native": "Malti"
+    },
+    {
+      "code": "ms",
+      "name": "Malay",
+      "native": "Bahasa Melayu"
+    },
+    {
+      "code": "no",
+      "name": "Norwegian",
+      "native": "Norsk"
+    },
+    {
+      "code": "pl",
+      "name": "Polish",
+      "native": "Polski"
+    },
+    {
+      "code": "pt",
+      "name": "Portuguese",
+      "native": "Português"
+    },
+    {
+      "code": "ro",
+      "name": "Romanian",
+      "native": "Română"
+    },
+    {
+      "code": "sk",
+      "name": "Slovak",
+      "native": "Slovenčina"
+    },
+    {
+      "code": "sl",
+      "name": "Slovenian",
+      "native": "Slovenščina"
+    },
+    {
+      "code": "es",
+      "name": "Spanish",
+      "native": "Español"
+    },
+    {
+      "code": "sv",
+      "name": "Swedish",
+      "native": "Svenska"
+    },
+    {
+      "code": "tr",
+      "name": "Turkish",
+      "native": "Türkçe"
+    },
+    {
+      "code": "zh",
+      "name": "Chinese (Simplified)",
+      "native": "简体中文"
+    },
+    {
+      "code": "zh-Hant",
+      "name": "Chinese (Traditional)",
+      "native": "繁體中文"
+    },
+    {
+      "code": "ja",
+      "name": "Japanese",
+      "native": "日本語"
+    },
+    {
+      "code": "ko",
+      "name": "Korean",
+      "native": "한국어"
+    },
+    {
+      "code": "th",
+      "name": "Thai",
+      "native": "ไทย"
+    },
+    {
+      "code": "ar",
+      "name": "Arabic",
+      "native": "العربية",
+      "dir": "rtl"
+    },
+    {
+      "code": "he",
+      "name": "Hebrew",
+      "native": "עברית",
+      "dir": "rtl"
+    }
+  ],
+  "countries": [
+    [
+      "US",
+      "United States",
+      "🇺🇸",
+      "en",
+      [
+        "en",
+        "es"
+      ],
+      "United States"
+    ],
+    [
+      "CA",
+      "Canada",
+      "🇨🇦",
+      "en",
+      [
+        "en",
+        "fr"
+      ],
+      "Canada"
+    ],
+    [
+      "MX",
+      "México",
+      "🇲🇽",
+      "es",
+      [
+        "es"
+      ],
+      "Mexico"
+    ],
+    [
+      "PR",
+      "Puerto Rico",
+      "🇵🇷",
+      "es",
+      [
+        "es",
+        "en"
+      ],
+      "Puerto Rico"
+    ],
+    [
+      "AT",
+      "Österreich",
+      "🇦🇹",
+      "de",
+      [
+        "de"
+      ],
+      "Austria"
+    ],
+    [
+      "BE",
+      "Belgium",
+      "🇧🇪",
+      "nl",
+      [
+        "nl",
+        "fr"
+      ],
+      "Belgium"
+    ],
+    [
+      "BG",
+      "България",
+      "🇧🇬",
+      "bg",
+      [
+        "bg"
+      ],
+      "Bulgaria"
+    ],
+    [
+      "HR",
+      "Hrvatska",
+      "🇭🇷",
+      "hr",
+      [
+        "hr"
+      ],
+      "Croatia"
+    ],
+    [
+      "CY",
+      "Κύπρος",
+      "🇨🇾",
+      "el",
+      [
+        "el",
+        "en"
+      ],
+      "Cyprus"
+    ],
+    [
+      "CZ",
+      "Česko",
+      "🇨🇿",
+      "cs",
+      [
+        "cs"
+      ],
+      "Czechia"
+    ],
+    [
+      "DK",
+      "Danmark",
+      "🇩🇰",
+      "da",
+      [
+        "da"
+      ],
+      "Denmark"
+    ],
+    [
+      "EE",
+      "Eesti",
+      "🇪🇪",
+      "et",
+      [
+        "et"
+      ],
+      "Estonia"
+    ],
+    [
+      "FI",
+      "Suomi",
+      "🇫🇮",
+      "fi",
+      [
+        "fi"
+      ],
+      "Finland"
+    ],
+    [
+      "FR",
+      "France",
+      "🇫🇷",
+      "fr",
+      [
+        "fr"
+      ],
+      "France"
+    ],
+    [
+      "DE",
+      "Deutschland",
+      "🇩🇪",
+      "de",
+      [
+        "de"
+      ],
+      "Germany"
+    ],
+    [
+      "GR",
+      "Ελλάδα",
+      "🇬🇷",
+      "el",
+      [
+        "el"
+      ],
+      "Greece"
+    ],
+    [
+      "HU",
+      "Magyarország",
+      "🇭🇺",
+      "hu",
+      [
+        "hu"
+      ],
+      "Hungary"
+    ],
+    [
+      "IS",
+      "Ísland",
+      "🇮🇸",
+      "is",
+      [
+        "is"
+      ],
+      "Iceland"
+    ],
+    [
+      "IE",
+      "Ireland",
+      "🇮🇪",
+      "en",
+      [
+        "en",
+        "ga"
+      ],
+      "Ireland"
+    ],
+    [
+      "IT",
+      "Italia",
+      "🇮🇹",
+      "it",
+      [
+        "it"
+      ],
+      "Italy"
+    ],
+    [
+      "LV",
+      "Latvija",
+      "🇱🇻",
+      "lv",
+      [
+        "lv"
+      ],
+      "Latvia"
+    ],
+    [
+      "LT",
+      "Lietuva",
+      "🇱🇹",
+      "lt",
+      [
+        "lt"
+      ],
+      "Lithuania"
+    ],
+    [
+      "LU",
+      "Luxembourg",
+      "🇱🇺",
+      "fr",
+      [
+        "fr",
+        "de"
+      ],
+      "Luxembourg"
+    ],
+    [
+      "MT",
+      "Malta",
+      "🇲🇹",
+      "en",
+      [
+        "en",
+        "mt"
+      ],
+      "Malta"
+    ],
+    [
+      "NL",
+      "Nederland",
+      "🇳🇱",
+      "nl",
+      [
+        "nl"
+      ],
+      "Netherlands"
+    ],
+    [
+      "NO",
+      "Norge",
+      "🇳🇴",
+      "no",
+      [
+        "no"
+      ],
+      "Norway"
+    ],
+    [
+      "PL",
+      "Polska",
+      "🇵🇱",
+      "pl",
+      [
+        "pl"
+      ],
+      "Poland"
+    ],
+    [
+      "PT",
+      "Portugal",
+      "🇵🇹",
+      "pt",
+      [
+        "pt"
+      ],
+      "Portugal"
+    ],
+    [
+      "RO",
+      "România",
+      "🇷🇴",
+      "ro",
+      [
+        "ro"
+      ],
+      "Romania"
+    ],
+    [
+      "SK",
+      "Slovensko",
+      "🇸🇰",
+      "sk",
+      [
+        "sk"
+      ],
+      "Slovakia"
+    ],
+    [
+      "SI",
+      "Slovenija",
+      "🇸🇮",
+      "sl",
+      [
+        "sl"
+      ],
+      "Slovenia"
+    ],
+    [
+      "ES",
+      "España",
+      "🇪🇸",
+      "es",
+      [
+        "es"
+      ],
+      "Spain"
+    ],
+    [
+      "SE",
+      "Sverige",
+      "🇸🇪",
+      "sv",
+      [
+        "sv"
+      ],
+      "Sweden"
+    ],
+    [
+      "CH",
+      "Switzerland",
+      "🇨🇭",
+      "de",
+      [
+        "de",
+        "fr",
+        "it"
+      ],
+      "Switzerland"
+    ],
+    [
+      "TR",
+      "Türkiye",
+      "🇹🇷",
+      "tr",
+      [
+        "tr"
+      ],
+      "Turkey"
+    ],
+    [
+      "GB",
+      "United Kingdom",
+      "🇬🇧",
+      "en",
+      [
+        "en"
+      ],
+      "United Kingdom"
+    ],
+    [
+      "AE",
+      "الإمارات",
+      "🇦🇪",
+      "ar",
+      [
+        "ar",
+        "en"
+      ],
+      "United Arab Emirates"
+    ],
+    [
+      "QA",
+      "قطر",
+      "🇶🇦",
+      "ar",
+      [
+        "ar",
+        "en"
+      ],
+      "Qatar"
+    ],
+    [
+      "SA",
+      "السعودية",
+      "🇸🇦",
+      "ar",
+      [
+        "ar",
+        "en"
+      ],
+      "Saudi Arabia"
+    ],
+    [
+      "JO",
+      "الأردن",
+      "🇯🇴",
+      "ar",
+      [
+        "ar",
+        "en"
+      ],
+      "Jordan"
+    ],
+    [
+      "IL",
+      "ישראל",
+      "🇮🇱",
+      "he",
+      [
+        "he",
+        "en"
+      ],
+      "Israel"
+    ],
+    [
+      "AU",
+      "Australia",
+      "🇦🇺",
+      "en",
+      [
+        "en"
+      ],
+      "Australia"
+    ],
+    [
+      "NZ",
+      "New Zealand",
+      "🇳🇿",
+      "en",
+      [
+        "en"
+      ],
+      "New Zealand"
+    ],
+    [
+      "CN",
+      "中国",
+      "🇨🇳",
+      "zh",
+      [
+        "zh"
+      ],
+      "China"
+    ],
+    [
+      "HK",
+      "香港",
+      "🇭🇰",
+      "zh-Hant",
+      [
+        "zh-Hant",
+        "en"
+      ],
+      "Hong Kong"
+    ],
+    [
+      "TW",
+      "台灣",
+      "🇹🇼",
+      "zh-Hant",
+      [
+        "zh-Hant"
+      ],
+      "Taiwan"
+    ],
+    [
+      "MO",
+      "澳門",
+      "🇲🇴",
+      "zh-Hant",
+      [
+        "zh-Hant",
+        "en"
+      ],
+      "Macau"
+    ],
+    [
+      "JP",
+      "日本",
+      "🇯🇵",
+      "ja",
+      [
+        "ja"
+      ],
+      "Japan"
+    ],
+    [
+      "KR",
+      "한국",
+      "🇰🇷",
+      "ko",
+      [
+        "ko"
+      ],
+      "South Korea"
+    ],
+    [
+      "SG",
+      "Singapore",
+      "🇸🇬",
+      "en",
+      [
+        "en"
+      ],
+      "Singapore"
+    ],
+    [
+      "MY",
+      "Malaysia",
+      "🇲🇾",
+      "en",
+      [
+        "en",
+        "ms"
+      ],
+      "Malaysia"
+    ],
+    [
+      "TH",
+      "ประเทศไทย",
+      "🇹🇭",
+      "th",
+      [
+        "th",
+        "en"
+      ],
+      "Thailand"
+    ],
+    [
+      "IN",
+      "India",
+      "🇮🇳",
+      "en",
+      [
+        "en"
+      ],
+      "India"
+    ],
+    [
+      "ZA",
+      "South Africa",
+      "🇿🇦",
+      "en",
+      [
+        "en"
+      ],
+      "South Africa"
+    ]
+  ],
+  "regions": [
+    {
+      "key": "na",
+      "codes": [
+        "US",
+        "CA",
+        "MX",
+        "PR"
+      ]
+    },
+    {
+      "key": "eu",
+      "codes": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "DE",
+        "GR",
+        "HU",
+        "IS",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE",
+        "CH",
+        "TR",
+        "GB"
+      ]
+    },
+    {
+      "key": "me",
+      "codes": [
+        "AE",
+        "QA",
+        "SA",
+        "JO",
+        "IL"
+      ]
+    },
+    {
+      "key": "ap",
+      "codes": [
+        "AU",
+        "NZ",
+        "CN",
+        "HK",
+        "TW",
+        "MO",
+        "JP",
+        "KR",
+        "SG",
+        "MY",
+        "TH",
+        "IN",
+        "ZA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "lang": "mt",
+    "native": "Malti",
+    "dir": "ltr"
+  },
+  "nav": {
+    "home": "Paġna Ewlenija",
+    "shop": "Ħanut",
+    "catalog": "Katalgu",
+    "about": "Dwarni",
+    "heritage": "Dwar",
+    "contact": "Kuntatt",
+    "search": "Fittex prodotti",
+    "learn": "Tgħallem"
+  },
+  "gate": {
+    "title": "Merħba f'Sangam Herbals",
+    "subtitle": "Ayurveda awtentika, maħduma fl-Indja — agħżel il-pajjiż u l-lingwa tiegħek",
+    "choose_region": "Agħżel il-pajjiż tiegħek",
+    "choose_language": "Agħżel il-lingwa tiegħek",
+    "continue": "Idħol fil-ħanut",
+    "filter": "Fittex pajjiżi",
+    "country_hint": "Agħżel il-pajjiż u l-lingwa tiegħek. Il-pajjiż jiddetermina l-kunsinna, il-munita u t-taxxa; il-lingwa tiddetermina kif jinqara l-ħanut.",
+    "no_country": "L-ebda pajjiż ma jaqbel ma' din it-tfittxija.",
+    "country_one": "pajjiż",
+    "country_many": "pajjiżi",
+    "close": "Agħlaq",
+    "region_na": "Amerika ta' Fuq",
+    "region_eu": "Ewropa",
+    "region_me": "Lvant Nofsani",
+    "region_ap": "Asja / Paċifiku",
+    "select_prompt": "Agħżel pajjiż biex tara minn qabel il-kunsinna, il-munita u l-lingwa",
+    "preview_head": "Qed tixtri minn {country}",
+    "row_ship": "Kunsinna",
+    "row_currency": "Munita",
+    "row_vat": "Taxxi u dazji",
+    "row_lang": "Lingwa tas-sit",
+    "ship_line": "Kunsinna ttraċċata lejn {country}, tipikament 3–10 ġranet tax-xogħol. B'xejn fuq aktar minn {free}.",
+    "currency_eur": "Il-prezzijiet jidhru f'ewro (EUR).",
+    "currency_local": "Il-prezzijiet huma indikattivi f'ewro (EUR). {country} juża {cur} — il-bank tiegħek jikkonverti waqt il-ħlas.",
+    "vat_line": "Kwalunkwe dazju jew taxxa għal {country} jintwerew waqt il-ħlas qabel ma tħallas.",
+    "lang_default": "l-għażla tas-soltu għal {country}",
+    "lang_change": "biddel",
+    "trust_ship": "Jintbagħat internazzjonalment",
+    "trust_langs": "35 lingwa",
+    "trust_eur": "Prezzijiet indikattivi fl-EUR",
+    "trust_secure": "Ħlas sigur",
+    "trust_return": "Dritt ta' ritorn ta' 14-il jum",
+    "change_later": "Pajjiż jew lingwa ħażina? Biddilhom meta trid minn “Reġjun” fil-menu."
+  },
+  "hero": {
+    "eyebrow": "Dar Ayurvedika tal-familja · Magħmul fl-Indja, skont it-testi klassiċi",
+    "title": "It-tradizzjoni, ippreparata b'fedeltà — u risponduta għaliha bl-isem.",
+    "subtitle": "Rimedji, żjut, kożmetiċi u ikel Ayurvediċi awtentiċi, magħmula fl-Indja taħt id-direzzjoni tad-Dr. Praveen Rathi u kkonsenjati mad-dinja kollha. Ħxejjex veri, ingredjenti miftuħa, tikkettar ċar — fiduċja li tista' tivverifika qabel ma tixtri.",
+    "cta_shop": "Esplora l-katalgu",
+    "cta_story": "Iltaqa' mad-dar",
+    "stat_products": "Prodotti awtentiċi",
+    "stat_categories": "Kategoriji",
+    "stat_countries": "Pajjiżi moqdija",
+    "credential": "Dr. Praveen Rathi · Direttur — ifformulat u sorveljat fis-sors, fl-Indja"
+  },
+  "sections": {
+    "ayurveda": "Ayurveda",
+    "cosmetics": "Kosmetiċi",
+    "food": "Ikel u Nutrizzjoni",
+    "oils": "Żjut",
+    "aromatherapy": "Aromaterapewtika"
+  },
+  "shop": {
+    "title": "Il-prodotti kollha",
+    "subtitle": "Kull prodott ta' Sangam Herbals, issa disponibbli mad-dinja kollha.",
+    "all": "Il-prodotti kollha",
+    "filter": "Iffiltra",
+    "sort": "Issortja",
+    "sort_featured": "Evidenzjati",
+    "sort_price_low": "Prezz: baxx għal għoli",
+    "sort_price_high": "Prezz: għoli għal baxx",
+    "sort_az": "Isem A–Z",
+    "results": "prodotti",
+    "empty": "L-ebda prodott ma jaqbel mal-filtri tiegħek.",
+    "clear": "Neħħi l-filtri",
+    "add": "Żid mal-karrita",
+    "view": "Ara d-dettalji",
+    "from": "minn",
+    "in_stock": "Disponibbli",
+    "sku": "SKU",
+    "showing": "Qed juri",
+    "loadmore": "Ħarreġ aktar",
+    "added": "Added"
+  },
+  "product": {
+    "description": "Deskrizzjoni",
+    "details": "Dettalji",
+    "category": "Kategorija",
+    "related": "Jista' jogħġbok ukoll",
+    "back": "Lura lejn il-ħanut",
+    "origin": "Magħmul fl-Indja",
+    "ships": "Jintbagħat mad-dinja kollha",
+    "unavailable": "Unavailable"
+  },
+  "heritage": {
+    "title": "Ħames elf sena, f'qatra waħda",
+    "body": "Sangam tfisser konfluwenza — il-laqgħa tax-xmajjar sagri. Sangam Herbals hija l-laqgħa tal-għerf antik tal-Ayurveda u produzzjoni moderna u attenta. Imwaqqfa taħt id-direzzjoni tad-Dr. Praveen Rathi, il-formulazzjonijiet tagħna huma magħmula minn ħxejjex awtentiċi, żjut ippressati għal kiesaħ u riċetti li ilhom igħaddu fiż-żmien, issa preparati u tikkettati biċ-ċar għad-djar madwar id-dinja.",
+    "pillar1_t": "Formuli awtentiċi",
+    "pillar1_b": "Churnas, pilloli u żjut klassikament preparati skont it-testi tradizzjonali Ayurvediċi.",
+    "pillar2_t": "Pur u onest",
+    "pillar2_b": "Ingredjenti veri, kwalità onesta, l-ebda addittivi bla bżonn.",
+    "pillar3_t": "Mill-Indja għad-dinja",
+    "pillar3_b": "Miġjuba mill-oriġini u kkonsenjati mad-dinja kollha."
+  },
+  "footer": {
+    "tagline": "Ayurveda awtentika, mad-dinja kollha",
+    "shop": "Ħanut",
+    "company": "Kumpanija",
+    "support": "Appoġġ",
+    "newsletter": "Newsletter",
+    "newsletter_sub": "Ritwali Ayurvediċi, wasliet ġodda u offerti.",
+    "email_ph": "L-email tiegħek",
+    "subscribe": "Abbona",
+    "rights": "Id-drittijiet kollha riżervati.",
+    "shipping": "Konsenja mad-dinja kollha",
+    "returns": "Ritorni",
+    "privacy": "Privatezza",
+    "terms": "Kondizzjonijiet",
+    "made": "Maħduma fl-Indja · Ikkonsenjata mad-dinja kollha",
+    "director": "Idderiġut mid-Dr. Praveen Rathi — ifformulat u sorveljat fis-sors, fl-Indja."
+  },
+  "cart": {
+    "title": "Il-karrita tiegħek",
+    "empty": "Il-karrita tiegħek hija vojta.",
+    "total": "Total",
+    "checkout": "Proċedi għall-ħlas",
+    "remove": "Neħħi",
+    "continue": "Kompli l-ixxopjar",
+    "add_more": "Żid",
+    "free_ship": "għal konsenja b'xejn",
+    "free_unlocked": "✓ Konsenja b'xejn miftuħa",
+    "free_ship_progress": "Żid {amount} għal konsenja b'xejn"
+  },
+  "common": {
+    "currency_note": "Il-prezzijiet huma indikattivi u jidhru fil-munita ta' pajjiżek.",
+    "loading": "Qed jillowdja…",
+    "change_region": "Reġjun"
+  },
+  "categories": {
+    "ayurveda": "Ayurveda",
+    "single-herb-churnas": "Churnas b'Ħaxixa Waħda",
+    "compound-churnas": "Churnas Komposti",
+    "chyawanprash": "Chyawanprash",
+    "churna-tablets": "Pilloli Churna",
+    "classic-tablets": "Pilloli Klassiċi",
+    "cosmetics": "Kosmetiċi",
+    "hair-care": "Kura tax-Xagħar",
+    "toothpastes": "Dentifriċi",
+    "face-care": "Kura tal-Wiċċ",
+    "body-care": "Kura tal-Ġisem",
+    "facial-toners": "Toners tal-Wiċċ",
+    "henna-hair-colour": "Kulur tax-Xagħar bil-Henna",
+    "food-nutrition": "Ikel u Nutrizzjoni",
+    "indian-sweets": "Ħelwiet Indjani",
+    "spices-seasonings": "Ħwawar u Taħlitiet",
+    "herbal-teas": "Tè tal-Ħxejjex",
+    "natural-juices": "Meraq Naturali",
+    "dried-fruits": "Frott Imnixxef",
+    "biscuits": "Gallettini",
+    "cane-sugar": "Zokkor tal-Kannamieli",
+    "indian-tea": "Tè Indjan",
+    "oils": "Żjut",
+    "natural-oils": "Żjut Naturali",
+    "ayurvedic-oils": "Żjut Ayurvediċi",
+    "aromatherapy": "Aromaterapewtika",
+    "incense": "Inċens",
+    "perfume-oils": "Żjut tal-fwieħa",
+    "hydrolats": "Idrolati",
+    "lozenges": "Pastilji"
+  },
+  "argument": {
+    "line": "Ħamest elef sena ta' prattika, miżmuma ma' standards moderni eżatti.",
+    "kicker": "Il-prinċipju tagħna"
+  },
+  "streams": {
+    "title": "Ixtri skont il-kategorija",
+    "stream": "Fluss"
+  },
+  "remedy": {
+    "kicker": "Prodott fil-fokus"
+  },
+  "dispatch": {
+    "title": "Issieħeb fin-newsletter tagħna"
+  },
+  "proof": {
+    "certified": "Tikkettar onest u miftuħ",
+    "ships": "Jintbagħat internazzjonalment",
+    "eur": "Prezzar indikattiv",
+    "origin": "Magħmul fl-Indja",
+    "langs": "35 lingwa"
+  },
+  "edu": {
+    "explore": "Esplora",
+    "shop": "Ixtri",
+    "care_label": "Miżmum f'bilanċ",
+    "learn_kicker": "Ayurveda, spjegata",
+    "learn_title": "X'inhi l-Ayurveda?",
+    "learn_p1": "L-Ayurveda hija sistema tradizzjonali ta' benesseri naturali li bdiet fl-Indja madwar 5,000 sena ilu. Isimha ġej minn żewġ kelmiet Sanskriti: ayur, li tfisser ħajja, u veda, li tfisser għarfien. Fil-qalba tagħha hemm idea waħda sempliċi: il-benesseri jiġi miż-żamma tal-ġisem u l-moħħ f'bilanċ.",
+    "learn_p2": "Minflok ma tiffoka fuq soluzzjonijiet ta' malajr, l-Ayurveda tħares lejn il-persuna sħiħa u r-ritmu tal-ħajja ta' kuljum. Hija tibni fuq pjanti, ħxejjex u formulazzjonijiet tradizzjonali, flimkien ma' rutini sempliċi ta' kuljum għad-dieta, l-irqad u l-kura personali. Aħsibha bħala approċċ rispettat biż-żmien biex tieħu ħsieb tiegħek innifsek, bil-mod u b'mod konsistenti.",
+    "learn_pr1_l": "Bilanċ",
+    "learn_pr1_t": "L-Ayurveda tara l-benesseri bħala stat ta' bilanċ, u għandha l-għan li żżomm il-ġisem u l-moħħ stabbli matul l-istaġuni u t-talbiet tal-ħajja ta' kuljum.",
+    "learn_pr2_l": "Il-persuna sħiħa",
+    "learn_pr2_t": "Hija tqis il-persuna bħala ħaġa sħiħa, billi tinkludi d-dieta, l-irqad, l-attività u l-burdata minflok ma tħares lejn xi parti waħda b'mod iżolat.",
+    "learn_pr3_l": "Ingredjenti naturali",
+    "learn_pr3_t": "Il-preparazzjonijiet tagħha huma magħmula minn pjanti, ħxejjex, żjut u ingredjenti naturali oħra, magħmula bl-użu ta' metodi tradizzjonali mgħoddija minn ġenerazzjoni għal oħra.",
+    "learn_pr4_l": "Ritwal ta' kuljum",
+    "learn_pr4_t": "Ħafna mill-Ayurveda tgħix f'drawwiet żgħar u ripetuti ta' kuljum — l-atti sempliċi ta' kura li, maż-żmien, isostnu sens ta' vitalità u benesseri ta' kuljum.",
+    "dosha_kicker": "Bażiċi tal-Ayurveda",
+    "dosha_title": "It-tliet doshas",
+    "dosha_intro": "Fl-Ayurveda, tliet enerġiji magħrufa bħala doshas — Vata, Pitta u Kapha — huma preżenti f'kulħadd f'taħlita unika, u l-għan huwa sempliċement li żżomm it-taħlita tiegħek stess f'bilanċ.",
+    "vata_el": "Arja u Spazju",
+    "vata_essence": "L-enerġija tal-moviment",
+    "vata_traits": "It-tipi Vata għandhom it-tendenza li jkunu ħfief, mgħaġġla u kreattivi — ħajjin fil-moħħ u fil-ġisem meta jkunu f'bilanċ.",
+    "vata_care": "Fl-Ayurveda, Vata tinżamm stabbli b'mod tradizzjonali bis-sħana, ir-rutina u ikel u żjut nutrijenti li jagħtu sisien.",
+    "pitta_el": "Nar u Ilma",
+    "pitta_essence": "L-enerġija tat-trasformazzjoni",
+    "pitta_traits": "It-tipi Pitta għandhom it-tendenza li jkunu ffukati, motivati u sħan, b'enerġija qawwija u sens b'saħħtu ta' skop.",
+    "pitta_care": "Fl-Ayurveda, Pitta tinżamm f'bilanċ b'mod tradizzjonali b'ikel li jkessaħ, rutini kalmi u ħin mgħoddi fin-natura.",
+    "kapha_el": "Art u Ilma",
+    "kapha_essence": "L-enerġija tal-istruttura",
+    "kapha_traits": "It-tipi Kapha għandhom it-tendenza li jkunu kalmi, stabbli u msejsin, b'natura sserrħa u sempliċi.",
+    "kapha_care": "Fl-Ayurveda, Kapha tinżamm ħajja b'mod tradizzjonali bil-moviment, ħwawar li jsaħħnu u ritwali ta' kuljum li jagħtu l-enerġija.",
+    "about_kicker": "Dwar Sangam Herbals",
+    "about_title": "Kustodju tal-Ayurveda awtentika, magħmula fl-għajn",
+    "about_p1": "Sangam Herbals hija dar Ayurvedika mmexxija mill-familja fl-Indja, imwaqqfa taħt id-direzzjoni ta' Dr. Praveen Rathi. Kull formulazzjoni hija ppreparata skont it-testi klassiċi Ayurvediċi, bl-użu ta' ħxejjex veri u żjut ippressati kiesħa minflok soluzzjonijiet ta' malajr jew mili sintetiċi. Ir-riċetti huma antiki; l-istandards li nżommuhom fihom mhumiex.",
+    "about_p2": "Kollox isir fl-Indja, fis-sors tal-pjanti u tat-tradizzjoni nnifisha. Minn hemm, il-prodotti tagħna jiġu tikkettati b'mod miftuħ u kkonsenjati mad-dinja kollha. Aħna nemmnu li l-aħjar mod biex naqilgħu l-fiduċja tiegħek hu li nkunu ċari dwar dak li nagħmlu u kif nagħmluh — u li nħallu l-prodotti jitkellmu għalihom infushom.",
+    "about_pr1_l": "Formuli awtentiċi",
+    "about_pr1_t": "Ir-riċetti huma ppreparati skont it-testi klassiċi Ayurvediċi, bil-mod li ilhom isiru għal ġenerazzjonijiet.",
+    "about_pr2_l": "Ingredjenti veri",
+    "about_pr2_t": "Aħna naħdmu b'ħxejjex ġenwini u żjut ippressati kiesħa, mingħajr mili sintetiċi miżjuda għall-konvenjenza.",
+    "about_pr3_l": "Magħmul fl-Indja, fis-sors",
+    "about_pr3_t": "Kull prodott huwa maħdum fl-Indja, fejn jikbru l-pjanti u fejn bdiet it-tradizzjoni.",
+    "about_pr4_l": "Tikkettar onest u konsenja mad-dinja kollha",
+    "about_pr4_t": "Il-firxa tagħna hija tikkettata biċ-ċar, bl-ingredjenti u l-użu murija b'mod miftuħ, u tintbagħat mad-dinja kollha.",
+    "concern_kicker": "Sib il-punt tat-tluq tiegħek",
+    "concern_title": "Ixtri skont it-tħassib",
+    "concern_intro": "Mhux ċert minn fejn tibda? Agħżel qasam ta' kuljum li jimpurtak minnu, u aħna nindikawlek il-prodotti u t-tradizzjonijiet li jaqblu.",
+    "c_digestion_l": "Diġestjoni u Imsaren",
+    "c_digestion_d": "Diġestjoni komda u bilanċ ta' kuljum tal-imsaren — churnas klassiċi, ħwawar karminattivi u taħlitiet ġentili bħal Triphala u Avipattikar.",
+    "c_immunity_l": "Immunità u Vitalità",
+    "c_immunity_d": "Toniċi rispettati biż-żmien — chyawanprash, Amla, Tulsi u Giloy — apprezzati b'mod tradizzjonali fl-Ayurveda għar-reżiljenza ta' kuljum.",
+    "c_energy_l": "Saħħa u Enerġija",
+    "c_energy_d": "Ħxejjex rasayana u toniċi li jġeddu — Shilajit, Shatavari, Bala u formuli klassiċi tas-saħħa — għall-istamina ta' kuljum.",
+    "c_respiratory_l": "Respiratorju u Staġjonali",
+    "c_respiratory_d": "Kumdità għall-griżmejn, is-sider u l-istaġun, minn Sitopaladi u Mulethi sa pastilji tal-ħxejjex li jserrħu.",
+    "c_stress_l": "Stress, Irqad u Moħħ",
+    "c_stress_d": "Taħlitiet li jikkalmaw u jagħtu sisien għall-konċentrazzjoni u għal sirien mistrieħa — Brahmi, Shankhpushpi, Jatamansi u valerjana.",
+    "c_joints_l": "Ġogi u Muskoli",
+    "c_joints_d": "Sostenn għal ġisem attiv u moviment ħafif — formuli Guggul u żjut tal-massaġġ li jsaħħnu bħal Mahanarayan.",
+    "c_womens_l": "Benesseri tan-Nisa",
+    "c_womens_d": "Sostenn ġentili u tradizzjonali għall-bilanċ ta' kuljum tan-nisa — Shatavari, Ashoka u toniċi klassiċi tan-nisa.",
+    "c_skin_l": "Ġilda u Wiċċ",
+    "c_skin_d": "Kura tal-wiċċ u tal-ġisem ibbażata fuq il-pjanti flimkien ma' ħxejjex li jnaddfu — prodotti li jnaddfu, toners, ilmijiet aromatiċi, Neem, Turmeric u Manjistha.",
+    "c_hair_l": "Xagħar u Qortox",
+    "c_hair_d": "Kura nutrijenti għax-xagħar u l-qortox — żjut Bhringraj u Amla, xampijiet tal-ħxejjex u kulur naturali tal-henna.",
+    "c_oral_l": "Kura Orali",
+    "c_oral_d": "Kura naturali ta' kuljum għas-snien, il-ħanek u nifs frisk — pejsts tas-snien tal-ħxejjex u ingredjenti ttestjati biż-żmien bħal Neem.",
+    "c_food_l": "Ikel, Tejiet u Ħwawar",
+    "c_food_d": "In-naħa tal-kċina tal-Ayurveda — ħwawar awtentiċi u masalas, tejiet tal-ħxejjex u Indjani, meraq, ħelu u aktar.",
+    "c_fragrance_l": "Fwieħa u Ritwal",
+    "c_fragrance_d": "Inċens u attars Indjani li jdumu biex ifewwħu l-ispazju tiegħek u r-ritwal ta' kuljum.",
+    "herb_kicker": "Edukazzjoni dwar l-ingredjenti",
+    "herb_title": "Ħxejjex Ayurvediċi ewlenin",
+    "herb_intro": "Gwida b'lingwaġġ sempliċi għat-tmien ħxejjex li l-aktar li se tiltaqa' magħhom fil-katalgu tagħna, u r-rwol li kull waħda ilha żmien twil iżżomm fit-tradizzjoni Ayurvedika.",
+    "herb_triphala_what": "Taħlita klassika ta' tliet frottiet imnixxfa, mitħuna flimkien fi trab wieħed.",
+    "herb_triphala_trad": "Fl-Ayurveda, użata b'mod tradizzjonali biex issostni d-diġestjoni ta' kuljum u bilanċ intern ġentili.",
+    "herb_triphala_found": "Churnas u pilloli",
+    "herb_tulsi_what": "Werqa aromatika mill-pjanta tal-ħabaq qaddis, użata bħala trab, fit-tejiet u fil-kura tal-ġilda u x-xagħar.",
+    "herb_tulsi_trad": "Ilha żmien twil apprezzata fit-tradizzjoni Ayurvedika biex issostni l-benesseri ta' kuljum u sens ta' vitalità.",
+    "herb_tulsi_found": "Churnas, tejiet u kura tal-ġilda",
+    "herb_neem_what": "Werqa morra mis-siġra tan-neem, użata bħala trab u fil-formuli kollha li jnaddfu l-ġilda u x-xagħar.",
+    "herb_neem_trad": "Assoċjata b'mod tradizzjonali fl-Ayurveda mal-kura tal-ġilda ta' kuljum u karnaġġjon nadif u bbilanċjat.",
+    "herb_neem_found": "Churnas, kura tal-wiċċ u x-xagħar",
+    "herb_amla_what": "Frotta żgħira u qarsa ħadra, użata bħala trab, meraq u fi prodotti tal-kura tax-xagħar.",
+    "herb_amla_trad": "Apprezzata b'mod tradizzjonali fl-Ayurveda biex issostni l-vitalità ta' kuljum u l-kura tax-xagħar u l-qortox.",
+    "herb_amla_found": "Churnas, meraq u kura tax-xagħar",
+    "herb_brahmi_what": "Ħaxixa żgħira li titkaxkar, meħuda bħala trab jew f'forma ta' pillola.",
+    "herb_brahmi_trad": "Fl-Ayurveda, assoċjata b'mod tradizzjonali ma' konċentrazzjoni kalma u benesseri mentali ta' kuljum.",
+    "herb_brahmi_found": "Churnas u pilloli",
+    "herb_chyawanprash_what": "Ġamm tradizzjonali skur tal-ħxejjex mibni madwar l-amla u taħlita ta' bosta ħxejjex u ħwawar.",
+    "herb_chyawanprash_trad": "Ilu meħud fit-tradizzjoni Ayurvedika bħala toniku ta' kuljum biex isostni l-vitalità u l-benesseri ta' kuljum.",
+    "herb_chyawanprash_found": "Ayurveda",
+    "herb_turmeric_what": "Għerq isfar tad-deheb, mitħun fi trab ta' ħwawar sħan u użat fit-tisjir, fil-meraq u fil-kura tal-ġilda.",
+    "herb_turmeric_trad": "Apprezzat b'mod tradizzjonali fl-Ayurveda biex isostni l-bilanċ ta' kuljum u l-kura tal-ġilda.",
+    "herb_turmeric_found": "Ħwawar, churnas u kura tal-ġilda",
+    "herb_henna_what": "Werqa mitħuna fi trab aħdar fin li jirrilaxxa kulur ħamrani naturali.",
+    "herb_henna_trad": "Ilha użata żmien twil fit-tradizzjoni Ayurvedika u Indjana bħala kulur naturali u trattament li jikkundizzjona x-xagħar.",
+    "herb_henna_found": "Henna u kura tax-xagħar",
+    "start_kicker": "Ġdid għall-Ayurveda",
+    "start_title": "Kif tibda, magħmula sempliċi",
+    "step1_l": "Tgħallem il-bażiċi",
+    "step1_t": "Qatta' ftit minuti tifhem x'inhi l-Ayurveda — sistema Indjana tradizzjonali ta' benesseri, bilanċ u kura personali ta' kuljum.",
+    "step2_l": "Sib it-tħassib jew it-tip tiegħek",
+    "step2_t": "Fittex skont dak li jimpurtak — ġilda, xagħar, diġestjoni, rutina ta' kuljum — u ara liema tradizzjonijiet u ingredjenti jaqblu miegħek.",
+    "step3_l": "Ibda sempliċi",
+    "step3_t": "Agħżel prodott wieħed li jaqbel mar-rutina tiegħek, ipprovah b'mod konsistenti, u żid aktar biss meta tħoss li hu tajjeb.",
+    "faq1_q": "L-Ayurveda hija sigura, u kif nuża l-prodotti?",
+    "faq1_a": "Il-prodotti tagħna huma magħmula minn ingredjenti tradizzjonali bbażati fuq il-pjanti u jiġu b'istruzzjonijiet ċari għall-użu ta' kuljum. Bħala prekawzjoni sensibbli, jekk jogħġbok ikkonsulta lit-tabib tiegħek qabel tibda xi ħaġa ġdida jekk inti tqila, treddà', tieħu xi mediċina, jew taħt kura medika.",
+    "faq2_q": "Kif nagħżel jekk jien kompletament ġdid għal dan?",
+    "faq2_a": "Ibda bi prodott wieħed li jaqbel ma' tħassib wieħed ta' kuljum — bħall-ġilda, ix-xagħar jew il-kura ta' kuljum — minflok ma tixtri diversi f'daqqa. Kull prodott jispjega b'lingwaġġ sempliċi x'inhu, kif intuża b'mod tradizzjonali, u kif tapplikah.",
+    "faq3_q": "Il-prodotti huma awtentiċi u ttikkettati sew?",
+    "faq3_a": "Kull prodott huwa magħmul fl-Indja taħt id-direzzjoni ta' Dr. Praveen Rathi, b'segwitu għall-preparazzjoni Ayurvedika tradizzjonali u l-istandards applikabbli tal-kwalità u tat-tikkettar. L-ingredjenti u l-użu huma elenkati b'mod miftuħ fuq kull prodott biex inti dejjem tkun taf x'qed tieħu.",
+    "faq4_q": "Tibagħtu lejn il-pajjiż tiegħi?",
+    "faq4_a": "Iva — aħna nibagħtu internazzjonalment. Il-ħinijiet tal-konsenja u kwalunkwe ħlasijiet jew dazji applikabbli jintwerew biċ-ċar fil-checkout qabel ma tikkonferma l-ordni tiegħek."
+  },
+  "pdp": {
+    "back": "Lura għax-xirja",
+    "good_for": "Tajjeb għal",
+    "what": "X'inhu",
+    "benefits": "Tradizzjonalment użat biex isostni",
+    "ingredients": "Ingredjenti ewlenin",
+    "how": "Kif tużah",
+    "suited": "Adattat għal",
+    "details": "Dettalji",
+    "format": "Format",
+    "origin": "Oriġini",
+    "india": "Indja",
+    "caution": "Informazzjoni Ayurvedika tradizzjonali għall-edukazzjoni, mhux parir mediku. Jekk inti tqila, treddà', tieħu xi mediċina jew taħt kura medika, jekk jogħġbok ikkonsulta lit-tabib tiegħek qabel l-użu.",
+    "precautions": "Prekawzjonijiet",
+    "related": "Jista' jogħġbok ukoll",
+    "transparency": "Kull ingredjent, elenkat b'mod miftuħ",
+    "routine": "Kif jidħol fir-rutina tiegħek",
+    "good_to_know": "Tajjeb li tkun taf",
+    "take_care": "Jekk jogħġbok oqgħod attent jekk",
+    "why_kicker": "Għaliex tixtri mingħandna",
+    "why_title": "It-tradizzjoni, imwassla bil-fedeltà — u magħmula fl-għajn",
+    "why_sub": "Kull formula tiġi preparata skont it-testi klassiċi tal-Ayurveda, minn ħxejjex veri u żjut ippressati għal kiesaħ, magħmula fl-Indja fejn jikbru l-ħxejjex u diretta mid-Dr. Praveen Rathi. Naqilgħu l-fiduċja tiegħek bil-mod onest: ingredjenti miftuħa, tikkettar ċar, u dar tal-familja li tagħti kont għal kull lott.",
+    "assure_title": "Tordna b'kunfidenza",
+    "ship_label": "Konsenja mad-dinja kollha",
+    "ship_text": "Konsenja ttraċċata, disponibbli mad-dinja kollha.",
+    "returns_label": "Tikkettar onest",
+    "returns_text": "L-ingredjenti u l-użu tradizzjonali huma elenkati b'mod miftuħ fuq kull prodott.",
+    "secure_label": "Magħmul fis-sors",
+    "secure_text": "Maħduma fl-Indja skont it-testi klassiċi tal-Ayurveda, imbagħad tikkettata biċ-ċar.",
+    "help_label": "Hawn biex ngħinu",
+    "help_text": "Mistoqsijiet qabel tixtri? Ikkuntattjana fuq WhatsApp, Telegram jew email.",
+    "faq_title": "Mistoqsijiet frekwenti",
+    "new_to": "Ġdid għall-Ayurveda?",
+    "new_to_cta": "Ibda mill-bażiku",
+    "qty_label": "Kwantità",
+    "delivery_eu": "Konsenja ttraċċata mad-dinja kollha",
+    "freeship_over": "Konsenja b'xejn fuq {amount}",
+    "freeship_away": "Int {amount} 'l bogħod minn konsenja b'xejn",
+    "freeship_unlocked": "✓ Konsenja b'xejn miftuħa",
+    "cta_guarantee": "Checkout sigur · Returns fi żmien 14-il jum · jekk jasal bil-ħsara jew mhux kif deskritt, naġġustawh",
+    "authority_quote": "Iffurmulata u sorveljata minn Dr. Praveen Rathi — \"Inwieġeb għal kull lott li nagħmlu.\"",
+    "pairs_title": "Tlesti r-rutina tiegħek",
+    "pairs_sub": "Magħżula mill-istess fokus fuq il-benessri — żid kumpann u resaq eqreb lejn konsenja b'xejn.",
+    "add_one": "Żid",
+    "compare_title": "Għaliex tagħżel lil Sangam",
+    "compare_sub": "X'għandek tfittex f'firxa awtentika tal-Ayurveda — u kif inqabblu magħha.",
+    "compare_us": "Sangam Herbals",
+    "compare_them": "Prodott erbali tipiku tas-suq tal-massa",
+    "compare_rows": [
+      {
+        "label": "Iffurmulata skont it-testi klassiċi tal-Ayurveda",
+        "us": "Iva — skont riċetti tradizzjonali",
+        "them": "Spiss taħlitiet proprjetarji"
+      },
+      {
+        "label": "Kull ingredjent elenkat b'mod miftuħ",
+        "us": "Iva — kollha kemm huma",
+        "them": "Ta' spiss mhux żvelati"
+      },
+      {
+        "label": "Ħxejjex veri u żjut ippressati kiesħa",
+        "us": "Iva — bla mili żejjed",
+        "them": "Tvarja"
+      },
+      {
+        "label": "Magħmula fis-sors fl-Indja",
+        "us": "Iva — fejn jikbru l-ħxejjex",
+        "them": "Spiss mhux speċifikat"
+      },
+      {
+        "label": "Sorveljata minn direttur b'isem magħruf",
+        "us": "Dr. Praveen Rathi",
+        "them": "Anonimu"
+      }
+    ],
+    "faq5_q": "Kemm dalwaqt se ninnota xi ħaġa?",
+    "faq5_a": "Il-ħxejjex tal-Ayurveda tradizzjonalment jittieħdu bħala parti minn rutina ta' kuljum kostanti aktar milli bħala soluzzjoni mgħaġġla, u ħafna nies jagħmluhom parti diskreta mill-ġurnata tagħhom matul diversi ġimgħat. Ir-riżultati jvarjaw minn persuna għal oħra.",
+    "faq6_q": "Għal min hija l-aktar adattata — u min għandu joqgħod attent?",
+    "faq6_a": "Hija tradizzjonalment użata fl-Ayurveda biex tappoġġja l-benesseri ta' kuljum. Jekk inti tqila, qed tredda', qed tieħu xi mediċina jew taħt kura medika, jekk jogħġbok kellem lit-tabib tiegħek qabel l-użu."
+  },
+  "trust": {
+    "bar": [
+      "Imħejjija skont it-testi klassiċi tal-Ayurveda",
+      "Magħmula fl-Indja, fl-għajn tal-ħxejjex",
+      "Ħxejjex ġenwini & żjut magħsura mingħajr sħana",
+      "Jintbagħat mad-dinja kollha",
+      "Checkout sigur · Returns fi żmien 14-il jum"
+    ],
+    "std_kicker": "L-istandards tagħna",
+    "std_title": "Magħmula sew, ikkontrollati mill-qrib",
+    "std_intro": "Aħjar nurik kif jsir prodott milli ngħidlek li hu tajjeb — listi miftuħa tal-ingredjenti, tikkettar ċar, u s-sors minn fejn ġej. Kull formulazzjoni tiġi preparata skont it-testi klassiċi tal-Ayurveda, minn ħxejjex veri u żjut ippressati għal kiesaħ, b'xejn miżjud għall-konvenjenza. Ir-riċetti ilhom sekli; id-dixxiplina li nżommuhom magħha hija eżatta.",
+    "std_items": [
+      {
+        "label": "Ħxejjex ġenwini, żjut magħsura mingħajr sħana",
+        "text": "Pjanti u żjut awtentiċi magħsura mingħajr sħana biex iżommu l-karattru tagħhom sħiħ — il-pjanta nnifisha, maħduma bil-mod tradizzjonali, qatt imnaqqsa għal estratt anonimu."
+      },
+      {
+        "label": "Ebda mili sintetiku",
+        "text": "Ma nimlewx il-churnas, il-pilloli u ż-żjut tagħna b'mili sintetiku, koloranti jew addittivi bla bżonn. Formula fiha dak li titlob ir-riċetta — xejn aktar."
+      },
+      {
+        "label": "Imħejjija skont il-metodi klassiċi",
+        "text": "Kull formulazzjoni ssegwi t-testi klassiċi tal-Ayurveda — l-istess proporzjonijiet u metodi mgħoddija minn ġenerazzjoni għal oħra, magħmula kif tippreskrivi t-tradizzjoni, lott wara lott."
+      },
+      {
+        "label": "Ingredjenti elenkati bil-miftuħ",
+        "text": "Kull prodott iġorr il-lista sħiħa tal-ingredjenti, il-format u l-kwantità tiegħu — xejn moħbi wara taħlita 'proprjetarja' vaga. Aqra eżattament x'hemm ġewwa qabel tixtri, u mill-ġdid fuq it-tikketta."
+      },
+      {
+        "label": "Tikkettati biċ-ċar",
+        "text": "Il-firxa tagħna hija tikkettata biċ-ċar, bl-informazzjoni dwar l-ingredjenti, l-użu u l-ħażna ppreżentata b'mod miftuħ skont standards għoljin, u tintbagħat mad-dinja kollha."
+      },
+      {
+        "label": "Konsistenti, minn lott għal lott",
+        "text": "Peress li l-materjali huma ġenwini u l-metodu huwa fiss, il-prodott li terġa' tordna huwa l-prodott li fdajt l-ewwel darba. Il-kwalità tibqa' stabbli — mhux biss f'ġurnata tajba."
+      },
+      {
+        "label": "Magħmula fl-Indja, fl-għajn",
+        "text": "Magħmula fejn jikbru l-pjanti u fejn bdiet il-prattika, taħt id-direzzjoni ta' Dr. Praveen Rathi — distanza iqsar bejn il-ħaxixa u l-formulazzjoni, u dar tal-familja responsabbli għal kull lott."
+      },
+      {
+        "label": "Ċari dwar dak li ma nsostnux",
+        "text": "Niddeskrivu l-prodotti tagħna f'termini tradizzjonali u edukattivi u ma nagħmlu ebda dikjarazzjoni medika. Dak li nwiegħdu huwa speċifiku: formuli awtentiċi, ingredjenti ġenwini, tikkettar miftuħ, appoġġ pront."
+      }
+    ],
+    "g_kicker": "Ordna b'kunfidenza",
+    "g_title": "Ix-xirja tiegħek hija protetta",
+    "g_promise": "Jekk l-ordni tiegħek tasal bil-ħsara, mhux kompluta jew mhux kif deskritta, naġġustawha — sostituzzjoni jew rifużjoni, mingħajr diskussjoni.",
+    "g_items": [
+      {
+        "label": "14-il jum dritt ta' ritorn",
+        "text": "Għandek 14-il jum mill-konsenja biex tirritorna oġġetti mhux miftuħa għal rifużjoni. Aħna nirrispettaw dan kompletament, b'istruzzjonijiet ċari f'kull ordni."
+      },
+      {
+        "label": "Ħlas sigur u kkriptat",
+        "text": "Kull ħlas jiġi pproċessat fuq konnessjoni kkriptata permezz ta' fornituri stabbiliti. Aħna qatt ma naraw jew naħżnu d-dettalji sħaħ tal-karta tiegħek — id-data tiegħek tibqa' privata."
+      },
+      {
+        "label": "Konsenja ttraċċata mad-dinja kollha",
+        "text": "L-ordnijiet jintbagħtu mad-dinja kollha bit-traċċar mid-dispaċċ sal-bieb. Tirċievi link ta' traċċar fil-mument li l-pakkett tiegħek jitlaq mingħandna."
+      },
+      {
+        "label": "Tikkettar onest u sħiħ",
+        "text": "Kull ingredjent huwa elenkat bil-miftuħ fuq it-tikketta u l-paġna tal-prodott — ebda mili sintetiku, ebda żidiet moħbija, xejn imħolli mhux iddikjarat."
+      },
+      {
+        "label": "Appoġġ uman pront",
+        "text": "Mistoqsija qabel jew wara li tixtri? Ikteb lilna u persuna vera twieġeb, b'mod ċar u fil-pront — dwar l-għażla, l-użu u l-ħażna tal-prodotti tiegħek."
+      },
+      {
+        "label": "Kwalità li tista' ssegwi",
+        "text": "Magħmula fl-Indja fl-għajn, minn pjanti ġenwini u żjut magħsura mingħajr sħana, imħejjija taħt id-direzzjoni ta' Dr. Praveen Rathi. L-awtentiċità hija l-istandard, mhux l-eċċezzjoni."
+      }
+    ],
+    "badges": [
+      {
+        "label": "Testi klassiċi",
+        "text": "Kull formula ssegwi l-metodu klassiku tal-Ayurveda — il-ħxejjex, il-proporzjonijiet u t-tħejjija li jippreskrivu t-testi tas-sors."
+      },
+      {
+        "label": "Magħmula fl-għajn",
+        "text": "Prodotta fl-Indja fejn jikbru l-ħxejjex — tħejjijiet ġenwini, qatt rikostitwiti minn trab importat band'oħra."
+      },
+      {
+        "label": "Ingredjenti ġenwini",
+        "text": "Pjanti awtentiċi u żjut magħsura mingħajr sħana. Ebda mili sintetiku, ebda estratti anonimi, ebda triqat qosra."
+      },
+      {
+        "label": "Ingredjenti miftuħa",
+        "text": "L-ingredjenti sħaħ, il-format u l-kwantità fuq kull prodott u tikketta — xejn wara taħlita 'proprjetarja'."
+      },
+      {
+        "label": "Tikkettati biċ-ċar",
+        "text": "Preparati u tikkettati biċ-ċar skont standards għoljin, mibgħuta mad-dinja kollha."
+      },
+      {
+        "label": "Dr. Praveen Rathi",
+        "text": "Dar Ayurvedika tal-familja, formulata u sorveljata minn Dr. Praveen Rathi — li żżomm il-fedeltà mat-testi."
+      }
+    ],
+    "cred_title": "Fiduċja, skont il-kejl",
+    "credibility": [
+      "358 formulazzjoni awtentika fost rimedji, żjut, kożmetiċi u ikel",
+      "Imħejjija skont it-testi klassiċi tal-Ayurveda, taħt id-direzzjoni ta' Dr. Praveen Rathi",
+      "Magħmula fl-Indja, fl-għajn tal-ħxejjex",
+      "Ħxejjex ġenwini u żjut magħsura mingħajr sħana, kull ingredjent elenkat bil-miftuħ",
+      "Tikkettati biċ-ċar, ikkonsenjati mad-dinja kollha",
+      "Lingwaġġ tradizzjonali u edukattiv tal-benessri — qatt ebda dikjarazzjoni medika"
+    ],
+    "atc_reassure": "Checkout sigur · Returns fi żmien 14-il jum · Jintbagħat mad-dinja kollha",
+    "faq": [
+      {
+        "q": "Min jagħmel Sangam Herbals, u fejn?",
+        "a": "Sangam Herbals hija dar Ayurvedika tal-familja, formulata u sorveljata mid-Dr. Praveen Rathi. Kollox isir fl-Indja, fis-sors tal-ħxejjex, u ppreparat skont it-testi klassiċi tal-Ayurveda — imbagħad tikkettat biċ-ċar skont standards għoljin."
+      },
+      {
+        "q": "Kif inkun naf x'hemm verament f'kull prodott?",
+        "a": "Kull prodott jelenka l-ingredjenti sħaħ, il-format u l-kwantità tiegħu — fuq il-paġna tal-prodott qabel tixtri, u fuq it-tikketta meta jasal. Nużaw ħxejjex ġenwini u żjut magħsura mingħajr sħana, mingħajr mili sintetiku u xejn moħbi wara taħlita 'proprjetarja' vaga."
+      },
+      {
+        "q": "Dawn il-prodotti huma tikkettati biċ-ċar?",
+        "a": "Iva. Il-firxa tagħna hija tikkettata biċ-ċar, bl-informazzjoni dwar l-ingredjenti, l-użu u l-ħażna ppreżentata b'mod miftuħ skont standards għoljin, u aħna nibagħtu mad-dinja kollha."
+      },
+      {
+        "q": "X'jiġri jekk xi ħaġa tkun ħażina bl-ordni tiegħi, jew jekk nibdel fehmti?",
+        "a": "Jekk l-ordni tiegħek tasal bil-ħsara, mhux kompluta jew mhux kif deskritta, aħna naġġustawha — bdil jew rifużjoni, mingħajr diskussjoni. U għandek 14-il jum mill-konsenja biex tirritorna oġġetti mhux miftuħa għal rifużjoni, b'istruzzjonijiet ċari f'kull ordni."
+      }
+    ],
+    "safety_note": "Għall-benessri u l-kura tradizzjonali biss — mhux mediċina, u mhux sostitut għal parir mediku professjonali. Aqra t-tikketta, segwi d-direzzjonijiet, u kkonsulta lit-tabib tiegħek jekk inti tqila, qed tredda', fuq mediċini, jew tittratta kundizzjoni tas-saħħa. Agħmel test fuq biċċa ġilda qabel l-ewwel użu fuq il-ġilda. Żomm 'il bogħod minn idejn it-tfal.",
+    "seals_title": "Ixtri b'kunfidenza",
+    "seals": [
+      {
+        "label": "Ħlas siġur u kkriptat",
+        "sub": "Ipproċessat permezz ta' fornituri stabbiliti — qatt ma naħżnu d-dettalji sħaħ tal-karta tiegħek.",
+        "icon": "lock"
+      },
+      {
+        "label": "Returns fi żmien 14-il jum",
+        "sub": "Irritorna oġġetti mhux miftuħa fi żmien 14-il jum mill-kunsinna għal rimborż.",
+        "icon": "return"
+      },
+      {
+        "label": "Konsenja ttraċċata mad-dinja kollha",
+        "sub": "Mibgħuta mad-dinja kollha bit-traċċar, mid-dispaċċ sal-bieb.",
+        "icon": "parcel"
+      },
+      {
+        "label": "Magħmula fis-sors",
+        "sub": "Maħduma fl-Indja fejn jikbru l-ħxejjex, skont it-testi klassiċi.",
+        "icon": "mortar"
+      },
+      {
+        "label": "Ingredjenti miftuħa",
+        "sub": "Lista sħiħa ta' ingredjenti fuq kull prodott — xejn moħbi.",
+        "icon": "label"
+      },
+      {
+        "label": "Risponduti għalihom bl-isem",
+        "sub": "Ifformulati u sorveljati mid-Dr. Praveen Rathi.",
+        "icon": "person"
+      }
+    ]
+  },
+  "seo": {
+    "description": "Rimedji, kożmetiċi, żjut u ikel Ayurvediċi awtentiċi — preparati skont it-testi klassiċi, magħmula fl-Indja taħt id-Dr. Praveen Rathi, u kkonsenjati mad-dinja kollha.",
+    "title": "Sangam Herbals — Ayurveda Awtentika, Mad-Dinja Kollha"
+  },
+  "river": {
+    "sub": "Sangam huwa fejn jiltaqgħu l-ilmijiet sagri — u l-prattika antika mas-sengħa moderna u attenta. Skopri l-librerija tal-attar: 32 fwieħa Indjana taż-żejt li jdumu fit-tul.",
+    "kicker": "Il-Konfluwenza",
+    "quote": "Fejn żewġ xmajjar isiru rimedju wieħed.",
+    "cta": "Esplora l-librerija tal-attar →"
+  },
+  "founder": {
+    "eyebrow": "Nota mid-direttur tagħna",
+    "heading": "Jien nirrispondi għal kull lott li nagħmlu.",
+    "paragraphs": [
+      "L-Ayurveda ma ngħatatx lill-familja tiegħi bħala negozju. Ingħatat minn ġenerazzjoni għal oħra bħala responsabbiltà — mod kif tipprepara r-rimedji eżatt kif jistabbilixxu t-testi klassiċi, minn ħxejjex veri u żjut għasra fil-kiesaħ, b'xejn miżjud għall-konvenjenza. Dak huwa l-uniku mod li naf kif nagħmilhom, u l-uniku mod li nagħmel.",
+      "Kull ma nibagħtu fid-dinja jsir hawn fl-Indja, fis-sors tal-pjanti u tal-prattika nnifisha. Naħdem bl-istess proporzjonijiet u metodi li ilhom segwiti għal ġenerazzjonijiet, u nżomm kull formulazzjoni ma' standards li huma eżatti — għax ir-riċetta li tkun antika mhix skuża biex il-produzzjoni tkun bla attenzjoni.",
+      "Għażilt li npoġġi ismi fuq din id-dar, u fuq din il-paġna, għal raġuni sempliċi: meta xi ħaġa tidħol fġismek jew fuq ġildtek, jistħoqqlok tkun taf min jinsab warajha. Aqra l-ingredjenti kollha qabel ma tixtri. Iktbilna jekk xi ħaġa mhix ċara. U jekk prodott mhux tajjeb għalik, għidilna, u aħna nagħmluha sewwa."
+    ],
+    "signature": "Praveen Rathi",
+    "credential": "Dr. Praveen Rathi · Direttur, Sangam Herbals — dar Ayurvedika tal-familja li tipprepara r-rimedji skont it-testi klassiċi, magħmula fl-Indja"
+  },
+  "promise": {
+    "kicker": "Għaliex nagħmlu dawn",
+    "title": "Aktarx nitilfu bejgħ milli nesaġerawh.",
+    "text": "Aħna neżistu biex inwasslu tradizzjoni mhux maqtugħa ta' 5,000 sena fid-djar madwar id-dinja mingħajr ma niddilwixxuha — billi nippreparaw kull rimedju skont it-testi klassiċi tal-Ayurveda, minn ħxejjex veri u żjut ippressati għal kiesaħ, magħmula fis-sors fl-Indja u li nagħtu kont għalihom b'isimna. Għalhekk nurik eżatt x'hemm ġewwa u kif isir, nelenkaw kull ingredjent b'mod miftuħ, u ma nagħmlu l-ebda pretensjoni medika. L-awtentiċità hija l-istandard tagħna, mhux l-eċċezzjoni tagħna."
+  }
+}

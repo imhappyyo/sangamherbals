@@ -1,0 +1,582 @@
+{
+  "meta": {
+    "lang": "sl",
+    "native": "Slovenščina",
+    "dir": "ltr"
+  },
+  "nav": {
+    "home": "Domov",
+    "shop": "Trgovina",
+    "catalog": "Katalog",
+    "about": "O nas",
+    "heritage": "O nas",
+    "contact": "Kontakt",
+    "search": "Iskanje izdelkov",
+    "learn": "Spoznajte"
+  },
+  "gate": {
+    "title": "Dobrodošli pri Sangam Herbals",
+    "subtitle": "Pristna ajurveda, izdelana v Indiji — izberite svojo državo in jezik",
+    "choose_region": "Izberite svojo državo",
+    "choose_language": "Izberite svoj jezik",
+    "continue": "Vstopite v trgovino",
+    "filter": "Iščite po državah",
+    "country_hint": "Izberite svojo državo in jezik. Vaša država določa dostavo, valuto in davek; vaš jezik določa, v katerem jeziku se trgovina prikazuje.",
+    "no_country": "Tej iskalni poizvedbi ne ustreza nobena država.",
+    "country_one": "država",
+    "country_many": "držav",
+    "close": "Zapri",
+    "region_na": "Severna Amerika",
+    "region_eu": "Evropa",
+    "region_me": "Bližnji vzhod",
+    "region_ap": "Azija / Pacifik",
+    "select_prompt": "Izberite državo za predogled dostave, valute in jezika",
+    "preview_head": "Nakupujete iz države {country}",
+    "row_ship": "Dostava",
+    "row_currency": "Valuta",
+    "row_vat": "Davki in dajatve",
+    "row_lang": "Jezik strani",
+    "ship_line": "Sledljiva dostava v državo {country}, običajno 3–10 delovnih dni. Brezplačno pri nakupu nad {free}.",
+    "currency_eur": "Cene so prikazane v evrih (EUR).",
+    "currency_local": "Cene so okvirne, prikazane v evrih (EUR). Država {country} uporablja valuto {cur} — vaša banka pretvori znesek ob plačilu.",
+    "vat_line": "Morebitne dajatve ali davki za državo {country} so prikazani ob zaključku nakupa, preden plačate.",
+    "lang_default": "običajna izbira za državo {country}",
+    "lang_change": "spremeni",
+    "trust_ship": "Mednarodna dostava",
+    "trust_langs": "35 jezikov",
+    "trust_eur": "Okvirne cene v EUR",
+    "trust_secure": "Varno plačilo",
+    "trust_return": "14-dnevno vračilo",
+    "change_later": "Napačna država ali jezik? Kadar koli ju spremenite prek možnosti »Regija« v meniju."
+  },
+  "hero": {
+    "eyebrow": "Družinska ajurvedska hiša · Izdelano v Indiji, po klasičnih besedilih",
+    "title": "Tradicija, pripravljena zvesto — in z osebno odgovornostjo.",
+    "subtitle": "Pristna ajurvedska zdravilna sredstva, olja, kozmetika in živila, izdelana v Indiji pod vodstvom dr. Praveena Rathija in dostavljena po vsem svetu. Pravi zdravilni zelišča, odprte sestavine, jasno označevanje — zaupanje, ki ga lahko preverite, preden kupite.",
+    "cta_shop": "Prebrskajte katalog",
+    "cta_story": "Spoznajte hišo",
+    "stat_products": "Pristni izdelki",
+    "stat_categories": "Kategorije",
+    "stat_countries": "Oskrbovane države",
+    "credential": "Dr. Praveen Rathi · Direktor — pripravljeno in nadzorovano pri viru, v Indiji"
+  },
+  "sections": {
+    "ayurveda": "Ajurveda",
+    "cosmetics": "Kozmetika",
+    "food": "Hrana in prehrana",
+    "oils": "Olja",
+    "aromatherapy": "Aromaterapija"
+  },
+  "shop": {
+    "title": "Vsi izdelki",
+    "subtitle": "Vsak izdelek Sangam Herbals, zdaj na voljo po vsem svetu.",
+    "all": "Vsi izdelki",
+    "filter": "Filtriraj",
+    "sort": "Razvrsti",
+    "sort_featured": "Izpostavljeni",
+    "sort_price_low": "Cena: od najnižje",
+    "sort_price_high": "Cena: od najvišje",
+    "sort_az": "Ime A–Ž",
+    "results": "izdelkov",
+    "empty": "Noben izdelek ne ustreza vašim filtrom.",
+    "clear": "Počisti filtre",
+    "add": "Dodaj v košarico",
+    "view": "Podrobnosti",
+    "from": "od",
+    "in_stock": "Na zalogi",
+    "sku": "Šifra",
+    "showing": "Prikazano",
+    "loadmore": "Naloži več",
+    "added": "Added"
+  },
+  "product": {
+    "description": "Opis",
+    "details": "Podrobnosti",
+    "category": "Kategorija",
+    "related": "Morda vas zanima tudi",
+    "back": "Nazaj v trgovino",
+    "origin": "Izdelano v Indiji",
+    "ships": "Dostava po vsem svetu",
+    "unavailable": "Unavailable"
+  },
+  "heritage": {
+    "title": "Pet tisoč let v eni kapljici",
+    "body": "Sangam pomeni sotočje — srečanje svetih rek. Sangam Herbals je srečanje starodavne ajurvedske modrosti in skrbne, sodobne proizvodnje. Ustanovljen pod vodstvom dr. Praveena Rathija, naše formulacije izdelujemo iz pristnih zelišč, hladno stiskanih olj in časovno preverjenih receptov, ki jih zdaj pripravljamo in jasno označujemo za gospodinjstva po vsem svetu.",
+    "pillar1_t": "Pristne formule",
+    "pillar1_b": "Klasični čurni, tablete in olja, pripravljena po tradicionalnih ajurvedskih besedilih.",
+    "pillar2_t": "Čisto in pošteno",
+    "pillar2_b": "Prave sestavine, poštena kakovost, brez nepotrebnih dodatkov.",
+    "pillar3_t": "Iz Indije v svet",
+    "pillar3_b": "Pridobljeno na izvoru in dostavljeno po vsem svetu."
+  },
+  "footer": {
+    "tagline": "Pristna ajurveda, po vsem svetu",
+    "shop": "Trgovina",
+    "company": "Podjetje",
+    "support": "Podpora",
+    "newsletter": "E-novice",
+    "newsletter_sub": "Ajurvedski rituali, novosti in ponudbe.",
+    "email_ph": "Vaš e-poštni naslov",
+    "subscribe": "Naroči se",
+    "rights": "Vse pravice pridržane.",
+    "shipping": "Dostava po vsem svetu",
+    "returns": "Vračila",
+    "privacy": "Zasebnost",
+    "terms": "Pogoji poslovanja",
+    "made": "Izdelano v Indiji · Dostavljeno po vsem svetu",
+    "director": "Pod vodstvom dr. Praveena Rathija — pripravljeno in nadzorovano pri viru, v Indiji."
+  },
+  "cart": {
+    "title": "Vaša košarica",
+    "empty": "Vaša košarica je prazna.",
+    "total": "Skupaj",
+    "checkout": "Zaključi nakup",
+    "remove": "Odstrani",
+    "continue": "Nadaljuj z nakupovanjem",
+    "add_more": "Dodaj",
+    "free_ship": "za brezplačno dostavo",
+    "free_unlocked": "✓ Brezplačna dostava odklenjena",
+    "free_ship_progress": "Dodajte {amount} za brezplačno dostavo"
+  },
+  "common": {
+    "currency_note": "Cene so okvirne in prikazane v valuti vaše države.",
+    "loading": "Nalaganje…",
+    "change_region": "Regija"
+  },
+  "categories": {
+    "ayurveda": "Ajurveda",
+    "single-herb-churnas": "Čurni iz posameznih zelišč",
+    "compound-churnas": "Sestavljeni čurni",
+    "chyawanprash": "Chyawanprash",
+    "churna-tablets": "Tablete churna",
+    "classic-tablets": "Klasične tablete",
+    "cosmetics": "Kozmetika",
+    "hair-care": "Nega las",
+    "toothpastes": "Zobne paste",
+    "face-care": "Nega obraza",
+    "body-care": "Nega telesa",
+    "facial-toners": "Toniki za obraz",
+    "henna-hair-colour": "Barvanje las s heno",
+    "food-nutrition": "Hrana in prehrana",
+    "indian-sweets": "Indijske sladkarije",
+    "spices-seasonings": "Začimbe in dišave",
+    "herbal-teas": "Zeliščni čaji",
+    "natural-juices": "Naravni sokovi",
+    "dried-fruits": "Suho sadje",
+    "biscuits": "Piškoti",
+    "cane-sugar": "Trsni sladkor",
+    "indian-tea": "Indijski čaj",
+    "oils": "Olja",
+    "natural-oils": "Naravna olja",
+    "ayurvedic-oils": "Ajurvedska olja",
+    "aromatherapy": "Aromaterapija",
+    "incense": "Kadila",
+    "perfume-oils": "Parfumska olja",
+    "hydrolats": "Hidrolati",
+    "lozenges": "Pastile"
+  },
+  "argument": {
+    "line": "Pet tisoč let prakse, podvržene natančnim sodobnim standardom.",
+    "kicker": "Naše načelo"
+  },
+  "streams": {
+    "title": "Nakup po kategorijah",
+    "stream": "Tok"
+  },
+  "remedy": {
+    "kicker": "Izpostavljeni izdelek"
+  },
+  "dispatch": {
+    "title": "Prijavite se na e-novice"
+  },
+  "proof": {
+    "certified": "Pošteno, odprto označevanje",
+    "ships": "Mednarodna dostava",
+    "eur": "Okvirne cene",
+    "origin": "Proizvedeno v Indiji",
+    "langs": "35 jezikov"
+  },
+  "edu": {
+    "explore": "Razišči",
+    "shop": "Trgovina",
+    "care_label": "Ohranjeno v ravnovesju",
+    "learn_kicker": "Ajurveda, pojasnjeno",
+    "learn_title": "Kaj je ajurveda?",
+    "learn_p1": "Ajurveda je tradicionalni sistem naravnega dobrega počutja, ki se je v Indiji razvil pred približno 5.000 leti. Njeno ime izhaja iz dveh sanskrtskih besed: ayur, ki pomeni življenje, in veda, ki pomeni znanje. V njenem jedru je ena preprosta zamisel: dobro počutje izvira iz ohranjanja telesa in uma v ravnovesju.",
+    "learn_p2": "Namesto da bi se osredotočala na hitre rešitve, ajurveda gleda na celotnega človeka in ritem vsakdanjega življenja. Opira se na rastline, zelišča in tradicionalne pripravke, hkrati pa na preproste vsakodnevne navade glede prehrane, spanja in skrbi zase. Predstavljajte si jo kot časovno preizkušen pristop k nežni in dosledni skrbi zase.",
+    "learn_pr1_l": "Ravnovesje",
+    "learn_pr1_t": "Ajurveda razume dobro počutje kot stanje ravnovesja in si prizadeva ohranjati telo in um v stabilnosti skozi letne čase ter zahteve vsakdanjega življenja.",
+    "learn_pr2_l": "Celostno",
+    "learn_pr2_t": "Človeka obravnava kot celoto in upošteva prehrano, spanje, dejavnost in razpoloženje, namesto da bi gledala na posamezen del ločeno.",
+    "learn_pr3_l": "Naravne sestavine",
+    "learn_pr3_t": "Njeni pripravki so sestavljeni iz rastlin, zelišč, olj in drugih naravnih sestavin, izdelani po tradicionalnih metodah, prenesenih skozi generacije.",
+    "learn_pr4_l": "Vsakdanji obred",
+    "learn_pr4_t": "Velik del ajurvede živi v majhnih, ponavljajočih se vsakodnevnih navadah — preprostih dejanjih skrbi, ki sčasoma podpirajo občutek vitalnosti in vsakdanjega dobrega počutja.",
+    "dosha_kicker": "Osnove ajurvede",
+    "dosha_title": "Tri doše",
+    "dosha_intro": "V ajurvedi so tri energije, znane kot doše — Vata, Pitta in Kapha — prisotne v vsakem človeku v edinstveni mešanici, cilj pa je preprosto ohranjati lastno mešanico v ravnovesju.",
+    "vata_el": "Zrak & Prostor",
+    "vata_essence": "Energija gibanja",
+    "vata_traits": "Tipi Vata so po navadi lahkotni, hitri in ustvarjalni — živahni v umu in telesu, ko so v ravnovesju.",
+    "vata_care": "V ajurvedi se Vata tradicionalno ohranja stabilna s toploto, rutino ter prizemljujočimi, hranljivimi živili in olji.",
+    "pitta_el": "Ogenj & Voda",
+    "pitta_essence": "Energija preobrazbe",
+    "pitta_traits": "Tipi Pitta so po navadi osredotočeni, zagnani in topli, z izostreno energijo in močnim občutkom za namen.",
+    "pitta_care": "V ajurvedi se Pitta tradicionalno ohranja v ravnovesju s hladilnimi živili, umirjenimi rutinami in časom, preživetim v naravi.",
+    "kapha_el": "Zemlja & Voda",
+    "kapha_essence": "Energija strukture",
+    "kapha_traits": "Tipi Kapha so po navadi umirjeni, stanovitni in prizemljeni, z uravnovešeno, sproščeno naravo.",
+    "kapha_care": "V ajurvedi se Kapha tradicionalno ohranja živahna z gibanjem, ogrevajočimi začimbami in spodbujajočimi vsakodnevnimi obredi.",
+    "about_kicker": "O Sangam Herbals",
+    "about_title": "Skrbnik pristne Ayurvede, izdelane ob izvoru",
+    "about_p1": "Sangam Herbals je družinska ajurvedska hiša v Indiji, ustanovljena pod vodstvom Dr. Praveen Rathi. Vsak pripravek je pripravljen po klasičnih ajurvedskih besedilih, z uporabo pravih zelišč in hladno stiskanih olj, namesto bližnjic ali sintetičnih polnil. Recepti so stari; merila, po katerih jih ocenjujemo, niso.",
+    "about_p2": "Vse je izdelano v Indiji, na izvoru rastlin in same tradicije. Od tam so naši izdelki odkrito označeni in dostavljeni po vsem svetu. Verjamemo, da je najboljši način, da si prislužimo vaše zaupanje, ta, da smo odkriti glede tega, kaj izdelujemo in kako to delamo — in da pustimo, da izdelki govorijo sami zase.",
+    "about_pr1_l": "Pristne recepture",
+    "about_pr1_t": "Recepti so pripravljeni po klasičnih ajurvedskih besedilih, tako kot so jih izdelovali skozi generacije.",
+    "about_pr2_l": "Prave sestavine",
+    "about_pr2_t": "Delamo s pristnimi zelišči in hladno stiskanimi olji, brez dodanih sintetičnih polnil zaradi priročnosti.",
+    "about_pr3_l": "Izdelano v Indiji, pri viru",
+    "about_pr3_t": "Vsak izdelek je izdelan v Indiji, kjer rastejo rastline in se je začela tradicija.",
+    "about_pr4_l": "Pošteno označevanje in dostava po vsem svetu",
+    "about_pr4_t": "Naša ponudba je jasno označena, s sestavinami in uporabo, prikazanimi odkrito, ter dostavljena po vsem svetu.",
+    "concern_kicker": "Poiščite svoje izhodišče",
+    "concern_title": "Nakupujte po potrebi",
+    "concern_intro": "Niste prepričani, kje začeti? Izberite vsakdanje področje, ki vam je pomembno, mi pa vas usmerimo k izdelkom in tradicijam, ki vam ustrezajo.",
+    "c_digestion_l": "Prebava & Črevesje",
+    "c_digestion_d": "Udobna prebava in vsakdanje ravnovesje črevesja — klasične čurne, karminativne začimbe in nežne mešanice, kot sta Triphala in Avipattikar.",
+    "c_immunity_l": "Imunost & Vitalnost",
+    "c_immunity_d": "Časovno preizkušeni toniki — Chyawanprash, Amla, Tulsi in Giloy — v ajurvedi tradicionalno cenjeni za vsakdanjo odpornost.",
+    "c_energy_l": "Moč & Energija",
+    "c_energy_d": "Pomlajevalna zelišča in toniki rasayana — Shilajit, Shatavari, Bala in klasične recepture za moč — za vsakdanjo vzdržljivost.",
+    "c_respiratory_l": "Dihala & Letni časi",
+    "c_respiratory_d": "Udobje za grlo, prsi in letne čase, od Sitopaladi in Mulethi do pomirjujočih zeliščnih pastil.",
+    "c_stress_l": "Stres, Spanje & Um",
+    "c_stress_d": "Pomirjujoče, prizemljujoče mešanice za zbranost in mirne večere — Brahmi, Shankhpushpi, Jatamansi in baldrijan.",
+    "c_joints_l": "Sklepi & Mišice",
+    "c_joints_d": "Podpora dejavnim telesom in lahkotnemu gibanju — recepture Guggul in ogrevajoča masažna olja, kot je Mahanarayan.",
+    "c_womens_l": "Dobro počutje žensk",
+    "c_womens_d": "Nežna, tradicionalna podpora vsakdanjemu ravnovesju žensk — Shatavari, Ashoka in klasični ženski toniki.",
+    "c_skin_l": "Koža & Obraz",
+    "c_skin_d": "Rastlinska nega obraza in telesa ter čistilna zelišča — čistila, toniki, hidrolati, Neem, Turmeric in Manjistha.",
+    "c_hair_l": "Lasje & Lasišče",
+    "c_hair_d": "Hranljiva nega las in lasišča — olja Bhringraj in Amla, zeliščni šamponi in naravna barva Henna.",
+    "c_oral_l": "Ustna nega",
+    "c_oral_d": "Naravna vsakdanja nega zob, dlesni in svežega daha — zeliščne zobne paste in časovno preizkušene sestavine, kot je Neem.",
+    "c_food_l": "Hrana, Čaji & Začimbe",
+    "c_food_d": "Kuhinjska plat ajurvede — pristne začimbe in masale, zeliščni in indijski čaji, sokovi, sladice in še več.",
+    "c_fragrance_l": "Dišave & Obred",
+    "c_fragrance_d": "Kadila in obstojni indijski attarji za odišavljanje vašega prostora in vsakdanjega obreda.",
+    "herb_kicker": "Spoznavanje sestavin",
+    "herb_title": "Ključna ajurvedska zelišča",
+    "herb_intro": "Vodnik v razumljivem jeziku po osmih zeliščih, ki jih boste najpogosteje srečali v našem katalogu, in vlogi, ki jo vsako že dolgo ima v ajurvedski tradiciji.",
+    "herb_triphala_what": "Klasična mešanica treh sušenih sadežev, zmletih skupaj v en sam prah.",
+    "herb_triphala_trad": "V ajurvedi se tradicionalno uporablja za podporo vsakdanji prebavi in nežnemu notranjemu ravnovesju.",
+    "herb_triphala_found": "Čurne & tablete",
+    "herb_tulsi_what": "Aromatičen list rastline svetega bazilike, ki se uporablja kot prah, v čajih ter v negi kože in las.",
+    "herb_tulsi_trad": "V ajurvedski tradiciji že dolgo cenjen za podporo vsakdanjemu dobremu počutju in občutku vitalnosti.",
+    "herb_tulsi_found": "Čurne, čaji & nega kože",
+    "herb_neem_what": "Grenak list drevesa neem, ki se uporablja kot prah in v čistilnih recepturah za kožo in lase.",
+    "herb_neem_trad": "V ajurvedi tradicionalno povezan z vsakdanjo nego kože ter čisto, uravnovešeno poltjo.",
+    "herb_neem_found": "Čurne, nega obraza & las",
+    "herb_amla_what": "Majhen, kisel zelen sadež, ki se uporablja kot prah, sok in v izdelkih za nego las.",
+    "herb_amla_trad": "V ajurvedi tradicionalno cenjen za podporo vsakdanji vitalnosti ter negi las in lasišča.",
+    "herb_amla_found": "Čurne, sokovi & nega las",
+    "herb_brahmi_what": "Majhno plazeče zelišče, ki se uživa kot prah ali v obliki tablet.",
+    "herb_brahmi_trad": "V ajurvedi tradicionalno povezan z mirno zbranostjo in vsakdanjim duševnim dobrim počutjem.",
+    "herb_brahmi_found": "Čurne & tablete",
+    "herb_chyawanprash_what": "Tradicionalna temna zeliščna marmelada, zasnovana okoli Amle in mešanice številnih zelišč in začimb.",
+    "herb_chyawanprash_trad": "V ajurvedski tradiciji se že dolgo uživa kot vsakdanji tonik za podporo vsakdanji vitalnosti in dobremu počutju.",
+    "herb_chyawanprash_found": "Ajurveda",
+    "herb_turmeric_what": "Zlatorumena korenina, zmleta v topel začimbni prah in uporabljena pri kuhanju, v sokovih ter negi kože.",
+    "herb_turmeric_trad": "V ajurvedi tradicionalno cenjen za podporo vsakdanjemu ravnovesju in negi kože.",
+    "herb_turmeric_found": "Začimbe, čurne & nega kože",
+    "herb_henna_what": "List, zmlet v fin zelen prah, ki sprošča naravno rdečkasto barvo.",
+    "herb_henna_trad": "V ajurvedski in indijski tradiciji se že dolgo uporablja kot naravna barva in negovalna obravnava za lase.",
+    "herb_henna_found": "Henna & nega las",
+    "start_kicker": "Novi v ajurvedi",
+    "start_title": "Začetek, poenostavljen",
+    "step1_l": "Spoznajte osnove",
+    "step1_t": "Namenite nekaj minut razumevanju, kaj je ajurveda — tradicionalni indijski sistem vsakdanjega dobrega počutja, ravnovesja in skrbi zase.",
+    "step2_l": "Poiščite svojo potrebo ali tip",
+    "step2_t": "Brskajte po tem, kar vam je pomembno — koža, lasje, prebava, vsakdanja rutina — in poglejte, katere tradicije in sestavine vam ustrezajo.",
+    "step3_l": "Začnite preprosto",
+    "step3_t": "Izberite en izdelek, ki ustreza vaši rutini, ga dosledno uporabljajte in dodajte več šele, ko se vam to zdi pravo.",
+    "faq1_q": "Je ajurveda varna in kako uporabljam izdelke?",
+    "faq1_a": "Naši izdelki so izdelani iz tradicionalnih rastlinskih sestavin in so opremljeni z jasnimi navodili za vsakdanjo uporabo. Kot smiseln previdnostni ukrep se pred začetkom uporabe česa novega posvetujte s svojim zdravnikom, če ste noseči, dojite, jemljete zdravila ali ste pod zdravniško oskrbo.",
+    "faq2_q": "Kako izberem, če sem v tem popoln začetnik?",
+    "faq2_a": "Začnite z enim samim izdelkom, ki ustreza eni vsakdanji potrebi — kot so koža, lasje ali vsakdanja nega — namesto da kupite več hkrati. Vsak izdelek v razumljivem jeziku pojasni, kaj je, kako se je tradicionalno uporabljal in kako ga nanesti.",
+    "faq3_q": "So izdelki pristni in pravilno označeni?",
+    "faq3_a": "Vsak izdelek je izdelan v Indiji pod vodstvom Dr. Praveen Rathi, po tradicionalni ajurvedski pripravi ter veljavnih standardih kakovosti in označevanja. Sestavine in uporaba so odkrito navedene na vsakem izdelku, tako da vedno veste, kaj dobite.",
+    "faq4_q": "Ali dostavljate v mojo državo?",
+    "faq4_a": "Da — pošiljamo mednarodno. Dobavni roki ter morebitni stroški ali dajatve so jasno prikazani ob zaključku nakupa, preden potrdite naročilo."
+  },
+  "pdp": {
+    "back": "Nazaj v trgovino",
+    "good_for": "Primerno za",
+    "what": "Kaj je to",
+    "benefits": "Tradicionalno se uporablja za podporo",
+    "ingredients": "Ključne sestavine",
+    "how": "Kako uporabljati",
+    "suited": "Primerno za",
+    "details": "Podrobnosti",
+    "format": "Oblika",
+    "origin": "Izvor",
+    "india": "Indija",
+    "caution": "Tradicionalne ajurvedske informacije za izobraževanje, ne za zdravniški nasvet. Če ste noseči, dojite, jemljete zdravila ali ste pod zdravniško oskrbo, se pred uporabo posvetujte s svojim zdravnikom.",
+    "precautions": "Previdnostni ukrepi",
+    "related": "Morda vam bo všeč tudi",
+    "transparency": "Vsaka sestavina, navedena odkrito",
+    "routine": "Kako se vključi v vašo rutino",
+    "good_to_know": "Dobro je vedeti",
+    "take_care": "Bodite pozorni, če",
+    "why_kicker": "Zakaj nakupovati pri nas",
+    "why_title": "Tradicija, zvesto nadaljevana — in izdelana ob izvoru",
+    "why_sub": "Vsaka formula je pripravljena po klasičnih ajurvedskih besedilih, iz pravih zelišč in hladno stiskanih olj, izdelana v Indiji, kjer rastejo zelišča, in pod vodstvom dr. Praveena Rathija. Vaše zaupanje si prislužimo na pošten način: odprte sestavine, jasno označevanje in družinska hiša, ki odgovarja za vsako serijo.",
+    "assure_title": "Naročanje z zaupanjem",
+    "ship_label": "Dostava po vsem svetu",
+    "ship_text": "Sledljiva dostava, na voljo po vsem svetu.",
+    "returns_label": "Pošteno označevanje",
+    "returns_text": "Sestavine in tradicionalna uporaba so odkrito navedene pri vsakem izdelku.",
+    "secure_label": "Izdelano pri viru",
+    "secure_text": "Izdelano v Indiji po klasičnih ajurvedskih besedilih, nato jasno označeno.",
+    "help_label": "Tu smo, da pomagamo",
+    "help_text": "Vprašanja pred nakupom? Dosegljivi smo prek aplikacij WhatsApp, Telegram ali po e-pošti.",
+    "faq_title": "Pogosta vprašanja",
+    "new_to": "Ste novi v ajurvedi?",
+    "new_to_cta": "Začnite z osnovami",
+    "qty_label": "Količina",
+    "delivery_eu": "Sledljiva dostava po vsem svetu",
+    "freeship_over": "Brezplačna dostava nad {amount}",
+    "freeship_away": "Do brezplačne dostave vas loči {amount}",
+    "freeship_unlocked": "✓ Brezplačna dostava odklenjena",
+    "cta_guarantee": "Varen nakup · 14-dnevno vračilo · če izdelek prispe poškodovan ali ni skladen z opisom, to popravimo",
+    "authority_quote": "Formuliral in nadzoruje dr. Praveen Rathi — »Jamčim za vsako serijo, ki jo izdelamo.«",
+    "pairs_title": "Dopolnite svojo rutino",
+    "pairs_sub": "Izbrano z enakim poudarkom na dobrem počutju — dodajte spremljevalni izdelek in se približajte brezplačni dostavi.",
+    "add_one": "Dodaj",
+    "compare_title": "Zakaj izbrati Sangam",
+    "compare_sub": "Na kaj biti pozoren pri pristni ajurvedski liniji — in kako se odrežemo mi.",
+    "compare_us": "Sangam Herbals",
+    "compare_them": "Običajen množični zeliščni izdelek",
+    "compare_rows": [
+      {
+        "label": "Formulirano po klasičnih ajurvedskih besedilih",
+        "us": "Da — po tradicionalnih recepturah",
+        "them": "Pogosto lastniške mešanice"
+      },
+      {
+        "label": "Vsaka sestavina odkrito navedena",
+        "us": "Da — v celoti",
+        "them": "Pogosto nerazkrito"
+      },
+      {
+        "label": "Prava zelišča in hladno stiskana olja",
+        "us": "Da — brez nepotrebnih polnil",
+        "them": "Spreminja se"
+      },
+      {
+        "label": "Izdelano pri izvoru v Indiji",
+        "us": "Da — tam, kjer zelišča rastejo",
+        "them": "Pogosto nedoločeno"
+      },
+      {
+        "label": "Pod nadzorom imenovanega direktorja",
+        "us": "Dr. Praveen Rathi",
+        "them": "Anonimno"
+      }
+    ],
+    "faq5_q": "Kako kmalu bom kaj opazil?",
+    "faq5_a": "Ajurvedska zelišča se tradicionalno jemljejo kot del ustaljene vsakodnevne rutine in ne kot hitra rešitev, mnogi ljudje pa jih skozi več tednov vpletejo v miren del svojega dne. Rezultati se razlikujejo od človeka do človeka.",
+    "faq6_q": "Komu je to najbolj namenjeno — in kdo naj bo previden?",
+    "faq6_a": "V ajurvedi se tradicionalno uporablja za podporo vsakodnevnemu dobremu počutju. Če ste noseči, dojite, jemljete zdravila ali ste pod zdravniško oskrbo, se pred uporabo posvetujte s svojim zdravnikom."
+  },
+  "trust": {
+    "bar": [
+      "Pripravljeno po klasičnih ajurvedskih besedilih",
+      "Izdelano v Indiji, ob izvoru zelišč",
+      "Prave zelišča & hladno stiskana olja",
+      "Dostava po vsem svetu",
+      "Varen nakup · 14-dnevno vračilo"
+    ],
+    "std_kicker": "Naši standardi",
+    "std_title": "Skrbno izdelano, natančno nadzorovano",
+    "std_intro": "Raje vam pokažemo, kako je izdelek narejen, kot da vam povemo, da je dober — odprti seznami sestavin, jasno označevanje in izvor, od koder prihaja. Vsaka formulacija je pripravljena po klasičnih ajurvedskih besedilih, iz pravih zelišč in hladno stiskanih olj, brez ničesar dodanega zaradi udobja. Recepti so stari stoletja; disciplina, ki ji jih podvržemo, je natančna.",
+    "std_items": [
+      {
+        "label": "Prava zelišča, hladno stiskana olja",
+        "text": "Pristne rastline in olja, stiskana brez toplote, da ohranijo svoj značaj nedotaknjen — rastlina sama, obdelana na tradicionalen način, nikoli zvedena na brezimni izvleček."
+      },
+      {
+        "label": "Brez sintetičnih polnil",
+        "text": "Naših churn, tablet in olj ne polnimo s sintetičnimi polnili, barvili ali nepotrebnimi dodatki. Receptura vsebuje to, kar predpisuje recept — nič več."
+      },
+      {
+        "label": "Pripravljeno po klasičnih metodah",
+        "text": "Vsaka receptura sledi klasičnim ajurvedskim besedilom — enaka razmerja in metode, ki se prenašajo skozi generacije, izdelana tako, kot predpisuje tradicija, šaržo za šaržo."
+      },
+      {
+        "label": "Sestavine odkrito navedene",
+        "text": "Vsak izdelek nosi svoj celoten seznam sestavin, obliko in količino — nič skritega za nejasno 'lastniško mešanico'. Natančno preberite, kaj je notri, preden kupite, in ponovno na etiketi."
+      },
+      {
+        "label": "Jasno označeno",
+        "text": "Naša ponudba je jasno označena, z informacijami o sestavinah, uporabi in shranjevanju, predstavljenimi odkrito po visokih standardih, ter dostavljena po vsem svetu."
+      },
+      {
+        "label": "Dosledno, od šarže do šarže",
+        "text": "Ker so vhodne sestavine prave in je metoda ustaljena, je izdelek, ki ga ponovno naročite, isti izdelek, ki ste mu zaupali prvič. Kakovost ostaja stalna — ne le ob dobrih dneh."
+      },
+      {
+        "label": "Izdelano v Indiji, ob izvoru",
+        "text": "Izdelano tam, kjer rastline rastejo in kjer je tradicija nastala, pod vodstvom Dr. Praveen Rathi — krajša razdalja med zeliščem in recepturo ter družinska hiša, ki odgovarja za vsako šaržo."
+      },
+      {
+        "label": "Iskreni glede tega, česar ne zatrjujemo",
+        "text": "Svoje izdelke opisujemo s tradicionalnimi, izobraževalnimi izrazi in ne navajamo zdravstvenih trditev. To, kar obljubljamo, je konkretno: pristne recepture, prave sestavine, odkrito označevanje, odzivna podpora."
+      }
+    ],
+    "g_kicker": "Naročite z zaupanjem",
+    "g_title": "Vaš nakup je zaščiten",
+    "g_promise": "Če vaše naročilo prispe poškodovano, nepopolno ali ne ustreza opisu, bomo zadevo uredili — zamenjava ali povračilo, brez razprave.",
+    "g_items": [
+      {
+        "label": "14-dnevna pravica do vračila",
+        "text": "Za vračilo neodprtih izdelkov in povračilo imate na voljo 14 dni od dostave. To v celoti spoštujemo, z jasnimi navodili v vsakem naročilu."
+      },
+      {
+        "label": "Varno, šifrirano plačilo",
+        "text": "Vsako plačilo poteka prek šifrirane povezave preko uveljavljenih ponudnikov. Vaših celotnih podatkov o kartici nikoli ne vidimo niti ne shranjujemo — vaši podatki ostanejo zasebni."
+      },
+      {
+        "label": "Sledljiva dostava po vsem svetu",
+        "text": "Naročila pošiljamo po vsem svetu s sledenjem od odpreme do vašega praga. Povezavo za sledenje prejmete v trenutku, ko paket zapusti naš dom."
+      },
+      {
+        "label": "Iskreno, popolno označevanje",
+        "text": "Vsaka sestavina je odkrito navedena na etiketi in na strani izdelka — brez sintetičnih polnil, brez skritih dodatkov, nič nenavedenega."
+      },
+      {
+        "label": "Odzivna človeška podpora",
+        "text": "Imate vprašanje pred nakupom ali po njem? Pišite nam in odgovoril vam bo resničen človek, jasno in hitro — o izbiri, uporabi in shranjevanju vaših izdelkov."
+      },
+      {
+        "label": "Kakovost, ki ji lahko sledite",
+        "text": "Izdelano v Indiji ob izvoru, iz pravih rastlin in hladno stiskanih olj, pripravljeno pod vodstvom Dr. Praveen Rathi. Pristnost je standard, ne izjema."
+      }
+    ],
+    "badges": [
+      {
+        "label": "Klasična besedila",
+        "text": "Vsaka receptura sledi klasični ajurvedski metodi — zelišča, razmerja in priprava, kot jih predpisujejo izvirna besedila."
+      },
+      {
+        "label": "Izdelano ob izvoru",
+        "text": "Proizvedeno v Indiji, kjer zelišča rastejo — prave priprave, nikoli rekonstituirane iz uvoženega prahu drugje."
+      },
+      {
+        "label": "Prave sestavine",
+        "text": "Pristne rastline in hladno stiskana olja. Brez sintetičnih polnil, brez brezimnih izvlečkov, brez bližnjic."
+      },
+      {
+        "label": "Odkrite sestavine",
+        "text": "Celotne sestavine, oblika in količina na vsakem izdelku in etiketi — nič za 'lastniško mešanico'."
+      },
+      {
+        "label": "Jasno označeno",
+        "text": "Pripravljeno in jasno označeno po visokih standardih, poslano po vsem svetu."
+      },
+      {
+        "label": "Dr. Praveen Rathi",
+        "text": "Družinska ajurvedska hiša, oblikovana in nadzorovana pod vodstvom Dr. Praveen Rathi — zvesta izvirnim besedilom."
+      }
+    ],
+    "cred_title": "Zaupanje, izmerjeno",
+    "credibility": [
+      "358 pristnih receptur med pripravki, olji, kozmetiko in živili",
+      "Pripravljeno po klasičnih ajurvedskih besedilih, pod vodstvom Dr. Praveen Rathi",
+      "Izdelano v Indiji, ob izvoru zelišč",
+      "Prava zelišča in hladno stiskana olja, vsaka sestavina odkrito navedena",
+      "Jasno označeno, dostavljeno po vsem svetu",
+      "Tradicionalni, izobraževalni jezik o dobrem počutju — nikoli nobenih zdravstvenih trditev"
+    ],
+    "atc_reassure": "Varen nakup · 14-dnevno vračilo · Dostava po vsem svetu",
+    "faq": [
+      {
+        "q": "Kdo izdeluje Sangam Herbals in kje?",
+        "a": "Sangam Herbals je družinska ajurvedska hiša, katere formulacije oblikuje in nadzira dr. Praveen Rathi. Vse je izdelano v Indiji, na izvoru zelišč, in pripravljeno po klasičnih ajurvedskih besedilih — nato jasno označeno po visokih standardih."
+      },
+      {
+        "q": "Kako vem, kaj je dejansko v vsakem izdelku?",
+        "a": "Vsak izdelek navaja svoje celotne sestavine, obliko in količino — na strani izdelka, preden kupite, in na etiketi, ko prispe. Uporabljamo prava zelišča in hladno stiskana olja, brez sintetičnih polnil in brez česarkoli skritega za nejasno 'lastniško mešanico'."
+      },
+      {
+        "q": "Ali so ti izdelki jasno označeni?",
+        "a": "Da. Naša ponudba je jasno označena, z informacijami o sestavinah, uporabi in shranjevanju, predstavljenimi odkrito po visokih standardih, in pošiljamo po vsem svetu."
+      },
+      {
+        "q": "Kaj če je z mojim naročilom nekaj narobe ali si premislim?",
+        "a": "Če vaše naročilo prispe poškodovano, nepopolno ali ni skladno z opisom, bomo to popravili — zamenjava ali povračilo, brez razprave. Za vračilo neodprtih izdelkov in povračilo pa imate na voljo 14 dni od dostave, z jasnimi navodili v vsakem naročilu."
+      }
+    ],
+    "safety_note": "Samo za dobro počutje in tradicionalno nego — ni zdravilo in ni nadomestilo za strokovni zdravniški nasvet. Preberite etiketo, upoštevajte navodila in se posvetujte s svojim zdravnikom, če ste noseči, dojite, jemljete zdravila ali obvladujete zdravstveno stanje. Pred prvo lokalno uporabo opravite preizkus na koži. Hranite zunaj dosega otrok.",
+    "seals_title": "Kupujte z zaupanjem",
+    "seals": [
+      {
+        "label": "Varno šifrirano plačilo",
+        "sub": "Obdelano prek uveljavljenih ponudnikov — vaših celotnih podatkov o kartici nikoli ne shranjujemo.",
+        "icon": "lock"
+      },
+      {
+        "label": "14-dnevno vračilo",
+        "sub": "Neodprte izdelke vrnite v 14 dneh od dostave za povračilo.",
+        "icon": "return"
+      },
+      {
+        "label": "Sledljiva dostava po vsem svetu",
+        "sub": "Pošiljamo po vsem svetu s sledenjem, od odpreme do vašega praga.",
+        "icon": "parcel"
+      },
+      {
+        "label": "Izdelano pri viru",
+        "sub": "Izdelano v Indiji, kjer rastejo zelišča, po klasičnih besedilih.",
+        "icon": "mortar"
+      },
+      {
+        "label": "Odprta sestava",
+        "sub": "Celoten seznam sestavin na vsakem izdelku — nič skritega.",
+        "icon": "label"
+      },
+      {
+        "label": "Z osebno odgovornostjo",
+        "sub": "Formuliral in nadzoroval dr. Praveen Rathi.",
+        "icon": "person"
+      }
+    ]
+  },
+  "seo": {
+    "description": "Pristna ajurvedska zdravilna sredstva, kozmetika, olja in živila — pripravljena po klasičnih besedilih, izdelana v Indiji pod vodstvom dr. Praveena Rathija in dostavljena po vsem svetu.",
+    "title": "Sangam Herbals — Pristna ajurveda, po vsem svetu"
+  },
+  "river": {
+    "sub": "Sangam je srečanje svetih voda — in starodavne prakse s skrbno, sodobno obrtjo. Odkrijte knjižnico atarjev: 32 dolgo obstojnih indijskih oljnih parfumov.",
+    "kicker": "Sotočje",
+    "quote": "Kjer dve reki postaneta eno zdravilo.",
+    "cta": "Prebrskajte knjižnico atarjev →"
+  },
+  "founder": {
+    "eyebrow": "Beseda našega direktorja",
+    "heading": "Osebno odgovarjam za vsako serijo, ki jo izdelamo.",
+    "paragraphs": [
+      "Ajurveda moji družini ni bila izročena kot posel. Izročena je bila kot odgovornost — kot način priprave pripravkov natanko tako, kot določajo klasična besedila, iz pravih zelišč in hladno stiskanih olj, brez ničesar dodanega zaradi udobja. To je edini način, kako jih znam izdelovati, in edini način, kako jih bom.",
+      "Vse, kar pošljemo v svet, je izdelano tukaj v Indiji, na izvoru rastlin in same prakse. Delam po istih razmerjih in metodah, ki jim sledimo že generacije, in vsako formulacijo podvržem natančnim standardom — kajti to, da je recept star, ni opravičilo za malomarno izdelavo.",
+      "Odločil sem se, da na to hišo in na to stran zapišem svoje ime, in to iz preprostega razloga: kadar gre nekaj v vaše telo ali na vašo kožo, si zaslužite vedeti, kdo za tem stoji. Pred nakupom preberite celotno sestavo. Pišite nam, če vam karkoli ni jasno. In če izdelek za vas ni pravi, nam povejte in to bomo uredili."
+    ],
+    "signature": "Praveen Rathi",
+    "credential": "Dr. Praveen Rathi · Direktor, Sangam Herbals — družinska ajurvedska hiša, ki pripravlja pripravke po klasičnih besedilih, izdelane v Indiji"
+  },
+  "promise": {
+    "kicker": "Zakaj to izdelujemo",
+    "title": "Raje izgubimo prodajo, kot da bi jo pretiravali.",
+    "text": "Obstajamo zato, da v domove po vsem svetu prenesemo neprekinjeno 5.000-letno tradicijo, ne da bi jo razvodenili — vsako zdravilno sredstvo pripravljamo po klasičnih ajurvedskih besedilih, iz pravih zelišč in hladno stiskanih olj, izdelano na izvoru v Indiji in z imenom, ki zanj jamči. Zato vam natančno pokažemo, kaj je notri in kako je narejeno, odkrito navedemo vsako sestavino in ne dajemo zdravstvenih trditev. Pristnost je naš standard, ne naša izjema."
+  }
+}
