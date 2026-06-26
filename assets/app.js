@@ -158,6 +158,11 @@ document.addEventListener('error', e => {
 }, true); // capture phase — error events don't bubble
 // Static forms (hero search) never submit to a server.
 document.addEventListener('submit', e => { if (e.target && e.target.tagName === 'FORM') e.preventDefault(); });
+// Disable copy / right-click (allow in form fields)
+const _isField = el => el && ['INPUT','TEXTAREA','SELECT'].includes(el.tagName);
+document.addEventListener('copy',        e => { if (!_isField(e.target)) e.preventDefault(); });
+document.addEventListener('cut',         e => { if (!_isField(e.target)) e.preventDefault(); });
+document.addEventListener('contextmenu', e => { if (!_isField(e.target)) e.preventDefault(); });
 
 /* ---------- boot ---------- */
 async function boot() {
