@@ -163,6 +163,7 @@ const _isField = el => el && ['INPUT','TEXTAREA','SELECT'].includes(el.tagName);
 document.addEventListener('copy',        e => { if (!_isField(e.target)) e.preventDefault(); });
 document.addEventListener('cut',         e => { if (!_isField(e.target)) e.preventDefault(); });
 document.addEventListener('contextmenu', e => { if (!_isField(e.target)) e.preventDefault(); });
+document.addEventListener('dragstart',   e => { if (!_isField(e.target)) e.preventDefault(); });
 
 /* ---------- boot ---------- */
 async function boot() {
