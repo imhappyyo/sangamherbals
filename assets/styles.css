@@ -613,8 +613,9 @@ h1,h2,h3{font-weight:600;line-height:1.08;letter-spacing:-.02em}
 .shop__bar{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;margin-bottom:1.4rem}
 .shop__showing{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);font-weight:600;font-feature-settings:'tnum'}
 .shop__tokens{display:flex;gap:.4rem;flex-wrap:wrap}
-.token{font-size:11px;font-weight:600;padding:.32rem .6rem;border:1px solid var(--line-mid);display:inline-flex;align-items:center;gap:.4rem;cursor:pointer;transition:.2s}
+.token{font-size:11px;font-weight:600;padding:.32rem .6rem;border:1px solid var(--line-mid);display:inline-flex;align-items:center;gap:.4rem;cursor:pointer;transition:.2s;background:none}
 .token:hover{border-color:var(--ink)}
+.token b{pointer-events:none}
 
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(clamp(200px,24vw,260px),1fr));gap:0;border-top:1px solid var(--line);border-inline-start:1px solid var(--line)}
 .card{position:relative;background:var(--bg);display:flex;flex-direction:column;cursor:pointer;border-inline-end:1px solid var(--line);border-bottom:1px solid var(--line);transition:background .2s}

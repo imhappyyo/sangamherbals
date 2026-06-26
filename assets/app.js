@@ -425,7 +425,7 @@ function renderTokens() {
   if (f.section !== 'all') toks.push({ k: 'section', label: secName(f.section) });
   if (f.subcat) { const c = state.catalog.categories.find(x => x.slug === f.subcat); if (c) toks.push({ k: 'subcat', label: catName(c.slug, c.title_en) }); }
   if (f.query) toks.push({ k: 'query', label: `”${f.query}”` });
-  $('#filter-tokens').innerHTML = toks.map(x => `<button class=”token” data-token=”${x.k}”>${esc(x.label)} <b>×</b></button>`).join('');
+  $('#filter-tokens').innerHTML = toks.map(x => `<button type=”button” class=”token” data-token=”${x.k}”>${esc(x.label)} <b>×</b></button>`).join('');
 }
 
 const doshaCount = d => state.catalog.products.filter(p => (state.doshas[String(p.id)] || []).includes(d)).length;
