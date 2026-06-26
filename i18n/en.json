@@ -119,6 +119,8 @@
     "newsletter_sub": "Ayurvedic rituals, new arrivals and offers.",
     "email_ph": "Your email",
     "subscribe": "Subscribe",
+    "subscribed": "✓ You're subscribed!",
+    "subscribe_err": "Something went wrong. Please try again.",
     "rights": "All rights reserved.",
     "shipping": "Worldwide shipping",
     "returns": "Returns",

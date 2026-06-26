@@ -457,6 +457,27 @@ insert into public.settings (key, value)
 values ('site_notice', '{"enabled":false,"text":"We are experiencing high demand — every order is confirmed personally within 24 hours."}'::jsonb)
 on conflict (key) do nothing;
 
+-- ─── Newsletter subscribers ──────────────────────────────────────────────────
+create table if not exists public.newsletter_subscribers (
+  email       text primary key,
+  subscribed_at timestamptz not null default now()
+);
+
+-- RLS: anon can insert only (no read, no update, no delete via anon key)
+alter table public.newsletter_subscribers enable row level security;
+drop policy if exists "anon_insert_newsletter" on public.newsletter_subscribers;
+create policy "anon_insert_newsletter"
+  on public.newsletter_subscribers for insert
+  to anon
+  with check (true);
+
+-- Admin reads subscriber list (service-role or authenticated admin)
+drop policy if exists "admin_select_newsletter" on public.newsletter_subscribers;
+create policy "admin_select_newsletter"
+  on public.newsletter_subscribers for select
+  to authenticated
+  using (exists (select 1 from public.admins a where a.email = auth.email()));
+
 -- ─── Admin user ───────────────────────────────────────────────────────────────
 -- This seeds the email allow-list. You still need to create the actual Supabase
 -- Auth user manually:

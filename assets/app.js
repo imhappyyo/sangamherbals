@@ -904,6 +904,47 @@ function wireUI() {
   $('#footer-track')?.addEventListener('click', (e) => { e.preventDefault(); openTracking(); });
   $('#track-form')?.addEventListener('submit', (e) => { e.preventDefault(); lookupOrder(); });
   $$('[data-close-track]').forEach(el => el.addEventListener('click', closeTracking));
+  // newsletter
+  $('#dispatch-form')?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const email = form.querySelector('input[type="email"]').value.trim();
+    const msg = $('#dispatch-msg');
+    if (!email || !msg) return;
+    const btn = form.querySelector('button[type="submit"]');
+    btn.disabled = true;
+    msg.hidden = true;
+    const cfg = window.SH_CONFIG || {};
+    try {
+      const res = await fetch(`${cfg.supabaseUrl}/rest/v1/newsletter_subscribers`, {
+        method: 'POST',
+        headers: {
+          'apikey': cfg.supabaseAnonKey,
+          'Authorization': 'Bearer ' + cfg.supabaseAnonKey,
+          'Content-Type': 'application/json',
+          'Prefer': 'resolution=merge-duplicates',
+        },
+        body: JSON.stringify({ email }),
+      });
+      if (res.ok || res.status === 201) {
+        msg.textContent = t('footer.subscribed') || '✓ You\'re subscribed!';
+        msg.className = 'dispatch__msg dispatch__msg--ok';
+        msg.hidden = false;
+        form.reset();
+      } else {
+        const err = await res.json().catch(() => ({}));
+        msg.textContent = err.message || (t('footer.subscribe_err') || 'Something went wrong. Try again.');
+        msg.className = 'dispatch__msg dispatch__msg--err';
+        msg.hidden = false;
+      }
+    } catch {
+      msg.textContent = t('footer.subscribe_err') || 'Network error. Please try again.';
+      msg.className = 'dispatch__msg dispatch__msg--err';
+      msg.hidden = false;
+    } finally {
+      btn.disabled = false;
+    }
+  });
   // high-demand notice (dismissible, remembered)
   const notice = $('#site-notice');
   if (notice && !localStorage.getItem('sh_notice')) notice.hidden = false;

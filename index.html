@@ -386,9 +386,10 @@
           <h2 class="section__title" data-i18n="dispatch.title">Join our newsletter</h2>
           <p class="dispatch__sub" data-i18n="footer.newsletter_sub">Ayurvedic rituals, new arrivals and EU offers.</p>
         </div>
-        <form class="dispatch__form">
+        <form class="dispatch__form" id="dispatch-form" novalidate>
           <input type="email" aria-label="Your email" data-i18n-attr="aria-label,placeholder" data-i18n="footer.email_ph" placeholder="Your email" required />
-          <button class="link-cta" data-i18n="footer.subscribe">Subscribe <span class="arr">→</span></button>
+          <button class="link-cta" type="submit" data-i18n="footer.subscribe">Subscribe <span class="arr">→</span></button>
+          <p class="dispatch__msg" id="dispatch-msg" role="status" hidden></p>
           <p class="dispatch__note mono" data-i18n="common.currency_note">Prices shown in EUR, indicative for the EU market.</p>
         </form>
       </div>

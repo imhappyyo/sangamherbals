@@ -689,6 +689,9 @@ h1,h2,h3{font-weight:600;line-height:1.08;letter-spacing:-.02em}
 .dispatch__form input{width:100%;border:1px solid var(--ink);background:var(--bg);padding:.9rem 1.1rem;font-size:14px;outline:none}
 .dispatch__form .link-cta,.dispatch__form .btn{align-self:flex-start}
 .dispatch__note{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);font-weight:600;margin-top:.4rem}
+.dispatch__msg{font-size:13px;font-weight:500;margin:0}
+.dispatch__msg--ok{color:var(--green,#2d7a3a)}
+.dispatch__msg--err{color:var(--red,#c0392b)}
 
 /* ---------- footer ---------- */
 .footer{background:var(--bg-deep);color:#fff;padding:clamp(3.5rem,7vh,5rem) 0 2rem}
