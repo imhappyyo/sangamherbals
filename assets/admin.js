@@ -1109,32 +1109,42 @@ function startApp(url, anonKey) {
       const total = products.length;
       let done = 0;
 
-      // Build dosha-enriched product records
-      const records = products.map(p => ({
-        id: p.id,
-        sku: p.sku || '',
-        title_en: p.title_en || null,
-        title_ru: p.title_ru || null,
-        blurb_en: p.blurb_en || null,
-        desc_ru: p.desc_ru || null,
-        url_ru: p.url_ru || null,
-        price_eur: p.price_eur ?? null,
-        price_rub: p.price_rub ?? null,
-        section: p.section || null,
-        section_en: p.section_en || null,
-        section_slug: p.section_slug || null,
-        category_uids: Array.isArray(p.category_uids) ? p.category_uids : [],
-        category_names: Array.isArray(p.category_names) ? p.category_names : [],
-        category_en: Array.isArray(p.category_en) ? p.category_en : [],
-        image: p.image || null,
-        images: Array.isArray(p.images) ? p.images : (p.image ? [p.image] : []),
-        concerns: Array.isArray(p.concerns) ? p.concerns : [],
-        concern_primary: p.concern_primary || null,
-        doshas: doshasMap[String(p.id)] || [],
-        pdp: p.pdp || {},
-        active: p.active !== false,
-        sort_order: p.sort_order ?? 0,
-      }));
+      // Detect if the products table has a doshas column (try a minimal probe)
+      let hasDoshasCol = false;
+      try {
+        const probe = await sb.from('products').select('doshas').limit(1);
+        hasDoshasCol = !probe.error;
+      } catch { /* ignore */ }
+
+      // Build product records
+      const records = products.map(p => {
+        const rec = {
+          id: p.id,
+          sku: p.sku || '',
+          title_en: p.title_en || null,
+          title_ru: p.title_ru || null,
+          blurb_en: p.blurb_en || null,
+          desc_ru: p.desc_ru || null,
+          url_ru: p.url_ru || null,
+          price_eur: p.price_eur ?? null,
+          price_rub: p.price_rub ?? null,
+          section: p.section || null,
+          section_en: p.section_en || null,
+          section_slug: p.section_slug || null,
+          category_uids: Array.isArray(p.category_uids) ? p.category_uids : [],
+          category_names: Array.isArray(p.category_names) ? p.category_names : [],
+          category_en: Array.isArray(p.category_en) ? p.category_en : [],
+          image: p.image || null,
+          images: Array.isArray(p.images) ? p.images : (p.image ? [p.image] : []),
+          concerns: Array.isArray(p.concerns) ? p.concerns : [],
+          concern_primary: p.concern_primary || null,
+          pdp: p.pdp || {},
+          active: p.active !== false,
+          sort_order: p.sort_order ?? 0,
+        };
+        if (hasDoshasCol) rec.doshas = doshasMap[String(p.id)] || [];
+        return rec;
+      });
 
       // Upsert in batches of 50
       const BATCH = 50;
