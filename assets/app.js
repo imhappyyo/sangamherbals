@@ -810,9 +810,9 @@ function wireUI() {
   // hero search mirrors shop search
   const applyQuery = v => { state.filter.query = v; state.shown = 24; $('#search-input').value = v; $('#hero-search').value = v; renderTokens(); renderGrid(); $('#hero-count').textContent = v ? `${filtered().length} ${t('shop.results')}` : ''; };
   let to; const debounced = v => { clearTimeout(to); to = setTimeout(() => applyQuery(v), 170); };
-  const scrollToShop = () => { const shop = $('#shop'); if (shop) shop.scrollIntoView({ behavior: 'smooth' }); };
-  $('#hero-search').addEventListener('input', e => { debounced(e.target.value); if (e.target.value) clearTimeout(to2); to2 = setTimeout(scrollToShop, 500); else clearTimeout(to2); });
   let to2;
+  const scrollToShop = () => { const shop = $('#shop'); if (shop) shop.scrollIntoView({ behavior: 'smooth' }); };
+  $('#hero-search').addEventListener('input', e => { debounced(e.target.value); clearTimeout(to2); if (e.target.value) to2 = setTimeout(scrollToShop, 500); });
   $('#hero-search-form').addEventListener('submit', e => { e.preventDefault(); const v = $('#hero-search').value.trim(); if (v) { applyQuery(v); scrollToShop(); } });
   $('#search-input').addEventListener('input', e => debounced(e.target.value));
   $('#hero-chips').addEventListener('click', e => { const b = e.target.closest('[data-section]'); if (!b) return; setSection(b.dataset.section); $('#shop').scrollIntoView({ behavior: 'smooth' }); });
