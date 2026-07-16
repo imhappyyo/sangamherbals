@@ -12,7 +12,18 @@
 // Called from sangam-work's Wholesale tab with { user_id }.
 // ============================================================================
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
-import { CORS, json } from "../_shared/price.ts";
+
+// Inlined rather than imported from ../_shared/price.ts — the dashboard's
+// single-file function editor can't resolve relative imports outside a
+// function's own directory, and this keeps deployment method-agnostic
+// (works via dashboard paste OR `supabase functions deploy`).
+const CORS = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
+  "Access-Control-Allow-Methods": "POST, OPTIONS",
+};
+const json = (body: unknown, status = 200) =>
+  new Response(JSON.stringify(body), { status, headers: { ...CORS, "Content-Type": "application/json" } });
 
 Deno.serve(async (req) => {
   if (req.method === "OPTIONS") return new Response("ok", { headers: CORS });
