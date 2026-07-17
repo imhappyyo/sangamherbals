@@ -34,10 +34,18 @@ const json = (body: unknown, status = 200) =>
 const SENDER = { name: "Sangam Herbals", email: "orders@sangamherbals.com" };
 
 async function sendViaBrevo(payload: Record<string, unknown>) {
+  // Fail loud and specific here rather than letting fetch() throw a generic
+  // "invalid header value" error when the key is missing — that generic
+  // error also never reaches Brevo's own servers at all, so it wouldn't
+  // show up in Brevo's dashboard logs either, making it look like nothing
+  // happened. This check turns that into an unambiguous message instead.
+  const apiKey = Deno.env.get("BREVO_API_KEY");
+  if (!apiKey) throw new Error("BREVO_API_KEY secret is missing or empty in this function's environment — set it under Edge Functions → Secrets.");
+
   const res = await fetch("https://api.brevo.com/v3/smtp/email", {
     method: "POST",
     headers: {
-      "api-key": Deno.env.get("BREVO_API_KEY")!,
+      "api-key": apiKey,
       "Content-Type": "application/json",
       "Accept": "application/json",
     },
