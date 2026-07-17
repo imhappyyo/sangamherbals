@@ -1,8 +1,14 @@
 // ============================================================================
 // Send marketing email — admin-only, broadcast to a filtered set of approved
-// wholesale customers. Unlike send-lr-email, this is genuinely "marketing"
-// under the ePrivacy Directive's existing-customer soft opt-in — so every
-// send here is gated on marketing_opt_out and gets an unsubscribe footer.
+// wholesale customers.
+//
+// No self-service unsubscribe link is sent (deliberate business decision —
+// see chat history). marketing_opt_out is still checked and still skips a
+// send when true, but that flag is only ever set by an admin manually
+// (e.g. a customer calls or emails asking to stop) — there is no
+// customer-facing way to trigger it. supabase/functions/unsubscribe still
+// exists and still works if a link to it is ever added back later, but
+// nothing currently links to it.
 //
 // The customerIds the client sends are a UI convenience only — this
 // function re-queries wholesale_customers itself and re-checks
@@ -70,7 +76,7 @@ Deno.serve(async (req) => {
 
     const { data: customers, error: custErr } = await admin
       .from("wholesale_customers")
-      .select("id, email, company_name, status, marketing_opt_out, unsubscribe_token")
+      .select("id, email, company_name, status, marketing_opt_out")
       .in("id", customerIds);
     if (custErr) return json({ error: custErr.message }, 500);
 
@@ -86,11 +92,6 @@ Deno.serve(async (req) => {
         continue;
       }
 
-      const unsubLink = `${url}/functions/v1/unsubscribe?token=${c.unsubscribe_token}`;
-      const html = `${bodyHtml}<hr style="margin:24px 0;border:none;border-top:1px solid #ddd"/>` +
-        `<p style="font-size:11px;color:#888">Sangam Herbals — you're receiving this as an existing wholesale customer. ` +
-        `<a href="${unsubLink}">Unsubscribe from marketing emails</a></p>`;
-
       let status = "sent";
       let errorMessage: string | null = null;
       let messageId: string | undefined;
@@ -99,7 +100,7 @@ Deno.serve(async (req) => {
           sender: SENDER,
           to: [{ email: c.email, name: c.company_name }],
           subject,
-          htmlContent: html,
+          htmlContent: bodyHtml,
         });
         messageId = result.messageId;
         sent++;
