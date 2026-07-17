@@ -89,6 +89,7 @@ Deno.serve(async (req) => {
     if (custErr) return json({ error: custErr.message }, 500);
 
     let sent = 0, failed = 0, skippedOptOut = 0;
+    const failures: { email: string; error: string }[] = [];
 
     for (const c of customers || []) {
       if (c.status !== "approved" || c.marketing_opt_out) {
@@ -116,6 +117,7 @@ Deno.serve(async (req) => {
         status = "failed";
         errorMessage = String((e as Error)?.message || e);
         failed++;
+        failures.push({ email: c.email, error: errorMessage });
       }
 
       await admin.from("email_log").insert({
@@ -124,7 +126,7 @@ Deno.serve(async (req) => {
       });
     }
 
-    return json({ ok: true, sent, failed, skippedOptOut });
+    return json({ ok: true, sent, failed, skippedOptOut, failures });
   } catch (e) {
     return json({ error: String((e as Error)?.message || e) }, 500);
   }
