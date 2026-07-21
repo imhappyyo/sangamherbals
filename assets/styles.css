@@ -725,7 +725,7 @@ h1,h2,h3{font-weight:600;line-height:1.08;letter-spacing:-.02em}
   background:#000;color:#fff;border:1px solid rgba(255,255,255,.28);text-decoration:none;line-height:1;
   transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
 .store-badge:hover{transform:translateY(-2px);border-color:rgba(255,255,255,.5);box-shadow:0 10px 26px rgba(0,0,0,.4)}
-.store-badge__glyph{width:22px;height:22px;flex:0 0 auto}
+.store-badge__glyph{width:17px;height:17px;flex:0 0 auto}
 .store-badge__text{display:flex;flex-direction:column;gap:2px;text-align:left}
 .store-badge__text small{font-size:9.5px;letter-spacing:.4px;opacity:.82;text-transform:uppercase;white-space:nowrap}
 .store-badge__text strong{font-size:16px;font-weight:600;letter-spacing:.1px;white-space:nowrap}
