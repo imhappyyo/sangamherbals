@@ -181,11 +181,23 @@ async function boot() {
   catalog.categories.forEach(c => state.catByUid.set(c.uid, c));
   state.en = await fetch('i18n/en.json').then(r => r.json());
 
-  state.lang = localStorage.getItem(LS.lang) || '';
+  // a ?lang= in the URL (the hreflang alternates all point to one) wins over the
+  // saved choice, so a crawler or a search-result click lands on localized content
+  const urlLangRaw = new URLSearchParams(location.search).get('lang');
+  const validLangs = new Set((regions.languages || []).map(l => l.code));
+  const urlLang = urlLangRaw && validLangs.has(urlLangRaw) ? urlLangRaw : null;
+
+  state.lang = urlLang || localStorage.getItem(LS.lang) || '';
   state.region = localStorage.getItem(LS.region) || '';
 
   // load the language for the page that sits behind the gate (stored choice, or English)
   await setLanguage(state.lang || 'en', true);
+
+  // keep the canonical tag self-referencing for whichever language URL was requested
+  if (urlLang && urlLang !== 'en') {
+    const canon = document.querySelector('link[rel="canonical"]');
+    if (canon) canon.setAttribute('href', 'https://sangamherbals.com/?lang=' + urlLang);
+  }
 
   buildGate();
   renderTicker(); renderStreams(); renderDoshas(); renderChips(); renderTokens(); renderGrid();
