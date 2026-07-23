@@ -677,13 +677,18 @@
     "footer_link": "Track order"
   },
   "app": {
-    "eyebrow": "The Sangam Skin app · now live on iOS & Android",
+    "eyebrow": "The Sangam Skin app · Now live on iOS & Android",
     "title": "Read your skin. Get your routine.",
-    "lede": "Scan your skin with Skin Lens for a score across seven signals, then get a personalised Ayurvedic routine drawn from 118 serums — built so conflicting actives are never paired. Free on iOS and Android.",
-    "point1": "Skin Lens — an AI skin score across 7 signals",
-    "point2": "A two-minute quiz that maps your concerns",
-    "point3": "A personalised morning & evening routine",
-    "point4": "Track your progress, week by week",
-    "web": "Or try it on the web →"
+    "lede": "Skin Lens reads seven signals from a single selfie, then composes a morning-and-evening Ayurvedic routine from 118 serums — matched to your skin, and paired so no two actives clash. Free on iOS and Android.",
+    "tag_scan": "Scan",
+    "point1": "A selfie, or a two-minute skin quiz.",
+    "tag_score": "Score",
+    "point2": "Seven signals read into one cosmetic skin score.",
+    "tag_routine": "Routine",
+    "point3": "Matched morning & evening serums, safely paired.",
+    "tag_track": "Track",
+    "point4": "Your progress, kept in weekly photos.",
+    "web": "Or open Skin Lens in your browser →",
+    "fine": "Cosmetic guidance, not medical advice · Free on both stores · Made in India under Dr. Praveen Rathi."
   }
 }
