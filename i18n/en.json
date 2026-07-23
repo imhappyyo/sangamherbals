@@ -675,5 +675,15 @@
     "delivered_note": "Delivered. We hope it brings a little calm to your day.",
     "help": "Questions about your order? Message us on WhatsApp.",
     "footer_link": "Track order"
+  },
+  "app": {
+    "eyebrow": "The Sangam Skin app · now live on iOS & Android",
+    "title": "Read your skin. Get your routine.",
+    "lede": "Scan your skin with Skin Lens for a score across seven signals, then get a personalised Ayurvedic routine drawn from 118 serums — built so conflicting actives are never paired. Free on iOS and Android.",
+    "point1": "Skin Lens — an AI skin score across 7 signals",
+    "point2": "A two-minute quiz that maps your concerns",
+    "point3": "A personalised morning & evening routine",
+    "point4": "Track your progress, week by week",
+    "web": "Or try it on the web →"
   }
 }
